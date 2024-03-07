@@ -1,0 +1,1892 @@
+{
+  "startTime": 1709589921300,
+  "crawlType": "Website",
+  "requestUrl": "https://devoted.com/",
+  "endTime": 1709590102412,
+  "urlsCrawled": {
+    "toScan": [],
+    "scanned": [
+      {
+        "url": "https://devoted.com/",
+        "pageTitle": "Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/providers/",
+        "pageTitle": "Our Providers | Devoted Health | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/brokers/",
+        "pageTitle": "Our Brokers | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/",
+        "pageTitle": "Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/learn-about-devoted-health",
+        "pageTitle": "Discover the Devoted Health difference | Devoted Health",
+        "actualUrl": "https://devoted.com/learn-about-devoted-health/"
+      },
+      {
+        "url": "https://devoted.com/search-providers",
+        "pageTitle": "Search Providers | Devoted Health",
+        "actualUrl": "https://devoted.com/search-providers/"
+      },
+      {
+        "url": "https://devoted.com/find-a-plan",
+        "pageTitle": "Find a Plan | Devoted Health",
+        "actualUrl": "https://devoted.com/find-a-plan/"
+      },
+      {
+        "url": "https://devoted.com/resources/your-medicare-options",
+        "pageTitle": "Medicare Belongs to You | Devoted Health",
+        "actualUrl": "https://devoted.com/resources/your-medicare-options/"
+      },
+      {
+        "url": "https://devoted.com/search-drugs",
+        "pageTitle": "Search Our Drug List | Devoted Health",
+        "actualUrl": "https://devoted.com/search-drugs/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/member-forms",
+        "pageTitle": "Member Forms | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/member-forms/"
+      },
+      {
+        "url": "https://devoted.com/benefits",
+        "pageTitle": "My Devoted benefits | Devoted Health",
+        "actualUrl": "https://devoted.com/benefits/"
+      },
+      {
+        "url": "https://devoted.com/member-guides",
+        "pageTitle": "Ask a Devoted Guide | Devoted Health",
+        "actualUrl": "https://devoted.com/member-guides/"
+      },
+      {
+        "url": "https://devoted.com/medical",
+        "pageTitle": "Get connected to care | Devoted Health",
+        "actualUrl": "https://devoted.com/medical/"
+      },
+      {
+        "url": "https://devoted.com/medical/care-on-demand",
+        "pageTitle": "24/7 Care OnDemand™ | Devoted Health",
+        "actualUrl": "https://devoted.com/medical/care-on-demand/"
+      },
+      {
+        "url": "https://my.devoted.com/",
+        "pageTitle": "Devoted Health Member Portal"
+      },
+      {
+        "url": "https://devoted.com/find-plan-documents",
+        "pageTitle": "Find Your Benefit and Coverage Details | Devoted Health",
+        "actualUrl": "https://devoted.com/find-plan-documents/"
+      },
+      {
+        "url": "https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&utm_medium=homepage&utm_campaign=&utm_term=&utm_content=guide-hero&utm_cid=ZZCT00034",
+        "pageTitle": "Devoted Health | Get Your Guide"
+      },
+      {
+        "url": "https://www.devoted.com/search-providers",
+        "pageTitle": "Search Providers | Devoted Health",
+        "actualUrl": "https://www.devoted.com/search-providers/"
+      },
+      {
+        "url": "https://www.devoted.com/member-guides/",
+        "pageTitle": "Ask a Devoted Guide | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/",
+        "pageTitle": "Prescription Drugs | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/health-and-wellness/",
+        "pageTitle": "Health and Wellness | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/member-rights-and-responsibilities",
+        "pageTitle": "Devoted Health Member Rights and Responsibilities | Devoted Health",
+        "actualUrl": "https://devoted.com/member-rights-and-responsibilities/"
+      },
+      {
+        "url": "https://www.devoted.com/search-drugs",
+        "pageTitle": "Search Our Drug List | Devoted Health",
+        "actualUrl": "https://www.devoted.com/search-drugs/"
+      },
+      {
+        "url": "https://devoted.com/member-events/",
+        "pageTitle": "Member Events | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/find-a-plan",
+        "pageTitle": "Find a Plan | Devoted Health",
+        "actualUrl": "https://www.devoted.com/find-a-plan/"
+      },
+      {
+        "url": "https://devoted.com/our-story/",
+        "pageTitle": "About Us | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/our-technology/",
+        "pageTitle": "Our technology | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/developers/",
+        "pageTitle": "Devoted Health FHIR APIs | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/meet-our-team/",
+        "pageTitle": "Meet Our Team | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/sales-events/",
+        "pageTitle": "Sales Events | Devoted Health"
+      },
+      {
+        "url": "https://careers.devoted.com/",
+        "pageTitle": "Devoted Health Careers",
+        "actualUrl": "https://devoted.com/careers/"
+      },
+      {
+        "url": "https://devoted.com/newsroom/",
+        "pageTitle": "Newsroom | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/terms-of-use/",
+        "pageTitle": "Terms of Use | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/service-area/",
+        "pageTitle": "Our 2024 Service Area | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/contact-us/",
+        "pageTitle": "Contact Us | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/privacy-policy/",
+        "pageTitle": "Internet Privacy Policy | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/accessibility/",
+        "pageTitle": "Accessibility | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/quality-improvement-strategy/",
+        "pageTitle": "Quality improvement strategy | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/compliance/",
+        "pageTitle": "Our Commitment to Compliance | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/all-plan-documents-2024/",
+        "pageTitle": "2024 Plan Documents | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/nondiscrimination-notice/",
+        "pageTitle": "Non-Discrimination Notice | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/disclaimers/",
+        "pageTitle": "Disclaimers | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/find-plan-documents",
+        "pageTitle": "Find Your Benefit and Coverage Details | Devoted Health",
+        "actualUrl": "https://www.devoted.com/find-plan-documents/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-al",
+        "pageTitle": "Alabama Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-al/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-az",
+        "pageTitle": "Arizona Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-az/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-co",
+        "pageTitle": "Colorado Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-co/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-fl",
+        "pageTitle": "Florida Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-fl/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-hi",
+        "pageTitle": "Hawaii Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-hi/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-il",
+        "pageTitle": "Illinois Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-il/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-nc",
+        "pageTitle": "North Carolina Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-nc/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-oh",
+        "pageTitle": "Ohio Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-oh/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-or",
+        "pageTitle": "Oregon Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-or/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-sc",
+        "pageTitle": "South Carolina Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-sc/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-pa",
+        "pageTitle": "Pennsylvania Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-pa/"
+      },
+      {
+        "url": "https://devoted.com/provider-learning-center",
+        "pageTitle": "Provider learning center | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/provider-learning-center/"
+      },
+      {
+        "url": "https://devoted.com/improving-healthcare-quality",
+        "pageTitle": "Improving healthcare quality | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/improving-healthcare-quality/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-tn",
+        "pageTitle": "Tennessee Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-tn/"
+      },
+      {
+        "url": "https://www.devoted.com/plan-documents/2023-dme-lists/",
+        "pageTitle": "2023 Durable Medical Equipment Lists | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/2023-referral-list",
+        "pageTitle": "2023 Referral List | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/2023-referral-list/"
+      },
+      {
+        "url": "https://devoted.com/providers/getting-started-with-payspan",
+        "pageTitle": "Getting Started with Payspan | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/getting-started-with-payspan/"
+      },
+      {
+        "url": "https://www.devoted.com/plan-documents/2024-referral-list",
+        "pageTitle": "2024 Referral List | Devoted Health",
+        "actualUrl": "https://www.devoted.com/plan-documents/2024-referral-list/"
+      },
+      {
+        "url": "https://www.devoted.com/provider-portal-training-library/",
+        "pageTitle": "Provider Portal training library | Devoted Health | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/2023-prior-authorization-list",
+        "pageTitle": "2023 Prior Authorization List | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/2023-prior-authorization-list/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/2024-prior-authorization-list",
+        "pageTitle": "2024 Prior Authorization List | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/2024-prior-authorization-list/"
+      },
+      {
+        "url": "https://www.devoted.com/prescription-drugs/drug-coverage-limits/",
+        "pageTitle": "Drug Coverage Limits | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/prescription-drugs/",
+        "pageTitle": "Prescription Drugs | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/plan-documents/member-forms",
+        "pageTitle": "Member Forms | Devoted Health",
+        "actualUrl": "https://www.devoted.com/plan-documents/member-forms/"
+      },
+      {
+        "url": "https://devoted.com/providers/providers-tx",
+        "pageTitle": "Texas Provider Resources | Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/providers-tx/"
+      },
+      {
+        "url": "https://www.devoted.com/providers/clinical-documentation-pa",
+        "pageTitle": "Remember Your Clinical Documentation | Devoted Health",
+        "actualUrl": "https://www.devoted.com/providers/clinical-documentation-pa/"
+      },
+      {
+        "url": "https://devoted.com/providers/in-office-lab-list",
+        "pageTitle": "In-Office Lab List | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/in-office-lab-list/"
+      },
+      {
+        "url": "https://devoted.com/providers/clinical-guidelines",
+        "pageTitle": "Clinical Guidelines | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/clinical-guidelines/"
+      },
+      {
+        "url": "https://devoted.com/providers/coronavirus-providers",
+        "pageTitle": "Guidance for COVID-19 | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/coronavirus-providers/"
+      },
+      {
+        "url": "https://devoted.com/brokers/marketing-storefront-faq",
+        "pageTitle": "Marketing Storefront FAQ | Devoted Health",
+        "actualUrl": "https://devoted.com/brokers/marketing-storefront-faq/"
+      },
+      {
+        "url": "https://devoted.com/es/aprender-sobre-devoted-health",
+        "pageTitle": "Descubra la diferencia de Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/es/aprender-sobre-devoted-health/"
+      },
+      {
+        "url": "https://devoted.com/es/buscar-proveedores",
+        "pageTitle": "Buscar Proveedores | Devoted Health",
+        "actualUrl": "https://devoted.com/es/buscar-proveedores/"
+      },
+      {
+        "url": "https://devoted.com/all-plan-documents-2023",
+        "pageTitle": "2023 Plan Documents | Devoted Health",
+        "actualUrl": "https://devoted.com/all-plan-documents-2023/"
+      },
+      {
+        "url": "https://devoted.com/providers/payment-policies",
+        "pageTitle": "Payment policies | Devoted Health",
+        "actualUrl": "https://devoted.com/providers/payment-policies/"
+      },
+      {
+        "url": "https://devoted.com/brokers/broker-learning-center",
+        "pageTitle": "Broker learning center | Devoted Health",
+        "actualUrl": "https://devoted.com/brokers/broker-learning-center/"
+      },
+      {
+        "url": "https://devoted.com/es/documentos-plan/formularios-miembros",
+        "pageTitle": "Formularios para miembros | Devoted Health",
+        "actualUrl": "https://devoted.com/es/documentos-plan/formularios-miembros/"
+      },
+      {
+        "url": "https://devoted.com/es/recursos/sus-opciones-de-medicare",
+        "pageTitle": "Medicare le pertenece. | Devoted Health",
+        "actualUrl": "https://devoted.com/es/recursos/sus-opciones-de-medicare/"
+      },
+      {
+        "url": "https://devoted.com/es/encontrar-un-plan",
+        "pageTitle": "Encontrar Un Plan | Devoted Health",
+        "actualUrl": "https://devoted.com/es/encontrar-un-plan/"
+      },
+      {
+        "url": "https://devoted.com/brokers/broker-enrollment-materials",
+        "pageTitle": "Enrollment Materials | Devoted Health",
+        "actualUrl": "https://devoted.com/brokers/broker-enrollment-materials/"
+      },
+      {
+        "url": "https://devoted.com/brokers/brokers-welcome-video",
+        "pageTitle": "Welcome to Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/brokers/brokers-welcome-video/"
+      },
+      {
+        "url": "https://devoted.com/brokers/exclusive-preferred-agent-program",
+        "pageTitle": "Exclusive Preferred Agent Program | Devoted Health",
+        "actualUrl": "https://devoted.com/brokers/exclusive-preferred-agent-program/"
+      },
+      {
+        "url": "https://devoted.com/es/beneficios",
+        "pageTitle": "Mis beneficios de Devoted | Devoted Health",
+        "actualUrl": "https://devoted.com/es/beneficios/"
+      },
+      {
+        "url": "https://devoted.com/es/medico",
+        "pageTitle": "Conéctese con el equipo de atención | Devoted Health",
+        "actualUrl": "https://devoted.com/es/medico/"
+      },
+      {
+        "url": "https://devoted.com/es/guia-de-devoted",
+        "pageTitle": "Pregunte a un Guía de Devoted | Devoted Health",
+        "actualUrl": "https://devoted.com/es/guia-de-devoted/"
+      },
+      {
+        "url": "https://hello.devoted.com/evg/es/guide-gen/lp-s1/24-1a/?utm_source=content_direct&utm_medium=homepage&utm_campaign=&utm_term=&utm_content=guide-hero&utm_cid=ZZCT00035",
+        "pageTitle": "Devoted Health | Get Your Guide"
+      },
+      {
+        "url": "https://www.devoted.com/es/buscar-proveedores/",
+        "pageTitle": "Buscar Proveedores | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/buscar-medicamentos",
+        "pageTitle": "Busque en nuestra lista de medicamentos | Devoted Health",
+        "actualUrl": "https://devoted.com/es/buscar-medicamentos/"
+      },
+      {
+        "url": "https://devoted.com/es/medicamentos-receta/",
+        "pageTitle": "Medicamentos con receta | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/es/guia-de-devoted",
+        "pageTitle": "Pregunte a un Guía de Devoted | Devoted Health",
+        "actualUrl": "https://www.devoted.com/es/guia-de-devoted/"
+      },
+      {
+        "url": "https://devoted.com/es/salud-y-bienestar/",
+        "pageTitle": "Salud y bienestar | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/encontrar-plan-docs/",
+        "pageTitle": "Encuentre sus beneficios y detalles de cobertura | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/medico/care-ondemand",
+        "pageTitle": "24/7 Care OnDemand™ | Devoted Health",
+        "actualUrl": "https://devoted.com/es/medico/care-ondemand/"
+      },
+      {
+        "url": "https://devoted.com/es/eventos-para-miembros/",
+        "pageTitle": "Eventos para miembros | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/area-servicio/",
+        "pageTitle": "Nuestra área de servicio | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/nuestra-tecnologia/",
+        "pageTitle": "Nuestra tecnología | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/conozca-nuestro-equipo/",
+        "pageTitle": "Conozca a nuestro equipo | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/nuestra-historia/",
+        "pageTitle": "Sobre nosotros | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/contactenos/",
+        "pageTitle": "Contáctenos | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/condiciones-de-uso/",
+        "pageTitle": "Condiciones de uso | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/politica-privacidad/",
+        "pageTitle": "Política de privacidad en Internet | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/derechos-y-responsabilidades-del-miembro",
+        "pageTitle": "Derechos y responsabilidades del miembro de Devoted Health | Devoted Health",
+        "actualUrl": "https://devoted.com/es/derechos-y-responsabilidades-del-miembro/"
+      },
+      {
+        "url": "https://www.devoted.com/es/encontrar-un-plan/",
+        "pageTitle": "Encontrar Un Plan | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/estrategia-mejoramiento-calidad/",
+        "pageTitle": "Estrategia para mejorar la calidad | Devoted Health | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/provider-and-pharmacy-directory/",
+        "pageTitle": "Provider and Pharmacy Directory | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/accesibilidad/",
+        "pageTitle": "Accesibilidad | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/resources/",
+        "pageTitle": "Health tips you can use right now | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/devoted-health-extras",
+        "pageTitle": "Devoted Health extras | Devoted Health",
+        "actualUrl": "https://www.devoted.com/devoted-health-extras/"
+      },
+      {
+        "url": "https://www.devoted.com/es/buscar-medicamentos",
+        "pageTitle": "Busque en nuestra lista de medicamentos | Devoted Health",
+        "actualUrl": "https://www.devoted.com/es/buscar-medicamentos/"
+      },
+      {
+        "url": "https://devoted.com/es/eventos-de-ventas/",
+        "pageTitle": "Eventos de Ventas | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/",
+        "pageTitle": "Documents and Forms | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/search-drugs/2023-drug-lists",
+        "pageTitle": "2023 Drug Lists | Devoted Health",
+        "actualUrl": "https://devoted.com/search-drugs/2023-drug-lists/"
+      },
+      {
+        "url": "https://devoted.com/search-drugs/2024-drug-lists1",
+        "pageTitle": "2024 Drug Lists | Devoted Health",
+        "actualUrl": "https://devoted.com/search-drugs/2024-drug-lists1/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/member-forms/advance-care-planning",
+        "pageTitle": "Advance Care Planning | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/member-forms/advance-care-planning/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/member-forms/how-to-disenroll",
+        "pageTitle": "How to Disenroll | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/member-forms/how-to-disenroll/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/medical-coverage-rights",
+        "pageTitle": "Medical Coverage: Your Rights | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/medical-coverage-rights/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/prescription-drug-coverage-rights",
+        "pageTitle": "Prescription Drug Coverage: Your Rights | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/prescription-drug-coverage-rights/"
+      },
+      {
+        "url": "https://devoted.com/es/aviso-no-discriminacion/",
+        "pageTitle": "Aviso de no discriminación | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/es/renuncias/",
+        "pageTitle": "Renuncias | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/sales-events",
+        "pageTitle": "Sales Events | Devoted Health",
+        "actualUrl": "https://www.devoted.com/sales-events/"
+      },
+      {
+        "url": "https://www.devoted.com/search-formulary/",
+        "pageTitle": "Search Formulary | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/member-forms/appointment-of-representative",
+        "pageTitle": "Appointment of Representative | Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/member-forms/appointment-of-representative/"
+      },
+      {
+        "url": "https://devoted.com/paymeback",
+        "pageTitle": "Get paid back for covered care | Devoted Health",
+        "actualUrl": "https://devoted.com/paymeback/"
+      },
+      {
+        "url": "https://devoted.com/health-and-wellness/mental-and-behavioral-health-benefits",
+        "pageTitle": "Mental and Behavioral Health Benefits | Devoted Health",
+        "actualUrl": "https://devoted.com/health-and-wellness/mental-and-behavioral-health-benefits/"
+      },
+      {
+        "url": "https://devoted.com/healthyfoods",
+        "pageTitle": "You could get money each month for healthy foods | Devoted Health",
+        "actualUrl": "https://devoted.com/healthyfoods/"
+      },
+      {
+        "url": "https://devoted.com/food-and-home",
+        "pageTitle": "Food and Home Card | Devoted Health",
+        "actualUrl": "https://devoted.com/food-and-home/"
+      },
+      {
+        "url": "https://devoted.com/otc",
+        "pageTitle": "Over-the-Counter (OTC) Benefit | Devoted Health",
+        "actualUrl": "https://devoted.com/otc/"
+      },
+      {
+        "url": "http://my.devoted.com/",
+        "pageTitle": "Devoted Health Member Portal"
+      },
+      {
+        "url": "https://www.devoted.com/plan-documents/medical-coverage-rights",
+        "pageTitle": "Medical Coverage: Your Rights | Devoted Health",
+        "actualUrl": "https://www.devoted.com/plan-documents/medical-coverage-rights/"
+      },
+      {
+        "url": "https://www.devoted.com/otc/",
+        "pageTitle": "Over-the-Counter (OTC) Benefit | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/medical/about-devoted-medical",
+        "pageTitle": "About Devoted Medical | Devoted Health",
+        "actualUrl": "https://devoted.com/medical/about-devoted-medical/"
+      },
+      {
+        "url": "https://www.devoted.com/terms-of-use/",
+        "pageTitle": "Terms of Use | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/providers/",
+        "pageTitle": "Our Providers | Devoted Health | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/brokers/",
+        "pageTitle": "Our Brokers | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/medical",
+        "pageTitle": "Get connected to care | Devoted Health",
+        "actualUrl": "https://www.devoted.com/medical/"
+      },
+      {
+        "url": "https://www.devoted.com/plan-documents/provider-and-pharmacy-directory/",
+        "pageTitle": "Provider and Pharmacy Directory | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/benefits",
+        "pageTitle": "My Devoted benefits | Devoted Health",
+        "actualUrl": "https://www.devoted.com/benefits/"
+      },
+      {
+        "url": "https://www.devoted.com/health-and-wellness/",
+        "pageTitle": "Health and Wellness | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/learn-about-devoted-health",
+        "pageTitle": "Discover the Devoted Health difference | Devoted Health",
+        "actualUrl": "https://www.devoted.com/learn-about-devoted-health/"
+      },
+      {
+        "url": "https://devoted.com/coverage-rights",
+        "pageTitle": "Your Coverage Rights | Devoted Health",
+        "actualUrl": "https://devoted.com/coverage-rights/"
+      },
+      {
+        "url": "https://devoted.com/ppo",
+        "pageTitle": "Using your out-of-network PPO benefits | Devoted Health",
+        "actualUrl": "https://devoted.com/ppo/"
+      },
+      {
+        "url": "https://www.devoted.com/member-events/",
+        "pageTitle": "Member Events | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/our-technology/",
+        "pageTitle": "Our technology | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/newsroom/",
+        "pageTitle": "Newsroom | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/service-area/",
+        "pageTitle": "Our 2024 Service Area | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/meet-our-team/",
+        "pageTitle": "Meet Our Team | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/medical/devoted-to-me",
+        "pageTitle": "Devoted to Me visits | Devoted Health",
+        "actualUrl": "https://devoted.com/medical/devoted-to-me/"
+      },
+      {
+        "url": "https://www.devoted.com/",
+        "pageTitle": "Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/our-story/",
+        "pageTitle": "About Us | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/privacy-policy/",
+        "pageTitle": "Internet Privacy Policy | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/contact-us/",
+        "pageTitle": "Contact Us | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/developers/",
+        "pageTitle": "Devoted Health FHIR APIs | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/resources/your-medicare-options",
+        "pageTitle": "Medicare Belongs to You | Devoted Health",
+        "actualUrl": "https://www.devoted.com/resources/your-medicare-options/"
+      },
+      {
+        "url": "https://www.devoted.com/medical/care-on-demand",
+        "pageTitle": "24/7 Care OnDemand™ | Devoted Health",
+        "actualUrl": "https://www.devoted.com/medical/care-on-demand/"
+      },
+      {
+        "url": "https://www.devoted.com/accessibility/",
+        "pageTitle": "Accessibility | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/member-rights-and-responsibilities",
+        "pageTitle": "Devoted Health Member Rights and Responsibilities | Devoted Health",
+        "actualUrl": "https://www.devoted.com/member-rights-and-responsibilities/"
+      },
+      {
+        "url": "https://www.devoted.com/quality-improvement-strategy/",
+        "pageTitle": "Quality improvement strategy | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/health-and-wellness/disease-management-programs",
+        "pageTitle": "Disease Management Programs | Devoted Health",
+        "actualUrl": "https://devoted.com/health-and-wellness/disease-management-programs/"
+      },
+      {
+        "url": "https://www.devoted.com/compliance/",
+        "pageTitle": "Our Commitment to Compliance | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/drug-coverage-limits",
+        "pageTitle": "Drug Coverage Limits | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/drug-coverage-limits/"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/mail-order-pharmacy",
+        "pageTitle": "Mail-Order Pharmacy | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/mail-order-pharmacy/"
+      },
+      {
+        "url": "https://devoted.com/using-tech-to-stay-connected",
+        "pageTitle": "Using Tech to Stay Connected | Devoted Health",
+        "actualUrl": "https://devoted.com/using-tech-to-stay-connected/"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/utilization-management",
+        "pageTitle": "Utilization Management | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/utilization-management/"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/utilization-management/medication-therapy-management",
+        "pageTitle": "Medication Therapy Management | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/utilization-management/medication-therapy-management/"
+      },
+      {
+        "url": "https://devoted.com/privacy-practices",
+        "pageTitle": "Devoted Health Notice of Privacy Practices | Devoted Health",
+        "actualUrl": "https://devoted.com/privacy-practices/"
+      },
+      {
+        "url": "https://www.devoted.com/search-drugs/2023-drug-lists",
+        "pageTitle": "2023 Drug Lists | Devoted Health",
+        "actualUrl": "https://www.devoted.com/search-drugs/2023-drug-lists/"
+      },
+      {
+        "url": "https://www.devoted.com/search-drugs/2024-drug-lists1",
+        "pageTitle": "2024 Drug Lists | Devoted Health",
+        "actualUrl": "https://www.devoted.com/search-drugs/2024-drug-lists1/"
+      },
+      {
+        "url": "https://fhir.devoted.com/fhir",
+        "pageTitle": "Swagger UI",
+        "actualUrl": "https://fhir.devoted.com/fhir/swagger-ui/"
+      },
+      {
+        "url": "https://www.devoted.com/nondiscrimination-notice/",
+        "pageTitle": "Non-Discrimination Notice | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/disclaimers/",
+        "pageTitle": "Disclaimers | Devoted Health"
+      },
+      {
+        "url": "https://www.devoted.com/prescription-drugs/drug-list-changes/",
+        "pageTitle": "Changes to Our Drug List | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/get-help-finding-covered-drugs",
+        "pageTitle": "Get Help Finding Covered Drugs | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/get-help-finding-covered-drugs/"
+      },
+      {
+        "url": "https://www.devoted.com/prescription-drugs/cost-compare/",
+        "pageTitle": "Save Money on Drugs | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/part-b-drugs-update-2023",
+        "pageTitle": "2023 Part B Drugs Update | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/part-b-drugs-update-2023/"
+      },
+      {
+        "url": "https://devoted.com/prescription-drugs/opioid-resources",
+        "pageTitle": "Opioid Resources | Devoted Health",
+        "actualUrl": "https://devoted.com/prescription-drugs/opioid-resources/"
+      },
+      {
+        "url": "https://devoted.com/resources/press-releases/",
+        "pageTitle": "Press releases | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/privacy-policy/digital-communication-risks",
+        "pageTitle": "The risks of digital communication | Devoted Health",
+        "actualUrl": "https://devoted.com/privacy-policy/digital-communication-risks/"
+      },
+      {
+        "url": "https://devoted.com/resources/recent-media-coverage/",
+        "pageTitle": "Recent media coverage | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/resources/2024-plan-expansion/",
+        "pageTitle": "Devoted Health brings new Medicare Advantage plans to older Americans across the country | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/quality-of-care-initiatives",
+        "pageTitle": "Quality of care initiatives | Devoted Health",
+        "actualUrl": "https://devoted.com/quality-of-care-initiatives/"
+      },
+      {
+        "url": "https://devoted.com/compliance/compliance-fdrs",
+        "pageTitle": "Compliance resources for First Tier, Downstream and Related Entities (FDRs) | Devoted Health",
+        "actualUrl": "https://devoted.com/compliance/compliance-fdrs/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-004-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-004-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/resources/news-and-media-archives/",
+        "pageTitle": "News and media archives | Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-003-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-003-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-002-000-2024/"
+      },
+      {
+        "url": "http://www.devoted.com/",
+        "pageTitle": "Devoted Health"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-007-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-007-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-002-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-006-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-006-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-011-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-011-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/developers/fhir/swagger",
+        "pageTitle": "Swagger UI",
+        "actualUrl": "https://devoted.com/developers/fhir/swagger/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-014-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-014-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-019-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-019-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-005-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-005-000-2024/"
+      },
+      {
+        "url": "https://fhir.devoted.com/",
+        "pageTitle": "HAPI FHIR"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-002-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-003-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-003-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-016-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-016-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-013-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-013-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-003-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-003-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-003-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-003-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-005-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-005-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-005-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-005-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-007-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-007-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-002-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-007-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-007-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-006-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-006-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-002-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-001-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-001-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-004-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-004-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-002-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-002-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-013-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-013-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-014-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-014-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-002-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-002-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-042-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-042-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-004-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-004-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-043-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-043-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-052-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-052-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-041-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-041-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-020-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-020-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-011-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-011-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-050-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-050-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-003-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-003-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-049-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-049-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-021-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-021-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-015-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-015-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-003-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-003-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-008-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-008-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-046-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-046-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-002-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-002-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-005-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-005-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-001-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-001-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-039-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-039-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-001-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-001-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-045-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-045-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-002-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-002-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-005-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-005-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-024-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-024-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-025-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-025-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-032-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-032-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-034-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-034-000-2024/"
+      },
+      {
+        "url": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-007-000-2024",
+        "pageTitle": "Devoted Health",
+        "actualUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-007-000-2024/"
+      }
+    ],
+    "invalid": [],
+    "scannedRedirects": [
+      {
+        "fromUrl": "https://devoted.com/learn-about-devoted-health",
+        "toUrl": "https://devoted.com/learn-about-devoted-health/"
+      },
+      {
+        "fromUrl": "https://devoted.com/search-providers",
+        "toUrl": "https://devoted.com/search-providers/"
+      },
+      {
+        "fromUrl": "https://devoted.com/find-a-plan",
+        "toUrl": "https://devoted.com/find-a-plan/"
+      },
+      {
+        "fromUrl": "https://devoted.com/resources/your-medicare-options",
+        "toUrl": "https://devoted.com/resources/your-medicare-options/"
+      },
+      {
+        "fromUrl": "https://devoted.com/search-drugs",
+        "toUrl": "https://devoted.com/search-drugs/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/member-forms",
+        "toUrl": "https://devoted.com/plan-documents/member-forms/"
+      },
+      {
+        "fromUrl": "https://devoted.com/benefits",
+        "toUrl": "https://devoted.com/benefits/"
+      },
+      {
+        "fromUrl": "https://devoted.com/member-guides",
+        "toUrl": "https://devoted.com/member-guides/"
+      },
+      {
+        "fromUrl": "https://devoted.com/medical",
+        "toUrl": "https://devoted.com/medical/"
+      },
+      {
+        "fromUrl": "https://devoted.com/medical/care-on-demand",
+        "toUrl": "https://devoted.com/medical/care-on-demand/"
+      },
+      {
+        "fromUrl": "https://devoted.com/find-plan-documents",
+        "toUrl": "https://devoted.com/find-plan-documents/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/search-providers",
+        "toUrl": "https://www.devoted.com/search-providers/"
+      },
+      {
+        "fromUrl": "https://devoted.com/member-rights-and-responsibilities",
+        "toUrl": "https://devoted.com/member-rights-and-responsibilities/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/search-drugs",
+        "toUrl": "https://www.devoted.com/search-drugs/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/find-a-plan",
+        "toUrl": "https://www.devoted.com/find-a-plan/"
+      },
+      {
+        "fromUrl": "https://careers.devoted.com/",
+        "toUrl": "https://devoted.com/careers/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/find-plan-documents",
+        "toUrl": "https://www.devoted.com/find-plan-documents/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-al",
+        "toUrl": "https://devoted.com/providers/providers-al/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-az",
+        "toUrl": "https://devoted.com/providers/providers-az/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-co",
+        "toUrl": "https://devoted.com/providers/providers-co/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-fl",
+        "toUrl": "https://devoted.com/providers/providers-fl/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-hi",
+        "toUrl": "https://devoted.com/providers/providers-hi/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-il",
+        "toUrl": "https://devoted.com/providers/providers-il/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-nc",
+        "toUrl": "https://devoted.com/providers/providers-nc/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-oh",
+        "toUrl": "https://devoted.com/providers/providers-oh/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-or",
+        "toUrl": "https://devoted.com/providers/providers-or/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-sc",
+        "toUrl": "https://devoted.com/providers/providers-sc/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-pa",
+        "toUrl": "https://devoted.com/providers/providers-pa/"
+      },
+      {
+        "fromUrl": "https://devoted.com/provider-learning-center",
+        "toUrl": "https://devoted.com/provider-learning-center/"
+      },
+      {
+        "fromUrl": "https://devoted.com/improving-healthcare-quality",
+        "toUrl": "https://devoted.com/improving-healthcare-quality/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-tn",
+        "toUrl": "https://devoted.com/providers/providers-tn/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/2023-referral-list",
+        "toUrl": "https://devoted.com/plan-documents/2023-referral-list/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/getting-started-with-payspan",
+        "toUrl": "https://devoted.com/providers/getting-started-with-payspan/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/plan-documents/2024-referral-list",
+        "toUrl": "https://www.devoted.com/plan-documents/2024-referral-list/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/2023-prior-authorization-list",
+        "toUrl": "https://devoted.com/plan-documents/2023-prior-authorization-list/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/2024-prior-authorization-list",
+        "toUrl": "https://devoted.com/plan-documents/2024-prior-authorization-list/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/plan-documents/member-forms",
+        "toUrl": "https://www.devoted.com/plan-documents/member-forms/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/providers-tx",
+        "toUrl": "https://devoted.com/providers/providers-tx/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/providers/clinical-documentation-pa",
+        "toUrl": "https://www.devoted.com/providers/clinical-documentation-pa/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/in-office-lab-list",
+        "toUrl": "https://devoted.com/providers/in-office-lab-list/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/clinical-guidelines",
+        "toUrl": "https://devoted.com/providers/clinical-guidelines/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/coronavirus-providers",
+        "toUrl": "https://devoted.com/providers/coronavirus-providers/"
+      },
+      {
+        "fromUrl": "https://devoted.com/brokers/marketing-storefront-faq",
+        "toUrl": "https://devoted.com/brokers/marketing-storefront-faq/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/aprender-sobre-devoted-health",
+        "toUrl": "https://devoted.com/es/aprender-sobre-devoted-health/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/buscar-proveedores",
+        "toUrl": "https://devoted.com/es/buscar-proveedores/"
+      },
+      {
+        "fromUrl": "https://devoted.com/all-plan-documents-2023",
+        "toUrl": "https://devoted.com/all-plan-documents-2023/"
+      },
+      {
+        "fromUrl": "https://devoted.com/providers/payment-policies",
+        "toUrl": "https://devoted.com/providers/payment-policies/"
+      },
+      {
+        "fromUrl": "https://devoted.com/brokers/broker-learning-center",
+        "toUrl": "https://devoted.com/brokers/broker-learning-center/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/documentos-plan/formularios-miembros",
+        "toUrl": "https://devoted.com/es/documentos-plan/formularios-miembros/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/recursos/sus-opciones-de-medicare",
+        "toUrl": "https://devoted.com/es/recursos/sus-opciones-de-medicare/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/encontrar-un-plan",
+        "toUrl": "https://devoted.com/es/encontrar-un-plan/"
+      },
+      {
+        "fromUrl": "https://devoted.com/brokers/broker-enrollment-materials",
+        "toUrl": "https://devoted.com/brokers/broker-enrollment-materials/"
+      },
+      {
+        "fromUrl": "https://devoted.com/brokers/brokers-welcome-video",
+        "toUrl": "https://devoted.com/brokers/brokers-welcome-video/"
+      },
+      {
+        "fromUrl": "https://devoted.com/brokers/exclusive-preferred-agent-program",
+        "toUrl": "https://devoted.com/brokers/exclusive-preferred-agent-program/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/beneficios",
+        "toUrl": "https://devoted.com/es/beneficios/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/medico",
+        "toUrl": "https://devoted.com/es/medico/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/guia-de-devoted",
+        "toUrl": "https://devoted.com/es/guia-de-devoted/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/buscar-medicamentos",
+        "toUrl": "https://devoted.com/es/buscar-medicamentos/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/es/guia-de-devoted",
+        "toUrl": "https://www.devoted.com/es/guia-de-devoted/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/medico/care-ondemand",
+        "toUrl": "https://devoted.com/es/medico/care-ondemand/"
+      },
+      {
+        "fromUrl": "https://devoted.com/es/derechos-y-responsabilidades-del-miembro",
+        "toUrl": "https://devoted.com/es/derechos-y-responsabilidades-del-miembro/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/devoted-health-extras",
+        "toUrl": "https://www.devoted.com/devoted-health-extras/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/es/buscar-medicamentos",
+        "toUrl": "https://www.devoted.com/es/buscar-medicamentos/"
+      },
+      {
+        "fromUrl": "https://devoted.com/search-drugs/2023-drug-lists",
+        "toUrl": "https://devoted.com/search-drugs/2023-drug-lists/"
+      },
+      {
+        "fromUrl": "https://devoted.com/search-drugs/2024-drug-lists1",
+        "toUrl": "https://devoted.com/search-drugs/2024-drug-lists1/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/member-forms/advance-care-planning",
+        "toUrl": "https://devoted.com/plan-documents/member-forms/advance-care-planning/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/member-forms/how-to-disenroll",
+        "toUrl": "https://devoted.com/plan-documents/member-forms/how-to-disenroll/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/medical-coverage-rights",
+        "toUrl": "https://devoted.com/plan-documents/medical-coverage-rights/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/prescription-drug-coverage-rights",
+        "toUrl": "https://devoted.com/plan-documents/prescription-drug-coverage-rights/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/sales-events",
+        "toUrl": "https://www.devoted.com/sales-events/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/member-forms/appointment-of-representative",
+        "toUrl": "https://devoted.com/plan-documents/member-forms/appointment-of-representative/"
+      },
+      {
+        "fromUrl": "https://devoted.com/paymeback",
+        "toUrl": "https://devoted.com/paymeback/"
+      },
+      {
+        "fromUrl": "https://devoted.com/health-and-wellness/mental-and-behavioral-health-benefits",
+        "toUrl": "https://devoted.com/health-and-wellness/mental-and-behavioral-health-benefits/"
+      },
+      {
+        "fromUrl": "https://devoted.com/healthyfoods",
+        "toUrl": "https://devoted.com/healthyfoods/"
+      },
+      {
+        "fromUrl": "https://devoted.com/food-and-home",
+        "toUrl": "https://devoted.com/food-and-home/"
+      },
+      {
+        "fromUrl": "https://devoted.com/otc",
+        "toUrl": "https://devoted.com/otc/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/plan-documents/medical-coverage-rights",
+        "toUrl": "https://www.devoted.com/plan-documents/medical-coverage-rights/"
+      },
+      {
+        "fromUrl": "https://devoted.com/medical/about-devoted-medical",
+        "toUrl": "https://devoted.com/medical/about-devoted-medical/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/medical",
+        "toUrl": "https://www.devoted.com/medical/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/benefits",
+        "toUrl": "https://www.devoted.com/benefits/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/learn-about-devoted-health",
+        "toUrl": "https://www.devoted.com/learn-about-devoted-health/"
+      },
+      {
+        "fromUrl": "https://devoted.com/coverage-rights",
+        "toUrl": "https://devoted.com/coverage-rights/"
+      },
+      {
+        "fromUrl": "https://devoted.com/ppo",
+        "toUrl": "https://devoted.com/ppo/"
+      },
+      {
+        "fromUrl": "https://devoted.com/medical/devoted-to-me",
+        "toUrl": "https://devoted.com/medical/devoted-to-me/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/resources/your-medicare-options",
+        "toUrl": "https://www.devoted.com/resources/your-medicare-options/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/medical/care-on-demand",
+        "toUrl": "https://www.devoted.com/medical/care-on-demand/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/member-rights-and-responsibilities",
+        "toUrl": "https://www.devoted.com/member-rights-and-responsibilities/"
+      },
+      {
+        "fromUrl": "https://devoted.com/health-and-wellness/disease-management-programs",
+        "toUrl": "https://devoted.com/health-and-wellness/disease-management-programs/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/drug-coverage-limits",
+        "toUrl": "https://devoted.com/prescription-drugs/drug-coverage-limits/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/mail-order-pharmacy",
+        "toUrl": "https://devoted.com/prescription-drugs/mail-order-pharmacy/"
+      },
+      {
+        "fromUrl": "https://devoted.com/using-tech-to-stay-connected",
+        "toUrl": "https://devoted.com/using-tech-to-stay-connected/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/utilization-management",
+        "toUrl": "https://devoted.com/prescription-drugs/utilization-management/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/utilization-management/medication-therapy-management",
+        "toUrl": "https://devoted.com/prescription-drugs/utilization-management/medication-therapy-management/"
+      },
+      {
+        "fromUrl": "https://devoted.com/privacy-practices",
+        "toUrl": "https://devoted.com/privacy-practices/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/search-drugs/2023-drug-lists",
+        "toUrl": "https://www.devoted.com/search-drugs/2023-drug-lists/"
+      },
+      {
+        "fromUrl": "https://www.devoted.com/search-drugs/2024-drug-lists1",
+        "toUrl": "https://www.devoted.com/search-drugs/2024-drug-lists1/"
+      },
+      {
+        "fromUrl": "https://fhir.devoted.com/fhir",
+        "toUrl": "https://fhir.devoted.com/fhir/swagger-ui/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/get-help-finding-covered-drugs",
+        "toUrl": "https://devoted.com/prescription-drugs/get-help-finding-covered-drugs/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/part-b-drugs-update-2023",
+        "toUrl": "https://devoted.com/prescription-drugs/part-b-drugs-update-2023/"
+      },
+      {
+        "fromUrl": "https://devoted.com/prescription-drugs/opioid-resources",
+        "toUrl": "https://devoted.com/prescription-drugs/opioid-resources/"
+      },
+      {
+        "fromUrl": "https://devoted.com/privacy-policy/digital-communication-risks",
+        "toUrl": "https://devoted.com/privacy-policy/digital-communication-risks/"
+      },
+      {
+        "fromUrl": "https://devoted.com/quality-of-care-initiatives",
+        "toUrl": "https://devoted.com/quality-of-care-initiatives/"
+      },
+      {
+        "fromUrl": "https://devoted.com/compliance/compliance-fdrs",
+        "toUrl": "https://devoted.com/compliance/compliance-fdrs/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-004-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-004-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-003-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-003-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-007-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-007-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9888-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-006-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H3080-006-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-011-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-011-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/developers/fhir/swagger",
+        "toUrl": "https://devoted.com/developers/fhir/swagger/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-014-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-014-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-019-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-019-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-005-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-005-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-003-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-003-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-016-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-016-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-013-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-013-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-003-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-003-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-003-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-003-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-005-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-005-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-005-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-005-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-007-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H8173-007-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-007-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-007-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-006-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H6586-006-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H4808-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-001-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-001-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-004-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H7147-004-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-002-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-002-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-013-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-013-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-014-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-014-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-002-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-002-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-042-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-042-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-004-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-004-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-043-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-043-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-052-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-052-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-041-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-041-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-020-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-020-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-011-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-011-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-050-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-050-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-003-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-003-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-049-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-049-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-021-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-021-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-015-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-015-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-003-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-003-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-008-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-008-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-046-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-046-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-002-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-002-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-005-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-005-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-001-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-036-001-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-039-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-039-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-001-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-001-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-045-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-045-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-002-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-051-002-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-005-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-037-005-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-024-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-024-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-025-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-025-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-032-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-032-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-034-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H1290-034-000-2024/"
+      },
+      {
+        "fromUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-007-000-2024",
+        "toUrl": "https://devoted.com/plan-documents/benefit-and-coverage-details/H9884-007-000-2024/"
+      }
+    ],
+    "notScannedRedirects": [
+      {
+        "fromUrl": "http://devoted.com/member-guides",
+        "toUrl": "https://devoted.com/member-guides/"
+      }
+    ],
+    "outOfDomain": [],
+    "blacklisted": [
+      "https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf",
+      "https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf",
+      "https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf",
+      "https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_ENG.pdf",
+      "https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_SPA.pdf",
+      "https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_ENG.pdf",
+      "https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_SPA.pdf",
+      "https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf",
+      "https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_ENG.pdf",
+      "https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_SPA.pdf",
+      "https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_ENG.pdf",
+      "https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_SPA.pdf",
+      "https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_ENG.pdf",
+      "https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_SPA.pdf",
+      "https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_ENG.pdf",
+      "https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_ENG.pdf",
+      "https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_ENG.pdf",
+      "https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_SPA.pdf",
+      "https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_ENG.pdf",
+      "https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_ENG.pdf",
+      "https://api.prod.devoted.com/fhir/metadata",
+      "https://api.prod.devoted.com/fhir",
+      "https://assets.devoted.com/policies/DH_Medicare_Compliance_Training_COMP20.pdf",
+      "https://assets.devoted.com/policies/DH_Exclusion_Sanction_Screening_Policy_COMP16.pdf",
+      "https://assets.devoted.com/policies/DH_Acceptable_Use_Policy_CYB05.pdf",
+      "https://assets.devoted.com/policies/DH_Employee_Handbook_CORP03.pdf",
+      "https://assets.devoted.com/policies/DH_Anti-Bribery_Anti-Corruption_Policy_LEGAL008.pdf",
+      "https://assets.devoted.com/policies/DH_Conflict_of_Interest_Policy_LOGAL003.pdf",
+      "https://assets.devoted.com/policies/DH_Trade_Laws_Policy_LEGAL009.pdf"
+    ],
+    "error": [],
+    "exceededRequests": [],
+    "forbidden": [],
+    "userExcluded": [],
+    "everything": []
+  }
+}
