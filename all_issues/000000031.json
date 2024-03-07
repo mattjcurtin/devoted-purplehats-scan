@@ -1,0 +1,1629 @@
+{
+	"url": "https://careers.devoted.com/",
+	"pageTitle": "Devoted Health Careers",
+	"totalItems": 370,
+	"mustFix": {
+		"totalItems": 21,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<h3>Belonging Statement</h3>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/8829fbba6d00fac139498c581b72183ce7c1c6174fb97abbfb09a816b6d5d3bf.jpeg",
+						"xpath": "#belonging-statement > .container > .row > .col-md-8.col-12 > h3"
+					},
+					{
+						"html": "<h3>Core Values</h3>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #808080, background color: #f9f5f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/998abc93150ba86a529e7ab1caef9476fd0debe32aa01f8df38ad03b484d85cc.jpeg",
+						"xpath": ".col-sm-8 > h3"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                    Our Members are our #1 priority. Our work puts them first.\n                  </p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/7fc93816b6738d86412384a77f8d91d2644620d6cbd48d80dff4f5dcea7e2dd4.jpeg",
+						"xpath": ".card-body > div > .text-grey"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  Setbacks don't discourage us. We bounce back and keep going.\n                </p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/dc4215365cecb689dd41f5d5532644cba66792fd7894e9a96db1d3e0cb8807ee.jpeg",
+						"xpath": ".bg-blue > .card-body > .text-grey"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  We set clear goals. Get them done. Then repeat.\n                </p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/6e689ea5be4c025a227f1241e38da0dcb3854ee7bb1f8662c495fac2bc17d831.jpeg",
+						"xpath": ".bg-purple > .card-body > .text-grey"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  We build diverse teams and believe that we do our best work\n                  together.\n                </p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/66b596be490817f787768f261a93e569d984c7de9d194a4ed6a570fb201efa88.jpeg",
+						"xpath": ".bg-yellow > .card-body > .text-grey"
+					},
+					{
+						"html": "<h3>Benefits</h3>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/4428b1baf4958738af69feca5db133fa79ede904dfd296bc4e003b243b71fb46.jpeg",
+						"xpath": ".col-sm-6 > h3"
+					},
+					{
+						"html": "<p class=\"text-orange\">Eric, Product Management Leader</p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #ff4713, background color: #f9f5f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/52878888f1d2435346543efacb79c4c91532ad85d4582981806170e0fff4d689.jpeg",
+						"xpath": ".active.carousel-item > .card-body > .text-orange"
+					},
+					{
+						"html": "<h3 style=\"text-align: center\">Join OUR TEAM</h3>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.4 (foreground color: #ffffff, background color: #ff4713, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c1e438cffb7b31530921d0c4f63e63d473e7eb085a5b2ace54c37028279dcdc6.jpeg",
+						"xpath": "#calloutbox > .row > .col-md-8.col-12 > h3"
+					},
+					{
+						"html": "<p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #777777, background color: #efefef, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/d21404c7e799e6719e8087e0a237187b377793317fc2902c33500632c473d0bd.jpeg",
+						"xpath": ".col > p:nth-child(1)"
+					},
+					{
+						"html": "<p>\n              ©\n              <script>\n                document.write(new Date().getFullYear());\n              &lt;/script>2024\n              Devoted Health, Inc.&nbsp;&nbsp;<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>\n            </p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #777777, background color: #efefef, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/89876ffe25dc1c15eae261ad35cd2c57a2f433430a79e2bd37d636ecc250c11c.jpeg",
+						"xpath": "#footer > .container > .row > .col > p:nth-child(2)"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"axeImpact": "critical",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 9,
+				"items": [
+					{
+						"html": "<img src=\"assets/logo.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/c25e5bd26c0ee417c20cfa4aecc0ceabd11cf424be8de16a4653e7075aa46d0f.jpeg",
+						"xpath": "img[src$=\"logo.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/landing.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/95fcea6c3f470a544cbe4d411a7a68cbe2fb9beabd2b9baba7dd9a48500dccc4.jpeg",
+						"xpath": "img[src$=\"landing.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/corevalues.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/cd7b94d966343472cacd20c4841bf1567f79695908183e0f86e38656132ee50e.jpeg",
+						"xpath": "img[src$=\"corevalues.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/benefits.jpg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/c7fb53bd3e79c3df09ce9a8978ae89f2de9262ee95184c01af6a629ba7c276ed.jpeg",
+						"xpath": "img[src$=\"benefits.jpg\"]"
+					},
+					{
+						"html": "<img src=\"assets/benefit-health.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/863b06651cf230305cbb9b9080ab274fafdd2ff442ec7b5319fdb446b32f601d.jpeg",
+						"xpath": "img[src$=\"benefit-health.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/benefit-retirement.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/edac59c7a1b7fd4145b400b98eb820bf409a559e8fed059cffedcb7638b22982.jpeg",
+						"xpath": "img[src$=\"benefit-retirement.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/benefit-vacation.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/1a3ff7b6c7bab086964d3baea24f2317decab2075ac694b42240852a28e35d80.jpeg",
+						"xpath": "img[src$=\"benefit-vacation.svg\"]"
+					},
+					{
+						"html": "<img src=\"assets/benefit-lyra.svg\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/dc4970b8fd636433a3f1a80f454f3d84612b75fca9a8bb134257b046d5ea9842.jpeg",
+						"xpath": "img[src$=\"benefit-lyra.svg\"]"
+					},
+					{
+						"html": "<img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/324d8735510e247fe79386c5c052117f6ebaef22b42fe3ec88da5b7aea92da91.jpeg",
+						"xpath": "img[height=\"32\"]"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"navbar-brand\" href=\"http://www.devoted.com\">\n        <img src=\"assets/logo.svg\">\n      </a>",
+						"message": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+						"screenshotPath": "elemScreenshots/html/8431dfaf2786d57c8ca6944966fe2ab31439b4e8390fa939ed0a4f7e7c7ce843.jpeg",
+						"xpath": ".navbar-brand"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 20,
+		"rules": {
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<h3>Belonging Statement</h3>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/8829fbba6d00fac139498c581b72183ce7c1c6174fb97abbfb09a816b6d5d3bf.jpeg",
+						"xpath": "#belonging-statement > .container > .row > .col-md-8.col-12 > h3"
+					},
+					{
+						"html": "<h4>Members first</h4>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/a1d56aee3d3fca3767f528d964d45817b4f390f49b0f5196054bb14e81d9cc58.jpeg",
+						"xpath": ".card-body > div > h4"
+					},
+					{
+						"html": "<h4>2000+ people — and growing. Fast.</h4>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/56a2f01c446a3484d544ee3fca9649cbdcc3122304bd8ef2715fee519844c7b5.jpeg",
+						"xpath": ".col-sm-5 > h4"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/4d442c99898db17892073146a4be7e93cc2152de478ec077559cc20e4f74f64b.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 16,
+				"items": [
+					{
+						"html": "<div class=\"col\">\n            <h1>Want to change healthcare for the better?</h1>\n            <a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\">\n              View Jobs\n            </a>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/f134cf7c53699787b224da8bde721b6e0cef703e6a5218c0c904cefda287ba3b.jpeg",
+						"xpath": "#landing > .container > .row > .col:nth-child(1)"
+					},
+					{
+						"html": "<div class=\"col\">\n            <div class=\"img-container\">\n              <img src=\"assets/landing.svg\">\n            </div>\n            <div class=\"img-spacer\"></div>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/3034e7835ccf1e1a1d741f1a419de9f8f90ecda64cb24af1fac808b48620bbba.jpeg",
+						"xpath": "#landing > .container > .row > .col:nth-child(3)"
+					},
+					{
+						"html": "<div id=\"belonging-statement\" class=\"container-fluid\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/f28046451b3e23d50670c91bad85d20f6366dd60cf827a18c05048d1c44dd9fe.jpeg",
+						"xpath": "#belonging-statement"
+					},
+					{
+						"html": "<div id=\"core-values\" class=\"container-fluid\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/7e39e3d1a4eef49de8a4c5148275cea4f412c70ab93f1aacdecdf58545d46c8a.jpeg",
+						"xpath": "#core-values"
+					},
+					{
+						"html": "<div class=\"row\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/1f1faaa4e1ee2e935ca5d17d5f0a87688caa3a399fe19ea8cf5f95efc0510563.jpeg",
+						"xpath": "#benefits > .container > .row:nth-child(1)"
+					},
+					{
+						"html": "<div class=\"benefit col col-12 col-md\">\n            <div><img src=\"assets/benefit-health.svg\"></div>\n            <p>Comprehensive health plan</p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/f7213e4cecd85aa3a90a9f02182e0a8fdb019da35d12187ebff2abf81e0eebf1.jpeg",
+						"xpath": ".benefit.col-md.col:nth-child(1)"
+					},
+					{
+						"html": "<div class=\"benefit col col-12 col-md\">\n            <div><img src=\"assets/benefit-retirement.svg\"></div>\n            <p>401K retirement plan</p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/577961deec6646f5b5d23eca05c687554bdf083c2a02e2c985027406f2a92f1f.jpeg",
+						"xpath": ".benefit.col-md.col:nth-child(3)"
+					},
+					{
+						"html": "<div class=\"benefit col col-12 col-md\">\n            <div><img src=\"assets/benefit-vacation.svg\"></div>\n            <p>Generous vacation and holiday time</p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/9b6e42369bde2414f01e3930757ba481334eb3ec545c50cbf0bf638fb7cc45c7.jpeg",
+						"xpath": ".benefit.col-md.col:nth-child(5)"
+					},
+					{
+						"html": "<div class=\"benefit col col-12 col-md\">\n            <div><img src=\"assets/benefit-lyra.svg\"></div>\n            <p>Lyra mental health resources</p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/3bf359ec730d6105bd73dfeb3a661608ed44151fdac1f22004d27f02ed21ad13.jpeg",
+						"xpath": ".benefit.col-md.col:nth-child(7)"
+					},
+					{
+						"html": "<div class=\"benefit col col-12 col-md\">\n            <div>\n              <img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">\n            </div>\n            <p>Stock<br>options</p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/fe547aeef135ef1530cf11a4bc4bbe1e0b15833a11aa625da0028ded2fe86272.jpeg",
+						"xpath": ".benefit.col-md.col:nth-child(9)"
+					},
+					{
+						"html": "<div class=\"carousel-inner\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/4ef8aecf2e9b16ff00a716d3644da42d8c8e72c59453501e74e3dd7f08c6d5a1.jpeg",
+						"xpath": "#carousel > .carousel-inner"
+					},
+					{
+						"html": "<div class=\"col-12 col-sm-5 pt-3 mb-4\">\n            <h4>2000+ people — and growing. Fast.</h4>\n            <p>\n              Our headquarters are just outside Boston in Waltham, MA, but we\n              have teams and offices across the country.\n            </p>\n          </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/da6c4a29f41d5a46b66dd02d5de2d864f6a4e7cafa5172e02f4a89571878e346.jpeg",
+						"xpath": ".col-sm-5"
+					},
+					{
+						"html": "<div class=\"callout\">\n                <span>“</span>\n              </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/5b3c023ac4cf78dab67a5e99c67a705b811f1d8a0ab0d24c9542b22ef69a996b.jpeg",
+						"xpath": ".callout"
+					},
+					{
+						"html": "<div class=\"carousel-item active\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/fa9c02c95d54f44b98dafab2fde5a3077d900255e3379be4174d38dd06ad6f16.jpeg",
+						"xpath": ".active.carousel-item"
+					},
+					{
+						"html": "<div id=\"join-our-team\" class=\"container-fluid\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/4396171a41d5ddfbabfadfab5035c5b3f4c63eaf06951f26f62f91b580c0da85.jpeg",
+						"xpath": "#join-our-team"
+					},
+					{
+						"html": "<div id=\"footer\" class=\"container-fluid\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/66767fcdadd5e2cc143deac54e59f936fd291281a37c5df18afbcd8ad55ef56c.jpeg",
+						"xpath": "#footer"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"passed": {
+		"totalItems": 329,
+		"rules": {
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					}
+				]
+			},
+			"aria-command-name": {
+				"description": "ARIA commands must have an accessible name",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
+					},
+					{
+						"html": "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>"
+					},
+					{
+						"html": "<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>"
+					},
+					{
+						"html": "<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<h3 style=\"text-align: center\">Join OUR TEAM</h3>"
+					},
+					{
+						"html": "<h2 style=\"text-align: center; padding-bottom: 1em\">\n              Help change healthcare for the better.\n            </h2>"
+					},
+					{
+						"html": "<p style=\"text-align: center\">\n              <a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>\n            </p>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 40,
+				"items": [
+					{
+						"html": "<a class=\"nav-link\" href=\"#belonging-statement\">Belonging Statement</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#core-values\">Core Values</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#benefits\">Benefits</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" target=\"_blank\">Jobs</a>"
+					},
+					{
+						"html": "<h1>Want to change healthcare for the better?</h1>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\">\n              View Jobs\n            </a>"
+					},
+					{
+						"html": "<h2>Devoted is a company<br>built on love.</h2>"
+					},
+					{
+						"html": "<p>\n              Our mission is to improve the health and well-being of older\n              Americans by caring for every person like family.\n            </p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<li>\n                <strong>H</strong>onor diverse perspectives — challenging\n                ourselves, each other, and the status quo\n              </li>"
+					},
+					{
+						"html": "<strong>H</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>E</strong>mbrace change and keep the big picture in mind\n              </li>"
+					},
+					{
+						"html": "<strong>E</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>A</strong>pproach hard conversations head-on, always\n                assuming positive intent\n              </li>"
+					},
+					{
+						"html": "<strong>A</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>R</strong>eact thoughtfully and collaboratively when\n                things go wrong\n              </li>"
+					},
+					{
+						"html": "<strong>R</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>T</strong>reat ourselves, each other, and our members\n                with empathy and respect\n              </li>"
+					},
+					{
+						"html": "<strong>T</strong>"
+					},
+					{
+						"html": "<p>\n              This fuels our success as a company and allows us to have the\n              greatest impact — working towards our vision of making a longer,\n              better life possible for everyone.\n            </p>"
+					},
+					{
+						"html": "<h2>How we roll.</h2>"
+					},
+					{
+						"html": "<p>\n              Our team's made of creative, thoughtful, kind people from all\n              backgrounds. Not just healthcare. And we're guided by 4 core\n              values.\n            </p>"
+					},
+					{
+						"html": "<h4>Members first</h4>"
+					},
+					{
+						"html": "<h4>Resilience matters</h4>"
+					},
+					{
+						"html": "<h4>Speed wins</h4>"
+					},
+					{
+						"html": "<h4>It takes a team</h4>"
+					},
+					{
+						"html": "<h2>What’s in it for you.</h2>"
+					},
+					{
+						"html": "<p>\n              We strive to treat every Member like family — and that mindset\n              applies to our teams too. Expect benefits that support your body,\n              mind, and well-being now and later.\n            </p>"
+					},
+					{
+						"html": "<p>Comprehensive health plan</p>"
+					},
+					{
+						"html": "<p>401K retirement plan</p>"
+					},
+					{
+						"html": "<p>Generous vacation and holiday time</p>"
+					},
+					{
+						"html": "<p>Lyra mental health resources</p>"
+					},
+					{
+						"html": "<p>Stock<br>options</p>"
+					},
+					{
+						"html": "<h4>2000+ people — and growing. Fast.</h4>"
+					},
+					{
+						"html": "<p>\n              Our headquarters are just outside Boston in Waltham, MA, but we\n              have teams and offices across the country.\n            </p>"
+					},
+					{
+						"html": "<p class=\"card-text\">"
+					},
+					{
+						"html": "<h2 style=\"text-align: center; padding-bottom: 1em\">\n              Help change healthcare for the better.\n            </h2>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>"
+					},
+					{
+						"html": "<a href=\"https://transparency-in-coverage.bluecrossma.com/\" target=\"_blank\">See the files for our BCBSMA employee health plans.</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"duplicate-id-aria": {
+				"description": "IDs used in ARIA and labels must be unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/duplicate-id-aria?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div class=\"collapse navbar-collapse\" id=\"navbarToggler\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<h1>Want to change healthcare for the better?</h1>"
+					},
+					{
+						"html": "<h3>Belonging Statement</h3>"
+					},
+					{
+						"html": "<h2>Devoted is a company<br>built on love.</h2>"
+					},
+					{
+						"html": "<h3>Core Values</h3>"
+					},
+					{
+						"html": "<h2>How we roll.</h2>"
+					},
+					{
+						"html": "<h4>Members first</h4>"
+					},
+					{
+						"html": "<h4>Resilience matters</h4>"
+					},
+					{
+						"html": "<h4>Speed wins</h4>"
+					},
+					{
+						"html": "<h4>It takes a team</h4>"
+					},
+					{
+						"html": "<h3>Benefits</h3>"
+					},
+					{
+						"html": "<h2>What’s in it for you.</h2>"
+					},
+					{
+						"html": "<h4>2000+ people — and growing. Fast.</h4>"
+					},
+					{
+						"html": "<h3 style=\"text-align: center\">Join OUR TEAM</h3>"
+					},
+					{
+						"html": "<h2 style=\"text-align: center; padding-bottom: 1em\">\n              Help change healthcare for the better.\n            </h2>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<h1>Want to change healthcare for the better?</h1>"
+					},
+					{
+						"html": "<h2>Devoted is a company<br>built on love.</h2>"
+					},
+					{
+						"html": "<h3>Core Values</h3>"
+					},
+					{
+						"html": "<h2>How we roll.</h2>"
+					},
+					{
+						"html": "<h4>Resilience matters</h4>"
+					},
+					{
+						"html": "<h4>Speed wins</h4>"
+					},
+					{
+						"html": "<h4>It takes a team</h4>"
+					},
+					{
+						"html": "<h3>Benefits</h3>"
+					},
+					{
+						"html": "<h2>What’s in it for you.</h2>"
+					},
+					{
+						"html": "<h3 style=\"text-align: center\">Join OUR TEAM</h3>"
+					},
+					{
+						"html": "<h2 style=\"text-align: center; padding-bottom: 1em\">\n              Help change healthcare for the better.\n            </h2>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<img src=\"assets/carousel/image1.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image2.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image3.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image4.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image5.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image6.jpg\" alt=\"...\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 15,
+				"items": [
+					{
+						"html": "<img src=\"assets/logo.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/landing.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/corevalues.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefits.jpg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-health.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-retirement.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-vacation.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-lyra.svg\">"
+					},
+					{
+						"html": "<img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image1.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image2.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image3.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image4.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image5.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image6.jpg\" alt=\"...\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<nav class=\"header container navbar navbar-expand-lg navbar-light\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\">\n              View Jobs\n            </a>"
+					},
+					{
+						"html": "<a href=\"https://transparency-in-coverage.bluecrossma.com/\" target=\"_blank\">See the files for our BCBSMA employee health plans.</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 10,
+				"items": [
+					{
+						"html": "<a class=\"nav-link\" href=\"#belonging-statement\">Belonging Statement</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#core-values\">Core Values</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#benefits\">Benefits</a>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" target=\"_blank\">Jobs</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\">\n              View Jobs\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>"
+					},
+					{
+						"html": "<a href=\"https://transparency-in-coverage.bluecrossma.com/\" target=\"_blank\">See the files for our BCBSMA employee health plans.</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ol class=\"carousel-indicators\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#belonging-statement\">Belonging Statement</a>\n          </li>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#core-values\">Core Values</a>\n          </li>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#benefits\">Benefits</a>\n          </li>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" target=\"_blank\">Jobs</a>\n          </li>"
+					},
+					{
+						"html": "<li>\n                <strong>H</strong>onor diverse perspectives — challenging\n                ourselves, each other, and the status quo\n              </li>"
+					},
+					{
+						"html": "<li>\n                <strong>E</strong>mbrace change and keep the big picture in mind\n              </li>"
+					},
+					{
+						"html": "<li>\n                <strong>A</strong>pproach hard conversations head-on, always\n                assuming positive intent\n              </li>"
+					},
+					{
+						"html": "<li>\n                <strong>R</strong>eact thoughtfully and collaboratively when\n                things go wrong\n              </li>"
+					},
+					{
+						"html": "<li>\n                <strong>T</strong>reat ourselves, each other, and our members\n                with empathy and respect\n              </li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\" class=\"active\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<img src=\"assets/logo.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/landing.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/corevalues.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefits.jpg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-health.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-retirement.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-vacation.svg\">"
+					},
+					{
+						"html": "<img src=\"assets/benefit-lyra.svg\">"
+					},
+					{
+						"html": "<img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image1.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image2.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image3.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image4.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image5.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image6.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 154,
+				"items": [
+					{
+						"html": "<nav class=\"header container navbar navbar-expand-lg navbar-light\">"
+					},
+					{
+						"html": "<a class=\"navbar-brand\" href=\"http://www.devoted.com\">\n        <img src=\"assets/logo.svg\">\n      </a>"
+					},
+					{
+						"html": "<img src=\"assets/logo.svg\">"
+					},
+					{
+						"html": "<div class=\"collapse navbar-collapse\" id=\"navbarToggler\">"
+					},
+					{
+						"html": "<ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#belonging-statement\">Belonging Statement</a>\n          </li>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#belonging-statement\">Belonging Statement</a>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#core-values\">Core Values</a>\n          </li>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#core-values\">Core Values</a>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#benefits\">Benefits</a>\n          </li>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"#benefits\">Benefits</a>"
+					},
+					{
+						"html": "<li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" target=\"_blank\">Jobs</a>\n          </li>"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" target=\"_blank\">Jobs</a>"
+					},
+					{
+						"html": "<div id=\"landing\" class=\"container-fluid\">"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<h1>Want to change healthcare for the better?</h1>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\">\n              View Jobs\n            </a>"
+					},
+					{
+						"html": "<div class=\"img-container\">\n              <img src=\"assets/landing.svg\">\n            </div>"
+					},
+					{
+						"html": "<img src=\"assets/landing.svg\">"
+					},
+					{
+						"html": "<div class=\"img-spacer\"></div>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-8\">"
+					},
+					{
+						"html": "<h3>Belonging Statement</h3>"
+					},
+					{
+						"html": "<h2>Devoted is a company<br>built on love.</h2>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>\n              Our mission is to improve the health and well-being of older\n              Americans by caring for every person like family.\n            </p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>\n                <strong>H</strong>onor diverse perspectives — challenging\n                ourselves, each other, and the status quo\n              </li>"
+					},
+					{
+						"html": "<strong>H</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>E</strong>mbrace change and keep the big picture in mind\n              </li>"
+					},
+					{
+						"html": "<strong>E</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>A</strong>pproach hard conversations head-on, always\n                assuming positive intent\n              </li>"
+					},
+					{
+						"html": "<strong>A</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>R</strong>eact thoughtfully and collaboratively when\n                things go wrong\n              </li>"
+					},
+					{
+						"html": "<strong>R</strong>"
+					},
+					{
+						"html": "<li>\n                <strong>T</strong>reat ourselves, each other, and our members\n                with empathy and respect\n              </li>"
+					},
+					{
+						"html": "<strong>T</strong>"
+					},
+					{
+						"html": "<p>\n              This fuels our success as a company and allows us to have the\n              greatest impact — working towards our vision of making a longer,\n              better life possible for everyone.\n            </p>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-12 col-sm-8\">"
+					},
+					{
+						"html": "<h3>Core Values</h3>"
+					},
+					{
+						"html": "<h2>How we roll.</h2>"
+					},
+					{
+						"html": "<p>\n              Our team's made of creative, thoughtful, kind people from all\n              backgrounds. Not just healthcare. And we're guided by 4 core\n              values.\n            </p>"
+					},
+					{
+						"html": "<div class=\"col d-none d-sm-block\">\n            <img src=\"assets/corevalues.svg\">\n          </div>"
+					},
+					{
+						"html": "<img src=\"assets/corevalues.svg\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-6\">"
+					},
+					{
+						"html": "<div class=\"card bg-red\">"
+					},
+					{
+						"html": "<div class=\"card-body\">\n                <div>\n                  <h4>Members first</h4>\n                  <p class=\"text-grey\">\n                    Our Members are our #1 priority. Our work puts them first.\n                  </p>\n                </div>\n              </div>"
+					},
+					{
+						"html": "<div>\n                  <h4>Members first</h4>\n                  <p class=\"text-grey\">\n                    Our Members are our #1 priority. Our work puts them first.\n                  </p>\n                </div>"
+					},
+					{
+						"html": "<h4>Members first</h4>"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                    Our Members are our #1 priority. Our work puts them first.\n                  </p>"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-6\">"
+					},
+					{
+						"html": "<div class=\"card bg-blue\">\n              <div class=\"card-body\">\n                <h4>Resilience matters</h4>\n                <p class=\"text-grey\">\n                  Setbacks don't discourage us. We bounce back and keep going.\n                </p>\n              </div>\n            </div>"
+					},
+					{
+						"html": "<div class=\"card-body\">\n                <h4>Resilience matters</h4>\n                <p class=\"text-grey\">\n                  Setbacks don't discourage us. We bounce back and keep going.\n                </p>\n              </div>"
+					},
+					{
+						"html": "<h4>Resilience matters</h4>"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  Setbacks don't discourage us. We bounce back and keep going.\n                </p>"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-6\">"
+					},
+					{
+						"html": "<div class=\"card bg-purple\">\n              <div class=\"card-body\">\n                <h4>Speed wins</h4>\n                <p class=\"text-grey\">\n                  We set clear goals. Get them done. Then repeat.\n                </p>\n              </div>\n            </div>"
+					},
+					{
+						"html": "<div class=\"card-body\">\n                <h4>Speed wins</h4>\n                <p class=\"text-grey\">\n                  We set clear goals. Get them done. Then repeat.\n                </p>\n              </div>"
+					},
+					{
+						"html": "<h4>Speed wins</h4>"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  We set clear goals. Get them done. Then repeat.\n                </p>"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-6\">"
+					},
+					{
+						"html": "<div class=\"card bg-yellow\">"
+					},
+					{
+						"html": "<div class=\"card-body\">\n                <h4>It takes a team</h4>\n                <p class=\"text-grey\">\n                  We build diverse teams and believe that we do our best work\n                  together.\n                </p>\n              </div>"
+					},
+					{
+						"html": "<h4>It takes a team</h4>"
+					},
+					{
+						"html": "<p class=\"text-grey\">\n                  We build diverse teams and believe that we do our best work\n                  together.\n                </p>"
+					},
+					{
+						"html": "<div id=\"benefits\" class=\"container-fluid\">"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"col-12 col-sm-6\">"
+					},
+					{
+						"html": "<h3>Benefits</h3>"
+					},
+					{
+						"html": "<h2>What’s in it for you.</h2>"
+					},
+					{
+						"html": "<p>\n              We strive to treat every Member like family — and that mindset\n              applies to our teams too. Expect benefits that support your body,\n              mind, and well-being now and later.\n            </p>"
+					},
+					{
+						"html": "<div class=\"col order-first order-sm-last\">\n            <div>\n              <img src=\"assets/benefits.jpg\">\n            </div>\n          </div>"
+					},
+					{
+						"html": "<div>\n              <img src=\"assets/benefits.jpg\">\n            </div>"
+					},
+					{
+						"html": "<img src=\"assets/benefits.jpg\">"
+					},
+					{
+						"html": "<div class=\"row justify-content-center value-props\">"
+					},
+					{
+						"html": "<div><img src=\"assets/benefit-health.svg\"></div>"
+					},
+					{
+						"html": "<img src=\"assets/benefit-health.svg\">"
+					},
+					{
+						"html": "<p>Comprehensive health plan</p>"
+					},
+					{
+						"html": "<div><img src=\"assets/benefit-retirement.svg\"></div>"
+					},
+					{
+						"html": "<img src=\"assets/benefit-retirement.svg\">"
+					},
+					{
+						"html": "<p>401K retirement plan</p>"
+					},
+					{
+						"html": "<div><img src=\"assets/benefit-vacation.svg\"></div>"
+					},
+					{
+						"html": "<img src=\"assets/benefit-vacation.svg\">"
+					},
+					{
+						"html": "<p>Generous vacation and holiday time</p>"
+					},
+					{
+						"html": "<div><img src=\"assets/benefit-lyra.svg\"></div>"
+					},
+					{
+						"html": "<img src=\"assets/benefit-lyra.svg\">"
+					},
+					{
+						"html": "<p>Lyra mental health resources</p>"
+					},
+					{
+						"html": "<div>\n              <img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">\n            </div>"
+					},
+					{
+						"html": "<img height=\"32\" src=\"assets/benefit-stock.svg\" width=\"32\">"
+					},
+					{
+						"html": "<p>Stock<br>options</p>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<div class=\"carousel-container\">"
+					},
+					{
+						"html": "<div id=\"carousel\" class=\"carousel slide\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image1.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image1.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image2.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image2.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image3.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image3.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image4.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image4.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image5.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image5.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<div class=\"carousel-item\">\n                <img src=\"assets/carousel/image6.jpg\" alt=\"...\">\n              </div>"
+					},
+					{
+						"html": "<img src=\"assets/carousel/image6.jpg\" alt=\"...\">"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" role=\"button\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Previous</span>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" role=\"button\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Next</span>"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<h4>2000+ people — and growing. Fast.</h4>"
+					},
+					{
+						"html": "<p>\n              Our headquarters are just outside Boston in Waltham, MA, but we\n              have teams and offices across the country.\n            </p>"
+					},
+					{
+						"html": "<div id=\"testimonials\" class=\"col-12 col-sm-7 carousel slide\" data-ride=\"carousel\">"
+					},
+					{
+						"html": "<div class=\"card\">"
+					},
+					{
+						"html": "<span>“</span>"
+					},
+					{
+						"html": "<div class=\"carousel-inner\">"
+					},
+					{
+						"html": "<div class=\"card-body\">"
+					},
+					{
+						"html": "<p class=\"card-text\">"
+					},
+					{
+						"html": "<p class=\"text-orange\">Eric, Product Management Leader</p>"
+					},
+					{
+						"html": "<div class=\"controls\">"
+					},
+					{
+						"html": "<a class=\"carousel-control-prev\" href=\"#testimonials\" role=\"button\" data-slide=\"prev\">\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Previous</span>\n              </a>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Previous</span>"
+					},
+					{
+						"html": "<ol class=\"carousel-indicators\">"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\" class=\"active\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<li data-target=\"#testimonials\" data-slide-to=\"[object HTMLDivElement]\"></li>"
+					},
+					{
+						"html": "<a class=\"carousel-control-next\" href=\"#testimonials\" role=\"button\" data-slide=\"next\">\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only\">Next</span>\n              </a>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Next</span>"
+					},
+					{
+						"html": "<div class=\"container\" id=\"calloutbox\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-12 col-md-8\">"
+					},
+					{
+						"html": "<h3 style=\"text-align: center\">Join OUR TEAM</h3>"
+					},
+					{
+						"html": "<h2 style=\"text-align: center; padding-bottom: 1em\">\n              Help change healthcare for the better.\n            </h2>"
+					},
+					{
+						"html": "<p style=\"text-align: center\">\n              <a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>\n            </p>"
+					},
+					{
+						"html": "<a href=\"https://devoted.wd1.myworkdayjobs.com/Devoted\" class=\"btn btn-light\" target=\"_blank\" style=\"line-height: 2.7rem\">View Open Positions</a>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://transparency-in-coverage.bluecrossma.com/\" target=\"_blank\">See the files for our BCBSMA employee health plans.</a>"
+					},
+					{
+						"html": "<p>\n              ©\n              <script>\n                document.write(new Date().getFullYear());\n              </script>2024\n              Devoted Health, Inc.&nbsp;&nbsp;<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>\n            </p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/disclaimers\">Disclaimers</a>"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/careers/"
+}

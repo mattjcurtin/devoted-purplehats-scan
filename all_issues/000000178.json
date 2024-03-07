@@ -1,0 +1,2209 @@
+{
+	"url": "https://devoted.com/resources/press-releases/",
+	"pageTitle": "Press releases | Devoted Health",
+	"totalItems": 585,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 4,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 581,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 104,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<h1 class=\"articleHero-module--heading--d0ce0\">Press releases</h1>"
+					},
+					{
+						"html": "<h2 class=\"articleHero-module--subHeading--6a3e1\">Check out the latest announcements from Devoted Health.</h2>"
+					},
+					{
+						"html": "<strong>December 29, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/new-funding-series-e/\">Devoted Health Raises New Funding to Deliver On Its Mission to Improve the Health and Well-Being of Older Americans</a>"
+					},
+					{
+						"html": "<strong>October 24, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplace-fortune/\">Devoted Health Named to 2023 Best Workplaces for Women™ List by <em>FORTUNE</em></a>"
+					},
+					{
+						"html": "<em>FORTUNE</em>"
+					},
+					{
+						"html": "<strong>October 16, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20231016614496/en/Devoted-Health-Achieves-5-out-of-5-Medicare-Advantage-Star-Rating-for-Florida-and-Ohio-HMO-Plans\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>October 1, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/2024-plan-expansion/\">Devoted Health brings new Medicare Advantage plans to older Americans across the country</a>"
+					},
+					{
+						"html": "<strong>September 6, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/fortune-best-workplaces/\"><em>FORTUNE </em>Names Devoted Health One of the Best Workplaces in Health Care™</a>"
+					},
+					{
+						"html": "<em>FORTUNE </em>"
+					},
+					{
+						"html": "<strong>July 11, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplaces-2023/\">Devoted Health Fast Company Best Workplace for Innovators 2023</a>"
+					},
+					{
+						"html": "<strong>May 12, 2023<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/pharmacy-quality/\">Devoted Health Earns High Achievement in Medication Quality Measures</a>"
+					},
+					{
+						"html": "<strong>October 19, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/8-new-states/\">Devoted Health brings all-in-one healthcare to 8 new states&nbsp;</a>"
+					},
+					{
+						"html": "<strong>October 11, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/pr-star-rating/\">Devoted Health achieves top 5 out of 5 Medicare Advantage Star rating for Ohio HMO plans in first year of eligibility</a>"
+					},
+					{
+						"html": "<strong>October 3, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"/resources/lionel-richie-pr/\">Lionel Richie partners with all-in-one healthcare company, Devoted Health</a>"
+					},
+					{
+						"html": "<strong>August 17, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/devoted-health-exec-shares-what-it-takes-to-transform-healthcare-2022-8\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>August 15, 2022</strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/30-leaders-under-40-changing-healthcare-in-2022#dr-neil-wagle-40-is-designing-a-new-model-of-care-to-keep-seniors-healthy-28\" target=\"_blank\" rel=\"noopener noreferrer\">Dr. Neil Wagle, 40, is designing a new model of care to keep seniors healthy</a>"
+					},
+					{
+						"html": "<strong>July 18, 2022</strong>"
+					},
+					{
+						"html": "<a href=\"https://thetechtribune.com/ed-park-of-devoted-health/\" target=\"_blank\" rel=\"noopener noreferrer\">Profile of a Founder: Ed Park of Devoted Health</a>"
+					},
+					{
+						"html": "<strong>July 13, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.axios.com/local/boston/2022/07/13/mo-cowan-first-board-chair-masschallenge\" target=\"_blank\" rel=\"noopener noreferrer\">Mo Cowan to become MassChallenge's first board chair</a>"
+					},
+					{
+						"html": "<strong>May 16, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/678400be-1a05-4fe9-abb3-c270c0cf7dfd_Devoted+Health_+Tech+Power+Players+50+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>May 6, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/f3e244aa-2f6b-4d75-9495-5153df32e0e8_Devoted_PQA+UPDATED+Award+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>May 3, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/8784b2c8-b03b-481f-8ae8-f648b6fb3b46_Devoted_+A100+Award+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Todd Park, Devoted Health Co-Founder and Executive Chairman, Selected to A100 List by Gold House</a>"
+					},
+					{
+						"html": "<strong>February 22, 2022<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/base10-partnership/\" target=\"undefined\" rel=\"noopener noreferrer\">Our Partnership With the Base10 Advancement Initiative: Devotion to Diversity, Equity, and Inclusion</a>"
+					},
+					{
+						"html": "<strong>November 2, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/399c3f3b-6f23-489a-92a9-63c95f69dccd_Devoted_Inc.+Best+Led+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Named to Inc.’s First-Annual Best-Led Companies List</a>"
+					},
+					{
+						"html": "<strong>October 14, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/36fb079e-9c91-4299-9e4b-6ca5bcd16991_Devoted_NEVY+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong><br>October 13, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/2ba4907d-4321-46a8-aeab-47e94ca9177f_Devoted_+Star+Rating+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>October 8, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/4be1df8d-fe2a-4c49-9871-e6630c21924b_DevotedHealth_SeriesD_PR_10_8_FINAL.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Announces New Funding to Bring High-Quality Care to More Older Americans Nationwide</a>"
+					},
+					{
+						"html": "<strong>October 1, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20211001005362/en/Devoted-Health-Brings-Its-Next-Generation-Medicare-Advantage-Plan-to-Illinois\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Brings Its Next-Generation Medicare Advantage Plan to Illinois</a>"
+					},
+					{
+						"html": "<strong>August 26, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210826005761/en/Devoted-Health-Expands-Footprint-in-Arizona-Adding-100-Jobs-in-the-Phoenix-Area\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Expands Footprint in Arizona, Adding 100 Jobs in the Phoenix Area</a>"
+					},
+					{
+						"html": "<strong>July 14, 2021<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210714005670/en/Devoted-Health-Announces-Maine-Office-Expansion-Creating-at-Least-40-New-Jobs-in-Cumberland-County\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<strong>March 10, 2020<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200310005088/en/Devoted-Health-recognized-by-Forbes-as-one-of-America%E2%80%99s-Best-Startup-Employers-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health recognized by Forbes as one of America’s Best Startup Employers in 2020</a>"
+					},
+					{
+						"html": "<strong>January 15, 2020<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200115005472/en/Devoted-Health-Recognized-in-Built-In-Boston%E2%80%99s-Best-Places-to-Work-List-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Recognized in Built In Boston’s Best Places to Work List in 2020</a>"
+					},
+					{
+						"html": "<strong>November 15, 2019<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20191115005023/en/Devoted-Health-Named-a-2019-Best-Places-To-Work-in-Boston\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Named a 2019 Best Places To Work in Boston</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.29.2023</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<h1 class=\"articleHero-module--heading--d0ce0\">Press releases</h1>"
+					},
+					{
+						"html": "<h2 class=\"articleHero-module--subHeading--6a3e1\">Check out the latest announcements from Devoted Health.</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<h1 class=\"articleHero-module--heading--d0ce0\">Press releases</h1>"
+					},
+					{
+						"html": "<h2 class=\"articleHero-module--subHeading--6a3e1\">Check out the latest announcements from Devoted Health.</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img class=\"articleHero-module--heroImg--2dde7\" src=\"https://images.prismic.io/devoted-health-2020/539eead3-e6fb-40f5-8a10-172f06354584_DSC01215.JPG?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img class=\"articleHero-module--heroImg--2dde7\" src=\"https://images.prismic.io/devoted-health-2020/539eead3-e6fb-40f5-8a10-172f06354584_DSC01215.JPG?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 60,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"/resources/new-funding-series-e/\">Devoted Health Raises New Funding to Deliver On Its Mission to Improve the Health and Well-Being of Older Americans</a>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplace-fortune/\">Devoted Health Named to 2023 Best Workplaces for Women™ List by <em>FORTUNE</em></a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20231016614496/en/Devoted-Health-Achieves-5-out-of-5-Medicare-Advantage-Star-Rating-for-Florida-and-Ohio-HMO-Plans\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"/resources/2024-plan-expansion/\">Devoted Health brings new Medicare Advantage plans to older Americans across the country</a>"
+					},
+					{
+						"html": "<a href=\"/resources/fortune-best-workplaces/\"><em>FORTUNE </em>Names Devoted Health One of the Best Workplaces in Health Care™</a>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplaces-2023/\">Devoted Health Fast Company Best Workplace for Innovators 2023</a>"
+					},
+					{
+						"html": "<a href=\"/resources/pharmacy-quality/\">Devoted Health Earns High Achievement in Medication Quality Measures</a>"
+					},
+					{
+						"html": "<a href=\"/resources/8-new-states/\">Devoted Health brings all-in-one healthcare to 8 new states&nbsp;</a>"
+					},
+					{
+						"html": "<a href=\"/resources/pr-star-rating/\">Devoted Health achieves top 5 out of 5 Medicare Advantage Star rating for Ohio HMO plans in first year of eligibility</a>"
+					},
+					{
+						"html": "<a href=\"/resources/lionel-richie-pr/\">Lionel Richie partners with all-in-one healthcare company, Devoted Health</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/devoted-health-exec-shares-what-it-takes-to-transform-healthcare-2022-8\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/30-leaders-under-40-changing-healthcare-in-2022#dr-neil-wagle-40-is-designing-a-new-model-of-care-to-keep-seniors-healthy-28\" target=\"_blank\" rel=\"noopener noreferrer\">Dr. Neil Wagle, 40, is designing a new model of care to keep seniors healthy</a>"
+					},
+					{
+						"html": "<a href=\"https://thetechtribune.com/ed-park-of-devoted-health/\" target=\"_blank\" rel=\"noopener noreferrer\">Profile of a Founder: Ed Park of Devoted Health</a>"
+					},
+					{
+						"html": "<a href=\"https://www.axios.com/local/boston/2022/07/13/mo-cowan-first-board-chair-masschallenge\" target=\"_blank\" rel=\"noopener noreferrer\">Mo Cowan to become MassChallenge's first board chair</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/678400be-1a05-4fe9-abb3-c270c0cf7dfd_Devoted+Health_+Tech+Power+Players+50+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/f3e244aa-2f6b-4d75-9495-5153df32e0e8_Devoted_PQA+UPDATED+Award+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/8784b2c8-b03b-481f-8ae8-f648b6fb3b46_Devoted_+A100+Award+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Todd Park, Devoted Health Co-Founder and Executive Chairman, Selected to A100 List by Gold House</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/base10-partnership/\" target=\"undefined\" rel=\"noopener noreferrer\">Our Partnership With the Base10 Advancement Initiative: Devotion to Diversity, Equity, and Inclusion</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/399c3f3b-6f23-489a-92a9-63c95f69dccd_Devoted_Inc.+Best+Led+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Named to Inc.’s First-Annual Best-Led Companies List</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/36fb079e-9c91-4299-9e4b-6ca5bcd16991_Devoted_NEVY+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/2ba4907d-4321-46a8-aeab-47e94ca9177f_Devoted_+Star+Rating+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/4be1df8d-fe2a-4c49-9871-e6630c21924b_DevotedHealth_SeriesD_PR_10_8_FINAL.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Announces New Funding to Bring High-Quality Care to More Older Americans Nationwide</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20211001005362/en/Devoted-Health-Brings-Its-Next-Generation-Medicare-Advantage-Plan-to-Illinois\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Brings Its Next-Generation Medicare Advantage Plan to Illinois</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210826005761/en/Devoted-Health-Expands-Footprint-in-Arizona-Adding-100-Jobs-in-the-Phoenix-Area\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Expands Footprint in Arizona, Adding 100 Jobs in the Phoenix Area</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210714005670/en/Devoted-Health-Announces-Maine-Office-Expansion-Creating-at-Least-40-New-Jobs-in-Cumberland-County\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200310005088/en/Devoted-Health-recognized-by-Forbes-as-one-of-America%E2%80%99s-Best-Startup-Employers-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health recognized by Forbes as one of America’s Best Startup Employers in 2020</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200115005472/en/Devoted-Health-Recognized-in-Built-In-Boston%E2%80%99s-Best-Places-to-Work-List-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Recognized in Built In Boston’s Best Places to Work List in 2020</a>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20191115005023/en/Devoted-Health-Named-a-2019-Best-Places-To-Work-in-Boston\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Named a 2019 Best Places To Work in Boston</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 29,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"presentation-role-conflict": {
+				"description": "Ensure elements marked as presentational are consistently ignored",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/presentation-role-conflict?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img class=\"articleHero-module--heroImg--2dde7\" src=\"https://images.prismic.io/devoted-health-2020/539eead3-e6fb-40f5-8a10-172f06354584_DSC01215.JPG?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 268,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\"><a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a><a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Press releases page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<section class=\"articleHero-module--wrapper--637e2\">"
+					},
+					{
+						"html": "<div class=\"articleHero-module--contentWrapper--67224\">"
+					},
+					{
+						"html": "<div class=\"articleHero-module--content--14970\">"
+					},
+					{
+						"html": "<div class=\"articleHero-module--heroText--472f7\"><h1 class=\"articleHero-module--heading--d0ce0\">Press releases</h1><h2 class=\"articleHero-module--subHeading--6a3e1\">Check out the latest announcements from Devoted Health.</h2></div>"
+					},
+					{
+						"html": "<h1 class=\"articleHero-module--heading--d0ce0\">Press releases</h1>"
+					},
+					{
+						"html": "<h2 class=\"articleHero-module--subHeading--6a3e1\">Check out the latest announcements from Devoted Health.</h2>"
+					},
+					{
+						"html": "<div class=\"articleHero-module--heroImgBg--b61ac\"><img class=\"articleHero-module--heroImg--2dde7\" src=\"https://images.prismic.io/devoted-health-2020/539eead3-e6fb-40f5-8a10-172f06354584_DSC01215.JPG?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"articleHero-module--heroImg--2dde7\" src=\"https://images.prismic.io/devoted-health-2020/539eead3-e6fb-40f5-8a10-172f06354584_DSC01215.JPG?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 false\">"
+					},
+					{
+						"html": "<div class=\"article-module--wrapper--0ac0e\">"
+					},
+					{
+						"html": "<div class=\"article-module--inner--d5d01\">"
+					},
+					{
+						"html": "<div class=\"article-module--content--20ea8\">"
+					},
+					{
+						"html": "<div class=\"index-module--wrapper--6a4fc\">"
+					},
+					{
+						"html": "<div class=\"index-module--content--b12f6\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><strong>December 29, 2023<br></strong><a href=\"/resources/new-funding-series-e/\">Devoted Health Raises New Funding to Deliver On Its Mission to Improve the Health and Well-Being of Older Americans</a></p>"
+					},
+					{
+						"html": "<strong>December 29, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/new-funding-series-e/\">Devoted Health Raises New Funding to Deliver On Its Mission to Improve the Health and Well-Being of Older Americans</a>"
+					},
+					{
+						"html": "<p><strong>October 24, 2023<br></strong><a href=\"/resources/best-workplace-fortune/\">Devoted Health Named to 2023 Best Workplaces for Women™ List by <em>FORTUNE</em></a></p>"
+					},
+					{
+						"html": "<strong>October 24, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplace-fortune/\">Devoted Health Named to 2023 Best Workplaces for Women™ List by <em>FORTUNE</em></a>"
+					},
+					{
+						"html": "<em>FORTUNE</em>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>October 16, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20231016614496/en/Devoted-Health-Achieves-5-out-of-5-Medicare-Advantage-Star-Rating-for-Florida-and-Ohio-HMO-Plans\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p><strong>October 1, 2023<br></strong><a href=\"/resources/2024-plan-expansion/\">Devoted Health brings new Medicare Advantage plans to older Americans across the country</a></p>"
+					},
+					{
+						"html": "<strong>October 1, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/2024-plan-expansion/\">Devoted Health brings new Medicare Advantage plans to older Americans across the country</a>"
+					},
+					{
+						"html": "<p><strong>September 6, 2023<br></strong><a href=\"/resources/fortune-best-workplaces/\"><em>FORTUNE </em>Names Devoted Health One of the Best Workplaces in Health Care™</a></p>"
+					},
+					{
+						"html": "<strong>September 6, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/fortune-best-workplaces/\"><em>FORTUNE </em>Names Devoted Health One of the Best Workplaces in Health Care™</a>"
+					},
+					{
+						"html": "<em>FORTUNE </em>"
+					},
+					{
+						"html": "<p><strong>July 11, 2023<br></strong><a href=\"/resources/best-workplaces-2023/\">Devoted Health Fast Company Best Workplace for Innovators 2023</a></p>"
+					},
+					{
+						"html": "<strong>July 11, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/best-workplaces-2023/\">Devoted Health Fast Company Best Workplace for Innovators 2023</a>"
+					},
+					{
+						"html": "<p><strong>May 12, 2023<br></strong><a href=\"/resources/pharmacy-quality/\">Devoted Health Earns High Achievement in Medication Quality Measures</a></p>"
+					},
+					{
+						"html": "<strong>May 12, 2023<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/pharmacy-quality/\">Devoted Health Earns High Achievement in Medication Quality Measures</a>"
+					},
+					{
+						"html": "<p><strong>October 19, 2022<br></strong><a href=\"/resources/8-new-states/\">Devoted Health brings all-in-one healthcare to 8 new states&nbsp;</a></p>"
+					},
+					{
+						"html": "<strong>October 19, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/8-new-states/\">Devoted Health brings all-in-one healthcare to 8 new states&nbsp;</a>"
+					},
+					{
+						"html": "<p><strong>October 11, 2022<br></strong><a href=\"/resources/pr-star-rating/\">Devoted Health achieves top 5 out of 5 Medicare Advantage Star rating for Ohio HMO plans in first year of eligibility</a></p>"
+					},
+					{
+						"html": "<strong>October 11, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/pr-star-rating/\">Devoted Health achieves top 5 out of 5 Medicare Advantage Star rating for Ohio HMO plans in first year of eligibility</a>"
+					},
+					{
+						"html": "<p><strong>October 3, 2022<br></strong><a href=\"/resources/lionel-richie-pr/\">Lionel Richie partners with all-in-one healthcare company, Devoted Health</a></p>"
+					},
+					{
+						"html": "<strong>October 3, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/resources/lionel-richie-pr/\">Lionel Richie partners with all-in-one healthcare company, Devoted Health</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>August 17, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/devoted-health-exec-shares-what-it-takes-to-transform-healthcare-2022-8\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>August 15, 2022</strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businessinsider.com/30-leaders-under-40-changing-healthcare-in-2022#dr-neil-wagle-40-is-designing-a-new-model-of-care-to-keep-seniors-healthy-28\" target=\"_blank\" rel=\"noopener noreferrer\">Dr. Neil Wagle, 40, is designing a new model of care to keep seniors healthy</a>"
+					},
+					{
+						"html": "<p><strong>July 18, 2022</strong><br><a href=\"https://thetechtribune.com/ed-park-of-devoted-health/\" target=\"_blank\" rel=\"noopener noreferrer\">Profile of a Founder: Ed Park of Devoted Health</a></p>"
+					},
+					{
+						"html": "<strong>July 18, 2022</strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://thetechtribune.com/ed-park-of-devoted-health/\" target=\"_blank\" rel=\"noopener noreferrer\">Profile of a Founder: Ed Park of Devoted Health</a>"
+					},
+					{
+						"html": "<p><strong>July 13, 2022<br></strong><a href=\"https://www.axios.com/local/boston/2022/07/13/mo-cowan-first-board-chair-masschallenge\" target=\"_blank\" rel=\"noopener noreferrer\">Mo Cowan to become MassChallenge's first board chair</a></p>"
+					},
+					{
+						"html": "<strong>July 13, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.axios.com/local/boston/2022/07/13/mo-cowan-first-board-chair-masschallenge\" target=\"_blank\" rel=\"noopener noreferrer\">Mo Cowan to become MassChallenge's first board chair</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>May 16, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/678400be-1a05-4fe9-abb3-c270c0cf7dfd_Devoted+Health_+Tech+Power+Players+50+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>May 6, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/f3e244aa-2f6b-4d75-9495-5153df32e0e8_Devoted_PQA+UPDATED+Award+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>May 3, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/8784b2c8-b03b-481f-8ae8-f648b6fb3b46_Devoted_+A100+Award+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Todd Park, Devoted Health Co-Founder and Executive Chairman, Selected to A100 List by Gold House</a>"
+					},
+					{
+						"html": "<p><strong>February 22, 2022<br></strong><a href=\"https://devoted.com/resources/base10-partnership/\" target=\"undefined\" rel=\"noopener noreferrer\">Our Partnership With the Base10 Advancement Initiative: Devotion to Diversity, Equity, and Inclusion</a></p>"
+					},
+					{
+						"html": "<strong>February 22, 2022<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/base10-partnership/\" target=\"undefined\" rel=\"noopener noreferrer\">Our Partnership With the Base10 Advancement Initiative: Devotion to Diversity, Equity, and Inclusion</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>November 2, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/399c3f3b-6f23-489a-92a9-63c95f69dccd_Devoted_Inc.+Best+Led+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Named to Inc.’s First-Annual Best-Led Companies List</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>October 14, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/36fb079e-9c91-4299-9e4b-6ca5bcd16991_Devoted_NEVY+Press+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<strong><br>October 13, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/2ba4907d-4321-46a8-aeab-47e94ca9177f_Devoted_+Star+Rating+Release.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>October 8, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/4be1df8d-fe2a-4c49-9871-e6630c21924b_DevotedHealth_SeriesD_PR_10_8_FINAL.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Devoted Health Announces New Funding to Bring High-Quality Care to More Older Americans Nationwide</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>October 1, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20211001005362/en/Devoted-Health-Brings-Its-Next-Generation-Medicare-Advantage-Plan-to-Illinois\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Brings Its Next-Generation Medicare Advantage Plan to Illinois</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>August 26, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210826005761/en/Devoted-Health-Expands-Footprint-in-Arizona-Adding-100-Jobs-in-the-Phoenix-Area\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Expands Footprint in Arizona, Adding 100 Jobs in the Phoenix Area</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>July 14, 2021<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20210714005670/en/Devoted-Health-Announces-Maine-Office-Expansion-Creating-at-Least-40-New-Jobs-in-Cumberland-County\" target=\"_blank\" rel=\"noopener noreferrer\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>March 10, 2020<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200310005088/en/Devoted-Health-recognized-by-Forbes-as-one-of-America%E2%80%99s-Best-Startup-Employers-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health recognized by Forbes as one of America’s Best Startup Employers in 2020</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>January 15, 2020<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20200115005472/en/Devoted-Health-Recognized-in-Built-In-Boston%E2%80%99s-Best-Places-to-Work-List-in-2020\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Recognized in Built In Boston’s Best Places to Work List in 2020</a>"
+					},
+					{
+						"html": "<p><strong>November 15, 2019<br></strong><a href=\"https://www.businesswire.com/news/home/20191115005023/en/Devoted-Health-Named-a-2019-Best-Places-To-Work-in-Boston\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Named a 2019 Best Places To Work in Boston</a></p>"
+					},
+					{
+						"html": "<strong>November 15, 2019<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.businesswire.com/news/home/20191115005023/en/Devoted-Health-Named-a-2019-Best-Places-To-Work-in-Boston\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Health Named a 2019 Best Places To Work in Boston</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><strong><a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a></strong></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><strong><a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a></strong></span>"
+					},
+					{
+						"html": "<strong><a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/resources/news-and-media-archives/\" target=\"_blank\" rel=\"noopener noreferrer\">View older press releases</a>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.29.2023</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.29.2023</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

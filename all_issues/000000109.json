@@ -1,0 +1,2500 @@
+{
+	"url": "https://devoted.com/resources/",
+	"pageTitle": "Health tips you can use right now | Devoted Health",
+	"totalItems": 691,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 5,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h1>Health tips you can use right now</h1>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/fc45b11a43de056430a6269ba73af610251ad378f6c24289ba572a70c0f55c93.jpeg",
+						"xpath": "h1",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 686,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 21,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/fde0eb3a-2792-44ec-aea5-6f3f12be4943_shutterstock_1940409892%20(1).jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=200%2C0%2C800%2C800&amp;w=1300&amp;h=1300')\" class=\"cardFull-module--bgImg--81c07\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/683f173a-9db6-4fc1-8c5c-2ee5d723f0e1_icon-checklist.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C48%2C177%2C89&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/dfeecd81-9dd6-44f4-b41a-008a6013f729_homepage-prescriptiondrugs.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C160%2C640%2C320&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/30766266-6350-4498-9591-1f152e0cfb64_Dr%20Lindsay%20Carter.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C414%2C946%2C473&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/eaa4391b-40ad-4f18-8307-4a581fcc6826_apple-green.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C171%2C602%2C301&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/17773712-3012-4e96-9871-fe10bae62e5c_shutterstock_663298153%20(1).jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=14%2C0%2C5736%2C2868&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/3aa27305-e4cb-4eae-a984-d819434f5e90_shutterstock_114711391.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C313%2C3732%2C1866&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9149e851-18ba-437f-9d80-5d3bd7db1e3e_Doc%20talking%20to%20patient.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C171%2C1147%2C574&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/f289c519-6a60-4782-8522-dc46236c8c12_gardening%20man%20-%20Rebecca%20Clarke.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C0%2C2100%2C1050&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/e72cd227-a7ff-4ac7-a3aa-5bea0de0ea32_Waiting%20Room%201.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C35%2C2165%2C1083&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9f02dba2-6ca3-486f-b7ec-617052011b0b_Exercise%20half.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C22%2C297%2C149&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/8a5a833e-b7e3-41ab-85e3-1d1e53c9d030_Female%20Doc%20w_o%20mask.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C69%2C1722%2C861&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9149e851-18ba-437f-9d80-5d3bd7db1e3e_Doc%20talking%20to%20patient.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C1147%2C574&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/ba49230cc1685031cb79cf18fe9d6b729de9a5f0_pill_pile_illustration.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/6db1554f7a1eb8255c04e1d56db1c60dcfb79843_bandage_illustration-01.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/05638387e8bc1f6f87fbba28f92f7c6773652e64_affordable.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/2d795b6d975aa187dc3687d6d8832c8705e9638e_aspirin-2-3.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/f3bcc6cc54cbcb1f12d86ad5a61c49f4cb4fc1c0_pill-bottle.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/staging-devoted-health/8ac80e21-897c-4751-bc08-e35d3ee21d02_woman-on-bench-no-plant.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C300%2C1200%2C600&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/573660f8a63557a3f4abe01e891bf1d665067c9c_woman-with-visor.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 104,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<h2 class=\"cardFull-module--heading--3c9c1\">Stay Safe from Medicare Fraud</h2>"
+					},
+					{
+						"html": "<p class=\"cardFull-module--text--0784e\">Medicare fraud is a serious problem —&nbsp;but knowing these basics can help you protect yourself.&nbsp;</p>"
+					},
+					{
+						"html": "<span class=\"cardFull-module--linkLabel--c9367\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Falls</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about falls and fall prevention.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Medications</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about your medications.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Sleep</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about insomnia and sleeping treatments.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Nutrition</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about supplements, nutritional drinks, and breakfast cereals!</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Eat Well, Stay Healthy</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">People like to say “you are what you eat”, but is there any truth to that? </p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How (and why) you should quit smoking</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">It doesn’t matter how long you’ve been smoking. It’s never too late to quit. Here are some tips that can help.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About Bone Health</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Being a woman puts you at risk of getting osteoporosis and breaking a bone. But, the good news? There are ways to make sure your bones stay healthy as you age. </p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Dementia or forgetfulness?</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Lower Your Risk for Colorectal Cancer</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Colorectal cancer is one of the most common cancers in both men and women. Our medical director, Dr. Lindsay Carter, explains how regular screenings might just save your life.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Stay Active, Stay Healthy</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">When you get yourself moving, it’s a gift to both body and mind. In this chat with our medical director, Dr. Lindsay Carter, we discuss how much physical activity to get each week and why it’s so important. </p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Getting Help for Alcohol Use Disorder</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Alcohol use disorder (AUD) can have serious impacts on your health, quality of life, and loved ones. In this chat with our medical director, Dr. Lindsay Carter, we discuss how to know when alcohol is a problem and how to get the help you need. </p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About High Blood Pressure</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">While high blood pressure can lead to serious health problems, it’s also very treatable. Our medical director, Dr. Lindsay Carter, gives you the facts and tips you need to know.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">7 Tips for Managing Your Medications</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">What's the best way to remember to take your medications? Learn top tips from Justin Bioc, one of our clinical pharmacists.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Can a Survey Help You Live Longer? An HRA Just Might.</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How to Get the Most for Your Healthcare Dollars</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">You already know how medical costs can add up. Learn why Original Medicare may not be enough to cover all those costs — and how to be smart with your healthcare dollars.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Should you be taking a daily aspirin?</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">More than half of Americans ages 45 and older take a daily aspirin to protect their heart health. But do they all need to? We break down the benefits and risks of taking an aspirin every day — and why it may not be right for everyone.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">3 Drugs to Use with Caution</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">(and some safer alternatives)</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Myths and Facts About Statins</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Do these cholesterol drugs live up to the hype? Get the facts.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Your Medicare Options</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Learn the basics about Medicare coverage, along with essential tips for choosing the right plan for you.</p>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 24,
+				"items": [
+					{
+						"html": "<h1>Health tips you can use right now</h1>"
+					},
+					{
+						"html": "<h2 class=\"cardFull-module--heading--3c9c1\">Stay Safe from Medicare Fraud</h2>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Falls</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Medications</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Sleep</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Nutrition</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Eat Well, Stay Healthy</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How (and why) you should quit smoking</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About Bone Health</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Dementia or forgetfulness?</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Lower Your Risk for Colorectal Cancer</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Stay Active, Stay Healthy</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Getting Help for Alcohol Use Disorder</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About High Blood Pressure</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">7 Tips for Managing Your Medications</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Can a Survey Help You Live Longer? An HRA Just Might.</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How to Get the Most for Your Healthcare Dollars</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Should you be taking a daily aspirin?</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">3 Drugs to Use with Caution</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Myths and Facts About Statins</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Your Medicare Options</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 24,
+				"items": [
+					{
+						"html": "<h1>Health tips you can use right now</h1>"
+					},
+					{
+						"html": "<h2 class=\"cardFull-module--heading--3c9c1\">Stay Safe from Medicare Fraud</h2>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Falls</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Medications</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Sleep</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Nutrition</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Eat Well, Stay Healthy</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How (and why) you should quit smoking</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About Bone Health</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Dementia or forgetfulness?</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Lower Your Risk for Colorectal Cancer</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Stay Active, Stay Healthy</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Getting Help for Alcohol Use Disorder</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About High Blood Pressure</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">7 Tips for Managing Your Medications</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Can a Survey Help You Live Longer? An HRA Just Might.</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How to Get the Most for Your Healthcare Dollars</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Should you be taking a daily aspirin?</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">3 Drugs to Use with Caution</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Myths and Facts About Statins</h3>"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Your Medicare Options</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 52,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a class=\"cardFull-module--link--9cf67\" href=\"/resources/medicare-fraud/\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-devoted-doctor-falls/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-devoted-doctor-medications/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-a-doctor-sleep/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-a-doctor-nutrition/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/eat-well-stay-healthy/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/how-and-why-you-should-quit-smoking/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/bone-health/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/dementia-or-forgetfulness/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/lower-your-risk-for-colorectal-cancer/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/stay-active-stay-healthy/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/getting-help-for-alcohol-use-disorder/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/what-to-know-about-high-blood-pressure/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/7-tips-for-managing-your-medications/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/hra/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/how-to-get-the-most-for-your-healthcare-dollars/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/daily-aspirin/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/prescription-drugs/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/myths-facts-about-statins/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a href=\"/resources/your-medicare-options/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 29,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 321,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/recursos\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Health tips you can use right now page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<h1>Health tips you can use right now</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"cardSection-module--wrapper--8985b\">"
+					},
+					{
+						"html": "<div class=\"cardSection-module--content--f9859\">"
+					},
+					{
+						"html": "<figure class=\"cardFull-module--wrapper--0b37d\">"
+					},
+					{
+						"html": "<a class=\"cardFull-module--link--9cf67\" href=\"/resources/medicare-fraud/\">"
+					},
+					{
+						"html": "<div class=\"cardFull-module--inner--d11ae\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/fde0eb3a-2792-44ec-aea5-6f3f12be4943_shutterstock_1940409892%20(1).jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=200%2C0%2C800%2C800&amp;w=1300&amp;h=1300')\" class=\"cardFull-module--bgImg--81c07\">"
+					},
+					{
+						"html": "<div class=\"cardFull-module--content--e154c\">"
+					},
+					{
+						"html": "<h2 class=\"cardFull-module--heading--3c9c1\">Stay Safe from Medicare Fraud</h2>"
+					},
+					{
+						"html": "<p class=\"cardFull-module--text--0784e\">Medicare fraud is a serious problem —&nbsp;but knowing these basics can help you protect yourself.&nbsp;</p>"
+					},
+					{
+						"html": "<div class=\"cardFull-module--linkWrapper--f89ee\"><span class=\"cardFull-module--linkLabel--c9367\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardFull-module--linkLabel--c9367\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-devoted-doctor-falls/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/683f173a-9db6-4fc1-8c5c-2ee5d723f0e1_icon-checklist.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C48%2C177%2C89&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Falls</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about falls and fall prevention.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-devoted-doctor-medications/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/dfeecd81-9dd6-44f4-b41a-008a6013f729_homepage-prescriptiondrugs.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C160%2C640%2C320&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Medications</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about your medications.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-a-doctor-sleep/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/30766266-6350-4498-9591-1f152e0cfb64_Dr%20Lindsay%20Carter.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C414%2C946%2C473&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Sleep</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about insomnia and sleeping treatments.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/ask-a-doctor-nutrition/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/eaa4391b-40ad-4f18-8307-4a581fcc6826_apple-green.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C171%2C602%2C301&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Ask a Devoted Doctor: Nutrition</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Get answers to common questions about supplements, nutritional drinks, and breakfast cereals!</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/eat-well-stay-healthy/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/17773712-3012-4e96-9871-fe10bae62e5c_shutterstock_663298153%20(1).jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=14%2C0%2C5736%2C2868&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Eat Well, Stay Healthy</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">People like to say “you are what you eat”, but is there any truth to that? </p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/how-and-why-you-should-quit-smoking/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/3aa27305-e4cb-4eae-a984-d819434f5e90_shutterstock_114711391.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C313%2C3732%2C1866&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How (and why) you should quit smoking</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">It doesn’t matter how long you’ve been smoking. It’s never too late to quit. Here are some tips that can help.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/bone-health/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9149e851-18ba-437f-9d80-5d3bd7db1e3e_Doc%20talking%20to%20patient.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C171%2C1147%2C574&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About Bone Health</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Being a woman puts you at risk of getting osteoporosis and breaking a bone. But, the good news? There are ways to make sure your bones stay healthy as you age. </p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/dementia-or-forgetfulness/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/f289c519-6a60-4782-8522-dc46236c8c12_gardening%20man%20-%20Rebecca%20Clarke.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C0%2C2100%2C1050&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Dementia or forgetfulness?</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/lower-your-risk-for-colorectal-cancer/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/e72cd227-a7ff-4ac7-a3aa-5bea0de0ea32_Waiting%20Room%201.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C35%2C2165%2C1083&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Lower Your Risk for Colorectal Cancer</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Colorectal cancer is one of the most common cancers in both men and women. Our medical director, Dr. Lindsay Carter, explains how regular screenings might just save your life.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/stay-active-stay-healthy/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9f02dba2-6ca3-486f-b7ec-617052011b0b_Exercise%20half.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C22%2C297%2C149&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Stay Active, Stay Healthy</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">When you get yourself moving, it’s a gift to both body and mind. In this chat with our medical director, Dr. Lindsay Carter, we discuss how much physical activity to get each week and why it’s so important. </p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/getting-help-for-alcohol-use-disorder/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/8a5a833e-b7e3-41ab-85e3-1d1e53c9d030_Female%20Doc%20w_o%20mask.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C69%2C1722%2C861&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Getting Help for Alcohol Use Disorder</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Alcohol use disorder (AUD) can have serious impacts on your health, quality of life, and loved ones. In this chat with our medical director, Dr. Lindsay Carter, we discuss how to know when alcohol is a problem and how to get the help you need. </p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/what-to-know-about-high-blood-pressure/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/9149e851-18ba-437f-9d80-5d3bd7db1e3e_Doc%20talking%20to%20patient.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C1147%2C574&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">What to Know About High Blood Pressure</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">While high blood pressure can lead to serious health problems, it’s also very treatable. Our medical director, Dr. Lindsay Carter, gives you the facts and tips you need to know.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/7-tips-for-managing-your-medications/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/ba49230cc1685031cb79cf18fe9d6b729de9a5f0_pill_pile_illustration.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">7 Tips for Managing Your Medications</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">What's the best way to remember to take your medications? Learn top tips from Justin Bioc, one of our clinical pharmacists.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/hra/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/6db1554f7a1eb8255c04e1d56db1c60dcfb79843_bandage_illustration-01.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Can a Survey Help You Live Longer? An HRA Just Might.</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/how-to-get-the-most-for-your-healthcare-dollars/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/05638387e8bc1f6f87fbba28f92f7c6773652e64_affordable.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">How to Get the Most for Your Healthcare Dollars</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">You already know how medical costs can add up. Learn why Original Medicare may not be enough to cover all those costs — and how to be smart with your healthcare dollars.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/daily-aspirin/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/2d795b6d975aa187dc3687d6d8832c8705e9638e_aspirin-2-3.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Should you be taking a daily aspirin?</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">More than half of Americans ages 45 and older take a daily aspirin to protect their heart health. But do they all need to? We break down the benefits and risks of taking an aspirin every day — and why it may not be right for everyone.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/prescription-drugs/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health/f3bcc6cc54cbcb1f12d86ad5a61c49f4cb4fc1c0_pill-bottle.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">3 Drugs to Use with Caution</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">(and some safer alternatives)</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/myths-facts-about-statins/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/staging-devoted-health/8ac80e21-897c-4751-bc08-e35d3ee21d02_woman-on-bench-no-plant.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C300%2C1200%2C600&amp;w=800&amp;h=400')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Myths and Facts About Statins</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Do these cholesterol drugs live up to the hype? Get the facts.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<figure class=\"cardSmall-module--wrapper--1fc75 cardSmall-module--hasBgImg--fa1fa\">"
+					},
+					{
+						"html": "<a href=\"/resources/your-medicare-options/\" class=\"cardSmall-module--link--d1678\">"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--inner--cacf0\">"
+					},
+					{
+						"html": "<div style=\"background-image:url('https://images.prismic.io/devoted-health-2020/573660f8a63557a3f4abe01e891bf1d665067c9c_woman-with-visor.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max')\" class=\"cardSmall-module--bgImg--01c50\"></div>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--content--1c6cc\">"
+					},
+					{
+						"html": "<h3 class=\"cardSmall-module--heading--4e4b0\">Your Medicare Options</h3>"
+					},
+					{
+						"html": "<p class=\"cardSmall-module--text--18902\">Learn the basics about Medicare coverage, along with essential tips for choosing the right plan for you.</p>"
+					},
+					{
+						"html": "<div class=\"cardSmall-module--linkWrapper--f131c\"><span class=\"cardSmall-module--linkLabel--f1056\">Read More</span></div>"
+					},
+					{
+						"html": "<span class=\"cardSmall-module--linkLabel--f1056\">Read More</span>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,2514 @@
+{
+	"url": "https://www.devoted.com/terms-of-use/",
+	"pageTitle": "Terms of Use | Devoted Health",
+	"totalItems": 692,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 5,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h1>Terms of Use</h1>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/bf045ad824d3d38182d171bc824b9b5f834d21672d638626547c5360bdc11ae7.jpeg",
+						"xpath": "h1",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 687,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 155,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<p>This page and any pages it links to explains Devoted.com’s Terms of Use. If you do not agree to these Terms of Use or to our Privacy Policy, you must not access or use Devoted.com.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Who We Are</h2>"
+					},
+					{
+						"html": "<p>Devoted Health is a healthcare company that provides Medicare Advantage plans. Our mission is to take care of the health of every member like they were our own family.</p>"
+					},
+					{
+						"html": "<h2>Using Devoted.com</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>You are responsible for making all arrangements necessary for you to have access to Devoted.com and for ensuring that all persons who access Devoted.com through your internet connection are aware of these Terms of Use and comply with them.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Viruses, Hacking and other Offences</h2>"
+					},
+					{
+						"html": "<p>When using Devoted.com you must not introduce viruses, trojans, worms, logic bombs or any other material that’s malicious or technologically harmful</p>"
+					},
+					{
+						"html": "<p>You must not try to gain unauthorized access to Devoted.com, the server on which it’s stored or any server, computer or database connected to it.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>We’ll report any attacks or attempts to gain unauthorized access to Devoted.com to the relevant law enforcement authorities and share information about you with them.</p>"
+					},
+					{
+						"html": "<h2>Services and Transactions</h2>"
+					},
+					{
+						"html": "<p>You can use Devoted.com to learn about Devoted Health or to read educational information related to healthcare. You can also sign up for our newsletter, which is distributed by Mailchimp.&nbsp;</p>"
+					},
+					{
+						"html": "<p>These pages and content can be managed by Devoted Health or one of our partners working on our behalf (like a website development agency).</p>"
+					},
+					{
+						"html": "<p>Some services have their own terms and conditions which also apply - read these before you use the service.</p>"
+					},
+					{
+						"html": "<h2>SMS (Text) Messaging&nbsp;</h2>"
+					},
+					{
+						"html": "<p>By voluntarily providing your phone number to Devoted Health, you consent to receiving SMS (text) messages from us, which may include one-time, periodic, or recurring texts. Such text messages may be directed by us or may be made using automated technology. Message frequency varies. </p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Just text \"STOP\" to the short code. </strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>86685: </strong>"
+					},
+					{
+						"html": "<li><strong>84305: </strong>Individuals interested in learning more about becoming a Devoted Health member will receive messages from this short code for promotional material related to: sales and marketing information, appointment reminders, and pending applications to Devoted Health plans.</li>"
+					},
+					{
+						"html": "<strong>84305: </strong>"
+					},
+					{
+						"html": "<li><strong>50317: </strong>Licensed brokers interested in information regarding Devoted Health plans can elect to receive messages from this short code for promotional and educational material related to the sale(s) of Devoted Health plans.</li>"
+					},
+					{
+						"html": "<strong>50317: </strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>Devoted Medical operates under Short Code 83873. To read about our Devoted Medical Terms of Use for SMS, please visit <a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>. </p>"
+					},
+					{
+						"html": "<a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>"
+					},
+					{
+						"html": "<h2>Phone<strong>&nbsp;</strong></h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Email</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Just click “unsubscribe” </strong>"
+					},
+					{
+						"html": "<h2>Linking to Devoted.com</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>You must contact us for permission if you want to either:</p>"
+					},
+					{
+						"html": "<li>charge your website’s users to click on a link to any page on Devoted.com</li>"
+					},
+					{
+						"html": "<li>say your website is associated with or endorsed by Devoted.com</li>"
+					},
+					{
+						"html": "<h2>Linking from Devoted.com</h2>"
+					},
+					{
+						"html": "<p>Devoted.com links to websites that are managed by other companies or government agencies (for example, portals for Providers and sales brokers, or Medicare.gov). We do not have any control over the content on these websites and these links are provided for your convenience only.</p>"
+					},
+					{
+						"html": "<p>We’re not responsible for:</p>"
+					},
+					{
+						"html": "<li>the protection of any information you give to these websites</li>"
+					},
+					{
+						"html": "<li>any loss or damage that may come from your use of these websites, or any other websites they link to</li>"
+					},
+					{
+						"html": "<p>You agree to release us from any claims or disputes that may come from using these websites.</p>"
+					},
+					{
+						"html": "<p>You should read all terms and conditions, privacy policies and end user licenses that relate to these websites before you use them.</p>"
+					},
+					{
+						"html": "<h2>Using Devoted.com Content</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<li>Your computer may temporarily store copies of such materials in RAM incidental to your accessing and viewing those materials;</li>"
+					},
+					{
+						"html": "<li>You may store files that are automatically cached by your web browser for display enhancement purposes; and</li>"
+					},
+					{
+						"html": "<li>You may print one copy of a reasonable number of pages of Devoted.com for your own personal, non-commercial use and not for further reproduction, publication, or distribution.</li>"
+					},
+					{
+						"html": "<p>You must not:</p>"
+					},
+					{
+						"html": "<li>Modify copies of any materials from this website; </li>"
+					},
+					{
+						"html": "<li>Use any illustrations, photographs, video, or audio sequences or any graphics separately from the accompanying text; or</li>"
+					},
+					{
+						"html": "<li>Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials on this site. </li>"
+					},
+					{
+						"html": "<p>Unless you are a provider or a broker, you must not access or use for any commercial purposes any part of Devoted.com or any services or materials available through Devoted.com.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Disclaimer</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>DEVOTED HEALTH HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>We’re not liable for any loss or damage that may come from using Devoted.com. This includes:</p>"
+					},
+					{
+						"html": "<li>any direct, indirect or consequential losses</li>"
+					},
+					{
+						"html": "<li>any loss or damage caused by civil wrongs (‘tort’, including negligence), breach of contract or otherwise</li>"
+					},
+					{
+						"html": "<li>the use of Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<li>the inability to use Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Requests to Remove Content</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>DMCA</strong>"
+					},
+					{
+						"html": "<strong>DMCA Notice</strong>"
+					},
+					{
+						"html": "<li>Your physical or electronic signature.</li>"
+					},
+					{
+						"html": "<li>Identification of the copyrighted work you believe to have been infringed or, if the claim involves multiple works on the website, a representative list of such works.</li>"
+					},
+					{
+						"html": "<li>Identification of the material you believe to be infringing in a sufficiently precise manner to allow us to locate that material.</li>"
+					},
+					{
+						"html": "<li>Adequate information by which we can contact you (including your name, postal address, telephone number and, if available, e-mail address).</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<em>"
+					},
+					{
+						"html": "<strong>Paul Jernigan, Privacy Officer<br><a href=\"mailto:Privacy@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">Privacy@devoted.com</a><br>Devoted Health<br>ATTN: Paul Jernigan, Privacy Officer<br>PO Box 211037<br>Eagan, MN 55121</strong>"
+					},
+					{
+						"html": "<a href=\"mailto:Privacy@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">Privacy@devoted.com</a>"
+					},
+					{
+						"html": "<p>If you fail to comply with all the requirements of Section 512(c)(3) of the DMCA, your DMCA Notice may not be effective.</p>"
+					},
+					{
+						"html": "<p>Please be aware that if you knowingly materially misrepresent that material or activity on the website is infringing your copyright, you may be held liable for damages (including costs and attorneys’ fees) under Section 512(f) of the DMCA.</p>"
+					},
+					{
+						"html": "<h2>Information about You and Your Visits to Devoted.com</h2>"
+					},
+					{
+						"html": "<p>We collect information about you in accordance with our privacy policy. By using Devoted.com, you agree to us collecting this information and confirm that any data you provide is accurate.</p>"
+					},
+					{
+						"html": "<h2>Virus Protection</h2>"
+					},
+					{
+						"html": "<p>We make every effort to check and test Devoted.com for viruses at every stage of production. You must make sure that the way you use Devoted.com does not expose you to the risk of viruses, malicious computer code or other forms of interference which can damage your computer system.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Limitation of Liability</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</p>"
+					},
+					{
+						"html": "<h2>Governing Law and Jurisdiction</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OF USE OR DEVOTED.COM MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.&nbsp;</p>"
+					},
+					{
+						"html": "<h2>General</h2>"
+					},
+					{
+						"html": "<p>There may be legal notices elsewhere on Devoted.com that relate to how you use the site.</p>"
+					},
+					{
+						"html": "<p>We’re not liable if we fail to comply with these terms and conditions because of circumstances beyond our reasonable control.</p>"
+					},
+					{
+						"html": "<p>We might decide not to exercise or enforce any right available to us under these terms and conditions. We can always decide to exercise or enforce that right at a later date. Doing this once will not mean we automatically waive the right on any other occasion.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>If any of these terms and conditions are held to be invalid, unenforceable or illegal for any reason, the remaining terms and conditions will still apply.</p>"
+					},
+					{
+						"html": "<h2>Changes to these terms and conditions</h2>"
+					},
+					{
+						"html": "<p>Please check these Terms of Use regularly. We can update them at any time without notice.</p>"
+					},
+					{
+						"html": "<p>You’ll agree to any changes if you continue to use Devoted.com after the Terms of Use have been updated.</p>"
+					},
+					{
+						"html": "<h2>Comments and Concerns</h2>"
+					},
+					{
+						"html": "<p>Devoted.com is operated by Devoted Health; PO Box 211037; Eagan, MN 55121.&nbsp;</p>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->07.13.2022</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<h1>Terms of Use</h1>"
+					},
+					{
+						"html": "<h2>Who We Are</h2>"
+					},
+					{
+						"html": "<h2>Using Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Viruses, Hacking and other Offences</h2>"
+					},
+					{
+						"html": "<h2>Services and Transactions</h2>"
+					},
+					{
+						"html": "<h2>SMS (Text) Messaging&nbsp;</h2>"
+					},
+					{
+						"html": "<h2>Phone<strong>&nbsp;</strong></h2>"
+					},
+					{
+						"html": "<h2>Email</h2>"
+					},
+					{
+						"html": "<h2>Linking to Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Linking from Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Using Devoted.com Content</h2>"
+					},
+					{
+						"html": "<h2>Disclaimer</h2>"
+					},
+					{
+						"html": "<h2>Requests to Remove Content</h2>"
+					},
+					{
+						"html": "<h2>Information about You and Your Visits to Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Virus Protection</h2>"
+					},
+					{
+						"html": "<h2>Limitation of Liability</h2>"
+					},
+					{
+						"html": "<h2>Governing Law and Jurisdiction</h2>"
+					},
+					{
+						"html": "<h2>General</h2>"
+					},
+					{
+						"html": "<h2>Changes to these terms and conditions</h2>"
+					},
+					{
+						"html": "<h2>Comments and Concerns</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<h1>Terms of Use</h1>"
+					},
+					{
+						"html": "<h2>Who We Are</h2>"
+					},
+					{
+						"html": "<h2>Using Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Viruses, Hacking and other Offences</h2>"
+					},
+					{
+						"html": "<h2>Services and Transactions</h2>"
+					},
+					{
+						"html": "<h2>SMS (Text) Messaging&nbsp;</h2>"
+					},
+					{
+						"html": "<h2>Phone<strong>&nbsp;</strong></h2>"
+					},
+					{
+						"html": "<h2>Email</h2>"
+					},
+					{
+						"html": "<h2>Linking to Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Linking from Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Using Devoted.com Content</h2>"
+					},
+					{
+						"html": "<h2>Disclaimer</h2>"
+					},
+					{
+						"html": "<h2>Requests to Remove Content</h2>"
+					},
+					{
+						"html": "<h2>Information about You and Your Visits to Devoted.com</h2>"
+					},
+					{
+						"html": "<h2>Virus Protection</h2>"
+					},
+					{
+						"html": "<h2>Limitation of Liability</h2>"
+					},
+					{
+						"html": "<h2>Governing Law and Jurisdiction</h2>"
+					},
+					{
+						"html": "<h2>General</h2>"
+					},
+					{
+						"html": "<h2>Changes to these terms and conditions</h2>"
+					},
+					{
+						"html": "<h2>Comments and Concerns</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 34,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>"
+					},
+					{
+						"html": "<a href=\"mailto:Privacy@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">Privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li>charge your website’s users to click on a link to any page on Devoted.com</li><li>say your website is associated with or endorsed by Devoted.com</li></ul>"
+					},
+					{
+						"html": "<ul><li>the protection of any information you give to these websites</li><li>any loss or damage that may come from your use of these websites, or any other websites they link to</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 51,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>84305: </strong>Individuals interested in learning more about becoming a Devoted Health member will receive messages from this short code for promotional material related to: sales and marketing information, appointment reminders, and pending applications to Devoted Health plans.</li>"
+					},
+					{
+						"html": "<li><strong>50317: </strong>Licensed brokers interested in information regarding Devoted Health plans can elect to receive messages from this short code for promotional and educational material related to the sale(s) of Devoted Health plans.</li>"
+					},
+					{
+						"html": "<li>charge your website’s users to click on a link to any page on Devoted.com</li>"
+					},
+					{
+						"html": "<li>say your website is associated with or endorsed by Devoted.com</li>"
+					},
+					{
+						"html": "<li>the protection of any information you give to these websites</li>"
+					},
+					{
+						"html": "<li>any loss or damage that may come from your use of these websites, or any other websites they link to</li>"
+					},
+					{
+						"html": "<li>Your computer may temporarily store copies of such materials in RAM incidental to your accessing and viewing those materials;</li>"
+					},
+					{
+						"html": "<li>You may store files that are automatically cached by your web browser for display enhancement purposes; and</li>"
+					},
+					{
+						"html": "<li>You may print one copy of a reasonable number of pages of Devoted.com for your own personal, non-commercial use and not for further reproduction, publication, or distribution.</li>"
+					},
+					{
+						"html": "<li>Modify copies of any materials from this website; </li>"
+					},
+					{
+						"html": "<li>Use any illustrations, photographs, video, or audio sequences or any graphics separately from the accompanying text; or</li>"
+					},
+					{
+						"html": "<li>Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials on this site. </li>"
+					},
+					{
+						"html": "<li>any direct, indirect or consequential losses</li>"
+					},
+					{
+						"html": "<li>any loss or damage caused by civil wrongs (‘tort’, including negligence), breach of contract or otherwise</li>"
+					},
+					{
+						"html": "<li>the use of Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<li>the inability to use Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<li>Your physical or electronic signature.</li>"
+					},
+					{
+						"html": "<li>Identification of the copyrighted work you believe to have been infringed or, if the claim involves multiple works on the website, a representative list of such works.</li>"
+					},
+					{
+						"html": "<li>Identification of the material you believe to be infringing in a sufficiently precise manner to allow us to locate that material.</li>"
+					},
+					{
+						"html": "<li>Adequate information by which we can contact you (including your name, postal address, telephone number and, if available, e-mail address).</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 275,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/condiciones-de-uso\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Terms of Use page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<h1>Terms of Use</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 null\">"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>This page and any pages it links to explains Devoted.com’s Terms of Use. If you do not agree to these Terms of Use or to our Privacy Policy, you must not access or use Devoted.com.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Who We Are</h2>"
+					},
+					{
+						"html": "<p>Devoted Health is a healthcare company that provides Medicare Advantage plans. Our mission is to take care of the health of every member like they were our own family.</p>"
+					},
+					{
+						"html": "<h2>Using Devoted.com</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>You are responsible for making all arrangements necessary for you to have access to Devoted.com and for ensuring that all persons who access Devoted.com through your internet connection are aware of these Terms of Use and comply with them.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Viruses, Hacking and other Offences</h2>"
+					},
+					{
+						"html": "<p>When using Devoted.com you must not introduce viruses, trojans, worms, logic bombs or any other material that’s malicious or technologically harmful</p>"
+					},
+					{
+						"html": "<p>You must not try to gain unauthorized access to Devoted.com, the server on which it’s stored or any server, computer or database connected to it.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>We’ll report any attacks or attempts to gain unauthorized access to Devoted.com to the relevant law enforcement authorities and share information about you with them.</p>"
+					},
+					{
+						"html": "<h2>Services and Transactions</h2>"
+					},
+					{
+						"html": "<p>You can use Devoted.com to learn about Devoted Health or to read educational information related to healthcare. You can also sign up for our newsletter, which is distributed by Mailchimp.&nbsp;</p>"
+					},
+					{
+						"html": "<p>These pages and content can be managed by Devoted Health or one of our partners working on our behalf (like a website development agency).</p>"
+					},
+					{
+						"html": "<p>Some services have their own terms and conditions which also apply - read these before you use the service.</p>"
+					},
+					{
+						"html": "<h2>SMS (Text) Messaging&nbsp;</h2>"
+					},
+					{
+						"html": "<p>By voluntarily providing your phone number to Devoted Health, you consent to receiving SMS (text) messages from us, which may include one-time, periodic, or recurring texts. Such text messages may be directed by us or may be made using automated technology. Message frequency varies. </p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Just text \"STOP\" to the short code. </strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>86685: </strong>"
+					},
+					{
+						"html": "<li><strong>84305: </strong>Individuals interested in learning more about becoming a Devoted Health member will receive messages from this short code for promotional material related to: sales and marketing information, appointment reminders, and pending applications to Devoted Health plans.</li>"
+					},
+					{
+						"html": "<strong>84305: </strong>"
+					},
+					{
+						"html": "<li><strong>50317: </strong>Licensed brokers interested in information regarding Devoted Health plans can elect to receive messages from this short code for promotional and educational material related to the sale(s) of Devoted Health plans.</li>"
+					},
+					{
+						"html": "<strong>50317: </strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>Devoted Medical operates under Short Code 83873. To read about our Devoted Medical Terms of Use for SMS, please visit <a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>. </p>"
+					},
+					{
+						"html": "<a href=\"https://www.devotedmedicalgroup.com/terms.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.devotedmedicalgroup.com/terms.html</a>"
+					},
+					{
+						"html": "<h2>Phone<strong>&nbsp;</strong></h2>"
+					},
+					{
+						"html": "<strong>&nbsp;</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Email</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Just click “unsubscribe” </strong>"
+					},
+					{
+						"html": "<h2>Linking to Devoted.com</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>You must contact us for permission if you want to either:</p>"
+					},
+					{
+						"html": "<ul><li>charge your website’s users to click on a link to any page on Devoted.com</li><li>say your website is associated with or endorsed by Devoted.com</li></ul>"
+					},
+					{
+						"html": "<li>charge your website’s users to click on a link to any page on Devoted.com</li>"
+					},
+					{
+						"html": "<li>say your website is associated with or endorsed by Devoted.com</li>"
+					},
+					{
+						"html": "<h2>Linking from Devoted.com</h2>"
+					},
+					{
+						"html": "<p>Devoted.com links to websites that are managed by other companies or government agencies (for example, portals for Providers and sales brokers, or Medicare.gov). We do not have any control over the content on these websites and these links are provided for your convenience only.</p>"
+					},
+					{
+						"html": "<p>We’re not responsible for:</p>"
+					},
+					{
+						"html": "<ul><li>the protection of any information you give to these websites</li><li>any loss or damage that may come from your use of these websites, or any other websites they link to</li></ul>"
+					},
+					{
+						"html": "<li>the protection of any information you give to these websites</li>"
+					},
+					{
+						"html": "<li>any loss or damage that may come from your use of these websites, or any other websites they link to</li>"
+					},
+					{
+						"html": "<p>You agree to release us from any claims or disputes that may come from using these websites.</p>"
+					},
+					{
+						"html": "<p>You should read all terms and conditions, privacy policies and end user licenses that relate to these websites before you use them.</p>"
+					},
+					{
+						"html": "<h2>Using Devoted.com Content</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Your computer may temporarily store copies of such materials in RAM incidental to your accessing and viewing those materials;</li>"
+					},
+					{
+						"html": "<li>You may store files that are automatically cached by your web browser for display enhancement purposes; and</li>"
+					},
+					{
+						"html": "<li>You may print one copy of a reasonable number of pages of Devoted.com for your own personal, non-commercial use and not for further reproduction, publication, or distribution.</li>"
+					},
+					{
+						"html": "<p>You must not:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Modify copies of any materials from this website; </li>"
+					},
+					{
+						"html": "<li>Use any illustrations, photographs, video, or audio sequences or any graphics separately from the accompanying text; or</li>"
+					},
+					{
+						"html": "<li>Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials on this site. </li>"
+					},
+					{
+						"html": "<p>Unless you are a provider or a broker, you must not access or use for any commercial purposes any part of Devoted.com or any services or materials available through Devoted.com.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Disclaimer</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>DEVOTED HEALTH HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.&nbsp;</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>We’re not liable for any loss or damage that may come from using Devoted.com. This includes:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>any direct, indirect or consequential losses</li>"
+					},
+					{
+						"html": "<li>any loss or damage caused by civil wrongs (‘tort’, including negligence), breach of contract or otherwise</li>"
+					},
+					{
+						"html": "<li>the use of Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<li>the inability to use Devoted.com and any websites that are linked to or from it</li>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Requests to Remove Content</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>DMCA</strong>"
+					},
+					{
+						"html": "<strong>DMCA Notice</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Your physical or electronic signature.</li>"
+					},
+					{
+						"html": "<li>Identification of the copyrighted work you believe to have been infringed or, if the claim involves multiple works on the website, a representative list of such works.</li>"
+					},
+					{
+						"html": "<li>Identification of the material you believe to be infringing in a sufficiently precise manner to allow us to locate that material.</li>"
+					},
+					{
+						"html": "<li>Adequate information by which we can contact you (including your name, postal address, telephone number and, if available, e-mail address).</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<em>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<strong>Paul Jernigan, Privacy Officer<br><a href=\"mailto:Privacy@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">Privacy@devoted.com</a><br>Devoted Health<br>ATTN: Paul Jernigan, Privacy Officer<br>PO Box 211037<br>Eagan, MN 55121</strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"mailto:Privacy@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">Privacy@devoted.com</a>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>If you fail to comply with all the requirements of Section 512(c)(3) of the DMCA, your DMCA Notice may not be effective.</p>"
+					},
+					{
+						"html": "<p>Please be aware that if you knowingly materially misrepresent that material or activity on the website is infringing your copyright, you may be held liable for damages (including costs and attorneys’ fees) under Section 512(f) of the DMCA.</p>"
+					},
+					{
+						"html": "<h2>Information about You and Your Visits to Devoted.com</h2>"
+					},
+					{
+						"html": "<p>We collect information about you in accordance with our privacy policy. By using Devoted.com, you agree to us collecting this information and confirm that any data you provide is accurate.</p>"
+					},
+					{
+						"html": "<h2>Virus Protection</h2>"
+					},
+					{
+						"html": "<p>We make every effort to check and test Devoted.com for viruses at every stage of production. You must make sure that the way you use Devoted.com does not expose you to the risk of viruses, malicious computer code or other forms of interference which can damage your computer system.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Limitation of Liability</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</p>"
+					},
+					{
+						"html": "<h2>Governing Law and Jurisdiction</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OF USE OR DEVOTED.COM MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.&nbsp;</p>"
+					},
+					{
+						"html": "<h2>General</h2>"
+					},
+					{
+						"html": "<p>There may be legal notices elsewhere on Devoted.com that relate to how you use the site.</p>"
+					},
+					{
+						"html": "<p>We’re not liable if we fail to comply with these terms and conditions because of circumstances beyond our reasonable control.</p>"
+					},
+					{
+						"html": "<p>We might decide not to exercise or enforce any right available to us under these terms and conditions. We can always decide to exercise or enforce that right at a later date. Doing this once will not mean we automatically waive the right on any other occasion.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>If any of these terms and conditions are held to be invalid, unenforceable or illegal for any reason, the remaining terms and conditions will still apply.</p>"
+					},
+					{
+						"html": "<h2>Changes to these terms and conditions</h2>"
+					},
+					{
+						"html": "<p>Please check these Terms of Use regularly. We can update them at any time without notice.</p>"
+					},
+					{
+						"html": "<p>You’ll agree to any changes if you continue to use Devoted.com after the Terms of Use have been updated.</p>"
+					},
+					{
+						"html": "<h2>Comments and Concerns</h2>"
+					},
+					{
+						"html": "<p>Devoted.com is operated by Devoted Health; PO Box 211037; Eagan, MN 55121.&nbsp;</p>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->07.13.2022</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->07.13.2022</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

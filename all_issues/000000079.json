@@ -1,0 +1,2535 @@
+{
+	"url": "https://devoted.com/es/documentos-plan/formularios-miembros",
+	"pageTitle": "Formularios para miembros | Devoted Health",
+	"totalItems": 700,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 4,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/a3cb5e989893e0b0a504aead732ec09cae54d75d1e30a01b4bcb055a30e3f13a.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/0dd2ef34a1fe684d3cc9925f485a536aa49c462536088e53ee73707b3f777a79.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/cabeff72103c76bbc83be08246d70d9c3dc458fd61d536c0bf9c01a38b853eee.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/fcfa0d80ca615e0fd6705986ea4012152c396ad0bcb1d91f58c01ca8099f9257.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 696,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-un-plan\">Comparar planes</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-un-plan\">Solicitar un plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/aprender-sobre-devoted-health\">Aprender sobre Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/recursos/sus-opciones-de-medicare\">Mis opciones de Medicare</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/buscar-proveedores\">Buscar proveedores y farmacias</a></li><li><a role=\"menuitem\" href=\"/es/buscar-medicamentos\">Buscar medicamentos con receta</a></li><li><a role=\"menuitem\" href=\"/es/medico/care-ondemand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/buscar-proveedores\">Buscar proveedores y farmacias</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/buscar-medicamentos\">Buscar medicamentos con receta</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/medico/care-ondemand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/encontrar-plan-docs/\">Ver los documentos de mi plan</a></li><li><a role=\"menuitem\" href=\"/es/documentos-plan/formularios-miembros\">Buscar formularios</a></li><li><a role=\"menuitem\" href=\"/es/beneficios\">Mis beneficios de Devoted</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-plan-docs/\">Ver los documentos de mi plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/documentos-plan/formularios-miembros\">Buscar formularios</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/beneficios\">Mis beneficios de Devoted</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/guia-de-devoted\">Pregunte a un Guía de Devoted</a></li><li><a role=\"menuitem\" href=\"/es/medico\">Conectarse a la atención</a></li><li><a role=\"menuitem\" href=\"/es/derechos-y-responsabilidades-del-miembro\">Mis derechos y responsabilidades</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/guia-de-devoted\">Pregunte a un Guía de Devoted</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/medico\">Conectarse a la atención</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/derechos-y-responsabilidades-del-miembro\">Mis derechos y responsabilidades</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 138,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Formularios para miembros</li>"
+					},
+					{
+						"html": "<h1>Formularios para miembros</h1>"
+					},
+					{
+						"html": "<p>Si está buscando un formulario, podrá encontrarlo aquí. Si no lo encuentra, puede llamarnos al <strong>1-800-DEVOTED (1-800-338-6833) TTY 711 </strong>o envíanos un mensaje de texto al <strong>866-85</strong>. </p>"
+					},
+					{
+						"html": "<strong>1-800-DEVOTED (1-800-338-6833) TTY 711 </strong>"
+					},
+					{
+						"html": "<strong>866-85</strong>"
+					},
+					{
+						"html": "<h2>Formularios personales</h2>"
+					},
+					{
+						"html": "<p><strong>Planificación anticipada de atención<br></strong>Si alguna vez no puede tomar decisiones relacionadas con su atención médica, la planificación anticipada de atención puede ser de gran ayuda para usted y sus seres queridos.</p>"
+					},
+					{
+						"html": "<strong>Planificación anticipada de atención<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/planificacion-anticipada-de-atencion\">Saber más acerca de Planificación anticipada de atención</a>"
+					},
+					{
+						"html": "<p><strong>Designación de representante<br></strong>¿Necesita que un amigo, familiar o alguien en quien confía lleve a cabo una apelación o reclamo? Necesitará designarlo (nombrarlo) como un representante.</p>"
+					},
+					{
+						"html": "<strong>Designación de representante<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/nombramiento-de-representante\">Saber más acerca de Designar un representante</a>"
+					},
+					{
+						"html": "<p><strong>Consentimiento para divulgación de información de salud protegida (PHI, por sus siglas en inglés)<br></strong>Complete este formulario si está de acuerdo con que compartamos su información de salud con alguien en quien confía.</p>"
+					},
+					{
+						"html": "<strong>Consentimiento para divulgación de información de salud protegida (PHI, por sus siglas en inglés)<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<strong>Formulario de evaluación de riesgos para la salud (HRA)</strong>"
+					},
+					{
+						"html": "<p>Pedimos a todos los miembros nuevos que llenen este formulario. Es una breve encuesta sobre su salud que nos ayuda a adaptar mejor nuestros servicios a sus necesidades.</p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés </a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Formulario de reembolso general<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/reembolsarme\">Saber más sobre el reembolso</a>"
+					},
+					{
+						"html": "<p><strong>Revoque documentos personales<br></strong>Utilice este formulario para revocar los documentos que tiene archivados con nosotros.</p>"
+					},
+					{
+						"html": "<strong>Revoque documentos personales<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<h2>Formularios del plan</h2>"
+					},
+					{
+						"html": "<p><strong>Cancelación de inscripción<br></strong>Medicare tiene reglas sobre cuándo puede dejar el plan — y qué ocurre cuando lo hace.</p>"
+					},
+					{
+						"html": "<strong>Cancelación de inscripción<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/como-cancelar-inscripcion\">Saber más sobre Cancelación de inscripción</a>"
+					},
+					{
+						"html": "<p><strong>Inscripción<br></strong>Únase a un plan Devoted Health HMO. </p>"
+					},
+					{
+						"html": "<strong>Inscripción<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2024</a>"
+					},
+					{
+						"html": "<p><strong>Autorización previa<br></strong>Normalmente, su proveedor se encarga de las <a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>. Sin embargo, puede solicitar una usted mismo.</p>"
+					},
+					{
+						"html": "<strong>Autorización previa<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2024</a>"
+					},
+					{
+						"html": "<h2>Formularios de medicamentos con receta</h2>"
+					},
+					{
+						"html": "<p><strong>Formulario de reembolso de medicamentos con receta<br></strong>Utilice nuestro formulario de reembolso de medicamentos con receta para recibir el reembolso de los medicamentos cubiertos que pagó.</p>"
+					},
+					{
+						"html": "<strong>Formulario de reembolso de medicamentos con receta<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_SPA.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_ENG.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<p><strong>Determinación de cobertura para medicamentos con receta de Medicare<br></strong>Use este formulario para <a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a> acerca de un medicamento con receta.</p>"
+					},
+					{
+						"html": "<strong>Determinación de cobertura para medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de determinación de cobertura</a>"
+					},
+					{
+						"html": "<p><strong>Redeterminación del rechazo de medicamentos con receta de Medicare<br></strong>Use este formulario para <a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a> acerca de un medicamento con receta.</p>"
+					},
+					{
+						"html": "<strong>Redeterminación del rechazo de medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de redeterminación</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Reconsideración del rechazo de medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una segunda apelación en una determinación de cobertura</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>Hawaii: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>North Carolina: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Envíe un mensaje de texto a una Guía al<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">O llámenos al<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->10.25.2023</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h1>Formularios para miembros</h1>"
+					},
+					{
+						"html": "<h2>Formularios personales</h2>"
+					},
+					{
+						"html": "<h2>Formularios del plan</h2>"
+					},
+					{
+						"html": "<h2>Formularios de medicamentos con receta</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h1>Formularios para miembros</h1>"
+					},
+					{
+						"html": "<h2>Formularios personales</h2>"
+					},
+					{
+						"html": "<h2>Formularios del plan</h2>"
+					},
+					{
+						"html": "<h2>Formularios de medicamentos con receta</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 28,
+				"items": [
+					{
+						"html": "<a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una segunda apelación en una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 79,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/planificacion-anticipada-de-atencion\">Saber más acerca de Planificación anticipada de atención</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/nombramiento-de-representante\">Saber más acerca de Designar un representante</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés </a>"
+					},
+					{
+						"html": "<a href=\"/es/reembolsarme\">Saber más sobre el reembolso</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/como-cancelar-inscripcion\">Saber más sobre Cancelación de inscripción</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2024</a>"
+					},
+					{
+						"html": "<a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2024</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_SPA.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_ENG.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de redeterminación</a>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una segunda apelación en una determinación de cobertura</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a></li><li class=\"breadCrumbs-module--listItem--c64a5\">Formularios para miembros</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 44,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a></li>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Formularios para miembros</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>Hawaii: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a></li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>North Carolina: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a></li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 278,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/plan-documents/member-forms\">English</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Formularios para miembros</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--wrapper--d56bc\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--content--3a842\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a></li><li class=\"breadCrumbs-module--listItem--c64a5\">Formularios para miembros</li></ul>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a></li>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/es/documentos-plan/\">documentos plan</a>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Formularios para miembros</li>"
+					},
+					{
+						"html": "<h1>Formularios para miembros</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 null\">"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>Si está buscando un formulario, podrá encontrarlo aquí. Si no lo encuentra, puede llamarnos al <strong>1-800-DEVOTED (1-800-338-6833) TTY 711 </strong>o envíanos un mensaje de texto al <strong>866-85</strong>. </p>"
+					},
+					{
+						"html": "<strong>1-800-DEVOTED (1-800-338-6833) TTY 711 </strong>"
+					},
+					{
+						"html": "<strong>866-85</strong>"
+					},
+					{
+						"html": "<h2>Formularios personales</h2>"
+					},
+					{
+						"html": "<p><strong>Planificación anticipada de atención<br></strong>Si alguna vez no puede tomar decisiones relacionadas con su atención médica, la planificación anticipada de atención puede ser de gran ayuda para usted y sus seres queridos.</p>"
+					},
+					{
+						"html": "<strong>Planificación anticipada de atención<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/planificacion-anticipada-de-atencion\">Saber más acerca de Planificación anticipada de atención</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/planificacion-anticipada-de-atencion\">Saber más acerca de Planificación anticipada de atención</a></span>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/planificacion-anticipada-de-atencion\">Saber más acerca de Planificación anticipada de atención</a>"
+					},
+					{
+						"html": "<p><strong>Designación de representante<br></strong>¿Necesita que un amigo, familiar o alguien en quien confía lleve a cabo una apelación o reclamo? Necesitará designarlo (nombrarlo) como un representante.</p>"
+					},
+					{
+						"html": "<strong>Designación de representante<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/nombramiento-de-representante\">Saber más acerca de Designar un representante</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/nombramiento-de-representante\">Saber más acerca de Designar un representante</a></span>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/nombramiento-de-representante\">Saber más acerca de Designar un representante</a>"
+					},
+					{
+						"html": "<p><strong>Consentimiento para divulgación de información de salud protegida (PHI, por sus siglas en inglés)<br></strong>Complete este formulario si está de acuerdo con que compartamos su información de salud con alguien en quien confía.</p>"
+					},
+					{
+						"html": "<strong>Consentimiento para divulgación de información de salud protegida (PHI, por sus siglas en inglés)<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a> | <a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a></p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH_2024_PHIForm_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<p><strong>Formulario de evaluación de riesgos para la salud (HRA)</strong></p>"
+					},
+					{
+						"html": "<strong>Formulario de evaluación de riesgos para la salud (HRA)</strong>"
+					},
+					{
+						"html": "<p>Pedimos a todos los miembros nuevos que llenen este formulario. Es una breve encuesta sobre su salud que nos ayuda a adaptar mejor nuestros servicios a sus necesidades.</p>"
+					},
+					{
+						"html": "<p><a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a> | <a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés </a></p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/DH_Member-HRA-Form-2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés </a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Formulario de reembolso general<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/es/reembolsarme\">Saber más sobre el reembolso</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/es/reembolsarme\">Saber más sobre el reembolso</a></span>"
+					},
+					{
+						"html": "<a href=\"/es/reembolsarme\">Saber más sobre el reembolso</a>"
+					},
+					{
+						"html": "<p><strong>Revoque documentos personales<br></strong>Utilice este formulario para revocar los documentos que tiene archivados con nosotros.</p>"
+					},
+					{
+						"html": "<strong>Revoque documentos personales<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a> | <a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a> </p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/DH-RevokePersonalDocuments_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<h2>Formularios del plan</h2>"
+					},
+					{
+						"html": "<p><strong>Cancelación de inscripción<br></strong>Medicare tiene reglas sobre cuándo puede dejar el plan — y qué ocurre cuando lo hace.</p>"
+					},
+					{
+						"html": "<strong>Cancelación de inscripción<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/como-cancelar-inscripcion\">Saber más sobre Cancelación de inscripción</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/es/documentos-plan/formularios-miembros/como-cancelar-inscripcion\">Saber más sobre Cancelación de inscripción</a></span>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/formularios-miembros/como-cancelar-inscripcion\">Saber más sobre Cancelación de inscripción</a>"
+					},
+					{
+						"html": "<p><strong>Inscripción<br></strong>Únase a un plan Devoted Health HMO. </p>"
+					},
+					{
+						"html": "<strong>Inscripción<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2023</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2023</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2023/DH-EnrollmentForm-2023-PO211157_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2023</a>"
+					},
+					{
+						"html": "<p><span class=\"primary-button\"><a href=\"https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2024</a></span></p>"
+					},
+					{
+						"html": "<span class=\"primary-button\"><a href=\"https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2024</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/enrollment-forms/2024/DH-EnrollmentForm-Onshore-2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de inscripción 2024</a>"
+					},
+					{
+						"html": "<p><strong>Autorización previa<br></strong>Normalmente, su proveedor se encarga de las <a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>. Sin embargo, puede solicitar una usted mismo.</p>"
+					},
+					{
+						"html": "<strong>Autorización previa<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/es/sus-derechos-cobertura/cobertura-medica-derechos\">autorizaciones previas</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2023</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2023</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2023</a>"
+					},
+					{
+						"html": "<p><span class=\"primary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2024</a></span></p>"
+					},
+					{
+						"html": "<span class=\"primary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2024</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_SPA_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de autorización previa 2024</a>"
+					},
+					{
+						"html": "<h2>Formularios de medicamentos con receta</h2>"
+					},
+					{
+						"html": "<p><strong>Formulario de reembolso de medicamentos con receta<br></strong>Utilice nuestro formulario de reembolso de medicamentos con receta para recibir el reembolso de los medicamentos cubiertos que pagó.</p>"
+					},
+					{
+						"html": "<strong>Formulario de reembolso de medicamentos con receta<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_SPA.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_CVS-Caremark-Prescription-Drug-Reimbursement-Form_ENG.pdf\" target=\"undefined\" rel=\"noopener noreferrer\">Inglés</a>"
+					},
+					{
+						"html": "<p><strong>Determinación de cobertura para medicamentos con receta de Medicare<br></strong>Use este formulario para <a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a> acerca de un medicamento con receta.</p>"
+					},
+					{
+						"html": "<strong>Determinación de cobertura para medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">pedir una determinación de cobertura</a>"
+					},
+					{
+						"html": "<p><span class=\"label\"><a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de determinación de cobertura</a></span></p>"
+					},
+					{
+						"html": "<span class=\"label\"><a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de determinación de cobertura</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Determination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de determinación de cobertura</a>"
+					},
+					{
+						"html": "<p><strong>Redeterminación del rechazo de medicamentos con receta de Medicare<br></strong>Use este formulario para <a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a> acerca de un medicamento con receta.</p>"
+					},
+					{
+						"html": "<strong>Redeterminación del rechazo de medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una apelación de una determinación de cobertura</a>"
+					},
+					{
+						"html": "<p><span class=\"label\"><a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de redeterminación</a></span></p>"
+					},
+					{
+						"html": "<span class=\"label\"><a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de redeterminación</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2023/2023_DH_PartD-Redetermination_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Ver Formulario de redeterminación</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Reconsideración del rechazo de medicamentos con receta de Medicare<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"/es/documentos-plan/cobertura-medicamentos-receta-derechos\">realizar una segunda apelación en una determinación de cobertura</a>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-AZ-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-CO-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-FL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>Hawaii: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-HI-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-IL-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>North Carolina: <a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-NC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OH-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-OR-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-PA-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-SC-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TN-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-HMO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">HMO</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/member-forms/2024/2024_DH_Reconsideration-Form-TX-PPO_SPA\" target=\"_blank\" rel=\"noopener noreferrer\">PPO</a>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Envíe un mensaje de texto a una Guía al<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">O llámenos al<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/es/renuncias/\">Renuncias</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/es/renuncias/\">Renuncias</a></p>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->10.25.2023</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->10.25.2023</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/es/documentos-plan/formularios-miembros/"
+}

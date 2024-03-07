@@ -1,0 +1,2030 @@
+{
+	"url": "https://fhir.devoted.com/",
+	"pageTitle": "HAPI FHIR",
+	"totalItems": 419,
+	"mustFix": {
+		"totalItems": 49,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 47,
+				"items": [
+					{
+						"html": "<span id=\"serverSelectorName\">Server: Local Tester</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #9a9da0, background color: #343a40, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/a962f9de503325499f3fd638d00e0e68d3ad19edf5cacbb7a89a0e889ca524a5.jpeg",
+						"xpath": "#serverSelectorName"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://github.com/hapifhir/hapi-fhir\">",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #9a9da0, background color: #343a40, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c20d5b536075533d6b0286b087aa799265d094f8feef8b64cceee3282d7864f3.jpeg",
+						"xpath": ".navbar-nav:nth-child(2) > .nav-item:nth-child(1) > .nav-link"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"/about\">",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #9a9da0, background color: #343a40, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/53ce460ae066e480c51788aedd39796c091533d6f50a5ec80ee7fd86aafddc27.jpeg",
+						"xpath": "a[href$=\"about\"]"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Encoding</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #808080, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/ec41d73ac6eff2c6b5a712cc3e39f13a07b859e47200f00ceeda90fcc658e065.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(2)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">XML\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/bd68ed78182db373e84c6221baea3dfa8069a7adb7e01dc7f6acd4be774f1d3f.jpeg",
+						"xpath": "#encodingBtnGroup > .btn-info:nth-child(2)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">JSON\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/e4a80175daae7f0ab635748f6972cf9d858d421471a5b45bd6a79387ef0a7b98.jpeg",
+						"xpath": "#encodingBtnGroup > .btn-info:nth-child(3)"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Pretty</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #808080, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/1ad181e3555818467d2323cc90b3ce35571bb2b60a5da071a3f20ff6363246ff.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(5)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">(default)\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.08 (foreground color: #ffffff, background color: #17a1b7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c4d85c039641d3a7d3f2b948ee6d6a07192d98600ec189ab23d4a6b7b47ebf5e.jpeg",
+						"xpath": "#prettyBtnGroup > .btn-info:nth-child(1)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">On\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/d8f410e4ad61e105171009040b2ec535ab56ec10c72fa4ab1f7e7fe68fcc5e5b.jpeg",
+						"xpath": "#prettyBtnGroup > .btn-info:nth-child(2)"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Summary</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #808080, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/a372932a841a563bac46af82937db91481443ec834debaf9ec7effc1db59c25f.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(8)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">true\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c25dc7e1073a757fc1450e46e9d953e0df8af0af2a732377e76208e71f993d99.jpeg",
+						"xpath": "#summaryBtnGroup > .btn-info:nth-child(2)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">text\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/770a6358b50f63c95a68948654a20f172a4b8379a627c539d4f70ed5f10629b7.jpeg",
+						"xpath": "#summaryBtnGroup > .btn-info:nth-child(3)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">data\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/a41af337bdff4acbc22367367e0dd073db9bd4876b2f09f84ea009bf6d37e780.jpeg",
+						"xpath": ".btn-info:nth-child(4)"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">count\n\t\t</label>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #ffffff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/6a7c7593096dc7d5841400e9ed7c9596cf0dc155565aa86f4267c86abcf4291c.jpeg",
+						"xpath": ".btn-info:nth-child(5)"
+					},
+					{
+						"html": "<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #ffffff, background color: #428bca, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/8109f4c012d71f5908684d483b6c0e177c0a76cb99f1604f3a5ab474e78ae6df.jpeg",
+						"xpath": "a[onclick=\"doAction(this, 'home', null);\"]"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitionerRole\" href=\"#\" data1=\"PractitionerRole\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitionerRole\n\t\t\t\t\t<span class=\"badge badge-secondary\">1031028</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourcePractitionerRole"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">1031028</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/a89bf4f47133e844a47ec02ede214688047157bf4ea52e53ff1784f6205aa1e4.jpeg",
+						"xpath": "#leftResourcePractitionerRole > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceMedicationKnowledge\" href=\"#\" data1=\"MedicationKnowledge\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tMedicationKnowledge\n\t\t\t\t\t<span class=\"badge badge-secondary\">164231</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceMedicationKnowledge"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">164231</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c9faccccda8371f3357da388a1a0fb5c617146ea25a0ed8865339d5b6b6dec94.jpeg",
+						"xpath": "#leftResourceMedicationKnowledge > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitioner\" href=\"#\" data1=\"Practitioner\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitioner\n\t\t\t\t\t<span class=\"badge badge-secondary\">116220</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/bba11b567899c2b67165ac1d1424ab0e11fa9818528ec9102a99aaadbc2b3a6f.jpeg",
+						"xpath": "#leftResourcePractitioner"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">116220</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/1022b321091097571d0ef4db7482c49f886f07194e724e437991df740ddd574d.jpeg",
+						"xpath": "#leftResourcePractitioner > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceLocation\" href=\"#\" data1=\"Location\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tLocation\n\t\t\t\t\t<span class=\"badge badge-secondary\">18811</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceLocation"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">18811</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c8d07f3d220bc14c6923906bd5517de4d9a9aa34ca627c42f69329baf72eb63d.jpeg",
+						"xpath": "#leftResourceLocation > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceHealthcareService\" href=\"#\" data1=\"HealthcareService\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tHealthcareService\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceHealthcareService"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/8fba9389ddb78a20eaf93afc9f963020678aa507b33973be05e68a1b8cd81d6a.jpeg",
+						"xpath": "#leftResourceHealthcareService > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganization\" href=\"#\" data1=\"Organization\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganization\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceOrganization"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/abd81acbc7a737f65c00b4c304f78ce5709c8e7610abdd104b39db1a686e9ad0.jpeg",
+						"xpath": "#leftResourceOrganization > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganizationAffiliation\" href=\"#\" data1=\"OrganizationAffiliation\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganizationAffiliation\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/bba11b567899c2b67165ac1d1424ab0e11fa9818528ec9102a99aaadbc2b3a6f.jpeg",
+						"xpath": "#leftResourceOrganizationAffiliation"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/be594ef585c76e681647bfa15adae26b2a43c95e4cd22eef3207f385960d8811.jpeg",
+						"xpath": "#leftResourceOrganizationAffiliation > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceList\" href=\"#\" data1=\"List\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tList\n\t\t\t\t\t<span class=\"badge badge-secondary\">172</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceList"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">172</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/285be9dbc8e7c2535adc15f5be9197bc05ed0f4abbfce547b775120bfc6bab7a.jpeg",
+						"xpath": "#leftResourceList > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceSearchParameter\" href=\"#\" data1=\"SearchParameter\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSearchParameter\n\t\t\t\t\t<span class=\"badge badge-secondary\">97</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceSearchParameter"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">97</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/844b40b3851a1e90fab9eec44e0f1608d56b17c72b1a0ecd06a7287c1e07e5fc.jpeg",
+						"xpath": "#leftResourceSearchParameter > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceStructureDefinition\" href=\"#\" data1=\"StructureDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tStructureDefinition\n\t\t\t\t\t<span class=\"badge badge-secondary\">47</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/bba11b567899c2b67165ac1d1424ab0e11fa9818528ec9102a99aaadbc2b3a6f.jpeg",
+						"xpath": "#leftResourceStructureDefinition"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">47</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/f7a9b52eb94ce8d5278ec01ec5edd03d86fe127595989231397b41d7ffc7df83.jpeg",
+						"xpath": "#leftResourceStructureDefinition > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceValueSet\" href=\"#\" data1=\"ValueSet\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tValueSet\n\t\t\t\t\t<span class=\"badge badge-secondary\">39</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceValueSet"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">39</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/ef17efb053472298c448cba0c71853960836db6ced5027df436d4117153979f9.jpeg",
+						"xpath": "#leftResourceValueSet > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceCodeSystem\" href=\"#\" data1=\"CodeSystem\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tCodeSystem\n\t\t\t\t\t<span class=\"badge badge-secondary\">10</span>\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceCodeSystem"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">10</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #ffffff, background color: #98a5b0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/c30a547a48de07d4d85b560ca889a176bdcd035a5813e7761ec2391b17f1e977.jpeg",
+						"xpath": "#leftResourceCodeSystem > .badge.badge-secondary"
+					},
+					{
+						"html": "<a id=\"leftResourceInsurancePlan\" href=\"#\" data1=\"InsurancePlan\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tInsurancePlan\n\t\t\t\t\t\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceInsurancePlan"
+					},
+					{
+						"html": "<a id=\"leftResourceOperationDefinition\" href=\"#\" data1=\"OperationDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOperationDefinition\n\t\t\t\t\t\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceOperationDefinition"
+					},
+					{
+						"html": "<a id=\"leftResourceSubscription\" href=\"#\" data1=\"Subscription\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSubscription\n\t\t\t\t\t\n\t\t\t\t</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #007bff, background color: #f5f5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b70462d2a5d2e744815b33d9c431b7bb6176097610234e5b4c53de228e060c12.jpeg",
+						"xpath": "#leftResourceSubscription"
+					},
+					{
+						"html": "<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/94a7ccaa3523b6195c60d68e73db2f5efb18ce69e8d902c8ca2165bfb94e641b.jpeg",
+						"xpath": "p:nth-child(2) > a"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/5c18f3f1c89294c039fba592f1e747956ae5b8fed2340cb63db534baf99fa553.jpeg",
+						"xpath": "td:nth-child(2) > a[href$=\"fhir\"]"
+					},
+					{
+						"html": "<a type=\"button\" id=\"fetch-conformance-btn\" class=\"btn btn-primary btn-block\">",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #ffffff, background color: #007bff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/ebae4915783ad30e5c85e01c3742ed2688ea63b6fd507b7c91aab80bfc52cf8a.jpeg",
+						"xpath": "#fetch-conformance-btn"
+					},
+					{
+						"html": "<button type=\"button\" id=\"server-history-btn\" class=\"btn btn-primary btn-block\">",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #ffffff, background color: #007bff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/0edf61f6ce76be0b538cbb3e143ab9c49d4c67fb3389aa2070f27aec276b7354.jpeg",
+						"xpath": "#server-history-btn"
+					},
+					{
+						"html": "<button type=\"button\" id=\"transaction-btn\" class=\"btn btn-primary btn-block\">",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #ffffff, background color: #007bff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/e2c8c6ece07d051639f7bd2f2582e3bf5fb956ea044583ad84634b08f838b17d.jpeg",
+						"xpath": "#transaction-btn"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"axeImpact": "critical",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/edc559fcc96a480e135471e0982b4a0bd630d73171374e55f912f7597b9a0240.jpeg",
+						"xpath": "img[src=\"img/hapi_fhir_banner_right.png\"]"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"axeImpact": "critical",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-since\">",
+						"message": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/e8703064fe7b9cc0f970f7b2d2b01345898a1c5d2ac346cde3b44b9512e0a673.jpeg",
+						"xpath": "#server-history-since"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 25,
+		"rules": {
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/fe0d67cc02c1729c7cf7f39e5f2fa2f028676009aa783279f332f465368a2dab.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/f69f4157f7a975a464546bcbafdee1ea5985e43b1abab0f2508b85a65d0c45c6.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<h4>Options</h4>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/aa924e25c8356b5bb768f45ceb010bdd03646b18976d852dafd0e823eded9fff.jpeg",
+						"xpath": "h4:nth-child(1)"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Encoding</label>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/ec41d73ac6eff2c6b5a712cc3e39f13a07b859e47200f00ceeda90fcc658e065.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(2)"
+					},
+					{
+						"html": "<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\" id=\"encodingBtnGroup\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/7d9438e5b7da6198d7b9737b69299690d3160a632ea15d3ad9de3e9254f06610.jpeg",
+						"xpath": "#encodingBtnGroup"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Pretty</label>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/1ad181e3555818467d2323cc90b3ce35571bb2b60a5da071a3f20ff6363246ff.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(5)"
+					},
+					{
+						"html": "<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\" id=\"prettyBtnGroup\" style=\"margin-top: 5px; width: 210.266px;\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/45d7c55d6c34267422f325e80b5581dee4acb3167045d6c8bfa82ab3cd5d8a50.jpeg",
+						"xpath": "#prettyBtnGroup"
+					},
+					{
+						"html": "<label class=\"navBarButtonLabel\">Summary</label>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/a372932a841a563bac46af82937db91481443ec834debaf9ec7effc1db59c25f.jpeg",
+						"xpath": ".navBarButtonLabel:nth-child(8)"
+					},
+					{
+						"html": "<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\" id=\"summaryBtnGroup\" style=\"margin-top: 5px;\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/7f39faea6fa6ac3aba83a2f29b1ef93a9b5ef4ed659236dc6c873609c926466f.jpeg",
+						"xpath": "#summaryBtnGroup"
+					},
+					{
+						"html": "<h4>Server</h4>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/92251dde9c146076fe9e7409019b06c39fd96c0fbd521825824d41643a50021f.jpeg",
+						"xpath": "h4:nth-child(11)"
+					},
+					{
+						"html": "<ul class=\"nav nav-sidebar\">\n\t\t<li class=\"active\">\n\t\t\t<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>\n\t\t</li>\n\t</ul>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/8109f4c012d71f5908684d483b6c0e177c0a76cb99f1604f3a5ab474e78ae6df.jpeg",
+						"xpath": ".nav.nav-sidebar:nth-child(12)"
+					},
+					{
+						"html": "<h4>Resources</h4>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/49de0d224e6a2d72054de330fe0507c2d059224bb6fd16d1f8f1dce1bac0fed4.jpeg",
+						"xpath": "h4:nth-child(13)"
+					},
+					{
+						"html": "<ul class=\"nav nav-sidebar\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/bc94d12cc4b5252df25ac09cee2050d35e699eae10980b25fea06fe4192f97da.jpeg",
+						"xpath": ".nav.nav-sidebar:nth-child(14)"
+					},
+					{
+						"html": "<div>\n\t<div class=\"row\">\n\t\t<div class=\"col-md-8\">\n\t\t\t<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">\n\t\t</div>\n\t\t<div class=\"col-md-4\">\n\t\t\t<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">\n\t\t</div>\n\t</div>\n\t\n\t<!-- Error banner in case anything went wrong -->\t\n\t\n\t\n</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/1ca5f67c77dbe33e34c185616eeee2cffe969b90e996efeef633e01f96cb2e0f.jpeg",
+						"xpath": ".col-sm-offset-3 > div:nth-child(1)"
+					},
+					{
+						"html": "<div class=\"well\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/d4bb7275e191e91400f627ab760c777680492dd54d4f1e85a778c62b96963530.jpeg",
+						"xpath": ".well"
+					},
+					{
+						"html": "<table class=\"table table-bordered table-striped\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/469e38d8723d170e6444a637bdac191324ca91fac02217eba4ed9eab8cba9be8.jpeg",
+						"xpath": "table"
+					},
+					{
+						"html": "<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t<h3 class=\"panel-title\">Server Actions</h3>\n\t\t\t\t\t\t\t</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/ffdfc1175698304539e7e537149c6c0283f41ad9be1373db40cf7d3f36849f8d.jpeg",
+						"xpath": ".panel-heading"
+					},
+					{
+						"html": "<div class=\"row\">\n                              <div class=\"col-12\">\n   \t\t\t\t\t\t\t\t\t\tRetrieve the server's <b>conformance</b> statement.\n                              </div>\n\t\t\t\t\t\t\t\t\t</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/db9ecbab6b94034336f14a27ba43722e1f91b0c58a44d9d3e97778ab55d411ef.jpeg",
+						"xpath": ".panel-body > .container-fluid > .row:nth-child(1)"
+					},
+					{
+						"html": "<a type=\"button\" id=\"fetch-conformance-btn\" class=\"btn btn-primary btn-block\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/6aa50b12ea50ab13e182fa199e1054a127db7973c0dd9f2124363187fc987414.jpeg",
+						"xpath": "#fetch-conformance-btn"
+					},
+					{
+						"html": "<div class=\"row\">\n                              <div class=\"col-12\">\n                                 Retrieve the update <b>history</b> across all resource types on\n                                 the server.\n                              </div>\n\t\t\t\t\t\t\t\t\t</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/e86f2a7ae6839036b247e61a91e962375d03ad1802027e2a66acde40f137e517.jpeg",
+						"xpath": ".row:nth-child(4)"
+					},
+					{
+						"html": "<div class=\"input-group-prepend\">\n                                               <span class=\"input-group-text\">\n      \t\t\t\t\t\t\t\t                    Since\n                                               </span>\n\t\t\t\t\t\t\t\t                    </div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/e8b55bc6dc2d9c89e92cbf72388700b570cae4d4d57c1fae9f1fb9d79c0e6c72.jpeg",
+						"xpath": "#server-history-datetime > .input-group-prepend"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-since\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/335a2b6697878bbf73028f1310e43c29e502ea66d79def646307ab6b4aba1ad1.jpeg",
+						"xpath": "#server-history-since"
+					},
+					{
+						"html": "<div class=\"col-sm-3\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/a5e4795e42c53e1e82199af7b5fb2274d76f38061ee855f866698cbbaa7641fc.jpeg",
+						"xpath": ".col-sm-3:nth-child(3)"
+					},
+					{
+						"html": "<div class=\"row\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/c51ea307e62e18e76c7b1a4dcc6a84b424a338011917675a785304b6802173dd.jpeg",
+						"xpath": ".row:nth-child(7)"
+					},
+					{
+						"html": "<div class=\"col-sm-9\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/dda83e492405c2e5fa2f1d5bf3cbdf8684f1c7fbd1cd1f408dbc058fb347d7db.jpeg",
+						"xpath": ".row:nth-child(8) > .col-sm-9"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 1,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/6997b76d073492cbb4087589e432f4be2b213125169c9ff9a1d451ddcddbe255.jpeg",
+						"xpath": "#transaction-body",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 344,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<svg class=\"svg-inline--fa fa-home fa-w-18\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fa\" data-icon=\"home\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-fire fa-w-12\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"fire\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-check-square fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"check-square\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-square fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"square\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-github fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"github\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 496 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-question-circle fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fa\" data-icon=\"question-circle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-dot-circle fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"dot-circle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-calendar-alt fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"calendar-alt\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-calendar-alt fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"calendar-alt\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-file-archive fa-w-12\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"file-archive\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\" data-fa-i2svg=\"\">"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 10,
+				"items": [
+					{
+						"html": "<svg class=\"svg-inline--fa fa-home fa-w-18\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fa\" data-icon=\"home\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-fire fa-w-12\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"fire\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-check-square fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"check-square\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-square fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"square\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-github fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"github\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 496 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-question-circle fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fa\" data-icon=\"question-circle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-dot-circle fa-w-16\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"dot-circle\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-calendar-alt fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"calendar-alt\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-calendar-alt fa-w-14\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"calendar-alt\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<svg class=\"svg-inline--fa fa-file-archive fa-w-12\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"file-archive\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\" data-fa-i2svg=\"\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\" id=\"prettyBtnGroup\" style=\"margin-top: 5px; width: 210.266px;\">"
+					},
+					{
+						"html": "<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\" id=\"summaryBtnGroup\" style=\"margin-top: 5px;\">"
+					},
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<button type=\"button\" id=\"server-history-btn\" class=\"btn btn-primary btn-block\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"transaction-btn\" class=\"btn btn-primary btn-block\">"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 25,
+				"items": [
+					{
+						"html": "<a class=\"navbar-brand\" href=\"home?encoding=null&amp;pretty=null\">"
+					},
+					{
+						"html": "<h4>Options</h4>"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">(default)\n\t\t</label>"
+					},
+					{
+						"html": "<label class=\"btn btn-info active\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">Off\n\t\t</label>"
+					},
+					{
+						"html": "<label class=\"btn btn-info active focus\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">(none)\n\t\t</label>"
+					},
+					{
+						"html": "<h4>Server</h4>"
+					},
+					{
+						"html": "<h4>Resources</h4>"
+					},
+					{
+						"html": "<p>\n\t\t\tThis server provides a complete implementation of the FHIR Specification\n\t\t\tusing a 100% open source software stack.\n\t\t</p>"
+					},
+					{
+						"html": "<p>\n\t\t\tThis server is built\n\t\t\tfrom a number of modules of the\n\t\t\t<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>\n\t\t\tproject, which is a 100% open-source (Apache 2.0 Licensed) Java based\n\t\t\timplementation of the FHIR specification.\n\t\t</p>"
+					},
+					{
+						"html": "<td>Server</td>"
+					},
+					{
+						"html": "<td>HAPI FHIR R4 Server</td>"
+					},
+					{
+						"html": "<td>Software</td>"
+					},
+					{
+						"html": "<td>\n\t\t\t\t\t\t\t\t\t\tHAPI FHIR Server - 6.6.0\n\t\t\t\t\t\t\t\t\t</td>"
+					},
+					{
+						"html": "<td>FHIR Base</td>"
+					},
+					{
+						"html": "<h3 class=\"panel-title\">Server Actions</h3>"
+					},
+					{
+						"html": "<div class=\"col-12\">\n   \t\t\t\t\t\t\t\t\t\tRetrieve the server's <b>conformance</b> statement.\n                              </div>"
+					},
+					{
+						"html": "<b>conformance</b>"
+					},
+					{
+						"html": "<div class=\"col-12\">\n                                 Retrieve the update <b>history</b> across all resource types on\n                                 the server.\n                              </div>"
+					},
+					{
+						"html": "<b>history</b>"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n      \t\t\t\t\t\t\t\t                    Since\n                                               </span>"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-since\">"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n\t\t\t\t\t\t\t\t                           Limit #\n                                               </span>"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-limit\" placeholder=\"(opt)\">"
+					},
+					{
+						"html": "<div class=\"col-12\">\n                                 Post a bundle containing multiple resources to the server and\n                                 store all resources within a single atomic transaction.\n                              </div>"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n\t\t\t\t\t\t\t\t                           Bundle\n\t\t\t\t\t\t\t\t                           <span class=\"loadingStar\">*</span>\n                                               </span>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">"
+					}
+				]
+			},
+			"duplicate-id-aria": {
+				"description": "IDs used in ARIA and labels must be unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/duplicate-id-aria?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">"
+					},
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<h4>Options</h4>"
+					},
+					{
+						"html": "<h4>Server</h4>"
+					},
+					{
+						"html": "<h4>Resources</h4>"
+					},
+					{
+						"html": "<h3 class=\"panel-title\">Server Actions</h3>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-since\">"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-limit\" placeholder=\"(opt)\">"
+					},
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<h4>Options</h4>"
+					},
+					{
+						"html": "<h4>Server</h4>"
+					},
+					{
+						"html": "<h4>Resources</h4>"
+					},
+					{
+						"html": "<h3 class=\"panel-title\">Server Actions</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" class=\"fontawesome-i2svg-active fontawesome-i2svg-complete\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">"
+					},
+					{
+						"html": "<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-since\">"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-limit\" placeholder=\"(opt)\">"
+					},
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 13,
+				"items": [
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-limit\" placeholder=\"(opt)\">"
+					},
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>"
+					}
+				]
+			},
+			"landmark-banner-is-top-level": {
+				"description": "Banner landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-banner-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"header\" id=\"header\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"header\" id=\"header\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<header class=\"header\" id=\"header\">"
+					},
+					{
+						"html": "<nav class=\"navbar navbar-dark bg-dark fixed-top navbar-expand-lg\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a class=\"navbar-brand\" href=\"home?encoding=null&amp;pretty=null\">"
+					},
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://github.com/hapifhir/hapi-fhir\">"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"/about\">"
+					},
+					{
+						"html": "<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitionerRole\" href=\"#\" data1=\"PractitionerRole\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitionerRole\n\t\t\t\t\t<span class=\"badge badge-secondary\">1031028</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceMedicationKnowledge\" href=\"#\" data1=\"MedicationKnowledge\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tMedicationKnowledge\n\t\t\t\t\t<span class=\"badge badge-secondary\">164231</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitioner\" href=\"#\" data1=\"Practitioner\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitioner\n\t\t\t\t\t<span class=\"badge badge-secondary\">116220</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceLocation\" href=\"#\" data1=\"Location\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tLocation\n\t\t\t\t\t<span class=\"badge badge-secondary\">18811</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceHealthcareService\" href=\"#\" data1=\"HealthcareService\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tHealthcareService\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganization\" href=\"#\" data1=\"Organization\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganization\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganizationAffiliation\" href=\"#\" data1=\"OrganizationAffiliation\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganizationAffiliation\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceList\" href=\"#\" data1=\"List\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tList\n\t\t\t\t\t<span class=\"badge badge-secondary\">172</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceSearchParameter\" href=\"#\" data1=\"SearchParameter\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSearchParameter\n\t\t\t\t\t<span class=\"badge badge-secondary\">97</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceStructureDefinition\" href=\"#\" data1=\"StructureDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tStructureDefinition\n\t\t\t\t\t<span class=\"badge badge-secondary\">47</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceValueSet\" href=\"#\" data1=\"ValueSet\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tValueSet\n\t\t\t\t\t<span class=\"badge badge-secondary\">39</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceCodeSystem\" href=\"#\" data1=\"CodeSystem\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tCodeSystem\n\t\t\t\t\t<span class=\"badge badge-secondary\">10</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceInsurancePlan\" href=\"#\" data1=\"InsurancePlan\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tInsurancePlan\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceOperationDefinition\" href=\"#\" data1=\"OperationDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOperationDefinition\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a id=\"leftResourceSubscription\" href=\"#\" data1=\"Subscription\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSubscription\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<ul class=\"navbar-nav ml-auto\">"
+					},
+					{
+						"html": "<ul class=\"navbar-nav\">"
+					},
+					{
+						"html": "<ul class=\"nav nav-sidebar\">\n\t\t<li class=\"active\">\n\t\t\t<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>\n\t\t</li>\n\t</ul>"
+					},
+					{
+						"html": "<ul class=\"nav nav-sidebar\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<li class=\"nav-item dropdown\">"
+					},
+					{
+						"html": "<li class=\"nav-item\">"
+					},
+					{
+						"html": "<li class=\"nav-item\">"
+					},
+					{
+						"html": "<li class=\"active\">\n\t\t\t<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>\n\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourcePractitionerRole\" href=\"#\" data1=\"PractitionerRole\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitionerRole\n\t\t\t\t\t<span class=\"badge badge-secondary\">1031028</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceMedicationKnowledge\" href=\"#\" data1=\"MedicationKnowledge\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tMedicationKnowledge\n\t\t\t\t\t<span class=\"badge badge-secondary\">164231</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourcePractitioner\" href=\"#\" data1=\"Practitioner\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitioner\n\t\t\t\t\t<span class=\"badge badge-secondary\">116220</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceLocation\" href=\"#\" data1=\"Location\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tLocation\n\t\t\t\t\t<span class=\"badge badge-secondary\">18811</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceHealthcareService\" href=\"#\" data1=\"HealthcareService\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tHealthcareService\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOrganization\" href=\"#\" data1=\"Organization\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganization\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOrganizationAffiliation\" href=\"#\" data1=\"OrganizationAffiliation\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganizationAffiliation\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceList\" href=\"#\" data1=\"List\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tList\n\t\t\t\t\t<span class=\"badge badge-secondary\">172</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceSearchParameter\" href=\"#\" data1=\"SearchParameter\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSearchParameter\n\t\t\t\t\t<span class=\"badge badge-secondary\">97</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceStructureDefinition\" href=\"#\" data1=\"StructureDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tStructureDefinition\n\t\t\t\t\t<span class=\"badge badge-secondary\">47</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceValueSet\" href=\"#\" data1=\"ValueSet\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tValueSet\n\t\t\t\t\t<span class=\"badge badge-secondary\">39</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceCodeSystem\" href=\"#\" data1=\"CodeSystem\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tCodeSystem\n\t\t\t\t\t<span class=\"badge badge-secondary\">10</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceInsurancePlan\" href=\"#\" data1=\"InsurancePlan\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tInsurancePlan\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOperationDefinition\" href=\"#\" data1=\"OperationDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOperationDefinition\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceSubscription\" href=\"#\" data1=\"Subscription\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSubscription\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 16,
+				"items": [
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">"
+					},
+					{
+						"html": "<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">"
+					},
+					{
+						"html": "<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"server-history-btn\" class=\"btn btn-primary btn-block\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"transaction-btn\" class=\"btn btn-primary btn-block\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 154,
+				"items": [
+					{
+						"html": "<form action=\"\" method=\"get\" id=\"outerForm\">"
+					},
+					{
+						"html": "<header class=\"header\" id=\"header\">"
+					},
+					{
+						"html": "<nav class=\"navbar navbar-dark bg-dark fixed-top navbar-expand-lg\">"
+					},
+					{
+						"html": "<a class=\"navbar-brand\" href=\"home?encoding=null&amp;pretty=null\">"
+					},
+					{
+						"html": "<span class=\"topbarIcon\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">"
+					},
+					{
+						"html": "<ul class=\"navbar-nav ml-auto\">"
+					},
+					{
+						"html": "<li class=\"nav-item dropdown\">"
+					},
+					{
+						"html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">"
+					},
+					{
+						"html": "<i class=\"topbarIcon\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<span id=\"serverSelectorName\">Server: Local Tester</span>"
+					},
+					{
+						"html": "<span class=\"caret\"></span>"
+					},
+					{
+						"html": "<ul class=\"navbar-nav\">"
+					},
+					{
+						"html": "<li class=\"nav-item\">"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"https://github.com/hapifhir/hapi-fhir\">"
+					},
+					{
+						"html": "<i class=\"topbarIcon\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<li class=\"nav-item\">"
+					},
+					{
+						"html": "<a class=\"nav-link\" href=\"/about\">"
+					},
+					{
+						"html": "<span class=\"topbarIcon\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<div class=\"container-fluid\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-sm-3 col-md-3 sidebar\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">(default)\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-default\" value=\"\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">XML\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-xml\" value=\"xml\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">JSON\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"encoding\" id=\"encode-json\" value=\"json\">"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<label class=\"btn btn-info\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">(default)\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-default\" value=\"\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">On\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-true\" value=\"true\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info active\"> <input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">Off\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"pretty\" id=\"pretty-false\" value=\"false\">"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<label class=\"btn btn-info active focus\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">(none)\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-default\" value=\"\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">true\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-true\" value=\"true\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">text\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-text\" value=\"text\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">data\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-data\" value=\"data\">"
+					},
+					{
+						"html": "<label class=\"btn btn-info\">\n\t\t\t<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">count\n\t\t</label>"
+					},
+					{
+						"html": "<input type=\"radio\" name=\"_summary\" id=\"summary-count\" value=\"count\">"
+					},
+					{
+						"html": "<li class=\"active\">\n\t\t\t<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>\n\t\t</li>"
+					},
+					{
+						"html": "<a href=\"#\" onclick=\"doAction(this, 'home', null);\">Server Home/Actions</a>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourcePractitionerRole\" href=\"#\" data1=\"PractitionerRole\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitionerRole\n\t\t\t\t\t<span class=\"badge badge-secondary\">1031028</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitionerRole\" href=\"#\" data1=\"PractitionerRole\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitionerRole\n\t\t\t\t\t<span class=\"badge badge-secondary\">1031028</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">1031028</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceMedicationKnowledge\" href=\"#\" data1=\"MedicationKnowledge\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tMedicationKnowledge\n\t\t\t\t\t<span class=\"badge badge-secondary\">164231</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceMedicationKnowledge\" href=\"#\" data1=\"MedicationKnowledge\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tMedicationKnowledge\n\t\t\t\t\t<span class=\"badge badge-secondary\">164231</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">164231</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourcePractitioner\" href=\"#\" data1=\"Practitioner\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitioner\n\t\t\t\t\t<span class=\"badge badge-secondary\">116220</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourcePractitioner\" href=\"#\" data1=\"Practitioner\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tPractitioner\n\t\t\t\t\t<span class=\"badge badge-secondary\">116220</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">116220</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceLocation\" href=\"#\" data1=\"Location\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tLocation\n\t\t\t\t\t<span class=\"badge badge-secondary\">18811</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceLocation\" href=\"#\" data1=\"Location\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tLocation\n\t\t\t\t\t<span class=\"badge badge-secondary\">18811</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">18811</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceHealthcareService\" href=\"#\" data1=\"HealthcareService\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tHealthcareService\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceHealthcareService\" href=\"#\" data1=\"HealthcareService\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tHealthcareService\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOrganization\" href=\"#\" data1=\"Organization\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganization\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganization\" href=\"#\" data1=\"Organization\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganization\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOrganizationAffiliation\" href=\"#\" data1=\"OrganizationAffiliation\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganizationAffiliation\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceOrganizationAffiliation\" href=\"#\" data1=\"OrganizationAffiliation\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOrganizationAffiliation\n\t\t\t\t\t<span class=\"badge badge-secondary\">6415</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">6415</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceList\" href=\"#\" data1=\"List\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tList\n\t\t\t\t\t<span class=\"badge badge-secondary\">172</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceList\" href=\"#\" data1=\"List\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tList\n\t\t\t\t\t<span class=\"badge badge-secondary\">172</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">172</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceSearchParameter\" href=\"#\" data1=\"SearchParameter\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSearchParameter\n\t\t\t\t\t<span class=\"badge badge-secondary\">97</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceSearchParameter\" href=\"#\" data1=\"SearchParameter\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSearchParameter\n\t\t\t\t\t<span class=\"badge badge-secondary\">97</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">97</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceStructureDefinition\" href=\"#\" data1=\"StructureDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tStructureDefinition\n\t\t\t\t\t<span class=\"badge badge-secondary\">47</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceStructureDefinition\" href=\"#\" data1=\"StructureDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tStructureDefinition\n\t\t\t\t\t<span class=\"badge badge-secondary\">47</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">47</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceValueSet\" href=\"#\" data1=\"ValueSet\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tValueSet\n\t\t\t\t\t<span class=\"badge badge-secondary\">39</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceValueSet\" href=\"#\" data1=\"ValueSet\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tValueSet\n\t\t\t\t\t<span class=\"badge badge-secondary\">39</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">39</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceCodeSystem\" href=\"#\" data1=\"CodeSystem\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tCodeSystem\n\t\t\t\t\t<span class=\"badge badge-secondary\">10</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceCodeSystem\" href=\"#\" data1=\"CodeSystem\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tCodeSystem\n\t\t\t\t\t<span class=\"badge badge-secondary\">10</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"badge badge-secondary\">10</span>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceInsurancePlan\" href=\"#\" data1=\"InsurancePlan\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tInsurancePlan\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceInsurancePlan\" href=\"#\" data1=\"InsurancePlan\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tInsurancePlan\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceOperationDefinition\" href=\"#\" data1=\"OperationDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOperationDefinition\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceOperationDefinition\" href=\"#\" data1=\"OperationDefinition\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tOperationDefinition\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<li>\n\n\t\t\t\t<a id=\"leftResourceSubscription\" href=\"#\" data1=\"Subscription\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSubscription\n\t\t\t\t\t\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a id=\"leftResourceSubscription\" href=\"#\" data1=\"Subscription\" onclick=\"doAction(this, 'resource', this.getAttribute('data1'));\">\n\t\t\t\t\tSubscription\n\t\t\t\t\t\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<div class=\"col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 main\">"
+					},
+					{
+						"html": "<div class=\"row\">\n\t\t<div class=\"col-md-8\">\n\t\t\t<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">\n\t\t</div>\n\t\t<div class=\"col-md-4\">\n\t\t\t<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">\n\t\t</div>\n\t</div>"
+					},
+					{
+						"html": "<div class=\"col-md-8\">\n\t\t\t<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">\n\t\t</div>"
+					},
+					{
+						"html": "<img src=\"img/sample-logo.jpg\" width=\"383\" alt=\"Sample Logo\">"
+					},
+					{
+						"html": "<div class=\"col-md-4\">\n\t\t\t<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">\n\t\t</div>"
+					},
+					{
+						"html": "<img src=\"img/hapi_fhir_banner_right.png\" align=\"right\">"
+					},
+					{
+						"html": "<p>\n\t\t\tThis server provides a complete implementation of the FHIR Specification\n\t\t\tusing a 100% open source software stack.\n\t\t</p>"
+					},
+					{
+						"html": "<p>\n\t\t\tThis server is built\n\t\t\tfrom a number of modules of the\n\t\t\t<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>\n\t\t\tproject, which is a 100% open-source (Apache 2.0 Licensed) Java based\n\t\t\timplementation of the FHIR specification.\n\t\t</p>"
+					},
+					{
+						"html": "<a href=\"https://github.com/jamesagnew/hapi-fhir/\">HAPI FHIR</a>"
+					},
+					{
+						"html": "<colgroup>\n\t\t\t\t\t\t\t\t<col class=\"col-xs-1\">\n\t\t\t\t\t\t\t\t<col class=\"col-xs-7\">\n\t\t\t\t\t\t\t</colgroup>"
+					},
+					{
+						"html": "<col class=\"col-xs-1\">"
+					},
+					{
+						"html": "<col class=\"col-xs-7\">"
+					},
+					{
+						"html": "<tbody>"
+					},
+					{
+						"html": "<tr>\n\t\t\t\t\t\t\t\t\t<td>Server</td>\n\t\t\t\t\t\t\t\t\t<td>HAPI FHIR R4 Server</td>\n\t\t\t\t\t\t\t\t</tr>"
+					},
+					{
+						"html": "<td>Server</td>"
+					},
+					{
+						"html": "<td>HAPI FHIR R4 Server</td>"
+					},
+					{
+						"html": "<tr>\n\t\t\t\t\t\t\t\t\t<td>Software</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\tHAPI FHIR Server - 6.6.0\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>"
+					},
+					{
+						"html": "<td>Software</td>"
+					},
+					{
+						"html": "<td>\n\t\t\t\t\t\t\t\t\t\tHAPI FHIR Server - 6.6.0\n\t\t\t\t\t\t\t\t\t</td>"
+					},
+					{
+						"html": "<tr>\n\t\t\t\t\t\t\t\t\t<td>FHIR Base</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>"
+					},
+					{
+						"html": "<td>FHIR Base</td>"
+					},
+					{
+						"html": "<td>\n\t\t\t\t\t\t\t\t\t\t<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>\n\t\t\t\t\t\t\t\t\t</td>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>"
+					},
+					{
+						"html": "<div class=\"panel panel-default\">"
+					},
+					{
+						"html": "<h3 class=\"panel-title\">Server Actions</h3>"
+					},
+					{
+						"html": "<div class=\"panel-body\">"
+					},
+					{
+						"html": "<div class=\"container-fluid\">"
+					},
+					{
+						"html": "<div class=\"col-12\">\n   \t\t\t\t\t\t\t\t\t\tRetrieve the server's <b>conformance</b> statement.\n                              </div>"
+					},
+					{
+						"html": "<b>conformance</b>"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-sm-3 form-group\">"
+					},
+					{
+						"html": "<i class=\"\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<br clear=\"all\">"
+					},
+					{
+						"html": "<div class=\"col-12\">\n                                 Retrieve the update <b>history</b> across all resource types on\n                                 the server.\n                              </div>"
+					},
+					{
+						"html": "<b>history</b>"
+					},
+					{
+						"html": "<div class=\"row top-buffer\">"
+					},
+					{
+						"html": "<div class=\"col-sm-3\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"server-history-btn\" class=\"btn btn-primary btn-block\">"
+					},
+					{
+						"html": "<i class=\"\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<div class=\"col-sm-5\">"
+					},
+					{
+						"html": "<div class=\"form-group\">"
+					},
+					{
+						"html": "<div class=\"input-group date\" id=\"server-history-datetime\" data-date-format=\"YYYY-MM-DDTHH:mm:ss\">"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n      \t\t\t\t\t\t\t\t                    Since\n                                               </span>"
+					},
+					{
+						"html": "<div class=\"input-group-append input-group-addon\">"
+					},
+					{
+						"html": "<span class=\"input-group-text\">"
+					},
+					{
+						"html": "<i class=\"\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<div class=\"form-group\">"
+					},
+					{
+						"html": "<div class=\"input-group\">"
+					},
+					{
+						"html": "<div class=\"input-group-prepend\">\n                                               <span class=\"input-group-text\">\n\t\t\t\t\t\t\t\t                           Limit #\n                                               </span>\n\t\t\t\t\t\t\t\t                    </div>"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n\t\t\t\t\t\t\t\t                           Limit #\n                                               </span>"
+					},
+					{
+						"html": "<input type=\"text\" class=\"form-control\" id=\"server-history-limit\" placeholder=\"(opt)\">"
+					},
+					{
+						"html": "<br clear=\"all\">"
+					},
+					{
+						"html": "<div class=\"col-12\">\n                                 Post a bundle containing multiple resources to the server and\n                                 store all resources within a single atomic transaction.\n                              </div>"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-sm-3\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"transaction-btn\" class=\"btn btn-primary btn-block\">"
+					},
+					{
+						"html": "<i class=\"\" data-fa-i2svg=\"\">"
+					},
+					{
+						"html": "<div class=\"form-group\">"
+					},
+					{
+						"html": "<div class=\"input-group\">"
+					},
+					{
+						"html": "<div class=\"input-group-prepend\">"
+					},
+					{
+						"html": "<span class=\"input-group-text\">\n\t\t\t\t\t\t\t\t                           Bundle\n\t\t\t\t\t\t\t\t                           <span class=\"loadingStar\">*</span>\n                                               </span>"
+					},
+					{
+						"html": "<span class=\"loadingStar\">*</span>"
+					},
+					{
+						"html": "<textarea class=\"form-control\" id=\"transaction-body\" style=\"white-space: nowrap; overflow: auto;\" placeholder=\"(place transaction bundle body here)\" rows=\"1\"></textarea>"
+					},
+					{
+						"html": "<div>\n\t</div>"
+					}
+				]
+			},
+			"scrollable-region-focusable": {
+				"description": "Scrollable region must have keyboard access",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/scrollable-region-focusable?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag211"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"table-duplicate-name": {
+				"description": "tables should not have the same summary and caption",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/table-duplicate-name?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<table class=\"table table-bordered table-striped\">"
+					}
+				]
+			},
+			"td-headers-attr": {
+				"description": "Table cells that use the headers attribute must only refer to cells in the same table",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/td-headers-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<table class=\"table table-bordered table-striped\">"
+					}
+				]
+			},
+			"th-has-data-cells": {
+				"description": "Table headers in a data table must refer to data cells",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/th-has-data-cells?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<table class=\"table table-bordered table-striped\">"
+					}
+				]
+			}
+		}
+	}
+}

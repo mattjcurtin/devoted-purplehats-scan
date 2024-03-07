@@ -1,0 +1,955 @@
+{
+	"url": "https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&utm_medium=homepage&utm_campaign=&utm_term=&utm_content=guide-hero&utm_cid=ZZCT00034",
+	"pageTitle": "Devoted Health | Get Your Guide",
+	"totalItems": 194,
+	"mustFix": {
+		"totalItems": 4,
+		"rules": {
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"crjs\">",
+						"message": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+						"screenshotPath": "elemScreenshots/html/ca905298aa0d0744aa4bb0882569d7331a90fcbeae1bf7385647e97ea1bc80ed.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">",
+						"message": "Fix all of the following:\n  Only title used to generate label for form element",
+						"screenshotPath": "elemScreenshots/html/00dc5599e69738d6e5b5948a765ea61d1b35e6063fb97ad17d87277366b4fd86.jpeg",
+						"xpath": "#field-ae35019d638e4356c404b143739fa5c7-0"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">",
+						"message": "Fix all of the following:\n  Only title used to generate label for form element",
+						"screenshotPath": "elemScreenshots/html/117e76273420d4d795e29eb0475550b6cf0a591312d86d19a7b0dede4d8260ba.jpeg",
+						"xpath": "#field-ae35019d638e4356c404b143739fa5c7-1"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">",
+						"message": "Fix all of the following:\n  Only title used to generate label for form element",
+						"screenshotPath": "elemScreenshots/html/f7d94f8960dab4f6fb7b398d042345a2bade8633923f22f8b906b9927e1ef74f.jpeg",
+						"xpath": "#field-ae35019d638e4356c404b143739fa5c7-2"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 1,
+		"rules": {
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>",
+						"message": "Element's contrast ratio could not be determined because of element overlap",
+						"screenshotPath": "elemScreenshots/html/1b5e8f120f5ae674b1efc6ed07402b566bc0b65311633131d76251f867c1698b.jpeg",
+						"xpath": "#link-7h5h8t076m",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 189,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div id=\"submit-popup\" class=\"lightbox submit-lb item-cover\" tabindex=\"0\" role=\"button\" style=\"display:none;\">\n  <div class=\"lightbox-dim\">\n    <div class=\"notification-text\">Thank You!</div>\n  </div>\n</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body id=\"landing-page\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<button class=\"btn form-btn item-block  \" data-at=\"form-button\">\n        Yes, I want my FREE copy!\n      </button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"crjs\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 26,
+				"items": [
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-9b1r15igin7\" class=\"url-link btn    item-block\" data-at=\"button\" data-link-9b1r15igin7=\"\">\n      Call now\n  </a>"
+					},
+					{
+						"html": "<strong><a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a> (TTY 711) </strong>"
+					},
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">¿Español? </span>"
+					},
+					{
+						"html": "<a href=\"tel:18665038536\" id=\"link-quhiertfgqm\" data-link-quhiertfgqm=\"\" class=\"url-link\">1-866-503-8536</a>"
+					},
+					{
+						"html": "<strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">Get a </span>"
+					},
+					{
+						"html": "<span class=\"x_3444b84d\">FREE</span>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span>"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<button class=\"btn form-btn item-block  \" data-at=\"form-button\">\n        Yes, I want my FREE copy!\n      </button>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan. </span>"
+					},
+					{
+						"html": "<u>Terms of use</u>"
+					},
+					{
+						"html": "<strong class=\"x_ef16cb30\">Enrollment may be limited to specific times of the year unless you meet certain criteria, such as qualifying for a Special Election Period.</strong>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<u> <a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>s.</u>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">Y0142_24L56_C&nbsp; |  <a href=\"https://5866371.fs1.hubspotusercontent-na1.net/hubfs/5866371/PDFs/Guide/2024/24_DH_MedicareComparison_Guide_ENG_DIGITAL_508.pdf\" id=\"link-ti5tbzr7kdh\" target=\"_blank\" data-link-ti5tbzr7kdh=\"\" class=\"url-link\">Download the guide</a></span>"
+					},
+					{
+						"html": "<a href=\"https://5866371.fs1.hubspotusercontent-na1.net/hubfs/5866371/PDFs/Guide/2024/24_DH_MedicareComparison_Guide_ENG_DIGITAL_508.pdf\" id=\"link-ti5tbzr7kdh\" target=\"_blank\" data-link-ti5tbzr7kdh=\"\" class=\"url-link\">Download the guide</a>"
+					},
+					{
+						"html": "<strong>© 2023 Devoted Health, Inc.&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a></strong>"
+					},
+					{
+						"html": "<u><span>Privacy</span> Policy</u>"
+					},
+					{
+						"html": "<span>Privacy</span>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"crjs\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<h1>\n      <span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>\n    </h1>"
+					},
+					{
+						"html": "<h1>\n      <span class=\"x_6085f5ca x_48602f61\"><strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong></span>\n    </h1>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<h1>\n      <span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>\n    </h1>"
+					},
+					{
+						"html": "<h1>\n      <span class=\"x_6085f5ca x_48602f61\"><strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong></span>\n    </h1>"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Devoted Health Plans Logo\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026479-51997350-198x63-devoted-health-plans.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026480-51997350-396x126-devoted-health-plans.png 2x\">"
+					},
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Comparison Guide\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026481-64469666-437x510x1116x744x361x122-ComparisonGuideCover.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026489-64469666-874x1020x2232x1488x722x244-ComparisonGuideCover.png 2x\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Devoted Health Plans Logo\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026479-51997350-198x63-devoted-health-plans.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026480-51997350-396x126-devoted-health-plans.png 2x\">"
+					},
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Comparison Guide\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026481-64469666-437x510x1116x744x361x122-ComparisonGuideCover.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026489-64469666-874x1020x2232x1488x722x244-ComparisonGuideCover.png 2x\">"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main>"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main>"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"crjs\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main>"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-9b1r15igin7\" class=\"url-link btn    item-block\" data-at=\"button\" data-link-9b1r15igin7=\"\">\n      Call now\n  </a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/\" class=\"url-link item-content-box item-block\" id=\"link-qdg0p1kw0mp\" data-at=\"image-link\" data-link-qdg0p1kw0mp=\"\" target=\"_blank\">"
+					},
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a>"
+					},
+					{
+						"html": "<a href=\"tel:18665038536\" id=\"link-quhiertfgqm\" data-link-quhiertfgqm=\"\" class=\"url-link\">1-866-503-8536</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/terms-of-use/\" id=\"link-sdfk8hfd3pl\" target=\"_blank\" data-link-sdfk8hfd3pl=\"\" class=\"url-link\"><u>Terms of use</u></a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>"
+					},
+					{
+						"html": "<a href=\"https://5866371.fs1.hubspotusercontent-na1.net/hubfs/5866371/PDFs/Guide/2024/24_DH_MedicareComparison_Guide_ENG_DIGITAL_508.pdf\" id=\"link-ti5tbzr7kdh\" target=\"_blank\" data-link-ti5tbzr7kdh=\"\" class=\"url-link\">Download the guide</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Devoted Health Plans Logo\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026479-51997350-198x63-devoted-health-plans.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026480-51997350-396x126-devoted-health-plans.png 2x\">"
+					},
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Comparison Guide\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026481-64469666-437x510x1116x744x361x122-ComparisonGuideCover.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026489-64469666-874x1020x2232x1488x722x244-ComparisonGuideCover.png 2x\">"
+					},
+					{
+						"html": "<button class=\"btn form-btn item-block  \" data-at=\"form-button\">\n        Yes, I want my FREE copy!\n      </button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"crjs\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 105,
+				"items": [
+					{
+						"html": "<main>"
+					},
+					{
+						"html": "<section class=\"section section-relative \" id=\"page-block-lrxn5sfvsj\" data-at=\"section\">"
+					},
+					{
+						"html": "<div class=\"section-holder-border item-block item-absolute\" data-at=\"section-border\"></div>"
+					},
+					{
+						"html": "<div class=\"section-block\">"
+					},
+					{
+						"html": "<div class=\"section-inner section-fit section-relative\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute  \" id=\"element-101\">\n  <a href=\"tel:18668390356\" id=\"link-9b1r15igin7\" class=\"url-link btn    item-block\" data-at=\"button\" data-link-9b1r15igin7=\"\">\n      Call now\n  </a>\n</div>"
+					},
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-9b1r15igin7\" class=\"url-link btn    item-block\" data-at=\"button\" data-link-9b1r15igin7=\"\">\n      Call now\n  </a>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute  \" id=\"element-100\">"
+					},
+					{
+						"html": "<div class=\"contents cropped item-block\" data-at=\"image-cropp\">"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/\" class=\"url-link item-content-box item-block\" id=\"link-qdg0p1kw0mp\" data-at=\"image-link\" data-link-qdg0p1kw0mp=\"\" target=\"_blank\">"
+					},
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Devoted Health Plans Logo\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026479-51997350-198x63-devoted-health-plans.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026480-51997350-396x126-devoted-health-plans.png 2x\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-99\" data-at=\"paragraph\">"
+					},
+					{
+						"html": "<div class=\"contents\">"
+					},
+					{
+						"html": "<p class=\"x_36bd27eb x_a2e00130\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><strong><a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a> (TTY 711) </strong></span>"
+					},
+					{
+						"html": "<strong><a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a> (TTY 711) </strong>"
+					},
+					{
+						"html": "<a href=\"tel:18668390356\" id=\"link-kyw6cit323\" data-link-kyw6cit323=\"\" class=\"url-link\">1-866-839-0356</a>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">¿Español? </span>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><a href=\"tel:18665038536\" id=\"link-quhiertfgqm\" data-link-quhiertfgqm=\"\" class=\"url-link\">1-866-503-8536</a></span>"
+					},
+					{
+						"html": "<a href=\"tel:18665038536\" id=\"link-quhiertfgqm\" data-link-quhiertfgqm=\"\" class=\"url-link\">1-866-503-8536</a>"
+					},
+					{
+						"html": "<section class=\"section section-relative \" id=\"page_block_below_fold\" data-at=\"section\">"
+					},
+					{
+						"html": "<div class=\"section-holder-border item-block item-absolute\" data-at=\"section-border\"></div>"
+					},
+					{
+						"html": "<div class=\"section-block\">"
+					},
+					{
+						"html": "<div class=\"section-inner section-fit section-relative\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute hidden-mobile\" id=\"element-8\">\n  <div class=\"contents shape  box figure \" data-at=\"shape\"></div>\n</div>"
+					},
+					{
+						"html": "<div class=\"contents shape  box figure \" data-at=\"shape\"></div>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute  \" id=\"element-114\">"
+					},
+					{
+						"html": "<div class=\"contents cropped item-block\" data-at=\"image-cropp\">"
+					},
+					{
+						"html": "<img class=\"item-content-box item-block image \" data-at=\"image\" alt=\"Comparison Guide\" src=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026481-64469666-437x510x1116x744x361x122-ComparisonGuideCover.png\" srcset=\"//v.fastcdn.co/t/7becc2f6/3d3ab926/1703026489-64469666-874x1020x2232x1488x722x244-ComparisonGuideCover.png 2x\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute headline  \" id=\"element-81\" data-at=\"headline\">\n  <div class=\"contents\">\n    <h1>\n      <span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>\n    </h1>\n  </div>\n</div>"
+					},
+					{
+						"html": "<div class=\"contents\">\n    <h1>\n      <span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>\n    </h1>\n  </div>"
+					},
+					{
+						"html": "<h1>\n      <span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>\n    </h1>"
+					},
+					{
+						"html": "<span class=\"x_efd0b95e x_953f24c4\"><span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span></span>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong></span>"
+					},
+					{
+						"html": "<strong>DEVOTED HEALTH MEDICARE ADVANTAGE PLANS</strong>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute headline  \" id=\"element-36\" data-at=\"headline\">"
+					},
+					{
+						"html": "<div class=\"contents\">\n    <h1>\n      <span class=\"x_6085f5ca x_48602f61\"><strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong></span>\n    </h1>\n  </div>"
+					},
+					{
+						"html": "<h1>\n      <span class=\"x_6085f5ca x_48602f61\"><strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong></span>\n    </h1>"
+					},
+					{
+						"html": "<span class=\"x_6085f5ca x_48602f61\"><strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong></span>"
+					},
+					{
+						"html": "<strong><span class=\"x_7b2817bf\">Get a </span><span class=\"x_3444b84d\">FREE</span><span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span></strong>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">Get a </span>"
+					},
+					{
+						"html": "<span class=\"x_3444b84d\">FREE</span>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">&nbsp;Medicare Comparison Guide &amp; See Why Members Love This Plan!</span>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute  \" id=\"element-115\">"
+					},
+					{
+						"html": "<form novalidate=\"\" class=\"form email-form contents form-labels-inside\" method=\"post\" data-id=\"element-115\" data-at=\"form\" action-xhr=\"https://d.fastcdn.co/submissions\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-0\" class=\"form-input form-input-text required  \" data-at=\"form-text\" type=\"text\" name=\"Name\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Name\" placeholder=\"Name\" data-label-inside=\"Name\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-1\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Phone Number\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Phone Number\" data-mask=\"(000) 000-0000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Phone Number\" data-label-inside=\"Phone Number\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<input id=\"field-ae35019d638e4356c404b143739fa5c7-2\" class=\"form-input form-input-text required  form-input-mask\" data-at=\"form-text\" type=\"text\" name=\"Zipcode\" data-describedby=\"form-validation-error-box-element-115\" value=\"\" title=\"Zipcode\" data-mask=\"00000\" pattern=\"[0-9]*\" inputmode=\"numeric\" placeholder=\"Zipcode\" data-label-inside=\"Zipcode\" required=\"\" aria-required=\"true\">"
+					},
+					{
+						"html": "<div class=\"item-absolute form-btn-geometry\">\n      <button class=\"btn form-btn item-block  \" data-at=\"form-button\">\n        Yes, I want my FREE copy!\n      </button>\n    </div>"
+					},
+					{
+						"html": "<button class=\"btn form-btn item-block  \" data-at=\"form-button\">\n        Yes, I want my FREE copy!\n      </button>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-23\" data-at=\"paragraph\">\n  <div class=\"contents\">\n    <p class=\"x_c5f0bf77 x_72fe6b53\"><span class=\"x_7b2817bf\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan. </span></p>\n  </div>\n</div>"
+					},
+					{
+						"html": "<div class=\"contents\">\n    <p class=\"x_c5f0bf77 x_72fe6b53\"><span class=\"x_7b2817bf\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan. </span></p>\n  </div>"
+					},
+					{
+						"html": "<p class=\"x_c5f0bf77 x_72fe6b53\"><span class=\"x_7b2817bf\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan. </span></p>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan. </span>"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-74\" data-at=\"paragraph\">"
+					},
+					{
+						"html": "<div class=\"contents\">\n    <p class=\"x_938e8cfc x_dc6c6e10\"><span class=\"x_7b2817bf\"><a href=\"https://www.devoted.com/terms-of-use/\" id=\"link-sdfk8hfd3pl\" target=\"_blank\" data-link-sdfk8hfd3pl=\"\" class=\"url-link\"><u>Terms of use</u></a></span></p>\n  </div>"
+					},
+					{
+						"html": "<p class=\"x_938e8cfc x_dc6c6e10\"><span class=\"x_7b2817bf\"><a href=\"https://www.devoted.com/terms-of-use/\" id=\"link-sdfk8hfd3pl\" target=\"_blank\" data-link-sdfk8hfd3pl=\"\" class=\"url-link\"><u>Terms of use</u></a></span></p>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><a href=\"https://www.devoted.com/terms-of-use/\" id=\"link-sdfk8hfd3pl\" target=\"_blank\" data-link-sdfk8hfd3pl=\"\" class=\"url-link\"><u>Terms of use</u></a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/terms-of-use/\" id=\"link-sdfk8hfd3pl\" target=\"_blank\" data-link-sdfk8hfd3pl=\"\" class=\"url-link\"><u>Terms of use</u></a>"
+					},
+					{
+						"html": "<u>Terms of use</u>"
+					},
+					{
+						"html": "<section class=\"section section-relative \" id=\"page-block-dyblajbjd2\" data-at=\"section\">"
+					},
+					{
+						"html": "<div class=\"section-holder-border item-block item-absolute\" data-at=\"section-border\"></div>"
+					},
+					{
+						"html": "<div class=\"section-block\">"
+					},
+					{
+						"html": "<div class=\"section-inner section-fit section-relative\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-__gpage-block-dyblajbjd2-37\" data-at=\"paragraph\">"
+					},
+					{
+						"html": "<div class=\"contents\">"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\"><strong class=\"x_ef16cb30\">Enrollment may be limited to specific times of the year unless you meet certain criteria, such as qualifying for a Special Election Period.</strong><br></p>"
+					},
+					{
+						"html": "<strong class=\"x_ef16cb30\">Enrollment may be limited to specific times of the year unless you meet certain criteria, such as qualifying for a Special Election Period.</strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\"><span class=\"x_7b2817bf\"><br></span></p>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><br></span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<u> <a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>s.</u>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/terms-of-use\" id=\"link-7h5h8t076m\" target=\"_blank\" data-link-7h5h8t076m=\"\" class=\"url-link\">terms and condition</a>"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\"><span class=\"x_7b2817bf\"><br></span></p>"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\"><br></span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p class=\"x_36060b54 x_20e3a429\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<section class=\"section section-relative \" id=\"page-block-eilim4rbjz7\" data-at=\"section\">"
+					},
+					{
+						"html": "<div class=\"section-holder-border item-block item-absolute\" data-at=\"section-border\"></div>"
+					},
+					{
+						"html": "<div class=\"section-block\">"
+					},
+					{
+						"html": "<div class=\"section-inner section-fit section-relative\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-1\" data-at=\"paragraph\">"
+					},
+					{
+						"html": "<div class=\"contents\">"
+					},
+					{
+						"html": "<p class=\"x_70b443d1 x_44c791c4\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">Y0142_24L56_C&nbsp; |  <a href=\"https://5866371.fs1.hubspotusercontent-na1.net/hubfs/5866371/PDFs/Guide/2024/24_DH_MedicareComparison_Guide_ENG_DIGITAL_508.pdf\" id=\"link-ti5tbzr7kdh\" target=\"_blank\" data-link-ti5tbzr7kdh=\"\" class=\"url-link\">Download the guide</a></span>"
+					},
+					{
+						"html": "<a href=\"https://5866371.fs1.hubspotusercontent-na1.net/hubfs/5866371/PDFs/Guide/2024/24_DH_MedicareComparison_Guide_ENG_DIGITAL_508.pdf\" id=\"link-ti5tbzr7kdh\" target=\"_blank\" data-link-ti5tbzr7kdh=\"\" class=\"url-link\">Download the guide</a>"
+					},
+					{
+						"html": "<section class=\"section section-relative \" id=\"page-block-5u3jcqvvda3\" data-at=\"section\">"
+					},
+					{
+						"html": "<div class=\"section-holder-border item-block item-absolute\" data-at=\"section-border\"></div>"
+					},
+					{
+						"html": "<div class=\"section-block\">"
+					},
+					{
+						"html": "<div class=\"section-inner section-fit section-relative\">"
+					},
+					{
+						"html": "<div class=\"widget item-absolute paragraph  \" id=\"element-__gpage-block-5u3jcqvvda3-125\" data-at=\"paragraph\">"
+					},
+					{
+						"html": "<div class=\"contents\">"
+					},
+					{
+						"html": "<p class=\"x_70ee4658 x_dc6c6e10\">"
+					},
+					{
+						"html": "<span class=\"x_7b2817bf\">"
+					},
+					{
+						"html": "<strong>© 2023 Devoted Health, Inc.&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/privacy-policy\" id=\"link-v51fooowl1\" target=\"_blank\" aria-label=\"Privacy Policy\" data-link-v51fooowl1=\"\" class=\"url-link\"><u><span>Privacy</span> Policy</u></a>"
+					},
+					{
+						"html": "<u><span>Privacy</span> Policy</u>"
+					},
+					{
+						"html": "<span>Privacy</span>"
+					}
+				]
+			}
+		}
+	}
+}

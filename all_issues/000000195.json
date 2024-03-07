@@ -1,0 +1,1826 @@
+{
+	"url": "https://devoted.com/developers/fhir/swagger",
+	"pageTitle": "Swagger UI",
+	"totalItems": 448,
+	"mustFix": {
+		"totalItems": 17,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 9,
+				"items": [
+					{
+						"html": "<button class=\"download-url-button button\">Explore</button>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #ffffff, background color: #62a03f, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/08d5d2f1ba3a8b255eb7993786fcd635f89d9dbeea59efd5bc8a244878777f68.jpeg",
+						"xpath": ".download-url-button"
+					},
+					{
+						"html": "<pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.75 (foreground color: #ffffff, background color: #7d8492, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/103269c337d25e1bf9f69985e100b85f11c78742174e8c07d08b8a25d2009ccb.jpeg",
+						"xpath": ".version"
+					},
+					{
+						"html": "<span class=\"url\"><!-- react-text: 75 --> <!-- /react-text --><!-- react-text: 76 -->swagger.json<!-- /react-text --></span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #4990e2, background color: #fafafa, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/d987732122ed7087939021129689b58a615c6d40fd9fce37c43dbdb6c6e90433.jpeg",
+						"xpath": ".url"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/44551fef76d5371fbbf57c16a6c9d76135248b3d1db688b81d7d9c2b4a828587.jpeg",
+						"xpath": "button[aria-label=\"get ​/Condition\"] > .opblock-summary-method"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/541c1e5f79d4c77f71c94f9bf4735cb76c5eb72f2ee3c1e28dff3503fb406692.jpeg",
+						"xpath": "button[aria-label=\"get ​/Encounter\"] > .opblock-summary-method"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/470f99e1455de841bdc1fbc2d44726ca4ce8b894eb2d77f0315603a7630b7406.jpeg",
+						"xpath": "button[aria-label=\"get ​/ExplanationOfBenefit\"] > .opblock-summary-method"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/d1532d1d7716ac09695f5ba3ea566fa5c1297641b8c5108b68ae935ba4e1a528.jpeg",
+						"xpath": "button[aria-label=\"get ​/Medication\"] > .opblock-summary-method"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/1835b4e4817d2c2c955fe6e876feb2710424b2147ff2c0c335902e82e6423962.jpeg",
+						"xpath": "button[aria-label=\"get ​/Patient\"] > .opblock-summary-method"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #61affe, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/1835b4e4817d2c2c955fe6e876feb2710424b2147ff2c0c335902e82e6423962.jpeg",
+						"xpath": "button[aria-label=\"get ​/Patient​/{id}\"] > .opblock-summary-method"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"axeImpact": "critical",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input type=\"text\" class=\"download-url-input\" value=\"swagger.json\">",
+						"message": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/3da595851536ae452595cf9dc42d0942801a1aa5ed51623534a69a20858b7cf6.jpeg",
+						"xpath": "input"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fdevoted.com%2Fdevelopers%2Ffhir%2Fswagger%2Fswagger.json\"><!-- react-empty: 19 --></a>",
+						"message": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute",
+						"screenshotPath": "elemScreenshots/html/d956949200a2e5e7a7c0c86a237c431d53ece5b7253fd53fdbf401b89484a3cd.jpeg",
+						"xpath": ".float-right > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/338718683def7c9ff73097a67f673f8a3d6e9f2585ae6591f3af08f94bd859f8.jpeg",
+						"xpath": "button[aria-label=\"get ​/Condition\"]"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/b680f2a6108abf218ca749cd4973978e2638eb9d728b5ca4f451da30739d2bd8.jpeg",
+						"xpath": "button[aria-label=\"get ​/Encounter\"]"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/2ad902f1398da63c9f2a798b0a739439d5608f7d75aa5fb88308d0cf66f80472.jpeg",
+						"xpath": "button[aria-label=\"get ​/ExplanationOfBenefit\"]"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/dd889c60286ff1ba32dc3d78955b1c60457025232c8abaa3ac7819497e787be2.jpeg",
+						"xpath": "button[aria-label=\"get ​/Medication\"]"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/8167aff196874ba2b7a96875db3d9ec9d7288d54abdefa2d92ee8b2bf5684a3d.jpeg",
+						"xpath": "button[aria-label=\"get ​/Patient\"]"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">",
+						"message": "Fix any of the following:\n  Element has focusable descendants",
+						"screenshotPath": "elemScreenshots/html/d96eae1c839a58d71b4cbe819b8f5451d5549d5d4d5f9946a82f66d453aafa5b.jpeg",
+						"xpath": "button[aria-label=\"get ​/Patient​/{id}\"]"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 12,
+		"rules": {
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/7d515e9e27209cfcc3edebb3d04b5375690fc0e3ba40fdfe601bf17cfb27fed3.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/7d515e9e27209cfcc3edebb3d04b5375690fc0e3ba40fdfe601bf17cfb27fed3.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 10,
+				"items": [
+					{
+						"html": "<a rel=\"noopener noreferrer\" class=\"link\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/ca8b26cfbc5b91dfbf1420547f5ac5f12ec3148ff929d2020d5fcb5fcfaa9e0a.jpeg",
+						"xpath": ".topbar-wrapper > .link[rel=\"noopener noreferrer\"]"
+					},
+					{
+						"html": "<input type=\"text\" class=\"download-url-input\" value=\"swagger.json\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/3da595851536ae452595cf9dc42d0942801a1aa5ed51623534a69a20858b7cf6.jpeg",
+						"xpath": "input"
+					},
+					{
+						"html": "<div class=\"information-container wrapper\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/7e0e72b2e225b9bbf76995ffc599b170cbfd9e4d75d3dbe138179a6ac6e0c482.jpeg",
+						"xpath": ".information-container"
+					},
+					{
+						"html": "<div class=\"scheme-container\"><section class=\"schemes wrapper block col-12\"><label for=\"schemes\"><span class=\"schemes-title\">Schemes</span><select><option value=\"https\">https</option></select></label></section></div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/a2b35c9aca6b910e2547498552690668ac379ea63f82c225d86529d46ab35e27.jpeg",
+						"xpath": ".scheme-container"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/CapabilityStatement\"><span>CapabilityStatement</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/27d2d8cfadf5ed5a7720126aada2c2fc0ac546bed741748dc8768d2af3a80947.jpeg",
+						"xpath": "a[href$=\"#/CapabilityStatement\"]"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Condition\"><span>Condition</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/28838ad622168e25ee0ea313402090dc24eb8cb3c70d58e9a65b22ed5ed211d2.jpeg",
+						"xpath": "a[href$=\"#/Condition\"]"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Encounter\"><span>Encounter</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/7fa900690be7323ce9e484bf15c5f188a2608b7255e731573ea54ccd7902f02a.jpeg",
+						"xpath": "a[href$=\"#/Encounter\"]"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/ExplanationOfBenefit\"><span>ExplanationOfBenefit</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/ac77a0cf4b1ed632f59f6aaff3ddc5665c65e7e6dd890f01e65a289e3eae31e5.jpeg",
+						"xpath": "a[href$=\"#/ExplanationOfBenefit\"]"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Medication\"><span>Medication</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/e3532ae1fe4a42277ffbee13134fcbaefc2ffc185d215914566deeb93b5a4ce3.jpeg",
+						"xpath": "a[href$=\"#/Medication\"]"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient\"><span>Patient</span></a>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/dd557a6516eaf12e190dddb166244229a51e4448333966cd93d15d7b79520871.jpeg",
+						"xpath": "a[href$=\"#/Patient\"]"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 1,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<select><option value=\"https\">https</option></select>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/00d952497fc7aa13f2016266fe2f3501abe07a4488b36dc2db216f809963928a.jpeg",
+						"xpath": "select",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 418,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 13,
+				"items": [
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-down\" xlink:href=\"#large-arrow-down\"></use></svg>"
+					},
+					{
+						"html": "<svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg>"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<button class=\"download-url-button button\">Explore</button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<input type=\"text\" class=\"download-url-input\" value=\"swagger.json\">"
+					},
+					{
+						"html": "<h2 class=\"title\"><!-- react-text: 62 -->Untitled<!-- /react-text --><small><pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre></small></h2>"
+					},
+					{
+						"html": "<pre class=\"base-url\"><!-- react-text: 69 -->[ Base URL: <!-- /react-text --><!-- react-text: 70 -->api.prod.devoted.com<!-- /react-text --><!-- react-text: 71 -->/fhir/<!-- /react-text --><!-- react-text: 72 --> ]<!-- /react-text --></pre>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<span class=\"schemes-title\">Schemes</span>"
+					},
+					{
+						"html": "<span>CapabilityStatement</span>"
+					},
+					{
+						"html": "<span>Condition</span>"
+					},
+					{
+						"html": "<span>​/Condition</span>"
+					},
+					{
+						"html": "<span>Encounter</span>"
+					},
+					{
+						"html": "<span>​/Encounter</span>"
+					},
+					{
+						"html": "<span>ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<span>​/ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<span>Medication</span>"
+					},
+					{
+						"html": "<span>​/Medication</span>"
+					},
+					{
+						"html": "<span>Patient</span>"
+					},
+					{
+						"html": "<span>​/Patient</span>"
+					},
+					{
+						"html": "<span>​/Patient​/{id}</span>"
+					},
+					{
+						"html": "<span>Models</span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Condition</span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Encounter</span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Medication</span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Patient</span>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<h2 class=\"title\"><!-- react-text: 62 -->Untitled<!-- /react-text --><small><pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre></small></h2>"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-CapabilityStatement\" data-tag=\"CapabilityStatement\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Condition\" data-tag=\"Condition\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Encounter\" data-tag=\"Encounter\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-ExplanationOfBenefit\" data-tag=\"ExplanationOfBenefit\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Medication\" data-tag=\"Medication\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Patient\" data-tag=\"Patient\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h4><button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button></h4>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input type=\"text\" class=\"download-url-input\" value=\"swagger.json\">"
+					},
+					{
+						"html": "<select><option value=\"https\">https</option></select>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<h2 class=\"title\"><!-- react-text: 62 -->Untitled<!-- /react-text --><small><pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre></small></h2>"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-CapabilityStatement\" data-tag=\"CapabilityStatement\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Condition\" data-tag=\"Condition\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Encounter\" data-tag=\"Encounter\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-ExplanationOfBenefit\" data-tag=\"ExplanationOfBenefit\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Medication\" data-tag=\"Medication\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Patient\" data-tag=\"Patient\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<h4><button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button></h4>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img height=\"40\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDA3IDExNiI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgIC5jbHMtMSB7DQogICAgICAgIGNsaXAtcGF0aDogdXJsKCNjbGlwLVNXX1RNLWxvZ28tb24tZGFyayk7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMiB7DQogICAgICAgIGZpbGw6ICNmZmY7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMyB7DQogICAgICAgIGZpbGw6ICM4NWVhMmQ7DQogICAgICB9DQoNCiAgICAgIC5jbHMtNCB7DQogICAgICAgIGZpbGw6ICMxNzM2NDc7DQogICAgICB9DQogICAgPC9zdHlsZT4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtU1dfVE0tbG9nby1vbi1kYXJrIj4NCiAgICAgIDxyZWN0IHdpZHRoPSI0MDciIGhlaWdodD0iMTE2Ii8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU1dfVE0tbG9nby1vbi1kYXJrIiBjbGFzcz0iY2xzLTEiPg0KICAgIDxnIGlkPSJTV19Jbi1Qcm9kdWN0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4zMDEpIj4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzYiIGRhdGEtbmFtZT0iUGF0aCAyOTM2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNTkuMTUsNzAuNjc0aC0uN1Y2Ni45OTJoLTEuMjZ2LS42aDMuMjE5di42SDM1OS4xNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzciIGRhdGEtbmFtZT0iUGF0aCAyOTM3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNjMuMjE3LDcwLjY3NCwzNjEuOTc1LDY3LjFoLS4wMjNxLjA1LjguMDUsMS40OTR2Mi4wODNoLS42MzZWNjYuMzkxaC45ODdsMS4xOSwzLjQwN2guMDE3bDEuMjI1LTMuNDA3aC45OXY0LjI4M0gzNjUuMVY2OC41NTZjMC0uMjEzLjAwNi0uNDkuMDE2LS44MzJzLjAyLS41NDkuMDI4LS42MjFoLS4wMjNsLTEuMjg2LDMuNTcxWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjkzOCIgZGF0YS1uYW1lPSJQYXRoIDI5MzgiIGNsYXNzPSJjbHMtMyIgZD0iTTUwLjMyOCw5Ny42NjlBNDcuNjQyLDQ3LjY0MiwwLDEsMSw5Ny45NzEsNTAuMDI3LDQ3LjY0Miw0Ny42NDIsMCwwLDEsNTAuMzI4LDk3LjY2OVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzkiIGRhdGEtbmFtZT0iUGF0aCAyOTM5IiBjbGFzcz0iY2xzLTMiIGQ9Ik01MC4zMjgsNC43NjlBNDUuMjU4LDQ1LjI1OCwwLDEsMSw1LjA3LDUwLjAyNyw0NS4yNTgsNDUuMjU4LDAsMCwxLDUwLjMyOCw0Ljc2OW0wLTQuNzY5YTUwLjAyNyw1MC4wMjcsMCwxLDAsNTAuMDI3LDUwLjAyN0E1MC4wMjcsNTAuMDI3LDAsMCwwLDUwLjMyOCwwWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MCIgZGF0YS1uYW1lPSJQYXRoIDI5NDAiIGNsYXNzPSJjbHMtNCIgZD0iTTMxLjgsMzMuODU0Yy0uMTU0LDEuNzEyLjA1OCwzLjQ4Mi0uMDU3LDUuMjEzYTQyLjY2NSw0Mi42NjUsMCwwLDEtLjY5Myw1LjE1Niw5LjUzLDkuNTMsMCwwLDEtNC4xLDUuODI5YzQuMDc5LDIuNjU0LDQuNTQsNi43NzEsNC44MSwxMC45NDYuMTM1LDIuMjUuMDc3LDQuNTIuMzA4LDYuNzUyLjE3MywxLjczMS44NDYsMi4xNzQsMi42MzYsMi4yMzEuNzMuMDIsMS40OCwwLDIuMzI3LDBWNzUuMzNjLTUuMjkuOS05LjY1Ny0uNi0xMC43MzQtNS4wNzlhMzAuNzYsMzAuNzYsMCwwLDEtLjY1NC01Yy0uMTE3LTEuNzg5LjA3Ni0zLjU3OC0uMDU4LTUuMzY3LS4zODYtNC45MDYtMS4wMi02LjU2LTUuNzEzLTYuNzkxdi02LjFBOS4xOTEsOS4xOTEsMCwwLDEsMjAuOSw0Ni44MmMyLjU3Ny0uMTM1LDMuNjc0LS45MjQsNC4yMzEtMy40NjNhMjkuMywyOS4zLDAsMCwwLC40ODEtNC4zMjksODIuMSw4Mi4xLDAsMCwxLC42LTguNDA2Yy42NzMtMy45ODIsMy4xMzYtNS45MDYsNy4yMzQtNi4xMzcsMS4xNTQtLjA1NywyLjMyNywwLDMuNjU1LDB2NS40NjRjLS41NTguMDM4LTEuMDM5LjExNS0xLjUzOS4xMTVDMzIuMjI2LDI5Ljk0OSwzMi4wNTIsMzEuMDg0LDMxLjgsMzMuODU0Wm02LjQwNiwxMi42NThoLS4wNzdhMy41MTUsMy41MTUsMCwxLDAtLjM0Niw3LjAyMWguMjMxYTMuNDYxLDMuNDYxLDAsMCwwLDMuNjU1LTMuMjUxVjUwLjA5YTMuNTIzLDMuNTIzLDAsMCwwLTMuNDYxLTMuNTc4Wm0xMi4wNjIsMGEzLjM3MywzLjM3MywwLDAsMC0zLjQ4MiwzLjI1MSwxLjc5LDEuNzksMCwwLDAsLjAyLjMyNywzLjMsMy4zLDAsMCwwLDMuNTc4LDMuNDQzLDMuMjYzLDMuMjYzLDAsMCwwLDMuNDQzLTMuNTU4LDMuMzA4LDMuMzA4LDAsMCwwLTMuNTU3LTMuNDYzWm0xMi4zNTEsMGEzLjU5MiwzLjU5MiwwLDAsMC0zLjY1NSwzLjQ4MkEzLjUyOSwzLjUyOSwwLDAsMCw2Mi41LDUzLjUzM2guMDM5YzEuNzY5LjMwOSwzLjU1OS0xLjQsMy42NzQtMy40NjJhMy41NzEsMy41NzEsMCwwLDAtMy42LTMuNTU5Wm0xNi45NDguMjg4Yy0yLjIzMi0uMS0zLjM0OC0uODQ2LTMuOS0yLjk2MmEyMS40NDcsMjEuNDQ3LDAsMCwxLS42MzUtNC4xMzZjLS4xNTQtMi41NzgtLjEzNS01LjE3NS0uMzA4LTcuNzUzLS40LTYuMTE3LTQuODI4LTguMjUyLTExLjI1NC03LjE5NXY1LjMxYzEuMDE5LDAsMS44MDgsMCwyLjYuMDE5LDEuMzY2LjAxOSwyLjQuNTM5LDIuNTM5LDIuMDU5LjEzNSwxLjM4NS4xMzUsMi43ODkuMjcsNC4xOTMuMjY5LDIuNzkuNDIyLDUuNjE4LjksOC4zNjlBOC43MTUsOC43MTUsMCwwLDAsNzMuNyw1MC4wNTJjLTMuNCwyLjI4OS00LjQwNiw1LjU1OS00LjU3OCw5LjIzNC0uMSwyLjUyLS4xNTQsNS4wNTktLjI4OSw3LjYtLjExNSwyLjMwOC0uOTIzLDMuMDU4LTMuMjUxLDMuMTE2LS42NTQuMDE5LTEuMjg5LjA3Ny0yLjAxOS4xMTV2NS40NDVjMS4zNjUsMCwyLjYxNi4wNzcsMy44NjYsMCwzLjg4Ni0uMjMxLDYuMjMzLTIuMTE3LDctNS44ODdBNDkuMDc5LDQ5LjA3OSwwLDAsMCw3NSw2My40Yy4xMzUtMS45MjMuMTE2LTMuODY2LjMwOC01Ljc3MS4yODktMi45ODIsMS42NTUtNC4yMTMsNC42MzYtNC40YTQuMDM3LDQuMDM3LDAsMCwwLC44MjgtLjE5MnYtNi4xYy0uNS0uMDU4LS44NDMtLjExNS0xLjIwOC0uMTM1WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MSIgZGF0YS1uYW1lPSJQYXRoIDI5NDEiIGNsYXNzPSJjbHMtMiIgZD0iTTE1Mi4yNzMsNTguMTIyYTExLjIyOCwxMS4yMjgsMCwwLDEtNC4zODQsOS40MjRxLTQuMzgzLDMuMzgyLTExLjksMy4zODItOC4xNCwwLTEyLjUyNC0yLjFWNjMuN2EzMi45LDMyLjksMCwwLDAsNi4xMzcsMS44NzksMzIuMywzMi4zLDAsMCwwLDYuNTc1LjY4OXE1LjMyMiwwLDguMDE1LTIuMDJhNi42MjYsNi42MjYsMCwwLDAsMi42OTItNS42Miw3LjIyMiw3LjIyMiwwLDAsMC0uOTU0LTMuOSw4Ljg4NSw4Ljg4NSwwLDAsMC0zLjE5NC0yLjgsNDQuNjM0LDQ0LjYzNCwwLDAsMC02LjgxLTIuOTExcS02LjM4Ny0yLjI4Ni05LjEyNi01LjQxN2ExMS45NTUsMTEuOTU1LDAsMCwxLTIuNzQtOC4xNzJBMTAuMTY0LDEwLjE2NCwwLDAsMSwxMjguMDM5LDI3cTMuOTc3LTMuMTMxLDEwLjUyLTMuMTMxYTMxLDMxLDAsMCwxLDEyLjU1NSwyLjVMMTQ5LjQ1NSwzMWEyOC4zODIsMjguMzgyLDAsMCwwLTExLjAyMS0yLjM4LDEwLjY2OCwxMC42NjgsMCwwLDAtNi42MDYsMS44MTYsNS45ODQsNS45ODQsMCwwLDAtMi4zOCw1LjA0MSw3LjcyMiw3LjcyMiwwLDAsMCwuODc3LDMuOSw4LjI0Miw4LjI0MiwwLDAsMCwyLjk1OSwyLjc4NiwzNi43LDM2LjcsMCwwLDAsNi4zNzEsMi44cTcuMiwyLjU2Niw5LjkxLDUuNTFBMTAuODQsMTAuODQsMCwwLDEsMTUyLjI3Myw1OC4xMjJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQyIiBkYXRhLW5hbWU9IlBhdGggMjk0MiIgY2xhc3M9ImNscy0yIiBkPSJNMTg1LjI4OCw3MC4zLDE3OSw1MC4xN3EtLjU5NC0xLjg0OC0yLjIyMi04LjM5MWgtLjI1MXEtMS4yNTIsNS40NzktMi4xOTIsOC40NTNMMTY3Ljg0OSw3MC4zaC02LjAxMWwtOS4zNjEtMzQuMzE1aDUuNDQ3cTMuMzE4LDEyLjkzMSw1LjA1NywxOS42OTNhODAuMTEyLDgwLjExMiwwLDAsMSwxLjk4OCw5LjExMWguMjVxLjM0NS0xLjc4NSwxLjExMi00LjYxOHQxLjMzLTQuNDkzbDYuMjk0LTE5LjY5M2g1LjYzNWw2LjEzNywxOS42OTNhNjYuMzY5LDY2LjM2OSwwLDAsMSwyLjM3OSw5LjA0OGguMjUxYTMzLjE2MywzMy4xNjMsMCwwLDEsLjY3My0zLjQ3NXEuNTQ4LTIuMzQ3LDYuNTI4LTI1LjI2Nmg1LjM4NUwxOTEuNDU2LDcwLjNaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQzIiBkYXRhLW5hbWU9IlBhdGggMjk0MyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1LjExNSw3MC4zbC0xLjAzMy00Ljg4NWgtLjI1YTE0LjQ0NiwxNC40NDYsMCwwLDEtNS4xMTksNC4zNjgsMTUuNjA4LDE1LjYwOCwwLDAsMS02LjM3MiwxLjE0M3EtNS4xLDAtOC0yLjYzdC0yLjktNy40ODNxMC0xMC40LDE2LjYyNi0xMC45bDUuODIzLS4xODhWNDcuNnEwLTQuMDM4LTEuNzM4LTUuOTY0VDIxNi42LDM5LjcxM2EyMi42MzMsMjIuNjMzLDAsMCwwLTkuNzA2LDIuNjNsLTEuNi0zLjk3N2EyNC40MzcsMjQuNDM3LDAsMCwxLDUuNTU3LTIuMTYsMjQuMDU2LDI0LjA1NiwwLDAsMSw2LjA1OC0uNzgzcTYuMTM2LDAsOS4xLDIuNzI0dDIuOTU5LDguNzM1VjcwLjNabS0xMS43NDEtMy42NjNBMTAuNTQ5LDEwLjU0OSwwLDAsMCwyMjEsNjMuOTc3YTkuODQ1LDkuODQ1LDAsMCwwLDIuNzcxLTcuNDUxdi0zLjFsLTUuMi4yMTlxLTYuMi4yMTktOC45MzksMS45MjZhNS44LDUuOCwwLDAsMC0yLjc0LDUuMzA2LDUuMzU0LDUuMzU0LDAsMCwwLDEuNzA3LDQuMjksNy4wODEsNy4wODEsMCwwLDAsNC43NzUsMS40NzJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ0IiBkYXRhLW5hbWU9IlBhdGggMjk0NCIgY2xhc3M9ImNscy0yIiBkPSJNMjY0LjYsMzUuOTg3djMuMjg3bC02LjM1Ni43NTJhMTEuMTYsMTEuMTYsMCwwLDEsMi4yNTUsNi44NTYsMTAuMTQ4LDEwLjE0OCwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NiwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVRMjQxLjQsNTkuNDM4LDI0MS40LDYyLjFhMi4yNDIsMi4yNDIsMCwwLDAsMS4xNTksMi4wODIsOC40NTYsOC40NTYsMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTczLDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NzIsMi45ODktMTMuMzM4LDIuOTktNi43MzIsMC0xMC4zNzktMi41YTguMDg3LDguMDg3LDAsMCwxLTMuNjQ3LTcuMDc2LDcuOTQ2LDcuOTQ2LDAsMCwxLDItNS40MTcsMTAuMjExLDEwLjIxMSwwLDAsMSw1LjYzNi0zLjEsNS40MjksNS40MjksMCwwLDEtMi4yMDctMS44NDcsNC44OSw0Ljg5LDAsMCwxLS44OTMtMi45MTIsNS41Myw1LjUzLDAsMCwxLDEtMy4yODgsMTAuNTI5LDEwLjUyOSwwLDAsMSwzLjE2Mi0yLjcyMyw5LjI3NSw5LjI3NSwwLDAsMS00LjMzNi0zLjcyNiwxMC45NDUsMTAuOTQ1LDAsMCwxLTEuNjc1LTYuMDEycTAtNS42MzQsMy4zODItOC42ODh0OS41OC0zLjA1MmExNy40MzksMTcuNDM5LDAsMCwxLDQuODUzLjYyNlpNMjM3LjIzMyw3Ni4wNjJhNC42Niw0LjY2LDAsMCwwLDIuMzQ4LDQuMjI3LDEyLjk3MywxMi45NzMsMCwwLDAsNi43MzIsMS40NHE2LjU0MywwLDkuNjktMS45NTZhNS45OTIsNS45OTIsMCwwLDAsMy4xNDctNS4zMDdxMC0yLjc4Ny0xLjcyMy0zLjg2N3QtNi40ODEtMS4wOGgtNi4yM2E4LjIwNSw4LjIwNSwwLDAsMC01LjUxLDEuNjksNi4wNDMsNi4wNDMsMCwwLDAtMS45NzMsNC44NTNabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMyw4LjEyMywwLDAsMCw1LjY2NywxLjg0N3E3LjYwOCwwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI4LDcuNjI4LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NiwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDUiIGRhdGEtbmFtZT0iUGF0aCAyOTQ1IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yOTkuMTM2LDM1Ljk4N3YzLjI4N2wtNi4zNTYuNzUyYTExLjE2OCwxMS4xNjgsMCwwLDEsMi4yNTQsNi44NTYsMTAuMTQ1LDEwLjE0NSwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NSwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVxLTMuMzIsMS43NTQtMy4zMTksNC40MTVhMi4yNDMsMi4yNDMsMCwwLDAsMS4xNTgsMi4wODIsOC40NTksOC40NTksMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTc0LDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NywyLjk4OS0xMy4zMzcsMi45OS02LjczMiwwLTEwLjM3OS0yLjVhOC4wODgsOC4wODgsMCwwLDEtMy42NDgtNy4wNzYsNy45NDcsNy45NDcsMCwwLDEsMi01LjQxNywxMC4yMDcsMTAuMjA3LDAsMCwxLDUuNjM2LTMuMSw1LjQzMiw1LjQzMiwwLDAsMS0yLjIwOC0xLjg0Nyw0Ljg4OSw0Ljg4OSwwLDAsMS0uODkyLTIuOTEyLDUuNTMsNS41MywwLDAsMSwxLTMuMjg4LDEwLjUyOSwxMC41MjksMCwwLDEsMy4xNjItMi43MjMsOS4yNzEsOS4yNzEsMCwwLDEtNC4zMzYtMy43MjYsMTAuOTQ1LDEwLjk0NSwwLDAsMS0xLjY3NS02LjAxMnEwLTUuNjM0LDMuMzgxLTguNjg4dDkuNTgxLTMuMDUyYTE3LjQ0NCwxNy40NDQsMCwwLDEsNC44NTMuNjI2Wk0yNzEuNzcyLDc2LjA2MmE0LjY1OCw0LjY1OCwwLDAsMCwyLjM0OCw0LjIyNywxMi45NjksMTIuOTY5LDAsMCwwLDYuNzMxLDEuNDRxNi41NDQsMCw5LjY5MS0xLjk1NmE1Ljk5Myw1Ljk5MywwLDAsMCwzLjE0Ni01LjMwN3EwLTIuNzg3LTEuNzIyLTMuODY3dC02LjQ4MS0xLjA4aC02LjIzYTguMjA4LDguMjA4LDAsMCwwLTUuNTExLDEuNjlBNi4wNDIsNi4wNDIsMCwwLDAsMjcxLjc3Miw3Ni4wNjJabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMSw4LjEyMSwwLDAsMCw1LjY2NywxLjg0N3E3LjYwNywwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI5LDcuNjI5LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NSwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDYiIGRhdGEtbmFtZT0iUGF0aCAyOTQ2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMTYuNzc4LDcwLjkyOHEtNy42MDgsMC0xMi4wMDctNC42MzR0LTQuNC0xMi44NjhxMC04LjMsNC4wODYtMTMuMTgxYTEzLjU3MywxMy41NzMsMCwwLDEsMTAuOTc0LTQuODg0QTEyLjkzOCwxMi45MzgsMCwwLDEsMzI1LjYzOCwzOS42cTMuNzYyLDQuMjQ3LDMuNzYyLDExLjJ2My4yODdIMzA1Ljc1N3EuMTU2LDYuMDQ0LDMuMDUzLDkuMTc0dDguMTU2LDMuMTMxYTI3LjYzMywyNy42MzMsMCwwLDAsMTAuOTU4LTIuMzE3djQuNjM0YTI3LjUsMjcuNSwwLDAsMS01LjIxMywxLjcwNiwyOS4yNTEsMjkuMjUxLDAsMCwxLTUuOTMzLjUxM1ptLTEuNDA5LTMxLjIxNWE4LjQ4OSw4LjQ4OSwwLDAsMC02LjU5MSwyLjY5MiwxMi40MTYsMTIuNDE2LDAsMCwwLTIuOSw3LjQ1MmgxNy45NHEwLTQuOTE2LTIuMTkxLTcuNTNhNy43MTQsNy43MTQsMCwwLDAtNi4yNTgtMi42MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ3IiBkYXRhLW5hbWU9IlBhdGggMjk0NyIgY2xhc3M9ImNscy0yIiBkPSJNMzUwLjksMzUuMzYxYTIwLjM4LDIwLjM4LDAsMCwxLDQuMS4zNzVsLS43MjEsNC44MjJhMTcuNzEyLDE3LjcxMiwwLDAsMC0zLjc1Ny0uNDdBOS4xNDIsOS4xNDIsMCwwLDAsMzQzLjQsNDMuNDdhMTIuMzI3LDEyLjMyNywwLDAsMC0yLjk1OSw4LjQyMlY3MC4zaC01LjJWMzUuOTg3aDQuMjlsLjYsNi4zNTZoLjI1YTE1LjA3MiwxNS4wNzIsMCwwLDEsNC42LTUuMTY2LDEwLjM1NiwxMC4zNTYsMCwwLDEsNS45MTktMS44MTZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ4IiBkYXRhLW5hbWU9IlBhdGggMjk0OCIgY2xhc3M9ImNscy0yIiBkPSJNMjU1Ljg1Nyw5Ni42MzhzLTMuNDMtLjM5MS00Ljg1LS4zOTFjLTIuMDU4LDAtMy4xMTEuNzM1LTMuMTExLDIuMTgsMCwxLjU2OC44ODIsMS45MzUsMy43NDgsMi43MTksMy41MjcuOTgsNC44LDEuOTExLDQuOCw0Ljc3NywwLDMuNjc1LTIuMyw1LjI2Ny01LjYxLDUuMjY3YTM1LjY4NywzNS42ODcsMCwwLDEtNS40ODctLjY2MmwuMjctMi4xOHMzLjMwNi40NDEsNS4wNDYuNDQxYzIuMDgyLDAsMy4wMzctLjkzMSwzLjAzNy0yLjcsMC0xLjQyMS0uNzU5LTEuOTEtMy4zMzEtMi41MjMtMy42MjYtLjkzLTUuMTkzLTIuMDMzLTUuMTkzLTQuOTQ4LDAtMy4zODEsMi4yMjktNC43NzYsNS41ODUtNC43NzZhMzcuMiwzNy4yLDAsMCwxLDUuMzE1LjU4N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDkiIGRhdGEtbmFtZT0iUGF0aCAyOTQ5IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yNjIuOTY3LDk0LjE0SDI2Ny43bDMuNzQ4LDEzLjEwNkwyNzUuMiw5NC4xNGg0Ljc1MnYxNi43OEgyNzcuMlY5Ni40MmgtLjE0NWwtNC4xOTEsMTMuODE2aC0yLjg0MkwyNjUuODMxLDk2LjQyaC0uMTQ1djE0LjVoLTIuNzE5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1MCIgZGF0YS1uYW1lPSJQYXRoIDI5NTAiIGNsYXNzPSJjbHMtMiIgZD0iTTMyMi4wNTcsOTQuMTRIMzM0LjN2Mi40MjVoLTQuNzI4VjExMC45MmgtMi43NDNWOTYuNTY1aC00Ljc3N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTEiIGRhdGEtbmFtZT0iUGF0aCAyOTUxIiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNDYuMTM3LDk0LjE0YzMuMzMyLDAsNS4xMiwxLjI0OSw1LjEyLDQuMzYxLDAsMi4wMzMtLjYzNywzLjAzNy0xLjk4NCwzLjc3MiwxLjQ0NS41NjMsMi40LDEuNTkyLDIuNCwzLjksMCwzLjQzLTIuMDgxLDQuNzUyLTUuMzM5LDQuNzUyaC02LjU2NlY5NC4xNFptLTMuNjUsMi4zNTJ2NC44aDMuNmMxLjY2NiwwLDIuNC0uODMyLDIuNC0yLjQ3NCwwLTEuNjE3LS44MzMtMi4zMjctMi41LTIuMzI3Wm0wLDcuMXY0Ljk3M2gzLjdjMS42ODksMCwyLjY5NC0uNTM5LDIuNjk0LTIuNTQ4LDAtMS45MTEtMS40MjEtMi40MjUtMi43NDQtMi40MjVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUyIiBkYXRhLW5hbWU9IlBhdGggMjk1MiIgY2xhc3M9ImNscy0yIiBkPSJNMzU4LjQxNCw5NC4xNEgzNjl2Mi4zNzdoLTcuODY0djQuNzUxaDYuMzk0VjEwMy42aC02LjM5NHY0LjkyNEgzNjl2Mi40SDM1OC40MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUzIiBkYXRhLW5hbWU9IlBhdGggMjk1MyIgY2xhc3M9ImNscy0yIiBkPSJNMzc4Ljc0Nyw5NC4xNGg1LjQxNGw0LjE2NCwxNi43OGgtMi43NDRMMzg0LjM0MiwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDhsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTQiIGRhdGEtbmFtZT0iUGF0aCAyOTU0IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zOTcuMSwxMDUuOTQ3djQuOTczaC0yLjcxOVY5NC4xNGg2LjM3YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU2LDQuNTE5LTIuNzQ0LDUuMzUybDIuNzY5LDUuNTg1SDQwMy40N2wtMi40MjYtNC45NzNabTMuNjUxLTkuNDU1SDM5Ny4xdjcuMWgzLjdjMi4wNTcsMCwyLjg0MS0xLjg1LDIuODQxLTMuNTg5LDAtMS45LS45MzQtMy41MTEtMi44OTQtMy41MTFaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTU1IiBkYXRhLW5hbWU9IlBhdGggMjk1NSIgY2xhc3M9ImNscy0yIiBkPSJNMjkwLjAxMyw5NC4xNGg1LjQxM2w0LjE2NCwxNi43OGgtMi43NDNMMjk1LjYwOCwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDdsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTYiIGRhdGEtbmFtZT0iUGF0aCAyOTU2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMDguMzYyLDEwNS45NDd2NC45NzNoLTIuNzE5Vjk0LjE0aDYuMzY5YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU1LDQuNTE5LTIuNzQzLDUuMzUybDIuNzY4LDUuNTg1aC0yLjk4OWwtMi40MjUtNC45NzNabTMuNjUtOS40NTVoLTMuNjV2Ny4xaDMuN2MyLjA1OCwwLDIuODQxLTEuODUsMi44NDEtMy41ODlDMzE0LjksOTguMSwzMTMuOTcyLDk2LjQ5MiwzMTIuMDEyLDk2LjQ5MloiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTciIGRhdGEtbmFtZT0iUGF0aCAyOTU3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzAuNjA2LDEwNy42NDNhMy4wMiwzLjAyLDAsMCwxLTEuMTgsMi41MzcsNS4xMTMsNS4xMTMsMCwwLDEtMy4yLjkxLDguMDMsOC4wMywwLDAsMS0zLjM3MS0uNTY0di0xLjM4M2E4Ljc5Myw4Ljc5MywwLDAsMCwxLjY1Mi41MDYsOC42NzIsOC42NzIsMCwwLDAsMS43Ny4xODYsMy41NjUsMy41NjUsMCwwLDAsMi4xNTctLjU0NCwxLjc4MywxLjc4MywwLDAsMCwuNzI1LTEuNTEyLDEuOTQ3LDEuOTQ3LDAsMCwwLS4yNTctMS4wNSwyLjM5MywyLjM5MywwLDAsMC0uODYtLjc1NCwxMi4xNzEsMTIuMTcxLDAsMCwwLTEuODMzLS43ODQsNS44NDIsNS44NDIsMCwwLDEtMi40NTYtMS40NTgsMy4yMTMsMy4yMTMsMCwwLDEtLjczOC0yLjIsMi43MzYsMi43MzYsMCwwLDEsMS4wNzEtMi4yNjcsNC40NDQsNC40NDQsMCwwLDEsMi44MzEtLjg0Myw4LjM0MSw4LjM0MSwwLDAsMSwzLjM4LjY3NWwtLjQ0NywxLjI0N2E3LjYzOSw3LjYzOSwwLDAsMC0yLjk2Ni0uNjQxLDIuODc4LDIuODc4LDAsMCwwLTEuNzc5LjQ4OSwxLjYxMiwxLjYxMiwwLDAsMC0uNjQsMS4zNTcsMi4wODEsMi4wODEsMCwwLDAsLjIzNiwxLjA0OSwyLjIzMSwyLjIzMSwwLDAsMCwuOC43NSw5Ljg3OCw5Ljg3OCwwLDAsMCwxLjcxNS43NTQsNi44LDYuOCwwLDAsMSwyLjY2NywxLjQ4MywyLjkxOSwyLjkxOSwwLDAsMSwuNzIzLDIuMDU3WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OCIgZGF0YS1uYW1lPSJQYXRoIDI5NTgiIGNsYXNzPSJjbHMtMiIgZD0iTTEzNC40NDcsMTAxLjY4NnY1Ljk5MWEyLjQxMSwyLjQxMSwwLDAsMCwuNTE1LDEuNjg2LDIuMDksMi4wOSwwLDAsMCwxLjYwOS41NTYsMi42MjksMi42MjksMCwwLDAsMi4xMi0uNzkyLDQsNCwwLDAsMCwuNjctMi41ODd2LTQuODU0aDEuNHY5LjIzNkgxMzkuNmwtLjItMS4yMzloLS4wNzVhMi43OTMsMi43OTMsMCwwLDEtMS4xOTMsMS4wNDUsNCw0LDAsMCwxLTEuNzQuMzYyLDMuNTI5LDMuNTI5LDAsMCwxLTIuNTI0LS44LDMuNDA5LDMuNDA5LDAsMCwxLS44MzktMi41NjJ2LTYuMDQyWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OSIgZGF0YS1uYW1lPSJQYXRoIDI5NTkiIGNsYXNzPSJjbHMtMiIgZD0iTTE0OC4yMDYsMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxNS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MCIgZGF0YS1uYW1lPSJQYXRoIDI5NjAiIGNsYXNzPSJjbHMtMiIgZD0iTTE1OS4wMzksMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxMS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MSIgZGF0YS1uYW1lPSJQYXRoIDI5NjEiIGNsYXNzPSJjbHMtMiIgZD0iTTE3My42MTIsMTA2LjNhNS4wOTMsNS4wOTMsMCwwLDEtMS4xMzcsMy41MjcsNC4wMDUsNC4wMDUsMCwwLDEtMy4xNDMsMS4yNjgsNC4xNzIsNC4xNzIsMCwwLDEtMi4yLS41ODEsMy44NCwzLjg0LDAsMCwxLTEuNDgzLTEuNjY5LDUuOCw1LjgsMCwwLDEtLjUyMi0yLjU0NSw1LjA4Nyw1LjA4NywwLDAsMSwxLjEyOS0zLjUxOCwzLjk5MSwzLjk5MSwwLDAsMSwzLjEzNS0xLjI2LDMuOTA3LDMuOTA3LDAsMCwxLDMuMDgsMS4yOSw1LjA3MSw1LjA3MSwwLDAsMSwxLjE0MSwzLjQ4OFptLTcuMDM2LDBhNC4zODQsNC4zODQsMCwwLDAsLjcwOCwyLjcsMi44MDksMi44MDksMCwwLDAsNC4xNjcsMCw0LjM2NSw0LjM2NSwwLDAsMCwuNzEyLTIuNyw0LjI5Myw0LjI5MywwLDAsMC0uNzEyLTIuNjc1LDIuNSwyLjUsMCwwLDAtMi4xLS45MTUsMi40NjEsMi40NjEsMCwwLDAtMi4wNzIuOSw0LjMzNCw0LjMzNCwwLDAsMC0uNywyLjY5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MiIgZGF0YS1uYW1lPSJQYXRoIDI5NjIiIGNsYXNzPSJjbHMtMiIgZD0iTTE4MC41MjUsMTAxLjUxN2E1LjUwNiw1LjUwNiwwLDAsMSwxLjEuMWwtLjE5NCwxLjNhNC43ODYsNC43ODYsMCwwLDAtMS4wMTEtLjEyNywyLjQ2LDIuNDYsMCwwLDAtMS45MTcuOTExLDMuMzE4LDMuMzE4LDAsMCwwLS44LDIuMjY3djQuOTU1aC0xLjR2LTkuMjM2aDEuMTU0bC4xNiwxLjcxaC4wNjhhNC4wNTQsNC4wNTQsMCwwLDEsMS4yMzgtMS4zOSwyLjc4NywyLjc4NywwLDAsMSwxLjYtLjQ5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MyIgZGF0YS1uYW1lPSJQYXRoIDI5NjMiIGNsYXNzPSJjbHMtMiIgZD0iTTE4Ny4zNjMsMTA5LjkzNmE0LjUwNiw0LjUwNiwwLDAsMCwuNzE2LS4wNTUsNC4zODcsNC4zODcsMCwwLDAsLjU0OC0uMTE0djEuMDdhMi41LDIuNSwwLDAsMS0uNjcuMTgxLDUsNSwwLDAsMS0uOC4wNzJxLTIuNjgsMC0yLjY4LTIuODIzdi01LjQ5NGgtMS4zMjNWMTAyLjFsMS4zMjMtLjU4Mi41OS0xLjk3MmguODA5djIuMTQxaDIuNjh2MS4wODdoLTIuNjh2NS40MzVhMS44NjksMS44NjksMCwwLDAsLjQsMS4yODFBMS4zNzcsMS4zNzcsMCwwLDAsMTg3LjM2MywxMDkuOTM2WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2NCIgZGF0YS1uYW1lPSJQYXRoIDI5NjQiIGNsYXNzPSJjbHMtMiIgZD0iTTE5NC41MzgsMTExLjA5YTQuMjM5LDQuMjM5LDAsMCwxLTMuMjMxLTEuMjQ3LDQuODI0LDQuODI0LDAsMCwxLTEuMTg0LTMuNDYzLDUuMzU1LDUuMzU1LDAsMCwxLDEuMS0zLjU0OCwzLjY1MiwzLjY1MiwwLDAsMSwyLjk1NC0xLjMxNSwzLjQ4NCwzLjQ4NCwwLDAsMSwyLjc0NywxLjE0Miw0LjM3OCw0LjM3OCwwLDAsMSwxLjAxMSwzLjAxM3YuODg1aC02LjM2MmEzLjY2LDMuNjYsMCwwLDAsLjgyMiwyLjQ2OSwyLjg0MywyLjg0MywwLDAsMCwyLjIuODQzLDcuNDMxLDcuNDMxLDAsMCwwLDIuOTQ5LS42MjR2MS4yNDdhNy4zNzcsNy4zNzcsMCwwLDEtMS40LjQ1OSw3Ljg2Myw3Ljg2MywwLDAsMS0xLjYuMTM5Wm0tLjM3OS04LjRhMi4yODYsMi4yODYsMCwwLDAtMS43NzQuNzI1LDMuMzM3LDMuMzM3LDAsMCwwLS43NzksMi4wMDZoNC44MjhhMy4wNzIsMy4wNzIsMCwwLDAtLjU5LTIuMDI3LDIuMDc2LDIuMDc2LDAsMCwwLTEuNjg1LS43MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY1IiBkYXRhLW5hbWU9IlBhdGggMjk2NSIgY2xhc3M9ImNscy0yIiBkPSJNMjA2Ljk1MSwxMDkuNjgzaC0uMDc2YTMuMjg3LDMuMjg3LDAsMCwxLTIuOSwxLjQwNywzLjQyNywzLjQyNywwLDAsMS0yLjgxOS0xLjIzOSw1LjQ1Miw1LjQ1MiwwLDAsMS0xLjAwNi0zLjUyMiw1LjU0Miw1LjU0MiwwLDAsMSwxLjAxMS0zLjU0OCwzLjQsMy40LDAsMCwxLDIuODE0LTEuMjY0LDMuMzYxLDMuMzYxLDAsMCwxLDIuODgzLDEuMzY1aC4xMDlsLS4wNTktLjY2NS0uMDM0LS42NDlWOTcuODA5aDEuNHYxMy4xMTNoLTEuMTM4Wm0tMi44LjIzNmEyLjU1MSwyLjU1MSwwLDAsMCwyLjA3OC0uNzc5LDMuOTQ3LDMuOTQ3LDAsMCwwLC42NDQtMi41MTZ2LS4zYTQuNjM4LDQuNjM4LDAsMCwwLS42NTMtMi44LDIuNDgxLDIuNDgxLDAsMCwwLTIuMDg2LS44MzksMi4xNCwyLjE0LDAsMCwwLTEuODgzLjk1Nyw0Ljc2LDQuNzYsMCwwLDAtLjY1MywyLjcsNC41NTQsNC41NTQsMCwwLDAsLjY0OSwyLjY3MSwyLjE5NCwyLjE5NCwwLDAsMCwxLjkwNi45MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY2IiBkYXRhLW5hbWU9IlBhdGggMjk2NiIgY2xhc3M9ImNscy0yIiBkPSJNMjIwLjcxMiwxMDEuNTM0YTMuNDM1LDMuNDM1LDAsMCwxLDIuODI3LDEuMjQzLDYuNjUzLDYuNjUzLDAsMCwxLS4wMDksNy4wNTMsMy40MTcsMy40MTcsMCwwLDEtMi44MTgsMS4yNiw0LDQsMCwwLDEtMS42NDgtLjMzMywzLjA5NCwzLjA5NCwwLDAsMS0xLjI1MS0xLjAyM2gtLjFsLS4yOTUsMS4xODhoLTFWOTcuODA5aDEuNFYxMDFxMCwxLjA2OS0uMDY4LDEuOTIxaC4wNjhhMy4zMjIsMy4zMjIsMCwwLDEsMi44OTQtMS4zODdabS0uMiwxLjE3MWEyLjQ0LDIuNDQsMCwwLDAtMi4wNjQuODIyLDYuMzM4LDYuMzM4LDAsMCwwLC4wMTcsNS41NTMsMi40NjQsMi40NjQsMCwwLDAsMi4wODEuODM5LDIuMTU4LDIuMTU4LDAsMCwwLDEuOTIyLS45NCw0LjgyOCw0LjgyOCwwLDAsMCwuNjMyLTIuNyw0LjY0NSw0LjY0NSwwLDAsMC0uNjMyLTIuNjg5LDIuMjQyLDIuMjQyLDAsMCwwLTEuOTU5LS44ODVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY3IiBkYXRhLW5hbWU9IlBhdGggMjk2NyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1Ljc1OCwxMDEuNjg2aDEuNWwyLjAyMyw1LjI2N2EyMC4xODgsMjAuMTg4LDAsMCwxLC44MjYsMi42aC4wNjdxLjEwOS0uNDMxLjQ1OS0xLjQ3MXQyLjI4OC02LjRoMS41TDIzMC40NTIsMTEyLjJhNS4yNTMsNS4yNTMsMCwwLDEtMS4zNzgsMi4yMTIsMi45MzIsMi45MzIsMCwwLDEtMS45MzQuNjUzLDUuNjU5LDUuNjU5LDAsMCwxLTEuMjY0LS4xNDNWMTEzLjhhNC45LDQuOSwwLDAsMCwxLjAzNy4xLDIuMTM2LDIuMTM2LDAsMCwwLDIuMDU2LTEuNjE4bC41MTQtMS4zMTRaIi8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==\" alt=\"Swagger UI\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img height=\"40\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDA3IDExNiI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgIC5jbHMtMSB7DQogICAgICAgIGNsaXAtcGF0aDogdXJsKCNjbGlwLVNXX1RNLWxvZ28tb24tZGFyayk7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMiB7DQogICAgICAgIGZpbGw6ICNmZmY7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMyB7DQogICAgICAgIGZpbGw6ICM4NWVhMmQ7DQogICAgICB9DQoNCiAgICAgIC5jbHMtNCB7DQogICAgICAgIGZpbGw6ICMxNzM2NDc7DQogICAgICB9DQogICAgPC9zdHlsZT4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtU1dfVE0tbG9nby1vbi1kYXJrIj4NCiAgICAgIDxyZWN0IHdpZHRoPSI0MDciIGhlaWdodD0iMTE2Ii8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU1dfVE0tbG9nby1vbi1kYXJrIiBjbGFzcz0iY2xzLTEiPg0KICAgIDxnIGlkPSJTV19Jbi1Qcm9kdWN0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4zMDEpIj4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzYiIGRhdGEtbmFtZT0iUGF0aCAyOTM2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNTkuMTUsNzAuNjc0aC0uN1Y2Ni45OTJoLTEuMjZ2LS42aDMuMjE5di42SDM1OS4xNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzciIGRhdGEtbmFtZT0iUGF0aCAyOTM3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNjMuMjE3LDcwLjY3NCwzNjEuOTc1LDY3LjFoLS4wMjNxLjA1LjguMDUsMS40OTR2Mi4wODNoLS42MzZWNjYuMzkxaC45ODdsMS4xOSwzLjQwN2guMDE3bDEuMjI1LTMuNDA3aC45OXY0LjI4M0gzNjUuMVY2OC41NTZjMC0uMjEzLjAwNi0uNDkuMDE2LS44MzJzLjAyLS41NDkuMDI4LS42MjFoLS4wMjNsLTEuMjg2LDMuNTcxWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjkzOCIgZGF0YS1uYW1lPSJQYXRoIDI5MzgiIGNsYXNzPSJjbHMtMyIgZD0iTTUwLjMyOCw5Ny42NjlBNDcuNjQyLDQ3LjY0MiwwLDEsMSw5Ny45NzEsNTAuMDI3LDQ3LjY0Miw0Ny42NDIsMCwwLDEsNTAuMzI4LDk3LjY2OVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzkiIGRhdGEtbmFtZT0iUGF0aCAyOTM5IiBjbGFzcz0iY2xzLTMiIGQ9Ik01MC4zMjgsNC43NjlBNDUuMjU4LDQ1LjI1OCwwLDEsMSw1LjA3LDUwLjAyNyw0NS4yNTgsNDUuMjU4LDAsMCwxLDUwLjMyOCw0Ljc2OW0wLTQuNzY5YTUwLjAyNyw1MC4wMjcsMCwxLDAsNTAuMDI3LDUwLjAyN0E1MC4wMjcsNTAuMDI3LDAsMCwwLDUwLjMyOCwwWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MCIgZGF0YS1uYW1lPSJQYXRoIDI5NDAiIGNsYXNzPSJjbHMtNCIgZD0iTTMxLjgsMzMuODU0Yy0uMTU0LDEuNzEyLjA1OCwzLjQ4Mi0uMDU3LDUuMjEzYTQyLjY2NSw0Mi42NjUsMCwwLDEtLjY5Myw1LjE1Niw5LjUzLDkuNTMsMCwwLDEtNC4xLDUuODI5YzQuMDc5LDIuNjU0LDQuNTQsNi43NzEsNC44MSwxMC45NDYuMTM1LDIuMjUuMDc3LDQuNTIuMzA4LDYuNzUyLjE3MywxLjczMS44NDYsMi4xNzQsMi42MzYsMi4yMzEuNzMuMDIsMS40OCwwLDIuMzI3LDBWNzUuMzNjLTUuMjkuOS05LjY1Ny0uNi0xMC43MzQtNS4wNzlhMzAuNzYsMzAuNzYsMCwwLDEtLjY1NC01Yy0uMTE3LTEuNzg5LjA3Ni0zLjU3OC0uMDU4LTUuMzY3LS4zODYtNC45MDYtMS4wMi02LjU2LTUuNzEzLTYuNzkxdi02LjFBOS4xOTEsOS4xOTEsMCwwLDEsMjAuOSw0Ni44MmMyLjU3Ny0uMTM1LDMuNjc0LS45MjQsNC4yMzEtMy40NjNhMjkuMywyOS4zLDAsMCwwLC40ODEtNC4zMjksODIuMSw4Mi4xLDAsMCwxLC42LTguNDA2Yy42NzMtMy45ODIsMy4xMzYtNS45MDYsNy4yMzQtNi4xMzcsMS4xNTQtLjA1NywyLjMyNywwLDMuNjU1LDB2NS40NjRjLS41NTguMDM4LTEuMDM5LjExNS0xLjUzOS4xMTVDMzIuMjI2LDI5Ljk0OSwzMi4wNTIsMzEuMDg0LDMxLjgsMzMuODU0Wm02LjQwNiwxMi42NThoLS4wNzdhMy41MTUsMy41MTUsMCwxLDAtLjM0Niw3LjAyMWguMjMxYTMuNDYxLDMuNDYxLDAsMCwwLDMuNjU1LTMuMjUxVjUwLjA5YTMuNTIzLDMuNTIzLDAsMCwwLTMuNDYxLTMuNTc4Wm0xMi4wNjIsMGEzLjM3MywzLjM3MywwLDAsMC0zLjQ4MiwzLjI1MSwxLjc5LDEuNzksMCwwLDAsLjAyLjMyNywzLjMsMy4zLDAsMCwwLDMuNTc4LDMuNDQzLDMuMjYzLDMuMjYzLDAsMCwwLDMuNDQzLTMuNTU4LDMuMzA4LDMuMzA4LDAsMCwwLTMuNTU3LTMuNDYzWm0xMi4zNTEsMGEzLjU5MiwzLjU5MiwwLDAsMC0zLjY1NSwzLjQ4MkEzLjUyOSwzLjUyOSwwLDAsMCw2Mi41LDUzLjUzM2guMDM5YzEuNzY5LjMwOSwzLjU1OS0xLjQsMy42NzQtMy40NjJhMy41NzEsMy41NzEsMCwwLDAtMy42LTMuNTU5Wm0xNi45NDguMjg4Yy0yLjIzMi0uMS0zLjM0OC0uODQ2LTMuOS0yLjk2MmEyMS40NDcsMjEuNDQ3LDAsMCwxLS42MzUtNC4xMzZjLS4xNTQtMi41NzgtLjEzNS01LjE3NS0uMzA4LTcuNzUzLS40LTYuMTE3LTQuODI4LTguMjUyLTExLjI1NC03LjE5NXY1LjMxYzEuMDE5LDAsMS44MDgsMCwyLjYuMDE5LDEuMzY2LjAxOSwyLjQuNTM5LDIuNTM5LDIuMDU5LjEzNSwxLjM4NS4xMzUsMi43ODkuMjcsNC4xOTMuMjY5LDIuNzkuNDIyLDUuNjE4LjksOC4zNjlBOC43MTUsOC43MTUsMCwwLDAsNzMuNyw1MC4wNTJjLTMuNCwyLjI4OS00LjQwNiw1LjU1OS00LjU3OCw5LjIzNC0uMSwyLjUyLS4xNTQsNS4wNTktLjI4OSw3LjYtLjExNSwyLjMwOC0uOTIzLDMuMDU4LTMuMjUxLDMuMTE2LS42NTQuMDE5LTEuMjg5LjA3Ny0yLjAxOS4xMTV2NS40NDVjMS4zNjUsMCwyLjYxNi4wNzcsMy44NjYsMCwzLjg4Ni0uMjMxLDYuMjMzLTIuMTE3LDctNS44ODdBNDkuMDc5LDQ5LjA3OSwwLDAsMCw3NSw2My40Yy4xMzUtMS45MjMuMTE2LTMuODY2LjMwOC01Ljc3MS4yODktMi45ODIsMS42NTUtNC4yMTMsNC42MzYtNC40YTQuMDM3LDQuMDM3LDAsMCwwLC44MjgtLjE5MnYtNi4xYy0uNS0uMDU4LS44NDMtLjExNS0xLjIwOC0uMTM1WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MSIgZGF0YS1uYW1lPSJQYXRoIDI5NDEiIGNsYXNzPSJjbHMtMiIgZD0iTTE1Mi4yNzMsNTguMTIyYTExLjIyOCwxMS4yMjgsMCwwLDEtNC4zODQsOS40MjRxLTQuMzgzLDMuMzgyLTExLjksMy4zODItOC4xNCwwLTEyLjUyNC0yLjFWNjMuN2EzMi45LDMyLjksMCwwLDAsNi4xMzcsMS44NzksMzIuMywzMi4zLDAsMCwwLDYuNTc1LjY4OXE1LjMyMiwwLDguMDE1LTIuMDJhNi42MjYsNi42MjYsMCwwLDAsMi42OTItNS42Miw3LjIyMiw3LjIyMiwwLDAsMC0uOTU0LTMuOSw4Ljg4NSw4Ljg4NSwwLDAsMC0zLjE5NC0yLjgsNDQuNjM0LDQ0LjYzNCwwLDAsMC02LjgxLTIuOTExcS02LjM4Ny0yLjI4Ni05LjEyNi01LjQxN2ExMS45NTUsMTEuOTU1LDAsMCwxLTIuNzQtOC4xNzJBMTAuMTY0LDEwLjE2NCwwLDAsMSwxMjguMDM5LDI3cTMuOTc3LTMuMTMxLDEwLjUyLTMuMTMxYTMxLDMxLDAsMCwxLDEyLjU1NSwyLjVMMTQ5LjQ1NSwzMWEyOC4zODIsMjguMzgyLDAsMCwwLTExLjAyMS0yLjM4LDEwLjY2OCwxMC42NjgsMCwwLDAtNi42MDYsMS44MTYsNS45ODQsNS45ODQsMCwwLDAtMi4zOCw1LjA0MSw3LjcyMiw3LjcyMiwwLDAsMCwuODc3LDMuOSw4LjI0Miw4LjI0MiwwLDAsMCwyLjk1OSwyLjc4NiwzNi43LDM2LjcsMCwwLDAsNi4zNzEsMi44cTcuMiwyLjU2Niw5LjkxLDUuNTFBMTAuODQsMTAuODQsMCwwLDEsMTUyLjI3Myw1OC4xMjJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQyIiBkYXRhLW5hbWU9IlBhdGggMjk0MiIgY2xhc3M9ImNscy0yIiBkPSJNMTg1LjI4OCw3MC4zLDE3OSw1MC4xN3EtLjU5NC0xLjg0OC0yLjIyMi04LjM5MWgtLjI1MXEtMS4yNTIsNS40NzktMi4xOTIsOC40NTNMMTY3Ljg0OSw3MC4zaC02LjAxMWwtOS4zNjEtMzQuMzE1aDUuNDQ3cTMuMzE4LDEyLjkzMSw1LjA1NywxOS42OTNhODAuMTEyLDgwLjExMiwwLDAsMSwxLjk4OCw5LjExMWguMjVxLjM0NS0xLjc4NSwxLjExMi00LjYxOHQxLjMzLTQuNDkzbDYuMjk0LTE5LjY5M2g1LjYzNWw2LjEzNywxOS42OTNhNjYuMzY5LDY2LjM2OSwwLDAsMSwyLjM3OSw5LjA0OGguMjUxYTMzLjE2MywzMy4xNjMsMCwwLDEsLjY3My0zLjQ3NXEuNTQ4LTIuMzQ3LDYuNTI4LTI1LjI2Nmg1LjM4NUwxOTEuNDU2LDcwLjNaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQzIiBkYXRhLW5hbWU9IlBhdGggMjk0MyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1LjExNSw3MC4zbC0xLjAzMy00Ljg4NWgtLjI1YTE0LjQ0NiwxNC40NDYsMCwwLDEtNS4xMTksNC4zNjgsMTUuNjA4LDE1LjYwOCwwLDAsMS02LjM3MiwxLjE0M3EtNS4xLDAtOC0yLjYzdC0yLjktNy40ODNxMC0xMC40LDE2LjYyNi0xMC45bDUuODIzLS4xODhWNDcuNnEwLTQuMDM4LTEuNzM4LTUuOTY0VDIxNi42LDM5LjcxM2EyMi42MzMsMjIuNjMzLDAsMCwwLTkuNzA2LDIuNjNsLTEuNi0zLjk3N2EyNC40MzcsMjQuNDM3LDAsMCwxLDUuNTU3LTIuMTYsMjQuMDU2LDI0LjA1NiwwLDAsMSw2LjA1OC0uNzgzcTYuMTM2LDAsOS4xLDIuNzI0dDIuOTU5LDguNzM1VjcwLjNabS0xMS43NDEtMy42NjNBMTAuNTQ5LDEwLjU0OSwwLDAsMCwyMjEsNjMuOTc3YTkuODQ1LDkuODQ1LDAsMCwwLDIuNzcxLTcuNDUxdi0zLjFsLTUuMi4yMTlxLTYuMi4yMTktOC45MzksMS45MjZhNS44LDUuOCwwLDAsMC0yLjc0LDUuMzA2LDUuMzU0LDUuMzU0LDAsMCwwLDEuNzA3LDQuMjksNy4wODEsNy4wODEsMCwwLDAsNC43NzUsMS40NzJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ0IiBkYXRhLW5hbWU9IlBhdGggMjk0NCIgY2xhc3M9ImNscy0yIiBkPSJNMjY0LjYsMzUuOTg3djMuMjg3bC02LjM1Ni43NTJhMTEuMTYsMTEuMTYsMCwwLDEsMi4yNTUsNi44NTYsMTAuMTQ4LDEwLjE0OCwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NiwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVRMjQxLjQsNTkuNDM4LDI0MS40LDYyLjFhMi4yNDIsMi4yNDIsMCwwLDAsMS4xNTksMi4wODIsOC40NTYsOC40NTYsMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTczLDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NzIsMi45ODktMTMuMzM4LDIuOTktNi43MzIsMC0xMC4zNzktMi41YTguMDg3LDguMDg3LDAsMCwxLTMuNjQ3LTcuMDc2LDcuOTQ2LDcuOTQ2LDAsMCwxLDItNS40MTcsMTAuMjExLDEwLjIxMSwwLDAsMSw1LjYzNi0zLjEsNS40MjksNS40MjksMCwwLDEtMi4yMDctMS44NDcsNC44OSw0Ljg5LDAsMCwxLS44OTMtMi45MTIsNS41Myw1LjUzLDAsMCwxLDEtMy4yODgsMTAuNTI5LDEwLjUyOSwwLDAsMSwzLjE2Mi0yLjcyMyw5LjI3NSw5LjI3NSwwLDAsMS00LjMzNi0zLjcyNiwxMC45NDUsMTAuOTQ1LDAsMCwxLTEuNjc1LTYuMDEycTAtNS42MzQsMy4zODItOC42ODh0OS41OC0zLjA1MmExNy40MzksMTcuNDM5LDAsMCwxLDQuODUzLjYyNlpNMjM3LjIzMyw3Ni4wNjJhNC42Niw0LjY2LDAsMCwwLDIuMzQ4LDQuMjI3LDEyLjk3MywxMi45NzMsMCwwLDAsNi43MzIsMS40NHE2LjU0MywwLDkuNjktMS45NTZhNS45OTIsNS45OTIsMCwwLDAsMy4xNDctNS4zMDdxMC0yLjc4Ny0xLjcyMy0zLjg2N3QtNi40ODEtMS4wOGgtNi4yM2E4LjIwNSw4LjIwNSwwLDAsMC01LjUxLDEuNjksNi4wNDMsNi4wNDMsMCwwLDAtMS45NzMsNC44NTNabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMyw4LjEyMywwLDAsMCw1LjY2NywxLjg0N3E3LjYwOCwwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI4LDcuNjI4LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NiwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDUiIGRhdGEtbmFtZT0iUGF0aCAyOTQ1IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yOTkuMTM2LDM1Ljk4N3YzLjI4N2wtNi4zNTYuNzUyYTExLjE2OCwxMS4xNjgsMCwwLDEsMi4yNTQsNi44NTYsMTAuMTQ1LDEwLjE0NSwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NSwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVxLTMuMzIsMS43NTQtMy4zMTksNC40MTVhMi4yNDMsMi4yNDMsMCwwLDAsMS4xNTgsMi4wODIsOC40NTksOC40NTksMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTc0LDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NywyLjk4OS0xMy4zMzcsMi45OS02LjczMiwwLTEwLjM3OS0yLjVhOC4wODgsOC4wODgsMCwwLDEtMy42NDgtNy4wNzYsNy45NDcsNy45NDcsMCwwLDEsMi01LjQxNywxMC4yMDcsMTAuMjA3LDAsMCwxLDUuNjM2LTMuMSw1LjQzMiw1LjQzMiwwLDAsMS0yLjIwOC0xLjg0Nyw0Ljg4OSw0Ljg4OSwwLDAsMS0uODkyLTIuOTEyLDUuNTMsNS41MywwLDAsMSwxLTMuMjg4LDEwLjUyOSwxMC41MjksMCwwLDEsMy4xNjItMi43MjMsOS4yNzEsOS4yNzEsMCwwLDEtNC4zMzYtMy43MjYsMTAuOTQ1LDEwLjk0NSwwLDAsMS0xLjY3NS02LjAxMnEwLTUuNjM0LDMuMzgxLTguNjg4dDkuNTgxLTMuMDUyYTE3LjQ0NCwxNy40NDQsMCwwLDEsNC44NTMuNjI2Wk0yNzEuNzcyLDc2LjA2MmE0LjY1OCw0LjY1OCwwLDAsMCwyLjM0OCw0LjIyNywxMi45NjksMTIuOTY5LDAsMCwwLDYuNzMxLDEuNDRxNi41NDQsMCw5LjY5MS0xLjk1NmE1Ljk5Myw1Ljk5MywwLDAsMCwzLjE0Ni01LjMwN3EwLTIuNzg3LTEuNzIyLTMuODY3dC02LjQ4MS0xLjA4aC02LjIzYTguMjA4LDguMjA4LDAsMCwwLTUuNTExLDEuNjlBNi4wNDIsNi4wNDIsMCwwLDAsMjcxLjc3Miw3Ni4wNjJabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMSw4LjEyMSwwLDAsMCw1LjY2NywxLjg0N3E3LjYwNywwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI5LDcuNjI5LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NSwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDYiIGRhdGEtbmFtZT0iUGF0aCAyOTQ2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMTYuNzc4LDcwLjkyOHEtNy42MDgsMC0xMi4wMDctNC42MzR0LTQuNC0xMi44NjhxMC04LjMsNC4wODYtMTMuMTgxYTEzLjU3MywxMy41NzMsMCwwLDEsMTAuOTc0LTQuODg0QTEyLjkzOCwxMi45MzgsMCwwLDEsMzI1LjYzOCwzOS42cTMuNzYyLDQuMjQ3LDMuNzYyLDExLjJ2My4yODdIMzA1Ljc1N3EuMTU2LDYuMDQ0LDMuMDUzLDkuMTc0dDguMTU2LDMuMTMxYTI3LjYzMywyNy42MzMsMCwwLDAsMTAuOTU4LTIuMzE3djQuNjM0YTI3LjUsMjcuNSwwLDAsMS01LjIxMywxLjcwNiwyOS4yNTEsMjkuMjUxLDAsMCwxLTUuOTMzLjUxM1ptLTEuNDA5LTMxLjIxNWE4LjQ4OSw4LjQ4OSwwLDAsMC02LjU5MSwyLjY5MiwxMi40MTYsMTIuNDE2LDAsMCwwLTIuOSw3LjQ1MmgxNy45NHEwLTQuOTE2LTIuMTkxLTcuNTNhNy43MTQsNy43MTQsMCwwLDAtNi4yNTgtMi42MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ3IiBkYXRhLW5hbWU9IlBhdGggMjk0NyIgY2xhc3M9ImNscy0yIiBkPSJNMzUwLjksMzUuMzYxYTIwLjM4LDIwLjM4LDAsMCwxLDQuMS4zNzVsLS43MjEsNC44MjJhMTcuNzEyLDE3LjcxMiwwLDAsMC0zLjc1Ny0uNDdBOS4xNDIsOS4xNDIsMCwwLDAsMzQzLjQsNDMuNDdhMTIuMzI3LDEyLjMyNywwLDAsMC0yLjk1OSw4LjQyMlY3MC4zaC01LjJWMzUuOTg3aDQuMjlsLjYsNi4zNTZoLjI1YTE1LjA3MiwxNS4wNzIsMCwwLDEsNC42LTUuMTY2LDEwLjM1NiwxMC4zNTYsMCwwLDEsNS45MTktMS44MTZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ4IiBkYXRhLW5hbWU9IlBhdGggMjk0OCIgY2xhc3M9ImNscy0yIiBkPSJNMjU1Ljg1Nyw5Ni42MzhzLTMuNDMtLjM5MS00Ljg1LS4zOTFjLTIuMDU4LDAtMy4xMTEuNzM1LTMuMTExLDIuMTgsMCwxLjU2OC44ODIsMS45MzUsMy43NDgsMi43MTksMy41MjcuOTgsNC44LDEuOTExLDQuOCw0Ljc3NywwLDMuNjc1LTIuMyw1LjI2Ny01LjYxLDUuMjY3YTM1LjY4NywzNS42ODcsMCwwLDEtNS40ODctLjY2MmwuMjctMi4xOHMzLjMwNi40NDEsNS4wNDYuNDQxYzIuMDgyLDAsMy4wMzctLjkzMSwzLjAzNy0yLjcsMC0xLjQyMS0uNzU5LTEuOTEtMy4zMzEtMi41MjMtMy42MjYtLjkzLTUuMTkzLTIuMDMzLTUuMTkzLTQuOTQ4LDAtMy4zODEsMi4yMjktNC43NzYsNS41ODUtNC43NzZhMzcuMiwzNy4yLDAsMCwxLDUuMzE1LjU4N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDkiIGRhdGEtbmFtZT0iUGF0aCAyOTQ5IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yNjIuOTY3LDk0LjE0SDI2Ny43bDMuNzQ4LDEzLjEwNkwyNzUuMiw5NC4xNGg0Ljc1MnYxNi43OEgyNzcuMlY5Ni40MmgtLjE0NWwtNC4xOTEsMTMuODE2aC0yLjg0MkwyNjUuODMxLDk2LjQyaC0uMTQ1djE0LjVoLTIuNzE5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1MCIgZGF0YS1uYW1lPSJQYXRoIDI5NTAiIGNsYXNzPSJjbHMtMiIgZD0iTTMyMi4wNTcsOTQuMTRIMzM0LjN2Mi40MjVoLTQuNzI4VjExMC45MmgtMi43NDNWOTYuNTY1aC00Ljc3N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTEiIGRhdGEtbmFtZT0iUGF0aCAyOTUxIiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNDYuMTM3LDk0LjE0YzMuMzMyLDAsNS4xMiwxLjI0OSw1LjEyLDQuMzYxLDAsMi4wMzMtLjYzNywzLjAzNy0xLjk4NCwzLjc3MiwxLjQ0NS41NjMsMi40LDEuNTkyLDIuNCwzLjksMCwzLjQzLTIuMDgxLDQuNzUyLTUuMzM5LDQuNzUyaC02LjU2NlY5NC4xNFptLTMuNjUsMi4zNTJ2NC44aDMuNmMxLjY2NiwwLDIuNC0uODMyLDIuNC0yLjQ3NCwwLTEuNjE3LS44MzMtMi4zMjctMi41LTIuMzI3Wm0wLDcuMXY0Ljk3M2gzLjdjMS42ODksMCwyLjY5NC0uNTM5LDIuNjk0LTIuNTQ4LDAtMS45MTEtMS40MjEtMi40MjUtMi43NDQtMi40MjVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUyIiBkYXRhLW5hbWU9IlBhdGggMjk1MiIgY2xhc3M9ImNscy0yIiBkPSJNMzU4LjQxNCw5NC4xNEgzNjl2Mi4zNzdoLTcuODY0djQuNzUxaDYuMzk0VjEwMy42aC02LjM5NHY0LjkyNEgzNjl2Mi40SDM1OC40MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUzIiBkYXRhLW5hbWU9IlBhdGggMjk1MyIgY2xhc3M9ImNscy0yIiBkPSJNMzc4Ljc0Nyw5NC4xNGg1LjQxNGw0LjE2NCwxNi43OGgtMi43NDRMMzg0LjM0MiwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDhsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTQiIGRhdGEtbmFtZT0iUGF0aCAyOTU0IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zOTcuMSwxMDUuOTQ3djQuOTczaC0yLjcxOVY5NC4xNGg2LjM3YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU2LDQuNTE5LTIuNzQ0LDUuMzUybDIuNzY5LDUuNTg1SDQwMy40N2wtMi40MjYtNC45NzNabTMuNjUxLTkuNDU1SDM5Ny4xdjcuMWgzLjdjMi4wNTcsMCwyLjg0MS0xLjg1LDIuODQxLTMuNTg5LDAtMS45LS45MzQtMy41MTEtMi44OTQtMy41MTFaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTU1IiBkYXRhLW5hbWU9IlBhdGggMjk1NSIgY2xhc3M9ImNscy0yIiBkPSJNMjkwLjAxMyw5NC4xNGg1LjQxM2w0LjE2NCwxNi43OGgtMi43NDNMMjk1LjYwOCwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDdsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTYiIGRhdGEtbmFtZT0iUGF0aCAyOTU2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMDguMzYyLDEwNS45NDd2NC45NzNoLTIuNzE5Vjk0LjE0aDYuMzY5YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU1LDQuNTE5LTIuNzQzLDUuMzUybDIuNzY4LDUuNTg1aC0yLjk4OWwtMi40MjUtNC45NzNabTMuNjUtOS40NTVoLTMuNjV2Ny4xaDMuN2MyLjA1OCwwLDIuODQxLTEuODUsMi44NDEtMy41ODlDMzE0LjksOTguMSwzMTMuOTcyLDk2LjQ5MiwzMTIuMDEyLDk2LjQ5MloiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTciIGRhdGEtbmFtZT0iUGF0aCAyOTU3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzAuNjA2LDEwNy42NDNhMy4wMiwzLjAyLDAsMCwxLTEuMTgsMi41MzcsNS4xMTMsNS4xMTMsMCwwLDEtMy4yLjkxLDguMDMsOC4wMywwLDAsMS0zLjM3MS0uNTY0di0xLjM4M2E4Ljc5Myw4Ljc5MywwLDAsMCwxLjY1Mi41MDYsOC42NzIsOC42NzIsMCwwLDAsMS43Ny4xODYsMy41NjUsMy41NjUsMCwwLDAsMi4xNTctLjU0NCwxLjc4MywxLjc4MywwLDAsMCwuNzI1LTEuNTEyLDEuOTQ3LDEuOTQ3LDAsMCwwLS4yNTctMS4wNSwyLjM5MywyLjM5MywwLDAsMC0uODYtLjc1NCwxMi4xNzEsMTIuMTcxLDAsMCwwLTEuODMzLS43ODQsNS44NDIsNS44NDIsMCwwLDEtMi40NTYtMS40NTgsMy4yMTMsMy4yMTMsMCwwLDEtLjczOC0yLjIsMi43MzYsMi43MzYsMCwwLDEsMS4wNzEtMi4yNjcsNC40NDQsNC40NDQsMCwwLDEsMi44MzEtLjg0Myw4LjM0MSw4LjM0MSwwLDAsMSwzLjM4LjY3NWwtLjQ0NywxLjI0N2E3LjYzOSw3LjYzOSwwLDAsMC0yLjk2Ni0uNjQxLDIuODc4LDIuODc4LDAsMCwwLTEuNzc5LjQ4OSwxLjYxMiwxLjYxMiwwLDAsMC0uNjQsMS4zNTcsMi4wODEsMi4wODEsMCwwLDAsLjIzNiwxLjA0OSwyLjIzMSwyLjIzMSwwLDAsMCwuOC43NSw5Ljg3OCw5Ljg3OCwwLDAsMCwxLjcxNS43NTQsNi44LDYuOCwwLDAsMSwyLjY2NywxLjQ4MywyLjkxOSwyLjkxOSwwLDAsMSwuNzIzLDIuMDU3WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OCIgZGF0YS1uYW1lPSJQYXRoIDI5NTgiIGNsYXNzPSJjbHMtMiIgZD0iTTEzNC40NDcsMTAxLjY4NnY1Ljk5MWEyLjQxMSwyLjQxMSwwLDAsMCwuNTE1LDEuNjg2LDIuMDksMi4wOSwwLDAsMCwxLjYwOS41NTYsMi42MjksMi42MjksMCwwLDAsMi4xMi0uNzkyLDQsNCwwLDAsMCwuNjctMi41ODd2LTQuODU0aDEuNHY5LjIzNkgxMzkuNmwtLjItMS4yMzloLS4wNzVhMi43OTMsMi43OTMsMCwwLDEtMS4xOTMsMS4wNDUsNCw0LDAsMCwxLTEuNzQuMzYyLDMuNTI5LDMuNTI5LDAsMCwxLTIuNTI0LS44LDMuNDA5LDMuNDA5LDAsMCwxLS44MzktMi41NjJ2LTYuMDQyWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OSIgZGF0YS1uYW1lPSJQYXRoIDI5NTkiIGNsYXNzPSJjbHMtMiIgZD0iTTE0OC4yMDYsMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxNS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MCIgZGF0YS1uYW1lPSJQYXRoIDI5NjAiIGNsYXNzPSJjbHMtMiIgZD0iTTE1OS4wMzksMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxMS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MSIgZGF0YS1uYW1lPSJQYXRoIDI5NjEiIGNsYXNzPSJjbHMtMiIgZD0iTTE3My42MTIsMTA2LjNhNS4wOTMsNS4wOTMsMCwwLDEtMS4xMzcsMy41MjcsNC4wMDUsNC4wMDUsMCwwLDEtMy4xNDMsMS4yNjgsNC4xNzIsNC4xNzIsMCwwLDEtMi4yLS41ODEsMy44NCwzLjg0LDAsMCwxLTEuNDgzLTEuNjY5LDUuOCw1LjgsMCwwLDEtLjUyMi0yLjU0NSw1LjA4Nyw1LjA4NywwLDAsMSwxLjEyOS0zLjUxOCwzLjk5MSwzLjk5MSwwLDAsMSwzLjEzNS0xLjI2LDMuOTA3LDMuOTA3LDAsMCwxLDMuMDgsMS4yOSw1LjA3MSw1LjA3MSwwLDAsMSwxLjE0MSwzLjQ4OFptLTcuMDM2LDBhNC4zODQsNC4zODQsMCwwLDAsLjcwOCwyLjcsMi44MDksMi44MDksMCwwLDAsNC4xNjcsMCw0LjM2NSw0LjM2NSwwLDAsMCwuNzEyLTIuNyw0LjI5Myw0LjI5MywwLDAsMC0uNzEyLTIuNjc1LDIuNSwyLjUsMCwwLDAtMi4xLS45MTUsMi40NjEsMi40NjEsMCwwLDAtMi4wNzIuOSw0LjMzNCw0LjMzNCwwLDAsMC0uNywyLjY5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MiIgZGF0YS1uYW1lPSJQYXRoIDI5NjIiIGNsYXNzPSJjbHMtMiIgZD0iTTE4MC41MjUsMTAxLjUxN2E1LjUwNiw1LjUwNiwwLDAsMSwxLjEuMWwtLjE5NCwxLjNhNC43ODYsNC43ODYsMCwwLDAtMS4wMTEtLjEyNywyLjQ2LDIuNDYsMCwwLDAtMS45MTcuOTExLDMuMzE4LDMuMzE4LDAsMCwwLS44LDIuMjY3djQuOTU1aC0xLjR2LTkuMjM2aDEuMTU0bC4xNiwxLjcxaC4wNjhhNC4wNTQsNC4wNTQsMCwwLDEsMS4yMzgtMS4zOSwyLjc4NywyLjc4NywwLDAsMSwxLjYtLjQ5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MyIgZGF0YS1uYW1lPSJQYXRoIDI5NjMiIGNsYXNzPSJjbHMtMiIgZD0iTTE4Ny4zNjMsMTA5LjkzNmE0LjUwNiw0LjUwNiwwLDAsMCwuNzE2LS4wNTUsNC4zODcsNC4zODcsMCwwLDAsLjU0OC0uMTE0djEuMDdhMi41LDIuNSwwLDAsMS0uNjcuMTgxLDUsNSwwLDAsMS0uOC4wNzJxLTIuNjgsMC0yLjY4LTIuODIzdi01LjQ5NGgtMS4zMjNWMTAyLjFsMS4zMjMtLjU4Mi41OS0xLjk3MmguODA5djIuMTQxaDIuNjh2MS4wODdoLTIuNjh2NS40MzVhMS44NjksMS44NjksMCwwLDAsLjQsMS4yODFBMS4zNzcsMS4zNzcsMCwwLDAsMTg3LjM2MywxMDkuOTM2WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2NCIgZGF0YS1uYW1lPSJQYXRoIDI5NjQiIGNsYXNzPSJjbHMtMiIgZD0iTTE5NC41MzgsMTExLjA5YTQuMjM5LDQuMjM5LDAsMCwxLTMuMjMxLTEuMjQ3LDQuODI0LDQuODI0LDAsMCwxLTEuMTg0LTMuNDYzLDUuMzU1LDUuMzU1LDAsMCwxLDEuMS0zLjU0OCwzLjY1MiwzLjY1MiwwLDAsMSwyLjk1NC0xLjMxNSwzLjQ4NCwzLjQ4NCwwLDAsMSwyLjc0NywxLjE0Miw0LjM3OCw0LjM3OCwwLDAsMSwxLjAxMSwzLjAxM3YuODg1aC02LjM2MmEzLjY2LDMuNjYsMCwwLDAsLjgyMiwyLjQ2OSwyLjg0MywyLjg0MywwLDAsMCwyLjIuODQzLDcuNDMxLDcuNDMxLDAsMCwwLDIuOTQ5LS42MjR2MS4yNDdhNy4zNzcsNy4zNzcsMCwwLDEtMS40LjQ1OSw3Ljg2Myw3Ljg2MywwLDAsMS0xLjYuMTM5Wm0tLjM3OS04LjRhMi4yODYsMi4yODYsMCwwLDAtMS43NzQuNzI1LDMuMzM3LDMuMzM3LDAsMCwwLS43NzksMi4wMDZoNC44MjhhMy4wNzIsMy4wNzIsMCwwLDAtLjU5LTIuMDI3LDIuMDc2LDIuMDc2LDAsMCwwLTEuNjg1LS43MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY1IiBkYXRhLW5hbWU9IlBhdGggMjk2NSIgY2xhc3M9ImNscy0yIiBkPSJNMjA2Ljk1MSwxMDkuNjgzaC0uMDc2YTMuMjg3LDMuMjg3LDAsMCwxLTIuOSwxLjQwNywzLjQyNywzLjQyNywwLDAsMS0yLjgxOS0xLjIzOSw1LjQ1Miw1LjQ1MiwwLDAsMS0xLjAwNi0zLjUyMiw1LjU0Miw1LjU0MiwwLDAsMSwxLjAxMS0zLjU0OCwzLjQsMy40LDAsMCwxLDIuODE0LTEuMjY0LDMuMzYxLDMuMzYxLDAsMCwxLDIuODgzLDEuMzY1aC4xMDlsLS4wNTktLjY2NS0uMDM0LS42NDlWOTcuODA5aDEuNHYxMy4xMTNoLTEuMTM4Wm0tMi44LjIzNmEyLjU1MSwyLjU1MSwwLDAsMCwyLjA3OC0uNzc5LDMuOTQ3LDMuOTQ3LDAsMCwwLC42NDQtMi41MTZ2LS4zYTQuNjM4LDQuNjM4LDAsMCwwLS42NTMtMi44LDIuNDgxLDIuNDgxLDAsMCwwLTIuMDg2LS44MzksMi4xNCwyLjE0LDAsMCwwLTEuODgzLjk1Nyw0Ljc2LDQuNzYsMCwwLDAtLjY1MywyLjcsNC41NTQsNC41NTQsMCwwLDAsLjY0OSwyLjY3MSwyLjE5NCwyLjE5NCwwLDAsMCwxLjkwNi45MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY2IiBkYXRhLW5hbWU9IlBhdGggMjk2NiIgY2xhc3M9ImNscy0yIiBkPSJNMjIwLjcxMiwxMDEuNTM0YTMuNDM1LDMuNDM1LDAsMCwxLDIuODI3LDEuMjQzLDYuNjUzLDYuNjUzLDAsMCwxLS4wMDksNy4wNTMsMy40MTcsMy40MTcsMCwwLDEtMi44MTgsMS4yNiw0LDQsMCwwLDEtMS42NDgtLjMzMywzLjA5NCwzLjA5NCwwLDAsMS0xLjI1MS0xLjAyM2gtLjFsLS4yOTUsMS4xODhoLTFWOTcuODA5aDEuNFYxMDFxMCwxLjA2OS0uMDY4LDEuOTIxaC4wNjhhMy4zMjIsMy4zMjIsMCwwLDEsMi44OTQtMS4zODdabS0uMiwxLjE3MWEyLjQ0LDIuNDQsMCwwLDAtMi4wNjQuODIyLDYuMzM4LDYuMzM4LDAsMCwwLC4wMTcsNS41NTMsMi40NjQsMi40NjQsMCwwLDAsMi4wODEuODM5LDIuMTU4LDIuMTU4LDAsMCwwLDEuOTIyLS45NCw0LjgyOCw0LjgyOCwwLDAsMCwuNjMyLTIuNyw0LjY0NSw0LjY0NSwwLDAsMC0uNjMyLTIuNjg5LDIuMjQyLDIuMjQyLDAsMCwwLTEuOTU5LS44ODVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY3IiBkYXRhLW5hbWU9IlBhdGggMjk2NyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1Ljc1OCwxMDEuNjg2aDEuNWwyLjAyMyw1LjI2N2EyMC4xODgsMjAuMTg4LDAsMCwxLC44MjYsMi42aC4wNjdxLjEwOS0uNDMxLjQ1OS0xLjQ3MXQyLjI4OC02LjRoMS41TDIzMC40NTIsMTEyLjJhNS4yNTMsNS4yNTMsMCwwLDEtMS4zNzgsMi4yMTIsMi45MzIsMi45MzIsMCwwLDEtMS45MzQuNjUzLDUuNjU5LDUuNjU5LDAsMCwxLTEuMjY0LS4xNDNWMTEzLjhhNC45LDQuOSwwLDAsMCwxLjAzNy4xLDIuMTM2LDIuMTM2LDAsMCwwLDIuMDU2LTEuNjE4bC41MTQtMS4zMTRaIi8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==\" alt=\"Swagger UI\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input type=\"text\" class=\"download-url-input\" value=\"swagger.json\">"
+					},
+					{
+						"html": "<select><option value=\"https\">https</option></select>"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a target=\"_blank\" href=\"swagger.json\" rel=\"noopener noreferrer\" class=\"link\"><span class=\"url\"><!-- react-text: 75 --> <!-- /react-text --><!-- react-text: 76 -->swagger.json<!-- /react-text --></span></a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 13,
+				"items": [
+					{
+						"html": "<a target=\"_blank\" href=\"swagger.json\" rel=\"noopener noreferrer\" class=\"link\"><span class=\"url\"><!-- react-text: 75 --> <!-- /react-text --><!-- react-text: 76 -->swagger.json<!-- /react-text --></span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/CapabilityStatement\"><span>CapabilityStatement</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Condition\"><span>Condition</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Condition/get_Condition\"><span>​/Condition</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Encounter\"><span>Encounter</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Encounter/get_Encounter\"><span>​/Encounter</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/ExplanationOfBenefit\"><span>ExplanationOfBenefit</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/ExplanationOfBenefit/get_ExplanationOfBenefit\"><span>​/ExplanationOfBenefit</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Medication\"><span>Medication</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Medication/get_Medication\"><span>​/Medication</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient\"><span>Patient</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient/get_Patient\"><span>​/Patient</span></a>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient/get_Patient__id_\"><span>​/Patient​/{id}</span></a>"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 15,
+				"items": [
+					{
+						"html": "<img height=\"40\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDA3IDExNiI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgIC5jbHMtMSB7DQogICAgICAgIGNsaXAtcGF0aDogdXJsKCNjbGlwLVNXX1RNLWxvZ28tb24tZGFyayk7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMiB7DQogICAgICAgIGZpbGw6ICNmZmY7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMyB7DQogICAgICAgIGZpbGw6ICM4NWVhMmQ7DQogICAgICB9DQoNCiAgICAgIC5jbHMtNCB7DQogICAgICAgIGZpbGw6ICMxNzM2NDc7DQogICAgICB9DQogICAgPC9zdHlsZT4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtU1dfVE0tbG9nby1vbi1kYXJrIj4NCiAgICAgIDxyZWN0IHdpZHRoPSI0MDciIGhlaWdodD0iMTE2Ii8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU1dfVE0tbG9nby1vbi1kYXJrIiBjbGFzcz0iY2xzLTEiPg0KICAgIDxnIGlkPSJTV19Jbi1Qcm9kdWN0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4zMDEpIj4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzYiIGRhdGEtbmFtZT0iUGF0aCAyOTM2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNTkuMTUsNzAuNjc0aC0uN1Y2Ni45OTJoLTEuMjZ2LS42aDMuMjE5di42SDM1OS4xNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzciIGRhdGEtbmFtZT0iUGF0aCAyOTM3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNjMuMjE3LDcwLjY3NCwzNjEuOTc1LDY3LjFoLS4wMjNxLjA1LjguMDUsMS40OTR2Mi4wODNoLS42MzZWNjYuMzkxaC45ODdsMS4xOSwzLjQwN2guMDE3bDEuMjI1LTMuNDA3aC45OXY0LjI4M0gzNjUuMVY2OC41NTZjMC0uMjEzLjAwNi0uNDkuMDE2LS44MzJzLjAyLS41NDkuMDI4LS42MjFoLS4wMjNsLTEuMjg2LDMuNTcxWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjkzOCIgZGF0YS1uYW1lPSJQYXRoIDI5MzgiIGNsYXNzPSJjbHMtMyIgZD0iTTUwLjMyOCw5Ny42NjlBNDcuNjQyLDQ3LjY0MiwwLDEsMSw5Ny45NzEsNTAuMDI3LDQ3LjY0Miw0Ny42NDIsMCwwLDEsNTAuMzI4LDk3LjY2OVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzkiIGRhdGEtbmFtZT0iUGF0aCAyOTM5IiBjbGFzcz0iY2xzLTMiIGQ9Ik01MC4zMjgsNC43NjlBNDUuMjU4LDQ1LjI1OCwwLDEsMSw1LjA3LDUwLjAyNyw0NS4yNTgsNDUuMjU4LDAsMCwxLDUwLjMyOCw0Ljc2OW0wLTQuNzY5YTUwLjAyNyw1MC4wMjcsMCwxLDAsNTAuMDI3LDUwLjAyN0E1MC4wMjcsNTAuMDI3LDAsMCwwLDUwLjMyOCwwWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MCIgZGF0YS1uYW1lPSJQYXRoIDI5NDAiIGNsYXNzPSJjbHMtNCIgZD0iTTMxLjgsMzMuODU0Yy0uMTU0LDEuNzEyLjA1OCwzLjQ4Mi0uMDU3LDUuMjEzYTQyLjY2NSw0Mi42NjUsMCwwLDEtLjY5Myw1LjE1Niw5LjUzLDkuNTMsMCwwLDEtNC4xLDUuODI5YzQuMDc5LDIuNjU0LDQuNTQsNi43NzEsNC44MSwxMC45NDYuMTM1LDIuMjUuMDc3LDQuNTIuMzA4LDYuNzUyLjE3MywxLjczMS44NDYsMi4xNzQsMi42MzYsMi4yMzEuNzMuMDIsMS40OCwwLDIuMzI3LDBWNzUuMzNjLTUuMjkuOS05LjY1Ny0uNi0xMC43MzQtNS4wNzlhMzAuNzYsMzAuNzYsMCwwLDEtLjY1NC01Yy0uMTE3LTEuNzg5LjA3Ni0zLjU3OC0uMDU4LTUuMzY3LS4zODYtNC45MDYtMS4wMi02LjU2LTUuNzEzLTYuNzkxdi02LjFBOS4xOTEsOS4xOTEsMCwwLDEsMjAuOSw0Ni44MmMyLjU3Ny0uMTM1LDMuNjc0LS45MjQsNC4yMzEtMy40NjNhMjkuMywyOS4zLDAsMCwwLC40ODEtNC4zMjksODIuMSw4Mi4xLDAsMCwxLC42LTguNDA2Yy42NzMtMy45ODIsMy4xMzYtNS45MDYsNy4yMzQtNi4xMzcsMS4xNTQtLjA1NywyLjMyNywwLDMuNjU1LDB2NS40NjRjLS41NTguMDM4LTEuMDM5LjExNS0xLjUzOS4xMTVDMzIuMjI2LDI5Ljk0OSwzMi4wNTIsMzEuMDg0LDMxLjgsMzMuODU0Wm02LjQwNiwxMi42NThoLS4wNzdhMy41MTUsMy41MTUsMCwxLDAtLjM0Niw3LjAyMWguMjMxYTMuNDYxLDMuNDYxLDAsMCwwLDMuNjU1LTMuMjUxVjUwLjA5YTMuNTIzLDMuNTIzLDAsMCwwLTMuNDYxLTMuNTc4Wm0xMi4wNjIsMGEzLjM3MywzLjM3MywwLDAsMC0zLjQ4MiwzLjI1MSwxLjc5LDEuNzksMCwwLDAsLjAyLjMyNywzLjMsMy4zLDAsMCwwLDMuNTc4LDMuNDQzLDMuMjYzLDMuMjYzLDAsMCwwLDMuNDQzLTMuNTU4LDMuMzA4LDMuMzA4LDAsMCwwLTMuNTU3LTMuNDYzWm0xMi4zNTEsMGEzLjU5MiwzLjU5MiwwLDAsMC0zLjY1NSwzLjQ4MkEzLjUyOSwzLjUyOSwwLDAsMCw2Mi41LDUzLjUzM2guMDM5YzEuNzY5LjMwOSwzLjU1OS0xLjQsMy42NzQtMy40NjJhMy41NzEsMy41NzEsMCwwLDAtMy42LTMuNTU5Wm0xNi45NDguMjg4Yy0yLjIzMi0uMS0zLjM0OC0uODQ2LTMuOS0yLjk2MmEyMS40NDcsMjEuNDQ3LDAsMCwxLS42MzUtNC4xMzZjLS4xNTQtMi41NzgtLjEzNS01LjE3NS0uMzA4LTcuNzUzLS40LTYuMTE3LTQuODI4LTguMjUyLTExLjI1NC03LjE5NXY1LjMxYzEuMDE5LDAsMS44MDgsMCwyLjYuMDE5LDEuMzY2LjAxOSwyLjQuNTM5LDIuNTM5LDIuMDU5LjEzNSwxLjM4NS4xMzUsMi43ODkuMjcsNC4xOTMuMjY5LDIuNzkuNDIyLDUuNjE4LjksOC4zNjlBOC43MTUsOC43MTUsMCwwLDAsNzMuNyw1MC4wNTJjLTMuNCwyLjI4OS00LjQwNiw1LjU1OS00LjU3OCw5LjIzNC0uMSwyLjUyLS4xNTQsNS4wNTktLjI4OSw3LjYtLjExNSwyLjMwOC0uOTIzLDMuMDU4LTMuMjUxLDMuMTE2LS42NTQuMDE5LTEuMjg5LjA3Ny0yLjAxOS4xMTV2NS40NDVjMS4zNjUsMCwyLjYxNi4wNzcsMy44NjYsMCwzLjg4Ni0uMjMxLDYuMjMzLTIuMTE3LDctNS44ODdBNDkuMDc5LDQ5LjA3OSwwLDAsMCw3NSw2My40Yy4xMzUtMS45MjMuMTE2LTMuODY2LjMwOC01Ljc3MS4yODktMi45ODIsMS42NTUtNC4yMTMsNC42MzYtNC40YTQuMDM3LDQuMDM3LDAsMCwwLC44MjgtLjE5MnYtNi4xYy0uNS0uMDU4LS44NDMtLjExNS0xLjIwOC0uMTM1WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MSIgZGF0YS1uYW1lPSJQYXRoIDI5NDEiIGNsYXNzPSJjbHMtMiIgZD0iTTE1Mi4yNzMsNTguMTIyYTExLjIyOCwxMS4yMjgsMCwwLDEtNC4zODQsOS40MjRxLTQuMzgzLDMuMzgyLTExLjksMy4zODItOC4xNCwwLTEyLjUyNC0yLjFWNjMuN2EzMi45LDMyLjksMCwwLDAsNi4xMzcsMS44NzksMzIuMywzMi4zLDAsMCwwLDYuNTc1LjY4OXE1LjMyMiwwLDguMDE1LTIuMDJhNi42MjYsNi42MjYsMCwwLDAsMi42OTItNS42Miw3LjIyMiw3LjIyMiwwLDAsMC0uOTU0LTMuOSw4Ljg4NSw4Ljg4NSwwLDAsMC0zLjE5NC0yLjgsNDQuNjM0LDQ0LjYzNCwwLDAsMC02LjgxLTIuOTExcS02LjM4Ny0yLjI4Ni05LjEyNi01LjQxN2ExMS45NTUsMTEuOTU1LDAsMCwxLTIuNzQtOC4xNzJBMTAuMTY0LDEwLjE2NCwwLDAsMSwxMjguMDM5LDI3cTMuOTc3LTMuMTMxLDEwLjUyLTMuMTMxYTMxLDMxLDAsMCwxLDEyLjU1NSwyLjVMMTQ5LjQ1NSwzMWEyOC4zODIsMjguMzgyLDAsMCwwLTExLjAyMS0yLjM4LDEwLjY2OCwxMC42NjgsMCwwLDAtNi42MDYsMS44MTYsNS45ODQsNS45ODQsMCwwLDAtMi4zOCw1LjA0MSw3LjcyMiw3LjcyMiwwLDAsMCwuODc3LDMuOSw4LjI0Miw4LjI0MiwwLDAsMCwyLjk1OSwyLjc4NiwzNi43LDM2LjcsMCwwLDAsNi4zNzEsMi44cTcuMiwyLjU2Niw5LjkxLDUuNTFBMTAuODQsMTAuODQsMCwwLDEsMTUyLjI3Myw1OC4xMjJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQyIiBkYXRhLW5hbWU9IlBhdGggMjk0MiIgY2xhc3M9ImNscy0yIiBkPSJNMTg1LjI4OCw3MC4zLDE3OSw1MC4xN3EtLjU5NC0xLjg0OC0yLjIyMi04LjM5MWgtLjI1MXEtMS4yNTIsNS40NzktMi4xOTIsOC40NTNMMTY3Ljg0OSw3MC4zaC02LjAxMWwtOS4zNjEtMzQuMzE1aDUuNDQ3cTMuMzE4LDEyLjkzMSw1LjA1NywxOS42OTNhODAuMTEyLDgwLjExMiwwLDAsMSwxLjk4OCw5LjExMWguMjVxLjM0NS0xLjc4NSwxLjExMi00LjYxOHQxLjMzLTQuNDkzbDYuMjk0LTE5LjY5M2g1LjYzNWw2LjEzNywxOS42OTNhNjYuMzY5LDY2LjM2OSwwLDAsMSwyLjM3OSw5LjA0OGguMjUxYTMzLjE2MywzMy4xNjMsMCwwLDEsLjY3My0zLjQ3NXEuNTQ4LTIuMzQ3LDYuNTI4LTI1LjI2Nmg1LjM4NUwxOTEuNDU2LDcwLjNaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQzIiBkYXRhLW5hbWU9IlBhdGggMjk0MyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1LjExNSw3MC4zbC0xLjAzMy00Ljg4NWgtLjI1YTE0LjQ0NiwxNC40NDYsMCwwLDEtNS4xMTksNC4zNjgsMTUuNjA4LDE1LjYwOCwwLDAsMS02LjM3MiwxLjE0M3EtNS4xLDAtOC0yLjYzdC0yLjktNy40ODNxMC0xMC40LDE2LjYyNi0xMC45bDUuODIzLS4xODhWNDcuNnEwLTQuMDM4LTEuNzM4LTUuOTY0VDIxNi42LDM5LjcxM2EyMi42MzMsMjIuNjMzLDAsMCwwLTkuNzA2LDIuNjNsLTEuNi0zLjk3N2EyNC40MzcsMjQuNDM3LDAsMCwxLDUuNTU3LTIuMTYsMjQuMDU2LDI0LjA1NiwwLDAsMSw2LjA1OC0uNzgzcTYuMTM2LDAsOS4xLDIuNzI0dDIuOTU5LDguNzM1VjcwLjNabS0xMS43NDEtMy42NjNBMTAuNTQ5LDEwLjU0OSwwLDAsMCwyMjEsNjMuOTc3YTkuODQ1LDkuODQ1LDAsMCwwLDIuNzcxLTcuNDUxdi0zLjFsLTUuMi4yMTlxLTYuMi4yMTktOC45MzksMS45MjZhNS44LDUuOCwwLDAsMC0yLjc0LDUuMzA2LDUuMzU0LDUuMzU0LDAsMCwwLDEuNzA3LDQuMjksNy4wODEsNy4wODEsMCwwLDAsNC43NzUsMS40NzJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ0IiBkYXRhLW5hbWU9IlBhdGggMjk0NCIgY2xhc3M9ImNscy0yIiBkPSJNMjY0LjYsMzUuOTg3djMuMjg3bC02LjM1Ni43NTJhMTEuMTYsMTEuMTYsMCwwLDEsMi4yNTUsNi44NTYsMTAuMTQ4LDEwLjE0OCwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NiwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVRMjQxLjQsNTkuNDM4LDI0MS40LDYyLjFhMi4yNDIsMi4yNDIsMCwwLDAsMS4xNTksMi4wODIsOC40NTYsOC40NTYsMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTczLDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NzIsMi45ODktMTMuMzM4LDIuOTktNi43MzIsMC0xMC4zNzktMi41YTguMDg3LDguMDg3LDAsMCwxLTMuNjQ3LTcuMDc2LDcuOTQ2LDcuOTQ2LDAsMCwxLDItNS40MTcsMTAuMjExLDEwLjIxMSwwLDAsMSw1LjYzNi0zLjEsNS40MjksNS40MjksMCwwLDEtMi4yMDctMS44NDcsNC44OSw0Ljg5LDAsMCwxLS44OTMtMi45MTIsNS41Myw1LjUzLDAsMCwxLDEtMy4yODgsMTAuNTI5LDEwLjUyOSwwLDAsMSwzLjE2Mi0yLjcyMyw5LjI3NSw5LjI3NSwwLDAsMS00LjMzNi0zLjcyNiwxMC45NDUsMTAuOTQ1LDAsMCwxLTEuNjc1LTYuMDEycTAtNS42MzQsMy4zODItOC42ODh0OS41OC0zLjA1MmExNy40MzksMTcuNDM5LDAsMCwxLDQuODUzLjYyNlpNMjM3LjIzMyw3Ni4wNjJhNC42Niw0LjY2LDAsMCwwLDIuMzQ4LDQuMjI3LDEyLjk3MywxMi45NzMsMCwwLDAsNi43MzIsMS40NHE2LjU0MywwLDkuNjktMS45NTZhNS45OTIsNS45OTIsMCwwLDAsMy4xNDctNS4zMDdxMC0yLjc4Ny0xLjcyMy0zLjg2N3QtNi40ODEtMS4wOGgtNi4yM2E4LjIwNSw4LjIwNSwwLDAsMC01LjUxLDEuNjksNi4wNDMsNi4wNDMsMCwwLDAtMS45NzMsNC44NTNabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMyw4LjEyMywwLDAsMCw1LjY2NywxLjg0N3E3LjYwOCwwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI4LDcuNjI4LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NiwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDUiIGRhdGEtbmFtZT0iUGF0aCAyOTQ1IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yOTkuMTM2LDM1Ljk4N3YzLjI4N2wtNi4zNTYuNzUyYTExLjE2OCwxMS4xNjgsMCwwLDEsMi4yNTQsNi44NTYsMTAuMTQ1LDEwLjE0NSwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NSwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVxLTMuMzIsMS43NTQtMy4zMTksNC40MTVhMi4yNDMsMi4yNDMsMCwwLDAsMS4xNTgsMi4wODIsOC40NTksOC40NTksMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTc0LDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NywyLjk4OS0xMy4zMzcsMi45OS02LjczMiwwLTEwLjM3OS0yLjVhOC4wODgsOC4wODgsMCwwLDEtMy42NDgtNy4wNzYsNy45NDcsNy45NDcsMCwwLDEsMi01LjQxNywxMC4yMDcsMTAuMjA3LDAsMCwxLDUuNjM2LTMuMSw1LjQzMiw1LjQzMiwwLDAsMS0yLjIwOC0xLjg0Nyw0Ljg4OSw0Ljg4OSwwLDAsMS0uODkyLTIuOTEyLDUuNTMsNS41MywwLDAsMSwxLTMuMjg4LDEwLjUyOSwxMC41MjksMCwwLDEsMy4xNjItMi43MjMsOS4yNzEsOS4yNzEsMCwwLDEtNC4zMzYtMy43MjYsMTAuOTQ1LDEwLjk0NSwwLDAsMS0xLjY3NS02LjAxMnEwLTUuNjM0LDMuMzgxLTguNjg4dDkuNTgxLTMuMDUyYTE3LjQ0NCwxNy40NDQsMCwwLDEsNC44NTMuNjI2Wk0yNzEuNzcyLDc2LjA2MmE0LjY1OCw0LjY1OCwwLDAsMCwyLjM0OCw0LjIyNywxMi45NjksMTIuOTY5LDAsMCwwLDYuNzMxLDEuNDRxNi41NDQsMCw5LjY5MS0xLjk1NmE1Ljk5Myw1Ljk5MywwLDAsMCwzLjE0Ni01LjMwN3EwLTIuNzg3LTEuNzIyLTMuODY3dC02LjQ4MS0xLjA4aC02LjIzYTguMjA4LDguMjA4LDAsMCwwLTUuNTExLDEuNjlBNi4wNDIsNi4wNDIsMCwwLDAsMjcxLjc3Miw3Ni4wNjJabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMSw4LjEyMSwwLDAsMCw1LjY2NywxLjg0N3E3LjYwNywwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI5LDcuNjI5LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NSwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDYiIGRhdGEtbmFtZT0iUGF0aCAyOTQ2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMTYuNzc4LDcwLjkyOHEtNy42MDgsMC0xMi4wMDctNC42MzR0LTQuNC0xMi44NjhxMC04LjMsNC4wODYtMTMuMTgxYTEzLjU3MywxMy41NzMsMCwwLDEsMTAuOTc0LTQuODg0QTEyLjkzOCwxMi45MzgsMCwwLDEsMzI1LjYzOCwzOS42cTMuNzYyLDQuMjQ3LDMuNzYyLDExLjJ2My4yODdIMzA1Ljc1N3EuMTU2LDYuMDQ0LDMuMDUzLDkuMTc0dDguMTU2LDMuMTMxYTI3LjYzMywyNy42MzMsMCwwLDAsMTAuOTU4LTIuMzE3djQuNjM0YTI3LjUsMjcuNSwwLDAsMS01LjIxMywxLjcwNiwyOS4yNTEsMjkuMjUxLDAsMCwxLTUuOTMzLjUxM1ptLTEuNDA5LTMxLjIxNWE4LjQ4OSw4LjQ4OSwwLDAsMC02LjU5MSwyLjY5MiwxMi40MTYsMTIuNDE2LDAsMCwwLTIuOSw3LjQ1MmgxNy45NHEwLTQuOTE2LTIuMTkxLTcuNTNhNy43MTQsNy43MTQsMCwwLDAtNi4yNTgtMi42MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ3IiBkYXRhLW5hbWU9IlBhdGggMjk0NyIgY2xhc3M9ImNscy0yIiBkPSJNMzUwLjksMzUuMzYxYTIwLjM4LDIwLjM4LDAsMCwxLDQuMS4zNzVsLS43MjEsNC44MjJhMTcuNzEyLDE3LjcxMiwwLDAsMC0zLjc1Ny0uNDdBOS4xNDIsOS4xNDIsMCwwLDAsMzQzLjQsNDMuNDdhMTIuMzI3LDEyLjMyNywwLDAsMC0yLjk1OSw4LjQyMlY3MC4zaC01LjJWMzUuOTg3aDQuMjlsLjYsNi4zNTZoLjI1YTE1LjA3MiwxNS4wNzIsMCwwLDEsNC42LTUuMTY2LDEwLjM1NiwxMC4zNTYsMCwwLDEsNS45MTktMS44MTZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ4IiBkYXRhLW5hbWU9IlBhdGggMjk0OCIgY2xhc3M9ImNscy0yIiBkPSJNMjU1Ljg1Nyw5Ni42MzhzLTMuNDMtLjM5MS00Ljg1LS4zOTFjLTIuMDU4LDAtMy4xMTEuNzM1LTMuMTExLDIuMTgsMCwxLjU2OC44ODIsMS45MzUsMy43NDgsMi43MTksMy41MjcuOTgsNC44LDEuOTExLDQuOCw0Ljc3NywwLDMuNjc1LTIuMyw1LjI2Ny01LjYxLDUuMjY3YTM1LjY4NywzNS42ODcsMCwwLDEtNS40ODctLjY2MmwuMjctMi4xOHMzLjMwNi40NDEsNS4wNDYuNDQxYzIuMDgyLDAsMy4wMzctLjkzMSwzLjAzNy0yLjcsMC0xLjQyMS0uNzU5LTEuOTEtMy4zMzEtMi41MjMtMy42MjYtLjkzLTUuMTkzLTIuMDMzLTUuMTkzLTQuOTQ4LDAtMy4zODEsMi4yMjktNC43NzYsNS41ODUtNC43NzZhMzcuMiwzNy4yLDAsMCwxLDUuMzE1LjU4N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDkiIGRhdGEtbmFtZT0iUGF0aCAyOTQ5IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yNjIuOTY3LDk0LjE0SDI2Ny43bDMuNzQ4LDEzLjEwNkwyNzUuMiw5NC4xNGg0Ljc1MnYxNi43OEgyNzcuMlY5Ni40MmgtLjE0NWwtNC4xOTEsMTMuODE2aC0yLjg0MkwyNjUuODMxLDk2LjQyaC0uMTQ1djE0LjVoLTIuNzE5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1MCIgZGF0YS1uYW1lPSJQYXRoIDI5NTAiIGNsYXNzPSJjbHMtMiIgZD0iTTMyMi4wNTcsOTQuMTRIMzM0LjN2Mi40MjVoLTQuNzI4VjExMC45MmgtMi43NDNWOTYuNTY1aC00Ljc3N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTEiIGRhdGEtbmFtZT0iUGF0aCAyOTUxIiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNDYuMTM3LDk0LjE0YzMuMzMyLDAsNS4xMiwxLjI0OSw1LjEyLDQuMzYxLDAsMi4wMzMtLjYzNywzLjAzNy0xLjk4NCwzLjc3MiwxLjQ0NS41NjMsMi40LDEuNTkyLDIuNCwzLjksMCwzLjQzLTIuMDgxLDQuNzUyLTUuMzM5LDQuNzUyaC02LjU2NlY5NC4xNFptLTMuNjUsMi4zNTJ2NC44aDMuNmMxLjY2NiwwLDIuNC0uODMyLDIuNC0yLjQ3NCwwLTEuNjE3LS44MzMtMi4zMjctMi41LTIuMzI3Wm0wLDcuMXY0Ljk3M2gzLjdjMS42ODksMCwyLjY5NC0uNTM5LDIuNjk0LTIuNTQ4LDAtMS45MTEtMS40MjEtMi40MjUtMi43NDQtMi40MjVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUyIiBkYXRhLW5hbWU9IlBhdGggMjk1MiIgY2xhc3M9ImNscy0yIiBkPSJNMzU4LjQxNCw5NC4xNEgzNjl2Mi4zNzdoLTcuODY0djQuNzUxaDYuMzk0VjEwMy42aC02LjM5NHY0LjkyNEgzNjl2Mi40SDM1OC40MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUzIiBkYXRhLW5hbWU9IlBhdGggMjk1MyIgY2xhc3M9ImNscy0yIiBkPSJNMzc4Ljc0Nyw5NC4xNGg1LjQxNGw0LjE2NCwxNi43OGgtMi43NDRMMzg0LjM0MiwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDhsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTQiIGRhdGEtbmFtZT0iUGF0aCAyOTU0IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zOTcuMSwxMDUuOTQ3djQuOTczaC0yLjcxOVY5NC4xNGg2LjM3YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU2LDQuNTE5LTIuNzQ0LDUuMzUybDIuNzY5LDUuNTg1SDQwMy40N2wtMi40MjYtNC45NzNabTMuNjUxLTkuNDU1SDM5Ny4xdjcuMWgzLjdjMi4wNTcsMCwyLjg0MS0xLjg1LDIuODQxLTMuNTg5LDAtMS45LS45MzQtMy41MTEtMi44OTQtMy41MTFaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTU1IiBkYXRhLW5hbWU9IlBhdGggMjk1NSIgY2xhc3M9ImNscy0yIiBkPSJNMjkwLjAxMyw5NC4xNGg1LjQxM2w0LjE2NCwxNi43OGgtMi43NDNMMjk1LjYwOCwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDdsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTYiIGRhdGEtbmFtZT0iUGF0aCAyOTU2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMDguMzYyLDEwNS45NDd2NC45NzNoLTIuNzE5Vjk0LjE0aDYuMzY5YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU1LDQuNTE5LTIuNzQzLDUuMzUybDIuNzY4LDUuNTg1aC0yLjk4OWwtMi40MjUtNC45NzNabTMuNjUtOS40NTVoLTMuNjV2Ny4xaDMuN2MyLjA1OCwwLDIuODQxLTEuODUsMi44NDEtMy41ODlDMzE0LjksOTguMSwzMTMuOTcyLDk2LjQ5MiwzMTIuMDEyLDk2LjQ5MloiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTciIGRhdGEtbmFtZT0iUGF0aCAyOTU3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzAuNjA2LDEwNy42NDNhMy4wMiwzLjAyLDAsMCwxLTEuMTgsMi41MzcsNS4xMTMsNS4xMTMsMCwwLDEtMy4yLjkxLDguMDMsOC4wMywwLDAsMS0zLjM3MS0uNTY0di0xLjM4M2E4Ljc5Myw4Ljc5MywwLDAsMCwxLjY1Mi41MDYsOC42NzIsOC42NzIsMCwwLDAsMS43Ny4xODYsMy41NjUsMy41NjUsMCwwLDAsMi4xNTctLjU0NCwxLjc4MywxLjc4MywwLDAsMCwuNzI1LTEuNTEyLDEuOTQ3LDEuOTQ3LDAsMCwwLS4yNTctMS4wNSwyLjM5MywyLjM5MywwLDAsMC0uODYtLjc1NCwxMi4xNzEsMTIuMTcxLDAsMCwwLTEuODMzLS43ODQsNS44NDIsNS44NDIsMCwwLDEtMi40NTYtMS40NTgsMy4yMTMsMy4yMTMsMCwwLDEtLjczOC0yLjIsMi43MzYsMi43MzYsMCwwLDEsMS4wNzEtMi4yNjcsNC40NDQsNC40NDQsMCwwLDEsMi44MzEtLjg0Myw4LjM0MSw4LjM0MSwwLDAsMSwzLjM4LjY3NWwtLjQ0NywxLjI0N2E3LjYzOSw3LjYzOSwwLDAsMC0yLjk2Ni0uNjQxLDIuODc4LDIuODc4LDAsMCwwLTEuNzc5LjQ4OSwxLjYxMiwxLjYxMiwwLDAsMC0uNjQsMS4zNTcsMi4wODEsMi4wODEsMCwwLDAsLjIzNiwxLjA0OSwyLjIzMSwyLjIzMSwwLDAsMCwuOC43NSw5Ljg3OCw5Ljg3OCwwLDAsMCwxLjcxNS43NTQsNi44LDYuOCwwLDAsMSwyLjY2NywxLjQ4MywyLjkxOSwyLjkxOSwwLDAsMSwuNzIzLDIuMDU3WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OCIgZGF0YS1uYW1lPSJQYXRoIDI5NTgiIGNsYXNzPSJjbHMtMiIgZD0iTTEzNC40NDcsMTAxLjY4NnY1Ljk5MWEyLjQxMSwyLjQxMSwwLDAsMCwuNTE1LDEuNjg2LDIuMDksMi4wOSwwLDAsMCwxLjYwOS41NTYsMi42MjksMi42MjksMCwwLDAsMi4xMi0uNzkyLDQsNCwwLDAsMCwuNjctMi41ODd2LTQuODU0aDEuNHY5LjIzNkgxMzkuNmwtLjItMS4yMzloLS4wNzVhMi43OTMsMi43OTMsMCwwLDEtMS4xOTMsMS4wNDUsNCw0LDAsMCwxLTEuNzQuMzYyLDMuNTI5LDMuNTI5LDAsMCwxLTIuNTI0LS44LDMuNDA5LDMuNDA5LDAsMCwxLS44MzktMi41NjJ2LTYuMDQyWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OSIgZGF0YS1uYW1lPSJQYXRoIDI5NTkiIGNsYXNzPSJjbHMtMiIgZD0iTTE0OC4yMDYsMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxNS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MCIgZGF0YS1uYW1lPSJQYXRoIDI5NjAiIGNsYXNzPSJjbHMtMiIgZD0iTTE1OS4wMzksMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxMS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MSIgZGF0YS1uYW1lPSJQYXRoIDI5NjEiIGNsYXNzPSJjbHMtMiIgZD0iTTE3My42MTIsMTA2LjNhNS4wOTMsNS4wOTMsMCwwLDEtMS4xMzcsMy41MjcsNC4wMDUsNC4wMDUsMCwwLDEtMy4xNDMsMS4yNjgsNC4xNzIsNC4xNzIsMCwwLDEtMi4yLS41ODEsMy44NCwzLjg0LDAsMCwxLTEuNDgzLTEuNjY5LDUuOCw1LjgsMCwwLDEtLjUyMi0yLjU0NSw1LjA4Nyw1LjA4NywwLDAsMSwxLjEyOS0zLjUxOCwzLjk5MSwzLjk5MSwwLDAsMSwzLjEzNS0xLjI2LDMuOTA3LDMuOTA3LDAsMCwxLDMuMDgsMS4yOSw1LjA3MSw1LjA3MSwwLDAsMSwxLjE0MSwzLjQ4OFptLTcuMDM2LDBhNC4zODQsNC4zODQsMCwwLDAsLjcwOCwyLjcsMi44MDksMi44MDksMCwwLDAsNC4xNjcsMCw0LjM2NSw0LjM2NSwwLDAsMCwuNzEyLTIuNyw0LjI5Myw0LjI5MywwLDAsMC0uNzEyLTIuNjc1LDIuNSwyLjUsMCwwLDAtMi4xLS45MTUsMi40NjEsMi40NjEsMCwwLDAtMi4wNzIuOSw0LjMzNCw0LjMzNCwwLDAsMC0uNywyLjY5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MiIgZGF0YS1uYW1lPSJQYXRoIDI5NjIiIGNsYXNzPSJjbHMtMiIgZD0iTTE4MC41MjUsMTAxLjUxN2E1LjUwNiw1LjUwNiwwLDAsMSwxLjEuMWwtLjE5NCwxLjNhNC43ODYsNC43ODYsMCwwLDAtMS4wMTEtLjEyNywyLjQ2LDIuNDYsMCwwLDAtMS45MTcuOTExLDMuMzE4LDMuMzE4LDAsMCwwLS44LDIuMjY3djQuOTU1aC0xLjR2LTkuMjM2aDEuMTU0bC4xNiwxLjcxaC4wNjhhNC4wNTQsNC4wNTQsMCwwLDEsMS4yMzgtMS4zOSwyLjc4NywyLjc4NywwLDAsMSwxLjYtLjQ5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MyIgZGF0YS1uYW1lPSJQYXRoIDI5NjMiIGNsYXNzPSJjbHMtMiIgZD0iTTE4Ny4zNjMsMTA5LjkzNmE0LjUwNiw0LjUwNiwwLDAsMCwuNzE2LS4wNTUsNC4zODcsNC4zODcsMCwwLDAsLjU0OC0uMTE0djEuMDdhMi41LDIuNSwwLDAsMS0uNjcuMTgxLDUsNSwwLDAsMS0uOC4wNzJxLTIuNjgsMC0yLjY4LTIuODIzdi01LjQ5NGgtMS4zMjNWMTAyLjFsMS4zMjMtLjU4Mi41OS0xLjk3MmguODA5djIuMTQxaDIuNjh2MS4wODdoLTIuNjh2NS40MzVhMS44NjksMS44NjksMCwwLDAsLjQsMS4yODFBMS4zNzcsMS4zNzcsMCwwLDAsMTg3LjM2MywxMDkuOTM2WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2NCIgZGF0YS1uYW1lPSJQYXRoIDI5NjQiIGNsYXNzPSJjbHMtMiIgZD0iTTE5NC41MzgsMTExLjA5YTQuMjM5LDQuMjM5LDAsMCwxLTMuMjMxLTEuMjQ3LDQuODI0LDQuODI0LDAsMCwxLTEuMTg0LTMuNDYzLDUuMzU1LDUuMzU1LDAsMCwxLDEuMS0zLjU0OCwzLjY1MiwzLjY1MiwwLDAsMSwyLjk1NC0xLjMxNSwzLjQ4NCwzLjQ4NCwwLDAsMSwyLjc0NywxLjE0Miw0LjM3OCw0LjM3OCwwLDAsMSwxLjAxMSwzLjAxM3YuODg1aC02LjM2MmEzLjY2LDMuNjYsMCwwLDAsLjgyMiwyLjQ2OSwyLjg0MywyLjg0MywwLDAsMCwyLjIuODQzLDcuNDMxLDcuNDMxLDAsMCwwLDIuOTQ5LS42MjR2MS4yNDdhNy4zNzcsNy4zNzcsMCwwLDEtMS40LjQ1OSw3Ljg2Myw3Ljg2MywwLDAsMS0xLjYuMTM5Wm0tLjM3OS04LjRhMi4yODYsMi4yODYsMCwwLDAtMS43NzQuNzI1LDMuMzM3LDMuMzM3LDAsMCwwLS43NzksMi4wMDZoNC44MjhhMy4wNzIsMy4wNzIsMCwwLDAtLjU5LTIuMDI3LDIuMDc2LDIuMDc2LDAsMCwwLTEuNjg1LS43MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY1IiBkYXRhLW5hbWU9IlBhdGggMjk2NSIgY2xhc3M9ImNscy0yIiBkPSJNMjA2Ljk1MSwxMDkuNjgzaC0uMDc2YTMuMjg3LDMuMjg3LDAsMCwxLTIuOSwxLjQwNywzLjQyNywzLjQyNywwLDAsMS0yLjgxOS0xLjIzOSw1LjQ1Miw1LjQ1MiwwLDAsMS0xLjAwNi0zLjUyMiw1LjU0Miw1LjU0MiwwLDAsMSwxLjAxMS0zLjU0OCwzLjQsMy40LDAsMCwxLDIuODE0LTEuMjY0LDMuMzYxLDMuMzYxLDAsMCwxLDIuODgzLDEuMzY1aC4xMDlsLS4wNTktLjY2NS0uMDM0LS42NDlWOTcuODA5aDEuNHYxMy4xMTNoLTEuMTM4Wm0tMi44LjIzNmEyLjU1MSwyLjU1MSwwLDAsMCwyLjA3OC0uNzc5LDMuOTQ3LDMuOTQ3LDAsMCwwLC42NDQtMi41MTZ2LS4zYTQuNjM4LDQuNjM4LDAsMCwwLS42NTMtMi44LDIuNDgxLDIuNDgxLDAsMCwwLTIuMDg2LS44MzksMi4xNCwyLjE0LDAsMCwwLTEuODgzLjk1Nyw0Ljc2LDQuNzYsMCwwLDAtLjY1MywyLjcsNC41NTQsNC41NTQsMCwwLDAsLjY0OSwyLjY3MSwyLjE5NCwyLjE5NCwwLDAsMCwxLjkwNi45MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY2IiBkYXRhLW5hbWU9IlBhdGggMjk2NiIgY2xhc3M9ImNscy0yIiBkPSJNMjIwLjcxMiwxMDEuNTM0YTMuNDM1LDMuNDM1LDAsMCwxLDIuODI3LDEuMjQzLDYuNjUzLDYuNjUzLDAsMCwxLS4wMDksNy4wNTMsMy40MTcsMy40MTcsMCwwLDEtMi44MTgsMS4yNiw0LDQsMCwwLDEtMS42NDgtLjMzMywzLjA5NCwzLjA5NCwwLDAsMS0xLjI1MS0xLjAyM2gtLjFsLS4yOTUsMS4xODhoLTFWOTcuODA5aDEuNFYxMDFxMCwxLjA2OS0uMDY4LDEuOTIxaC4wNjhhMy4zMjIsMy4zMjIsMCwwLDEsMi44OTQtMS4zODdabS0uMiwxLjE3MWEyLjQ0LDIuNDQsMCwwLDAtMi4wNjQuODIyLDYuMzM4LDYuMzM4LDAsMCwwLC4wMTcsNS41NTMsMi40NjQsMi40NjQsMCwwLDAsMi4wODEuODM5LDIuMTU4LDIuMTU4LDAsMCwwLDEuOTIyLS45NCw0LjgyOCw0LjgyOCwwLDAsMCwuNjMyLTIuNyw0LjY0NSw0LjY0NSwwLDAsMC0uNjMyLTIuNjg5LDIuMjQyLDIuMjQyLDAsMCwwLTEuOTU5LS44ODVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY3IiBkYXRhLW5hbWU9IlBhdGggMjk2NyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1Ljc1OCwxMDEuNjg2aDEuNWwyLjAyMyw1LjI2N2EyMC4xODgsMjAuMTg4LDAsMCwxLC44MjYsMi42aC4wNjdxLjEwOS0uNDMxLjQ1OS0xLjQ3MXQyLjI4OC02LjRoMS41TDIzMC40NTIsMTEyLjJhNS4yNTMsNS4yNTMsMCwwLDEtMS4zNzgsMi4yMTIsMi45MzIsMi45MzIsMCwwLDEtMS45MzQuNjUzLDUuNjU5LDUuNjU5LDAsMCwxLTEuMjY0LS4xNDNWMTEzLjhhNC45LDQuOSwwLDAsMCwxLjAzNy4xLDIuMTM2LDIuMTM2LDAsMCwwLDIuMDU2LTEuNjE4bC41MTQtMS4zMTRaIi8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==\" alt=\"Swagger UI\">"
+					},
+					{
+						"html": "<button class=\"download-url-button button\">Explore</button>"
+					},
+					{
+						"html": "<option value=\"https\">https</option>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 215,
+				"items": [
+					{
+						"html": "<div id=\"swagger-ui\">"
+					},
+					{
+						"html": "<section data-reactroot=\"\" class=\"swagger-ui swagger-container\">"
+					},
+					{
+						"html": "<div class=\"topbar\">"
+					},
+					{
+						"html": "<div class=\"wrapper\">"
+					},
+					{
+						"html": "<div class=\"topbar-wrapper\">"
+					},
+					{
+						"html": "<img height=\"40\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDA3IDExNiI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgIC5jbHMtMSB7DQogICAgICAgIGNsaXAtcGF0aDogdXJsKCNjbGlwLVNXX1RNLWxvZ28tb24tZGFyayk7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMiB7DQogICAgICAgIGZpbGw6ICNmZmY7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMyB7DQogICAgICAgIGZpbGw6ICM4NWVhMmQ7DQogICAgICB9DQoNCiAgICAgIC5jbHMtNCB7DQogICAgICAgIGZpbGw6ICMxNzM2NDc7DQogICAgICB9DQogICAgPC9zdHlsZT4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtU1dfVE0tbG9nby1vbi1kYXJrIj4NCiAgICAgIDxyZWN0IHdpZHRoPSI0MDciIGhlaWdodD0iMTE2Ii8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0iU1dfVE0tbG9nby1vbi1kYXJrIiBjbGFzcz0iY2xzLTEiPg0KICAgIDxnIGlkPSJTV19Jbi1Qcm9kdWN0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4zMDEpIj4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzYiIGRhdGEtbmFtZT0iUGF0aCAyOTM2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNTkuMTUsNzAuNjc0aC0uN1Y2Ni45OTJoLTEuMjZ2LS42aDMuMjE5di42SDM1OS4xNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzciIGRhdGEtbmFtZT0iUGF0aCAyOTM3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNjMuMjE3LDcwLjY3NCwzNjEuOTc1LDY3LjFoLS4wMjNxLjA1LjguMDUsMS40OTR2Mi4wODNoLS42MzZWNjYuMzkxaC45ODdsMS4xOSwzLjQwN2guMDE3bDEuMjI1LTMuNDA3aC45OXY0LjI4M0gzNjUuMVY2OC41NTZjMC0uMjEzLjAwNi0uNDkuMDE2LS44MzJzLjAyLS41NDkuMDI4LS42MjFoLS4wMjNsLTEuMjg2LDMuNTcxWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjkzOCIgZGF0YS1uYW1lPSJQYXRoIDI5MzgiIGNsYXNzPSJjbHMtMyIgZD0iTTUwLjMyOCw5Ny42NjlBNDcuNjQyLDQ3LjY0MiwwLDEsMSw5Ny45NzEsNTAuMDI3LDQ3LjY0Miw0Ny42NDIsMCwwLDEsNTAuMzI4LDk3LjY2OVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5MzkiIGRhdGEtbmFtZT0iUGF0aCAyOTM5IiBjbGFzcz0iY2xzLTMiIGQ9Ik01MC4zMjgsNC43NjlBNDUuMjU4LDQ1LjI1OCwwLDEsMSw1LjA3LDUwLjAyNyw0NS4yNTgsNDUuMjU4LDAsMCwxLDUwLjMyOCw0Ljc2OW0wLTQuNzY5YTUwLjAyNyw1MC4wMjcsMCwxLDAsNTAuMDI3LDUwLjAyN0E1MC4wMjcsNTAuMDI3LDAsMCwwLDUwLjMyOCwwWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MCIgZGF0YS1uYW1lPSJQYXRoIDI5NDAiIGNsYXNzPSJjbHMtNCIgZD0iTTMxLjgsMzMuODU0Yy0uMTU0LDEuNzEyLjA1OCwzLjQ4Mi0uMDU3LDUuMjEzYTQyLjY2NSw0Mi42NjUsMCwwLDEtLjY5Myw1LjE1Niw5LjUzLDkuNTMsMCwwLDEtNC4xLDUuODI5YzQuMDc5LDIuNjU0LDQuNTQsNi43NzEsNC44MSwxMC45NDYuMTM1LDIuMjUuMDc3LDQuNTIuMzA4LDYuNzUyLjE3MywxLjczMS44NDYsMi4xNzQsMi42MzYsMi4yMzEuNzMuMDIsMS40OCwwLDIuMzI3LDBWNzUuMzNjLTUuMjkuOS05LjY1Ny0uNi0xMC43MzQtNS4wNzlhMzAuNzYsMzAuNzYsMCwwLDEtLjY1NC01Yy0uMTE3LTEuNzg5LjA3Ni0zLjU3OC0uMDU4LTUuMzY3LS4zODYtNC45MDYtMS4wMi02LjU2LTUuNzEzLTYuNzkxdi02LjFBOS4xOTEsOS4xOTEsMCwwLDEsMjAuOSw0Ni44MmMyLjU3Ny0uMTM1LDMuNjc0LS45MjQsNC4yMzEtMy40NjNhMjkuMywyOS4zLDAsMCwwLC40ODEtNC4zMjksODIuMSw4Mi4xLDAsMCwxLC42LTguNDA2Yy42NzMtMy45ODIsMy4xMzYtNS45MDYsNy4yMzQtNi4xMzcsMS4xNTQtLjA1NywyLjMyNywwLDMuNjU1LDB2NS40NjRjLS41NTguMDM4LTEuMDM5LjExNS0xLjUzOS4xMTVDMzIuMjI2LDI5Ljk0OSwzMi4wNTIsMzEuMDg0LDMxLjgsMzMuODU0Wm02LjQwNiwxMi42NThoLS4wNzdhMy41MTUsMy41MTUsMCwxLDAtLjM0Niw3LjAyMWguMjMxYTMuNDYxLDMuNDYxLDAsMCwwLDMuNjU1LTMuMjUxVjUwLjA5YTMuNTIzLDMuNTIzLDAsMCwwLTMuNDYxLTMuNTc4Wm0xMi4wNjIsMGEzLjM3MywzLjM3MywwLDAsMC0zLjQ4MiwzLjI1MSwxLjc5LDEuNzksMCwwLDAsLjAyLjMyNywzLjMsMy4zLDAsMCwwLDMuNTc4LDMuNDQzLDMuMjYzLDMuMjYzLDAsMCwwLDMuNDQzLTMuNTU4LDMuMzA4LDMuMzA4LDAsMCwwLTMuNTU3LTMuNDYzWm0xMi4zNTEsMGEzLjU5MiwzLjU5MiwwLDAsMC0zLjY1NSwzLjQ4MkEzLjUyOSwzLjUyOSwwLDAsMCw2Mi41LDUzLjUzM2guMDM5YzEuNzY5LjMwOSwzLjU1OS0xLjQsMy42NzQtMy40NjJhMy41NzEsMy41NzEsMCwwLDAtMy42LTMuNTU5Wm0xNi45NDguMjg4Yy0yLjIzMi0uMS0zLjM0OC0uODQ2LTMuOS0yLjk2MmEyMS40NDcsMjEuNDQ3LDAsMCwxLS42MzUtNC4xMzZjLS4xNTQtMi41NzgtLjEzNS01LjE3NS0uMzA4LTcuNzUzLS40LTYuMTE3LTQuODI4LTguMjUyLTExLjI1NC03LjE5NXY1LjMxYzEuMDE5LDAsMS44MDgsMCwyLjYuMDE5LDEuMzY2LjAxOSwyLjQuNTM5LDIuNTM5LDIuMDU5LjEzNSwxLjM4NS4xMzUsMi43ODkuMjcsNC4xOTMuMjY5LDIuNzkuNDIyLDUuNjE4LjksOC4zNjlBOC43MTUsOC43MTUsMCwwLDAsNzMuNyw1MC4wNTJjLTMuNCwyLjI4OS00LjQwNiw1LjU1OS00LjU3OCw5LjIzNC0uMSwyLjUyLS4xNTQsNS4wNTktLjI4OSw3LjYtLjExNSwyLjMwOC0uOTIzLDMuMDU4LTMuMjUxLDMuMTE2LS42NTQuMDE5LTEuMjg5LjA3Ny0yLjAxOS4xMTV2NS40NDVjMS4zNjUsMCwyLjYxNi4wNzcsMy44NjYsMCwzLjg4Ni0uMjMxLDYuMjMzLTIuMTE3LDctNS44ODdBNDkuMDc5LDQ5LjA3OSwwLDAsMCw3NSw2My40Yy4xMzUtMS45MjMuMTE2LTMuODY2LjMwOC01Ljc3MS4yODktMi45ODIsMS42NTUtNC4yMTMsNC42MzYtNC40YTQuMDM3LDQuMDM3LDAsMCwwLC44MjgtLjE5MnYtNi4xYy0uNS0uMDU4LS44NDMtLjExNS0xLjIwOC0uMTM1WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk0MSIgZGF0YS1uYW1lPSJQYXRoIDI5NDEiIGNsYXNzPSJjbHMtMiIgZD0iTTE1Mi4yNzMsNTguMTIyYTExLjIyOCwxMS4yMjgsMCwwLDEtNC4zODQsOS40MjRxLTQuMzgzLDMuMzgyLTExLjksMy4zODItOC4xNCwwLTEyLjUyNC0yLjFWNjMuN2EzMi45LDMyLjksMCwwLDAsNi4xMzcsMS44NzksMzIuMywzMi4zLDAsMCwwLDYuNTc1LjY4OXE1LjMyMiwwLDguMDE1LTIuMDJhNi42MjYsNi42MjYsMCwwLDAsMi42OTItNS42Miw3LjIyMiw3LjIyMiwwLDAsMC0uOTU0LTMuOSw4Ljg4NSw4Ljg4NSwwLDAsMC0zLjE5NC0yLjgsNDQuNjM0LDQ0LjYzNCwwLDAsMC02LjgxLTIuOTExcS02LjM4Ny0yLjI4Ni05LjEyNi01LjQxN2ExMS45NTUsMTEuOTU1LDAsMCwxLTIuNzQtOC4xNzJBMTAuMTY0LDEwLjE2NCwwLDAsMSwxMjguMDM5LDI3cTMuOTc3LTMuMTMxLDEwLjUyLTMuMTMxYTMxLDMxLDAsMCwxLDEyLjU1NSwyLjVMMTQ5LjQ1NSwzMWEyOC4zODIsMjguMzgyLDAsMCwwLTExLjAyMS0yLjM4LDEwLjY2OCwxMC42NjgsMCwwLDAtNi42MDYsMS44MTYsNS45ODQsNS45ODQsMCwwLDAtMi4zOCw1LjA0MSw3LjcyMiw3LjcyMiwwLDAsMCwuODc3LDMuOSw4LjI0Miw4LjI0MiwwLDAsMCwyLjk1OSwyLjc4NiwzNi43LDM2LjcsMCwwLDAsNi4zNzEsMi44cTcuMiwyLjU2Niw5LjkxLDUuNTFBMTAuODQsMTAuODQsMCwwLDEsMTUyLjI3Myw1OC4xMjJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQyIiBkYXRhLW5hbWU9IlBhdGggMjk0MiIgY2xhc3M9ImNscy0yIiBkPSJNMTg1LjI4OCw3MC4zLDE3OSw1MC4xN3EtLjU5NC0xLjg0OC0yLjIyMi04LjM5MWgtLjI1MXEtMS4yNTIsNS40NzktMi4xOTIsOC40NTNMMTY3Ljg0OSw3MC4zaC02LjAxMWwtOS4zNjEtMzQuMzE1aDUuNDQ3cTMuMzE4LDEyLjkzMSw1LjA1NywxOS42OTNhODAuMTEyLDgwLjExMiwwLDAsMSwxLjk4OCw5LjExMWguMjVxLjM0NS0xLjc4NSwxLjExMi00LjYxOHQxLjMzLTQuNDkzbDYuMjk0LTE5LjY5M2g1LjYzNWw2LjEzNywxOS42OTNhNjYuMzY5LDY2LjM2OSwwLDAsMSwyLjM3OSw5LjA0OGguMjUxYTMzLjE2MywzMy4xNjMsMCwwLDEsLjY3My0zLjQ3NXEuNTQ4LTIuMzQ3LDYuNTI4LTI1LjI2Nmg1LjM4NUwxOTEuNDU2LDcwLjNaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQzIiBkYXRhLW5hbWU9IlBhdGggMjk0MyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1LjExNSw3MC4zbC0xLjAzMy00Ljg4NWgtLjI1YTE0LjQ0NiwxNC40NDYsMCwwLDEtNS4xMTksNC4zNjgsMTUuNjA4LDE1LjYwOCwwLDAsMS02LjM3MiwxLjE0M3EtNS4xLDAtOC0yLjYzdC0yLjktNy40ODNxMC0xMC40LDE2LjYyNi0xMC45bDUuODIzLS4xODhWNDcuNnEwLTQuMDM4LTEuNzM4LTUuOTY0VDIxNi42LDM5LjcxM2EyMi42MzMsMjIuNjMzLDAsMCwwLTkuNzA2LDIuNjNsLTEuNi0zLjk3N2EyNC40MzcsMjQuNDM3LDAsMCwxLDUuNTU3LTIuMTYsMjQuMDU2LDI0LjA1NiwwLDAsMSw2LjA1OC0uNzgzcTYuMTM2LDAsOS4xLDIuNzI0dDIuOTU5LDguNzM1VjcwLjNabS0xMS43NDEtMy42NjNBMTAuNTQ5LDEwLjU0OSwwLDAsMCwyMjEsNjMuOTc3YTkuODQ1LDkuODQ1LDAsMCwwLDIuNzcxLTcuNDUxdi0zLjFsLTUuMi4yMTlxLTYuMi4yMTktOC45MzksMS45MjZhNS44LDUuOCwwLDAsMC0yLjc0LDUuMzA2LDUuMzU0LDUuMzU0LDAsMCwwLDEuNzA3LDQuMjksNy4wODEsNy4wODEsMCwwLDAsNC43NzUsMS40NzJaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ0IiBkYXRhLW5hbWU9IlBhdGggMjk0NCIgY2xhc3M9ImNscy0yIiBkPSJNMjY0LjYsMzUuOTg3djMuMjg3bC02LjM1Ni43NTJhMTEuMTYsMTEuMTYsMCwwLDEsMi4yNTUsNi44NTYsMTAuMTQ4LDEwLjE0OCwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NiwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVRMjQxLjQsNTkuNDM4LDI0MS40LDYyLjFhMi4yNDIsMi4yNDIsMCwwLDAsMS4xNTksMi4wODIsOC40NTYsOC40NTYsMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTczLDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NzIsMi45ODktMTMuMzM4LDIuOTktNi43MzIsMC0xMC4zNzktMi41YTguMDg3LDguMDg3LDAsMCwxLTMuNjQ3LTcuMDc2LDcuOTQ2LDcuOTQ2LDAsMCwxLDItNS40MTcsMTAuMjExLDEwLjIxMSwwLDAsMSw1LjYzNi0zLjEsNS40MjksNS40MjksMCwwLDEtMi4yMDctMS44NDcsNC44OSw0Ljg5LDAsMCwxLS44OTMtMi45MTIsNS41Myw1LjUzLDAsMCwxLDEtMy4yODgsMTAuNTI5LDEwLjUyOSwwLDAsMSwzLjE2Mi0yLjcyMyw5LjI3NSw5LjI3NSwwLDAsMS00LjMzNi0zLjcyNiwxMC45NDUsMTAuOTQ1LDAsMCwxLTEuNjc1LTYuMDEycTAtNS42MzQsMy4zODItOC42ODh0OS41OC0zLjA1MmExNy40MzksMTcuNDM5LDAsMCwxLDQuODUzLjYyNlpNMjM3LjIzMyw3Ni4wNjJhNC42Niw0LjY2LDAsMCwwLDIuMzQ4LDQuMjI3LDEyLjk3MywxMi45NzMsMCwwLDAsNi43MzIsMS40NHE2LjU0MywwLDkuNjktMS45NTZhNS45OTIsNS45OTIsMCwwLDAsMy4xNDctNS4zMDdxMC0yLjc4Ny0xLjcyMy0zLjg2N3QtNi40ODEtMS4wOGgtNi4yM2E4LjIwNSw4LjIwNSwwLDAsMC01LjUxLDEuNjksNi4wNDMsNi4wNDMsMCwwLDAtMS45NzMsNC44NTNabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMyw4LjEyMywwLDAsMCw1LjY2NywxLjg0N3E3LjYwOCwwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI4LDcuNjI4LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NiwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDUiIGRhdGEtbmFtZT0iUGF0aCAyOTQ1IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yOTkuMTM2LDM1Ljk4N3YzLjI4N2wtNi4zNTYuNzUyYTExLjE2OCwxMS4xNjgsMCwwLDEsMi4yNTQsNi44NTYsMTAuMTQ1LDEwLjE0NSwwLDAsMS0zLjQ0NCw4LjA0N3EtMy40NDQsMy05LjQ1NSwzYTE1LjczNCwxNS43MzQsMCwwLDEtMi44OC0uMjVxLTMuMzIsMS43NTQtMy4zMTksNC40MTVhMi4yNDMsMi4yNDMsMCwwLDAsMS4xNTgsMi4wODIsOC40NTksOC40NTksMCwwLDAsMy45NzYuNjczaDYuMDc0cTUuNTc0LDAsOC41NjMsMi4zNDhhOC4xNTgsOC4xNTgsMCwwLDEsMi45OSw2LjgyNSw5Ljc0Myw5Ljc0MywwLDAsMS00LjU3MSw4LjY4OHEtNC41NywyLjk4OS0xMy4zMzcsMi45OS02LjczMiwwLTEwLjM3OS0yLjVhOC4wODgsOC4wODgsMCwwLDEtMy42NDgtNy4wNzYsNy45NDcsNy45NDcsMCwwLDEsMi01LjQxNywxMC4yMDcsMTAuMjA3LDAsMCwxLDUuNjM2LTMuMSw1LjQzMiw1LjQzMiwwLDAsMS0yLjIwOC0xLjg0Nyw0Ljg4OSw0Ljg4OSwwLDAsMS0uODkyLTIuOTEyLDUuNTMsNS41MywwLDAsMSwxLTMuMjg4LDEwLjUyOSwxMC41MjksMCwwLDEsMy4xNjItMi43MjMsOS4yNzEsOS4yNzEsMCwwLDEtNC4zMzYtMy43MjYsMTAuOTQ1LDEwLjk0NSwwLDAsMS0xLjY3NS02LjAxMnEwLTUuNjM0LDMuMzgxLTguNjg4dDkuNTgxLTMuMDUyYTE3LjQ0NCwxNy40NDQsMCwwLDEsNC44NTMuNjI2Wk0yNzEuNzcyLDc2LjA2MmE0LjY1OCw0LjY1OCwwLDAsMCwyLjM0OCw0LjIyNywxMi45NjksMTIuOTY5LDAsMCwwLDYuNzMxLDEuNDRxNi41NDQsMCw5LjY5MS0xLjk1NmE1Ljk5Myw1Ljk5MywwLDAsMCwzLjE0Ni01LjMwN3EwLTIuNzg3LTEuNzIyLTMuODY3dC02LjQ4MS0xLjA4aC02LjIzYTguMjA4LDguMjA4LDAsMCwwLTUuNTExLDEuNjlBNi4wNDIsNi4wNDIsMCwwLDAsMjcxLjc3Miw3Ni4wNjJabTIuODE4LTI5LjA4NmE2Ljk4NCw2Ljk4NCwwLDAsMCwyLjAzNSw1LjQ0OCw4LjEyMSw4LjEyMSwwLDAsMCw1LjY2NywxLjg0N3E3LjYwNywwLDcuNjA4LTcuMzg5LDAtNy43MzMtNy43LTcuNzMzYTcuNjI5LDcuNjI5LDAsMCwwLTUuNjM1LDEuOTcycS0xLjk3NSwxLjk3My0xLjk3NSw1Ljg1NVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDYiIGRhdGEtbmFtZT0iUGF0aCAyOTQ2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMTYuNzc4LDcwLjkyOHEtNy42MDgsMC0xMi4wMDctNC42MzR0LTQuNC0xMi44NjhxMC04LjMsNC4wODYtMTMuMTgxYTEzLjU3MywxMy41NzMsMCwwLDEsMTAuOTc0LTQuODg0QTEyLjkzOCwxMi45MzgsMCwwLDEsMzI1LjYzOCwzOS42cTMuNzYyLDQuMjQ3LDMuNzYyLDExLjJ2My4yODdIMzA1Ljc1N3EuMTU2LDYuMDQ0LDMuMDUzLDkuMTc0dDguMTU2LDMuMTMxYTI3LjYzMywyNy42MzMsMCwwLDAsMTAuOTU4LTIuMzE3djQuNjM0YTI3LjUsMjcuNSwwLDAsMS01LjIxMywxLjcwNiwyOS4yNTEsMjkuMjUxLDAsMCwxLTUuOTMzLjUxM1ptLTEuNDA5LTMxLjIxNWE4LjQ4OSw4LjQ4OSwwLDAsMC02LjU5MSwyLjY5MiwxMi40MTYsMTIuNDE2LDAsMCwwLTIuOSw3LjQ1MmgxNy45NHEwLTQuOTE2LTIuMTkxLTcuNTNhNy43MTQsNy43MTQsMCwwLDAtNi4yNTgtMi42MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ3IiBkYXRhLW5hbWU9IlBhdGggMjk0NyIgY2xhc3M9ImNscy0yIiBkPSJNMzUwLjksMzUuMzYxYTIwLjM4LDIwLjM4LDAsMCwxLDQuMS4zNzVsLS43MjEsNC44MjJhMTcuNzEyLDE3LjcxMiwwLDAsMC0zLjc1Ny0uNDdBOS4xNDIsOS4xNDIsMCwwLDAsMzQzLjQsNDMuNDdhMTIuMzI3LDEyLjMyNywwLDAsMC0yLjk1OSw4LjQyMlY3MC4zaC01LjJWMzUuOTg3aDQuMjlsLjYsNi4zNTZoLjI1YTE1LjA3MiwxNS4wNzIsMCwwLDEsNC42LTUuMTY2LDEwLjM1NiwxMC4zNTYsMCwwLDEsNS45MTktMS44MTZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTQ4IiBkYXRhLW5hbWU9IlBhdGggMjk0OCIgY2xhc3M9ImNscy0yIiBkPSJNMjU1Ljg1Nyw5Ni42MzhzLTMuNDMtLjM5MS00Ljg1LS4zOTFjLTIuMDU4LDAtMy4xMTEuNzM1LTMuMTExLDIuMTgsMCwxLjU2OC44ODIsMS45MzUsMy43NDgsMi43MTksMy41MjcuOTgsNC44LDEuOTExLDQuOCw0Ljc3NywwLDMuNjc1LTIuMyw1LjI2Ny01LjYxLDUuMjY3YTM1LjY4NywzNS42ODcsMCwwLDEtNS40ODctLjY2MmwuMjctMi4xOHMzLjMwNi40NDEsNS4wNDYuNDQxYzIuMDgyLDAsMy4wMzctLjkzMSwzLjAzNy0yLjcsMC0xLjQyMS0uNzU5LTEuOTEtMy4zMzEtMi41MjMtMy42MjYtLjkzLTUuMTkzLTIuMDMzLTUuMTkzLTQuOTQ4LDAtMy4zODEsMi4yMjktNC43NzYsNS41ODUtNC43NzZhMzcuMiwzNy4yLDAsMCwxLDUuMzE1LjU4N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NDkiIGRhdGEtbmFtZT0iUGF0aCAyOTQ5IiBjbGFzcz0iY2xzLTIiIGQ9Ik0yNjIuOTY3LDk0LjE0SDI2Ny43bDMuNzQ4LDEzLjEwNkwyNzUuMiw5NC4xNGg0Ljc1MnYxNi43OEgyNzcuMlY5Ni40MmgtLjE0NWwtNC4xOTEsMTMuODE2aC0yLjg0MkwyNjUuODMxLDk2LjQyaC0uMTQ1djE0LjVoLTIuNzE5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1MCIgZGF0YS1uYW1lPSJQYXRoIDI5NTAiIGNsYXNzPSJjbHMtMiIgZD0iTTMyMi4wNTcsOTQuMTRIMzM0LjN2Mi40MjVoLTQuNzI4VjExMC45MmgtMi43NDNWOTYuNTY1aC00Ljc3N1oiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTEiIGRhdGEtbmFtZT0iUGF0aCAyOTUxIiBjbGFzcz0iY2xzLTIiIGQ9Ik0zNDYuMTM3LDk0LjE0YzMuMzMyLDAsNS4xMiwxLjI0OSw1LjEyLDQuMzYxLDAsMi4wMzMtLjYzNywzLjAzNy0xLjk4NCwzLjc3MiwxLjQ0NS41NjMsMi40LDEuNTkyLDIuNCwzLjksMCwzLjQzLTIuMDgxLDQuNzUyLTUuMzM5LDQuNzUyaC02LjU2NlY5NC4xNFptLTMuNjUsMi4zNTJ2NC44aDMuNmMxLjY2NiwwLDIuNC0uODMyLDIuNC0yLjQ3NCwwLTEuNjE3LS44MzMtMi4zMjctMi41LTIuMzI3Wm0wLDcuMXY0Ljk3M2gzLjdjMS42ODksMCwyLjY5NC0uNTM5LDIuNjk0LTIuNTQ4LDAtMS45MTEtMS40MjEtMi40MjUtMi43NDQtMi40MjVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUyIiBkYXRhLW5hbWU9IlBhdGggMjk1MiIgY2xhc3M9ImNscy0yIiBkPSJNMzU4LjQxNCw5NC4xNEgzNjl2Mi4zNzdoLTcuODY0djQuNzUxaDYuMzk0VjEwMy42aC02LjM5NHY0LjkyNEgzNjl2Mi40SDM1OC40MTRaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTUzIiBkYXRhLW5hbWU9IlBhdGggMjk1MyIgY2xhc3M9ImNscy0yIiBkPSJNMzc4Ljc0Nyw5NC4xNGg1LjQxNGw0LjE2NCwxNi43OGgtMi43NDRMMzg0LjM0MiwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDhsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTQiIGRhdGEtbmFtZT0iUGF0aCAyOTU0IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zOTcuMSwxMDUuOTQ3djQuOTczaC0yLjcxOVY5NC4xNGg2LjM3YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU2LDQuNTE5LTIuNzQ0LDUuMzUybDIuNzY5LDUuNTg1SDQwMy40N2wtMi40MjYtNC45NzNabTMuNjUxLTkuNDU1SDM5Ny4xdjcuMWgzLjdjMi4wNTcsMCwyLjg0MS0xLjg1LDIuODQxLTMuNTg5LDAtMS45LS45MzQtMy41MTEtMi44OTQtMy41MTFaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTU1IiBkYXRhLW5hbWU9IlBhdGggMjk1NSIgY2xhc3M9ImNscy0yIiBkPSJNMjkwLjAxMyw5NC4xNGg1LjQxM2w0LjE2NCwxNi43OGgtMi43NDNMMjk1LjYwOCwxMDZoLTUuNzc3bC0xLjIzOSw0LjkyM2gtMi43MTlabS4zNjEsOS40NTZoNC43MDdsLTEuNzM3LTcuMTc4aC0xLjIyNVoiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTYiIGRhdGEtbmFtZT0iUGF0aCAyOTU2IiBjbGFzcz0iY2xzLTIiIGQ9Ik0zMDguMzYyLDEwNS45NDd2NC45NzNoLTIuNzE5Vjk0LjE0aDYuMzY5YzMuNywwLDUuNjgzLDIuMTIsNS42ODMsNS44NDMsMCwyLjM3Ni0uOTU1LDQuNTE5LTIuNzQzLDUuMzUybDIuNzY4LDUuNTg1aC0yLjk4OWwtMi40MjUtNC45NzNabTMuNjUtOS40NTVoLTMuNjV2Ny4xaDMuN2MyLjA1OCwwLDIuODQxLTEuODUsMi44NDEtMy41ODlDMzE0LjksOTguMSwzMTMuOTcyLDk2LjQ5MiwzMTIuMDEyLDk2LjQ5MloiLz4NCiAgICAgIDxwYXRoIGlkPSJQYXRoXzI5NTciIGRhdGEtbmFtZT0iUGF0aCAyOTU3IiBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzAuNjA2LDEwNy42NDNhMy4wMiwzLjAyLDAsMCwxLTEuMTgsMi41MzcsNS4xMTMsNS4xMTMsMCwwLDEtMy4yLjkxLDguMDMsOC4wMywwLDAsMS0zLjM3MS0uNTY0di0xLjM4M2E4Ljc5Myw4Ljc5MywwLDAsMCwxLjY1Mi41MDYsOC42NzIsOC42NzIsMCwwLDAsMS43Ny4xODYsMy41NjUsMy41NjUsMCwwLDAsMi4xNTctLjU0NCwxLjc4MywxLjc4MywwLDAsMCwuNzI1LTEuNTEyLDEuOTQ3LDEuOTQ3LDAsMCwwLS4yNTctMS4wNSwyLjM5MywyLjM5MywwLDAsMC0uODYtLjc1NCwxMi4xNzEsMTIuMTcxLDAsMCwwLTEuODMzLS43ODQsNS44NDIsNS44NDIsMCwwLDEtMi40NTYtMS40NTgsMy4yMTMsMy4yMTMsMCwwLDEtLjczOC0yLjIsMi43MzYsMi43MzYsMCwwLDEsMS4wNzEtMi4yNjcsNC40NDQsNC40NDQsMCwwLDEsMi44MzEtLjg0Myw4LjM0MSw4LjM0MSwwLDAsMSwzLjM4LjY3NWwtLjQ0NywxLjI0N2E3LjYzOSw3LjYzOSwwLDAsMC0yLjk2Ni0uNjQxLDIuODc4LDIuODc4LDAsMCwwLTEuNzc5LjQ4OSwxLjYxMiwxLjYxMiwwLDAsMC0uNjQsMS4zNTcsMi4wODEsMi4wODEsMCwwLDAsLjIzNiwxLjA0OSwyLjIzMSwyLjIzMSwwLDAsMCwuOC43NSw5Ljg3OCw5Ljg3OCwwLDAsMCwxLjcxNS43NTQsNi44LDYuOCwwLDAsMSwyLjY2NywxLjQ4MywyLjkxOSwyLjkxOSwwLDAsMSwuNzIzLDIuMDU3WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OCIgZGF0YS1uYW1lPSJQYXRoIDI5NTgiIGNsYXNzPSJjbHMtMiIgZD0iTTEzNC40NDcsMTAxLjY4NnY1Ljk5MWEyLjQxMSwyLjQxMSwwLDAsMCwuNTE1LDEuNjg2LDIuMDksMi4wOSwwLDAsMCwxLjYwOS41NTYsMi42MjksMi42MjksMCwwLDAsMi4xMi0uNzkyLDQsNCwwLDAsMCwuNjctMi41ODd2LTQuODU0aDEuNHY5LjIzNkgxMzkuNmwtLjItMS4yMzloLS4wNzVhMi43OTMsMi43OTMsMCwwLDEtMS4xOTMsMS4wNDUsNCw0LDAsMCwxLTEuNzQuMzYyLDMuNTI5LDMuNTI5LDAsMCwxLTIuNTI0LS44LDMuNDA5LDMuNDA5LDAsMCwxLS44MzktMi41NjJ2LTYuMDQyWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk1OSIgZGF0YS1uYW1lPSJQYXRoIDI5NTkiIGNsYXNzPSJjbHMtMiIgZD0iTTE0OC4yMDYsMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxNS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MCIgZGF0YS1uYW1lPSJQYXRoIDI5NjAiIGNsYXNzPSJjbHMtMiIgZD0iTTE1OS4wMzksMTExLjA5YTMuOTkzLDMuOTkzLDAsMCwxLTEuNjQ3LS4zMzMsMy4xLDMuMSwwLDAsMS0xLjI1Mi0xLjAyM2gtLjFhMTIuMjY1LDEyLjI2NSwwLDAsMSwuMSwxLjUzM3YzLjhoLTEuNFYxMDEuNjg2aDEuMTM3bC4xOTQsMS4yNjRoLjA2N2EzLjI1NywzLjI1NywwLDAsMSwxLjI1Ni0xLjEsMy44MzEsMy44MzEsMCwwLDEsMS42NDMtLjMzNywzLjQxMywzLjQxMywwLDAsMSwyLjgzNiwxLjI1Niw2LjY4Myw2LjY4MywwLDAsMS0uMDE3LDcuMDU3LDMuNDIsMy40MiwwLDAsMS0yLjgxNywxLjI2NFptLS4yLTguMzg1YTIuNDgyLDIuNDgyLDAsMCwwLTIuMDQ4Ljc4NCw0LjA0MSw0LjA0MSwwLDAsMC0uNjQ5LDIuNDk0di4zMTJhNC42MjUsNC42MjUsMCwwLDAsLjY0OSwyLjc4NSwyLjQ2NywyLjQ2NywwLDAsMCwyLjA4Mi44MzksMi4xNjQsMi4xNjQsMCwwLDAsMS44NzUtLjk2OSw0LjYsNC42LDAsMCwwLC42NzgtMi42NzEsNC40MjgsNC40MjgsMCwwLDAtLjY3OC0yLjY1MSwyLjIzMiwyLjIzMiwwLDAsMC0xLjkxMS0uOTIzWiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MSIgZGF0YS1uYW1lPSJQYXRoIDI5NjEiIGNsYXNzPSJjbHMtMiIgZD0iTTE3My42MTIsMTA2LjNhNS4wOTMsNS4wOTMsMCwwLDEtMS4xMzcsMy41MjcsNC4wMDUsNC4wMDUsMCwwLDEtMy4xNDMsMS4yNjgsNC4xNzIsNC4xNzIsMCwwLDEtMi4yLS41ODEsMy44NCwzLjg0LDAsMCwxLTEuNDgzLTEuNjY5LDUuOCw1LjgsMCwwLDEtLjUyMi0yLjU0NSw1LjA4Nyw1LjA4NywwLDAsMSwxLjEyOS0zLjUxOCwzLjk5MSwzLjk5MSwwLDAsMSwzLjEzNS0xLjI2LDMuOTA3LDMuOTA3LDAsMCwxLDMuMDgsMS4yOSw1LjA3MSw1LjA3MSwwLDAsMSwxLjE0MSwzLjQ4OFptLTcuMDM2LDBhNC4zODQsNC4zODQsMCwwLDAsLjcwOCwyLjcsMi44MDksMi44MDksMCwwLDAsNC4xNjcsMCw0LjM2NSw0LjM2NSwwLDAsMCwuNzEyLTIuNyw0LjI5Myw0LjI5MywwLDAsMC0uNzEyLTIuNjc1LDIuNSwyLjUsMCwwLDAtMi4xLS45MTUsMi40NjEsMi40NjEsMCwwLDAtMi4wNzIuOSw0LjMzNCw0LjMzNCwwLDAsMC0uNywyLjY5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MiIgZGF0YS1uYW1lPSJQYXRoIDI5NjIiIGNsYXNzPSJjbHMtMiIgZD0iTTE4MC41MjUsMTAxLjUxN2E1LjUwNiw1LjUwNiwwLDAsMSwxLjEuMWwtLjE5NCwxLjNhNC43ODYsNC43ODYsMCwwLDAtMS4wMTEtLjEyNywyLjQ2LDIuNDYsMCwwLDAtMS45MTcuOTExLDMuMzE4LDMuMzE4LDAsMCwwLS44LDIuMjY3djQuOTU1aC0xLjR2LTkuMjM2aDEuMTU0bC4xNiwxLjcxaC4wNjhhNC4wNTQsNC4wNTQsMCwwLDEsMS4yMzgtMS4zOSwyLjc4NywyLjc4NywwLDAsMSwxLjYtLjQ5WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2MyIgZGF0YS1uYW1lPSJQYXRoIDI5NjMiIGNsYXNzPSJjbHMtMiIgZD0iTTE4Ny4zNjMsMTA5LjkzNmE0LjUwNiw0LjUwNiwwLDAsMCwuNzE2LS4wNTUsNC4zODcsNC4zODcsMCwwLDAsLjU0OC0uMTE0djEuMDdhMi41LDIuNSwwLDAsMS0uNjcuMTgxLDUsNSwwLDAsMS0uOC4wNzJxLTIuNjgsMC0yLjY4LTIuODIzdi01LjQ5NGgtMS4zMjNWMTAyLjFsMS4zMjMtLjU4Mi41OS0xLjk3MmguODA5djIuMTQxaDIuNjh2MS4wODdoLTIuNjh2NS40MzVhMS44NjksMS44NjksMCwwLDAsLjQsMS4yODFBMS4zNzcsMS4zNzcsMCwwLDAsMTg3LjM2MywxMDkuOTM2WiIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfMjk2NCIgZGF0YS1uYW1lPSJQYXRoIDI5NjQiIGNsYXNzPSJjbHMtMiIgZD0iTTE5NC41MzgsMTExLjA5YTQuMjM5LDQuMjM5LDAsMCwxLTMuMjMxLTEuMjQ3LDQuODI0LDQuODI0LDAsMCwxLTEuMTg0LTMuNDYzLDUuMzU1LDUuMzU1LDAsMCwxLDEuMS0zLjU0OCwzLjY1MiwzLjY1MiwwLDAsMSwyLjk1NC0xLjMxNSwzLjQ4NCwzLjQ4NCwwLDAsMSwyLjc0NywxLjE0Miw0LjM3OCw0LjM3OCwwLDAsMSwxLjAxMSwzLjAxM3YuODg1aC02LjM2MmEzLjY2LDMuNjYsMCwwLDAsLjgyMiwyLjQ2OSwyLjg0MywyLjg0MywwLDAsMCwyLjIuODQzLDcuNDMxLDcuNDMxLDAsMCwwLDIuOTQ5LS42MjR2MS4yNDdhNy4zNzcsNy4zNzcsMCwwLDEtMS40LjQ1OSw3Ljg2Myw3Ljg2MywwLDAsMS0xLjYuMTM5Wm0tLjM3OS04LjRhMi4yODYsMi4yODYsMCwwLDAtMS43NzQuNzI1LDMuMzM3LDMuMzM3LDAsMCwwLS43NzksMi4wMDZoNC44MjhhMy4wNzIsMy4wNzIsMCwwLDAtLjU5LTIuMDI3LDIuMDc2LDIuMDc2LDAsMCwwLTEuNjg1LS43MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY1IiBkYXRhLW5hbWU9IlBhdGggMjk2NSIgY2xhc3M9ImNscy0yIiBkPSJNMjA2Ljk1MSwxMDkuNjgzaC0uMDc2YTMuMjg3LDMuMjg3LDAsMCwxLTIuOSwxLjQwNywzLjQyNywzLjQyNywwLDAsMS0yLjgxOS0xLjIzOSw1LjQ1Miw1LjQ1MiwwLDAsMS0xLjAwNi0zLjUyMiw1LjU0Miw1LjU0MiwwLDAsMSwxLjAxMS0zLjU0OCwzLjQsMy40LDAsMCwxLDIuODE0LTEuMjY0LDMuMzYxLDMuMzYxLDAsMCwxLDIuODgzLDEuMzY1aC4xMDlsLS4wNTktLjY2NS0uMDM0LS42NDlWOTcuODA5aDEuNHYxMy4xMTNoLTEuMTM4Wm0tMi44LjIzNmEyLjU1MSwyLjU1MSwwLDAsMCwyLjA3OC0uNzc5LDMuOTQ3LDMuOTQ3LDAsMCwwLC42NDQtMi41MTZ2LS4zYTQuNjM4LDQuNjM4LDAsMCwwLS42NTMtMi44LDIuNDgxLDIuNDgxLDAsMCwwLTIuMDg2LS44MzksMi4xNCwyLjE0LDAsMCwwLTEuODgzLjk1Nyw0Ljc2LDQuNzYsMCwwLDAtLjY1MywyLjcsNC41NTQsNC41NTQsMCwwLDAsLjY0OSwyLjY3MSwyLjE5NCwyLjE5NCwwLDAsMCwxLjkwNi45MDZaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY2IiBkYXRhLW5hbWU9IlBhdGggMjk2NiIgY2xhc3M9ImNscy0yIiBkPSJNMjIwLjcxMiwxMDEuNTM0YTMuNDM1LDMuNDM1LDAsMCwxLDIuODI3LDEuMjQzLDYuNjUzLDYuNjUzLDAsMCwxLS4wMDksNy4wNTMsMy40MTcsMy40MTcsMCwwLDEtMi44MTgsMS4yNiw0LDQsMCwwLDEtMS42NDgtLjMzMywzLjA5NCwzLjA5NCwwLDAsMS0xLjI1MS0xLjAyM2gtLjFsLS4yOTUsMS4xODhoLTFWOTcuODA5aDEuNFYxMDFxMCwxLjA2OS0uMDY4LDEuOTIxaC4wNjhhMy4zMjIsMy4zMjIsMCwwLDEsMi44OTQtMS4zODdabS0uMiwxLjE3MWEyLjQ0LDIuNDQsMCwwLDAtMi4wNjQuODIyLDYuMzM4LDYuMzM4LDAsMCwwLC4wMTcsNS41NTMsMi40NjQsMi40NjQsMCwwLDAsMi4wODEuODM5LDIuMTU4LDIuMTU4LDAsMCwwLDEuOTIyLS45NCw0LjgyOCw0LjgyOCwwLDAsMCwuNjMyLTIuNyw0LjY0NSw0LjY0NSwwLDAsMC0uNjMyLTIuNjg5LDIuMjQyLDIuMjQyLDAsMCwwLTEuOTU5LS44ODVaIi8+DQogICAgICA8cGF0aCBpZD0iUGF0aF8yOTY3IiBkYXRhLW5hbWU9IlBhdGggMjk2NyIgY2xhc3M9ImNscy0yIiBkPSJNMjI1Ljc1OCwxMDEuNjg2aDEuNWwyLjAyMyw1LjI2N2EyMC4xODgsMjAuMTg4LDAsMCwxLC44MjYsMi42aC4wNjdxLjEwOS0uNDMxLjQ1OS0xLjQ3MXQyLjI4OC02LjRoMS41TDIzMC40NTIsMTEyLjJhNS4yNTMsNS4yNTMsMCwwLDEtMS4zNzgsMi4yMTIsMi45MzIsMi45MzIsMCwwLDEtMS45MzQuNjUzLDUuNjU5LDUuNjU5LDAsMCwxLTEuMjY0LS4xNDNWMTEzLjhhNC45LDQuOSwwLDAsMCwxLjAzNy4xLDIuMTM2LDIuMTM2LDAsMCwwLDIuMDU2LTEuNjE4bC41MTQtMS4zMTRaIi8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==\" alt=\"Swagger UI\">"
+					},
+					{
+						"html": "<form class=\"download-url-wrapper\"><input type=\"text\" class=\"download-url-input\" value=\"swagger.json\"><button class=\"download-url-button button\">Explore</button></form>"
+					},
+					{
+						"html": "<button class=\"download-url-button button\">Explore</button>"
+					},
+					{
+						"html": "<div class=\"swagger-ui\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"svg-assets\">"
+					},
+					{
+						"html": "<defs>"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"unlocked\">"
+					},
+					{
+						"html": "<path d=\"M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z\">"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"locked\">"
+					},
+					{
+						"html": "<path d=\"M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z\">"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"close\">"
+					},
+					{
+						"html": "<path d=\"M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z\">"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"large-arrow\"><path d=\"M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z\"></path></symbol>"
+					},
+					{
+						"html": "<path d=\"M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z\"></path>"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"large-arrow-down\"><path d=\"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z\"></path></symbol>"
+					},
+					{
+						"html": "<path d=\"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z\"></path>"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 20 20\" id=\"large-arrow-up\">"
+					},
+					{
+						"html": "<path d=\"M 17.418 14.908 C 17.69 15.176 18.127 15.176 18.397 14.908 C 18.667 14.64 18.668 14.207 18.397 13.939 L 10.489 6.109 C 10.219 5.841 9.782 5.841 9.51 6.109 L 1.602 13.939 C 1.332 14.207 1.332 14.64 1.602 14.908 C 1.873 15.176 2.311 15.176 2.581 14.908 L 10 7.767 L 17.418 14.908 Z\"></path>"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 24 24\" id=\"jump-to\"><path d=\"M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z\"></path></symbol>"
+					},
+					{
+						"html": "<path d=\"M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z\"></path>"
+					},
+					{
+						"html": "<symbol viewBox=\"0 0 24 24\" id=\"expand\"><path d=\"M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z\"></path></symbol>"
+					},
+					{
+						"html": "<path d=\"M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z\"></path>"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<section class=\"block col-12\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<div class=\"info\">"
+					},
+					{
+						"html": "<hgroup class=\"main\">"
+					},
+					{
+						"html": "<h2 class=\"title\"><!-- react-text: 62 -->Untitled<!-- /react-text --><small><pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre></small></h2>"
+					},
+					{
+						"html": "<small><pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre></small>"
+					},
+					{
+						"html": "<pre class=\"version\"><!-- react-text: 65 --> <!-- /react-text --><!-- react-text: 66 -->unspecified<!-- /react-text --><!-- react-text: 67 --> <!-- /react-text --></pre>"
+					},
+					{
+						"html": "<pre class=\"base-url\"><!-- react-text: 69 -->[ Base URL: <!-- /react-text --><!-- react-text: 70 -->api.prod.devoted.com<!-- /react-text --><!-- react-text: 71 -->/fhir/<!-- /react-text --><!-- react-text: 72 --> ]<!-- /react-text --></pre>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"swagger.json\" rel=\"noopener noreferrer\" class=\"link\"><span class=\"url\"><!-- react-text: 75 --> <!-- /react-text --><!-- react-text: 76 -->swagger.json<!-- /react-text --></span></a>"
+					},
+					{
+						"html": "<span class=\"url\"><!-- react-text: 75 --> <!-- /react-text --><!-- react-text: 76 -->swagger.json<!-- /react-text --></span>"
+					},
+					{
+						"html": "<div class=\"description\">"
+					},
+					{
+						"html": "<div class=\"markdown\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<section class=\"schemes wrapper block col-12\"><label for=\"schemes\"><span class=\"schemes-title\">Schemes</span><select><option value=\"https\">https</option></select></label></section>"
+					},
+					{
+						"html": "<label for=\"schemes\"><span class=\"schemes-title\">Schemes</span><select><option value=\"https\">https</option></select></label>"
+					},
+					{
+						"html": "<span class=\"schemes-title\">Schemes</span>"
+					},
+					{
+						"html": "<select><option value=\"https\">https</option></select>"
+					},
+					{
+						"html": "<option value=\"https\">https</option>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<div class=\"wrapper\">"
+					},
+					{
+						"html": "<section class=\"block col-12 block-desktop col-12-desktop\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-CapabilityStatement\" data-tag=\"CapabilityStatement\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>CapabilityStatement</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\"><!-- react-text: 100 --> <!-- /react-text --><div class=\"operation-tag-content\"></div><!-- react-text: 102 --> <!-- /react-text --></div>"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Condition\" data-tag=\"Condition\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>Condition</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\">"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-Condition-get_Condition\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Condition\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/Condition\"><a class=\"nostyle\" href=\"#/Condition/get_Condition\"><span>​/Condition</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Condition/get_Condition\"><span>​/Condition</span></a>"
+					},
+					{
+						"html": "<span>​/Condition</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Encounter\" data-tag=\"Encounter\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>Encounter</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\">"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-Encounter-get_Encounter\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Encounter\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/Encounter\"><a class=\"nostyle\" href=\"#/Encounter/get_Encounter\"><span>​/Encounter</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Encounter/get_Encounter\"><span>​/Encounter</span></a>"
+					},
+					{
+						"html": "<span>​/Encounter</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-ExplanationOfBenefit\" data-tag=\"ExplanationOfBenefit\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\">"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-ExplanationOfBenefit-get_ExplanationOfBenefit\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/ExplanationOfBenefit\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/ExplanationOfBenefit\"><a class=\"nostyle\" href=\"#/ExplanationOfBenefit/get_ExplanationOfBenefit\"><span>​/ExplanationOfBenefit</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/ExplanationOfBenefit/get_ExplanationOfBenefit\"><span>​/ExplanationOfBenefit</span></a>"
+					},
+					{
+						"html": "<span>​/ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Medication\" data-tag=\"Medication\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>Medication</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\">"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-Medication-get_Medication\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Medication\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/Medication\"><a class=\"nostyle\" href=\"#/Medication/get_Medication\"><span>​/Medication</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Medication/get_Medication\"><span>​/Medication</span></a>"
+					},
+					{
+						"html": "<span>​/Medication</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock-tag-section is-open\">"
+					},
+					{
+						"html": "<h3 class=\"opblock-tag no-desc\" id=\"operations-tag-Patient\" data-tag=\"Patient\" data-is-open=\"true\">"
+					},
+					{
+						"html": "<span>Patient</span>"
+					},
+					{
+						"html": "<small></small>"
+					},
+					{
+						"html": "<div></div>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"expand-operation\" title=\"Collapse operation\"><svg class=\"arrow\" width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#large-arrow-up\" xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div class=\"operation-tag-content\">"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-Patient-get_Patient\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/Patient\"><a class=\"nostyle\" href=\"#/Patient/get_Patient\"><span>​/Patient</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient/get_Patient\"><span>​/Patient</span></a>"
+					},
+					{
+						"html": "<span>​/Patient</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<span>"
+					},
+					{
+						"html": "<div class=\"opblock opblock-get\" id=\"operations-Patient-get_Patient__id_\">"
+					},
+					{
+						"html": "<div class=\"opblock-summary opblock-summary-get\">"
+					},
+					{
+						"html": "<button aria-label=\"get ​/Patient​/{id}\" aria-expanded=\"false\" class=\"opblock-summary-control\">"
+					},
+					{
+						"html": "<span class=\"opblock-summary-method\">GET</span>"
+					},
+					{
+						"html": "<span class=\"opblock-summary-path\" data-path=\"/Patient/{id}\"><a class=\"nostyle\" href=\"#/Patient/get_Patient__id_\"><span>​/Patient​/{id}</span></a></span>"
+					},
+					{
+						"html": "<a class=\"nostyle\" href=\"#/Patient/get_Patient__id_\"><span>​/Patient​/{id}</span></a>"
+					},
+					{
+						"html": "<span>​/Patient​/{id}</span>"
+					},
+					{
+						"html": "<div class=\"opblock-summary-description\"></div>"
+					},
+					{
+						"html": "<div class=\"wrapper\">"
+					},
+					{
+						"html": "<section class=\"block col-12 block-desktop col-12-desktop\">"
+					},
+					{
+						"html": "<section class=\"models is-open\">"
+					},
+					{
+						"html": "<h4><button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button></h4>"
+					},
+					{
+						"html": "<button aria-expanded=\"true\" class=\"models-control\"><span>Models</span><svg width=\"20\" height=\"20\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#large-arrow-up\"></use></svg></button>"
+					},
+					{
+						"html": "<span>Models</span>"
+					},
+					{
+						"html": "<div class=\"no-margin\">"
+					},
+					{
+						"html": "<div id=\"model-Condition\" class=\"model-container\" data-name=\"Condition\">"
+					},
+					{
+						"html": "<span class=\"models-jump-to-path\"><!-- react-empty: 263 --></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button></span>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Condition</span></span></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><span class=\"model model-title\">Condition</span></span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Condition</span>"
+					},
+					{
+						"html": "<span class=\"model-toggle collapsed\"></span>"
+					},
+					{
+						"html": "<span> </span>"
+					},
+					{
+						"html": "<div id=\"model-Encounter\" class=\"model-container\" data-name=\"Encounter\">"
+					},
+					{
+						"html": "<span class=\"models-jump-to-path\"><!-- react-empty: 273 --></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button></span>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><span class=\"model model-title\">Encounter</span></span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Encounter</span>"
+					},
+					{
+						"html": "<span class=\"model-toggle collapsed\"></span>"
+					},
+					{
+						"html": "<span> </span>"
+					},
+					{
+						"html": "<div id=\"model-ExplanationOfBenefit\" class=\"model-container\" data-name=\"ExplanationOfBenefit\">"
+					},
+					{
+						"html": "<span class=\"models-jump-to-path\"><!-- react-empty: 283 --></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button></span>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><span class=\"model model-title\">ExplanationOfBenefit</span></span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">ExplanationOfBenefit</span>"
+					},
+					{
+						"html": "<span class=\"model-toggle collapsed\"></span>"
+					},
+					{
+						"html": "<span> </span>"
+					},
+					{
+						"html": "<div id=\"model-Medication\" class=\"model-container\" data-name=\"Medication\">"
+					},
+					{
+						"html": "<span class=\"models-jump-to-path\"><!-- react-empty: 293 --></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button></span>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Medication</span></span></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><span class=\"model model-title\">Medication</span></span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Medication</span>"
+					},
+					{
+						"html": "<span class=\"model-toggle collapsed\"></span>"
+					},
+					{
+						"html": "<span> </span>"
+					},
+					{
+						"html": "<div id=\"model-Patient\" class=\"model-container\" data-name=\"Patient\">"
+					},
+					{
+						"html": "<span class=\"models-jump-to-path\"><!-- react-empty: 303 --></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button></span>"
+					},
+					{
+						"html": "<button aria-expanded=\"false\" class=\"model-box-control\"><span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span><span class=\"model-toggle collapsed\"></span><span> </span></button>"
+					},
+					{
+						"html": "<span class=\"pointer\"><span class=\"model-box\"><span class=\"model model-title\">Patient</span></span></span>"
+					},
+					{
+						"html": "<span class=\"model-box\"><span class=\"model model-title\">Patient</span></span>"
+					},
+					{
+						"html": "<span class=\"model model-title\">Patient</span>"
+					},
+					{
+						"html": "<span class=\"model-toggle collapsed\"></span>"
+					},
+					{
+						"html": "<span> </span>"
+					},
+					{
+						"html": "<div class=\"wrapper\"><section class=\"\"><span class=\"float-right\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fdevoted.com%2Fdevelopers%2Ffhir%2Fswagger%2Fswagger.json\"><!-- react-empty: 19 --></a></span></section></div>"
+					},
+					{
+						"html": "<section class=\"\"><span class=\"float-right\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fdevoted.com%2Fdevelopers%2Ffhir%2Fswagger%2Fswagger.json\"><!-- react-empty: 19 --></a></span></section>"
+					},
+					{
+						"html": "<span class=\"float-right\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fdevoted.com%2Fdevelopers%2Ffhir%2Fswagger%2Fswagger.json\"><!-- react-empty: 19 --></a></span>"
+					},
+					{
+						"html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://validator.swagger.io/validator/debug?url=https%3A%2F%2Fdevoted.com%2Fdevelopers%2Ffhir%2Fswagger%2Fswagger.json\"><!-- react-empty: 19 --></a>"
+					}
+				]
+			},
+			"scrollable-region-focusable": {
+				"description": "Scrollable region must have keyboard access",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/scrollable-region-focusable?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag211"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"select-name": {
+				"description": "Select element must have an accessible name",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/select-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<select><option value=\"https\">https</option></select>"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/developers/fhir/swagger/"
+}

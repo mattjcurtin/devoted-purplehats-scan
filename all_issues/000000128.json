@@ -1,0 +1,2518 @@
+{
+	"url": "https://devoted.com/food-and-home",
+	"pageTitle": "Food and Home Card | Devoted Health",
+	"totalItems": 686,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 5,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h1>Food and Home Card</h1>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/7caf291d4868e90fc7c3e281331c2d4c355fa1b5e04273455f70310e1b67c454.jpeg",
+						"xpath": "h1",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 681,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 136,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<h2>Extra money for everyday costs</h2>"
+					},
+					{
+						"html": "<p>The Food &amp; Home card makes it easy to save. Each month, you get a set amount of money to help you pay for food, utility bills, mortgage, or rent.</p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">View card balance</a>"
+					},
+					{
+						"html": "<h2>Check if you get the Food &amp; Home card</h2>"
+					},
+					{
+						"html": "<p><a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">See your <em>What to Know About Your Plan</em> booklet</a> to find out:</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">See your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<em>What to Know About Your Plan</em>"
+					},
+					{
+						"html": "<li>If your plan includes the Food &amp; Home card</li>"
+					},
+					{
+						"html": "<li>The amount you get&nbsp;</li>"
+					},
+					{
+						"html": "<li>If you get the card automatically or only with a <a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a></li>"
+					},
+					{
+						"html": "<a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a>"
+					},
+					{
+						"html": "<h2>Use the card for routine expenses</h2>"
+					},
+					{
+						"html": "<p>You can use your Food &amp; Home card to pay for:&nbsp;</p>"
+					},
+					{
+						"html": "<li>Healthy foods&nbsp;</li>"
+					},
+					{
+						"html": "<li>Utility bills, like your home's gas or electric bill</li>"
+					},
+					{
+						"html": "<li>Mortgage or rent&nbsp;</li>"
+					},
+					{
+						"html": "<p>Choose to spend your money all at once or throughout the month. Either way, be sure to use the full amount — you can’t roll over unused money to the next month. We automatically refill your card on the first of each month, <strong>so make sure you don’t throw it away!</strong></p>"
+					},
+					{
+						"html": "<strong>so make sure you don’t throw it away!</strong>"
+					},
+					{
+						"html": "<h2>How to get started</h2>"
+					},
+					{
+						"html": "<p>If your plan automatically includes the card, you’ll get it in the mail.</p>"
+					},
+					{
+						"html": "<p>If your plan requires that you qualify for the card, do one of the following:</p>"
+					},
+					{
+						"html": "<a href=\"http://my.devoted.com/food-and-home\" target=\"undefined\" rel=\"noopener noreferrer\">Complete the qualification form online</a>"
+					},
+					{
+						"html": "<li>Text FOODCARD to 866-85</li>"
+					},
+					{
+						"html": "<li>Call us at <a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711)</li>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<p>Once you get your card, follow the instructions it comes with to activate it.</p>"
+					},
+					{
+						"html": "<h2>How to buy food</h2>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating grocery stores</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth\" target=\"_blank\" rel=\"noopener noreferrer\">online at Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<li>Choose foods like fruits, veggies, fish, meat, eggs, and more</li>"
+					},
+					{
+						"html": "<li>Ask the cashier to scan the barcode on the back of your Food &amp; Home card or in the Healthy Benefits+ app</li>"
+					},
+					{
+						"html": "<p>You can only use your card at <a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a> — not at convenience stores, restaurants (including fast food), or gas stations.</p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a>"
+					},
+					{
+						"html": "<h2>How to pay utility bills, mortgage, or rent</h2>"
+					},
+					{
+						"html": "<p>You have 2 ways to pay:&nbsp;</p>"
+					},
+					{
+						"html": "<li>If your service provider accepts Visa, you can use your 16-digit card number like a credit or debit card and pay them directly. Payment will go through right away.</li>"
+					},
+					{
+						"html": "<li>If your service provider is set up with Healthy Benefits, you can <a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>. Payment may take up to 7 days, so pay at least a week before the due date.</li>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<p>A few important notes:</p>"
+					},
+					{
+						"html": "<li>If the bill is more than your benefit amount, send the rest of your payment directly to your service provider</li>"
+					},
+					{
+						"html": "<li>If there’s a processing fee when you pay, we'll use part of your monthly benefit to cover it</li>"
+					},
+					{
+						"html": "<li>If your service provider doesn’t accept Visa and isn't set up with Healthy Benefits, you may not be able to use your benefit to pay them</li>"
+					},
+					{
+						"html": "<li>You can use your card for mortgage or rent only if your bank or landlord can accept Food &amp; Home card payment</li>"
+					},
+					{
+						"html": "<h2>Common questions</h2>"
+					},
+					{
+						"html": "<h3>How much money do I get each month?</h3>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">Check your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<em>What to Know About Your Plan</em>"
+					},
+					{
+						"html": "<h3>Can I use the benefit before my card arrives?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<h3>Do I need a PIN?</h3>"
+					},
+					{
+						"html": "<p>Nope, just give the card to the cashier and ask them to scan the barcode on the back. If you’re ever asked to enter a PIN, it’s the last 4 digits of the card number.</p>"
+					},
+					{
+						"html": "<h3>Do I need to spend the full amount all at once?</h3>"
+					},
+					{
+						"html": "<p>Nope. You can spend it however you want throughout the month, but be sure to spend it all —&nbsp;you can’t roll over unused money to the next month.</p>"
+					},
+					{
+						"html": "<h3>How do I check my balance?</h3>"
+					},
+					{
+						"html": "<p><a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a> or call the number on the back of your card</p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a>"
+					},
+					{
+						"html": "<h3>Will I get a new card each month?</h3>"
+					},
+					{
+						"html": "<p>No, so be sure to hold onto your card. We automatically add more money to it on the first of each month.</p>"
+					},
+					{
+						"html": "<h3>Do I have to use the card to pay?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<h3>Are there any limits on what foods I can buy?&nbsp;</h3>"
+					},
+					{
+						"html": "<p>You can buy any foods you choose, but we recommend sticking with items like:&nbsp;</p>"
+					},
+					{
+						"html": "<li>Fruits and vegetables</li>"
+					},
+					{
+						"html": "<li>Fish and lean meats</li>"
+					},
+					{
+						"html": "<li>Eggs, cheese, milk, and other dairy products</li>"
+					},
+					{
+						"html": "<li>Whole grains, like whole wheat bread and brown rice</li>"
+					},
+					{
+						"html": "<li>Nuts, seeds, and spreads</li>"
+					},
+					{
+						"html": "<li>Olive oil and other plant-based oils</li>"
+					},
+					{
+						"html": "<li>Supplemental drinks like Boost® and Ensure®</li>"
+					},
+					{
+						"html": "<p>You can’t use your card for certain items, including alcohol, baby formula, pet food, or household goods like paper towels.&nbsp;</p>"
+					},
+					{
+						"html": "<h3>What utility bills can I pay?</h3>"
+					},
+					{
+						"html": "<p>You can pay most common bills like natural gas, electric, water, sewer, garbage, internet, cable, and cell phone. You can <strong>not</strong> use your card on prepaid phone service, firewood, pellet fuel, or gasoline for your car.&nbsp;</p>"
+					},
+					{
+						"html": "<strong>not</strong>"
+					},
+					{
+						"html": "<h3>Can I pay bills for other people?</h3>"
+					},
+					{
+						"html": "<p>No, you can only pay bills for yourself.</p>"
+					},
+					{
+						"html": "<h3>Still have questions?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">visit Healthy Benefits online</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-855-572-7156\" target=\"undefined\" rel=\"noopener noreferrer\">1-855-572-7156</a>"
+					},
+					{
+						"html": "<p>For questions about whether you qualify for the card, text us at 866-85 or call us at <a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711).</p>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">Apple Store</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Store </a>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.26.2024</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<h1>Food and Home Card</h1>"
+					},
+					{
+						"html": "<h2>Extra money for everyday costs</h2>"
+					},
+					{
+						"html": "<h2>Check if you get the Food &amp; Home card</h2>"
+					},
+					{
+						"html": "<h2>Use the card for routine expenses</h2>"
+					},
+					{
+						"html": "<h2>How to get started</h2>"
+					},
+					{
+						"html": "<h2>How to buy food</h2>"
+					},
+					{
+						"html": "<h2>How to pay utility bills, mortgage, or rent</h2>"
+					},
+					{
+						"html": "<h2>Common questions</h2>"
+					},
+					{
+						"html": "<h3>How much money do I get each month?</h3>"
+					},
+					{
+						"html": "<h3>Can I use the benefit before my card arrives?</h3>"
+					},
+					{
+						"html": "<h3>Do I need a PIN?</h3>"
+					},
+					{
+						"html": "<h3>Do I need to spend the full amount all at once?</h3>"
+					},
+					{
+						"html": "<h3>How do I check my balance?</h3>"
+					},
+					{
+						"html": "<h3>Will I get a new card each month?</h3>"
+					},
+					{
+						"html": "<h3>Do I have to use the card to pay?</h3>"
+					},
+					{
+						"html": "<h3>Are there any limits on what foods I can buy?&nbsp;</h3>"
+					},
+					{
+						"html": "<h3>What utility bills can I pay?</h3>"
+					},
+					{
+						"html": "<h3>Can I pay bills for other people?</h3>"
+					},
+					{
+						"html": "<h3>Still have questions?</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<h1>Food and Home Card</h1>"
+					},
+					{
+						"html": "<h2>Extra money for everyday costs</h2>"
+					},
+					{
+						"html": "<h2>Check if you get the Food &amp; Home card</h2>"
+					},
+					{
+						"html": "<h2>Use the card for routine expenses</h2>"
+					},
+					{
+						"html": "<h2>How to get started</h2>"
+					},
+					{
+						"html": "<h2>How to buy food</h2>"
+					},
+					{
+						"html": "<h2>How to pay utility bills, mortgage, or rent</h2>"
+					},
+					{
+						"html": "<h2>Common questions</h2>"
+					},
+					{
+						"html": "<h3>How much money do I get each month?</h3>"
+					},
+					{
+						"html": "<h3>Can I use the benefit before my card arrives?</h3>"
+					},
+					{
+						"html": "<h3>Do I need a PIN?</h3>"
+					},
+					{
+						"html": "<h3>Do I need to spend the full amount all at once?</h3>"
+					},
+					{
+						"html": "<h3>How do I check my balance?</h3>"
+					},
+					{
+						"html": "<h3>Will I get a new card each month?</h3>"
+					},
+					{
+						"html": "<h3>Do I have to use the card to pay?</h3>"
+					},
+					{
+						"html": "<h3>Are there any limits on what foods I can buy?&nbsp;</h3>"
+					},
+					{
+						"html": "<h3>What utility bills can I pay?</h3>"
+					},
+					{
+						"html": "<h3>Can I pay bills for other people?</h3>"
+					},
+					{
+						"html": "<h3>Still have questions?</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 15,
+				"items": [
+					{
+						"html": "<a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">visit Healthy Benefits online</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-855-572-7156\" target=\"undefined\" rel=\"noopener noreferrer\">1-855-572-7156</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">Apple Store</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Store </a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 55,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">View card balance</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">See your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a>"
+					},
+					{
+						"html": "<a href=\"http://my.devoted.com/food-and-home\" target=\"undefined\" rel=\"noopener noreferrer\">Complete the qualification form online</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating grocery stores</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth\" target=\"_blank\" rel=\"noopener noreferrer\">online at Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">Check your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">visit Healthy Benefits online</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-855-572-7156\" target=\"undefined\" rel=\"noopener noreferrer\">1-855-572-7156</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">Apple Store</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Store </a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul><li>If your plan includes the Food &amp; Home card</li><li>The amount you get&nbsp;</li><li>If you get the card automatically or only with a <a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a></li></ul>"
+					},
+					{
+						"html": "<ul><li>Healthy foods&nbsp;</li><li>Utility bills, like your home's gas or electric bill</li><li>Mortgage or rent&nbsp;</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ol>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 54,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li>If your plan includes the Food &amp; Home card</li>"
+					},
+					{
+						"html": "<li>The amount you get&nbsp;</li>"
+					},
+					{
+						"html": "<li>If you get the card automatically or only with a <a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a></li>"
+					},
+					{
+						"html": "<li>Healthy foods&nbsp;</li>"
+					},
+					{
+						"html": "<li>Utility bills, like your home's gas or electric bill</li>"
+					},
+					{
+						"html": "<li>Mortgage or rent&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"http://my.devoted.com/food-and-home\" target=\"undefined\" rel=\"noopener noreferrer\">Complete the qualification form online</a></li>"
+					},
+					{
+						"html": "<li>Text FOODCARD to 866-85</li>"
+					},
+					{
+						"html": "<li>Call us at <a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711)</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>Choose foods like fruits, veggies, fish, meat, eggs, and more</li>"
+					},
+					{
+						"html": "<li>Ask the cashier to scan the barcode on the back of your Food &amp; Home card or in the Healthy Benefits+ app</li>"
+					},
+					{
+						"html": "<li>If your service provider accepts Visa, you can use your 16-digit card number like a credit or debit card and pay them directly. Payment will go through right away.</li>"
+					},
+					{
+						"html": "<li>If your service provider is set up with Healthy Benefits, you can <a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>. Payment may take up to 7 days, so pay at least a week before the due date.</li>"
+					},
+					{
+						"html": "<li>If the bill is more than your benefit amount, send the rest of your payment directly to your service provider</li>"
+					},
+					{
+						"html": "<li>If there’s a processing fee when you pay, we'll use part of your monthly benefit to cover it</li>"
+					},
+					{
+						"html": "<li>If your service provider doesn’t accept Visa and isn't set up with Healthy Benefits, you may not be able to use your benefit to pay them</li>"
+					},
+					{
+						"html": "<li>You can use your card for mortgage or rent only if your bank or landlord can accept Food &amp; Home card payment</li>"
+					},
+					{
+						"html": "<li>Fruits and vegetables</li>"
+					},
+					{
+						"html": "<li>Fish and lean meats</li>"
+					},
+					{
+						"html": "<li>Eggs, cheese, milk, and other dairy products</li>"
+					},
+					{
+						"html": "<li>Whole grains, like whole wheat bread and brown rice</li>"
+					},
+					{
+						"html": "<li>Nuts, seeds, and spreads</li>"
+					},
+					{
+						"html": "<li>Olive oil and other plant-based oils</li>"
+					},
+					{
+						"html": "<li>Supplemental drinks like Boost® and Ensure®</li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\">"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 254,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/alimentos-y-vivienda\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Food and Home Card page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<h1>Food and Home Card</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--split--93623 gridTwoCol-module--noBorder--dd2c3\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\">"
+					},
+					{
+						"html": "<h2>Extra money for everyday costs</h2>"
+					},
+					{
+						"html": "<p>The Food &amp; Home card makes it easy to save. Each month, you get a set amount of money to help you pay for food, utility bills, mortgage, or rent.</p>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://healthybenefitsplus.com/devotedhealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">View card balance</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://healthybenefitsplus.com/devotedhealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">View card balance</a></span>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">View card balance</a>"
+					},
+					{
+						"html": "<div class=\"right\"><div><img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\"></div></div>"
+					},
+					{
+						"html": "<div><img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\"></div>"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/00f55b1c-fdfd-4d3c-86ee-5d4af739aa0e_Home+and+Food+Card+-+Rebecca+Clarke.png?auto=compress,format&amp;rect=0,0,797,569&amp;w=399&amp;h=285\" alt=\"Food and Home card\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 null\">"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2>Check if you get the Food &amp; Home card</h2>"
+					},
+					{
+						"html": "<p><a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">See your <em>What to Know About Your Plan</em> booklet</a> to find out:</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">See your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<em>What to Know About Your Plan</em>"
+					},
+					{
+						"html": "<ul><li>If your plan includes the Food &amp; Home card</li><li>The amount you get&nbsp;</li><li>If you get the card automatically or only with a <a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a></li></ul>"
+					},
+					{
+						"html": "<li>If your plan includes the Food &amp; Home card</li>"
+					},
+					{
+						"html": "<li>The amount you get&nbsp;</li>"
+					},
+					{
+						"html": "<li>If you get the card automatically or only with a <a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a></li>"
+					},
+					{
+						"html": "<a href=\"/food-and-home/fhc-conditions\">qualifying health condition</a>"
+					},
+					{
+						"html": "<h2>Use the card for routine expenses</h2>"
+					},
+					{
+						"html": "<p>You can use your Food &amp; Home card to pay for:&nbsp;</p>"
+					},
+					{
+						"html": "<ul><li>Healthy foods&nbsp;</li><li>Utility bills, like your home's gas or electric bill</li><li>Mortgage or rent&nbsp;</li></ul>"
+					},
+					{
+						"html": "<li>Healthy foods&nbsp;</li>"
+					},
+					{
+						"html": "<li>Utility bills, like your home's gas or electric bill</li>"
+					},
+					{
+						"html": "<li>Mortgage or rent&nbsp;</li>"
+					},
+					{
+						"html": "<p>Choose to spend your money all at once or throughout the month. Either way, be sure to use the full amount — you can’t roll over unused money to the next month. We automatically refill your card on the first of each month, <strong>so make sure you don’t throw it away!</strong></p>"
+					},
+					{
+						"html": "<strong>so make sure you don’t throw it away!</strong>"
+					},
+					{
+						"html": "<h2>How to get started</h2>"
+					},
+					{
+						"html": "<p>If your plan automatically includes the card, you’ll get it in the mail.</p>"
+					},
+					{
+						"html": "<p>If your plan requires that you qualify for the card, do one of the following:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"http://my.devoted.com/food-and-home\" target=\"undefined\" rel=\"noopener noreferrer\">Complete the qualification form online</a></li>"
+					},
+					{
+						"html": "<a href=\"http://my.devoted.com/food-and-home\" target=\"undefined\" rel=\"noopener noreferrer\">Complete the qualification form online</a>"
+					},
+					{
+						"html": "<li>Text FOODCARD to 866-85</li>"
+					},
+					{
+						"html": "<li>Call us at <a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711)</li>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<p>Once you get your card, follow the instructions it comes with to activate it.</p>"
+					},
+					{
+						"html": "<h2>How to buy food</h2>"
+					},
+					{
+						"html": "<ol>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating grocery stores</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth\" target=\"_blank\" rel=\"noopener noreferrer\">online at Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<li>Choose foods like fruits, veggies, fish, meat, eggs, and more</li>"
+					},
+					{
+						"html": "<li>Ask the cashier to scan the barcode on the back of your Food &amp; Home card or in the Healthy Benefits+ app</li>"
+					},
+					{
+						"html": "<p>You can only use your card at <a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a> — not at convenience stores, restaurants (including fast food), or gas stations.</p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/devotedhealth/stores/storefinder\" target=\"_blank\" rel=\"noopener noreferrer\">participating stores</a>"
+					},
+					{
+						"html": "<h2>How to pay utility bills, mortgage, or rent</h2>"
+					},
+					{
+						"html": "<p>You have 2 ways to pay:&nbsp;</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>If your service provider accepts Visa, you can use your 16-digit card number like a credit or debit card and pay them directly. Payment will go through right away.</li>"
+					},
+					{
+						"html": "<li>If your service provider is set up with Healthy Benefits, you can <a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>. Payment may take up to 7 days, so pay at least a week before the due date.</li>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">pay online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<p>A few important notes:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>If the bill is more than your benefit amount, send the rest of your payment directly to your service provider</li>"
+					},
+					{
+						"html": "<li>If there’s a processing fee when you pay, we'll use part of your monthly benefit to cover it</li>"
+					},
+					{
+						"html": "<li>If your service provider doesn’t accept Visa and isn't set up with Healthy Benefits, you may not be able to use your benefit to pay them</li>"
+					},
+					{
+						"html": "<li>You can use your card for mortgage or rent only if your bank or landlord can accept Food &amp; Home card payment</li>"
+					},
+					{
+						"html": "<h2>Common questions</h2>"
+					},
+					{
+						"html": "<h3>How much money do I get each month?</h3>"
+					},
+					{
+						"html": "<p><a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">Check your <em>What to Know About Your Plan</em> booklet</a>.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents/\" target=\"undefined\" rel=\"noopener noreferrer\">Check your <em>What to Know About Your Plan</em> booklet</a>"
+					},
+					{
+						"html": "<em>What to Know About Your Plan</em>"
+					},
+					{
+						"html": "<h3>Can I use the benefit before my card arrives?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">iPhone</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Android</a>"
+					},
+					{
+						"html": "<h3>Do I need a PIN?</h3>"
+					},
+					{
+						"html": "<p>Nope, just give the card to the cashier and ask them to scan the barcode on the back. If you’re ever asked to enter a PIN, it’s the last 4 digits of the card number.</p>"
+					},
+					{
+						"html": "<h3>Do I need to spend the full amount all at once?</h3>"
+					},
+					{
+						"html": "<p>Nope. You can spend it however you want throughout the month, but be sure to spend it all —&nbsp;you can’t roll over unused money to the next month.</p>"
+					},
+					{
+						"html": "<h3>How do I check my balance?</h3>"
+					},
+					{
+						"html": "<p><a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a> or call the number on the back of your card</p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth/Account/BalanceCheck\" target=\"_blank\" rel=\"noopener noreferrer\">Check your balance online</a>"
+					},
+					{
+						"html": "<h3>Will I get a new card each month?</h3>"
+					},
+					{
+						"html": "<p>No, so be sure to hold onto your card. We automatically add more money to it on the first of each month.</p>"
+					},
+					{
+						"html": "<h3>Do I have to use the card to pay?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">online with Healthy Benefits</a>"
+					},
+					{
+						"html": "<h3>Are there any limits on what foods I can buy?&nbsp;</h3>"
+					},
+					{
+						"html": "<p>You can buy any foods you choose, but we recommend sticking with items like:&nbsp;</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Fruits and vegetables</li>"
+					},
+					{
+						"html": "<li>Fish and lean meats</li>"
+					},
+					{
+						"html": "<li>Eggs, cheese, milk, and other dairy products</li>"
+					},
+					{
+						"html": "<li>Whole grains, like whole wheat bread and brown rice</li>"
+					},
+					{
+						"html": "<li>Nuts, seeds, and spreads</li>"
+					},
+					{
+						"html": "<li>Olive oil and other plant-based oils</li>"
+					},
+					{
+						"html": "<li>Supplemental drinks like Boost® and Ensure®</li>"
+					},
+					{
+						"html": "<p>You can’t use your card for certain items, including alcohol, baby formula, pet food, or household goods like paper towels.&nbsp;</p>"
+					},
+					{
+						"html": "<h3>What utility bills can I pay?</h3>"
+					},
+					{
+						"html": "<p>You can pay most common bills like natural gas, electric, water, sewer, garbage, internet, cable, and cell phone. You can <strong>not</strong> use your card on prepaid phone service, firewood, pellet fuel, or gasoline for your car.&nbsp;</p>"
+					},
+					{
+						"html": "<strong>not</strong>"
+					},
+					{
+						"html": "<h3>Can I pay bills for other people?</h3>"
+					},
+					{
+						"html": "<p>No, you can only pay bills for yourself.</p>"
+					},
+					{
+						"html": "<h3>Still have questions?</h3>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://healthybenefitsplus.com/DevotedHealth\" target=\"_blank\" rel=\"noopener noreferrer\">visit Healthy Benefits online</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-855-572-7156\" target=\"undefined\" rel=\"noopener noreferrer\">1-855-572-7156</a>"
+					},
+					{
+						"html": "<p>For questions about whether you qualify for the card, text us at 866-85 or call us at <a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711).</p>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://apps.apple.com/us/app/otc-rewards/id1442107413\" target=\"_blank\" rel=\"noopener noreferrer\">Apple Store</a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=com.solutran.otc&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Store </a>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.26.2024</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.26.2024</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/food-and-home/"
+}

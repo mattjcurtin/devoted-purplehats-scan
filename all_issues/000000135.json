@@ -1,0 +1,3757 @@
+{
+	"url": "https://www.devoted.com/providers/",
+	"pageTitle": "Our Providers | Devoted Health | Devoted Health",
+	"totalItems": 1105,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 6,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h1>Providers</h1>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/33cc0c5dfcf01b2ae609c34a24629a22cd124cacde81c8a5b0282d24a31c1c17.jpeg",
+						"xpath": "h1",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/drug-coverage-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization &amp; step therapy lists for Part B drugs</a>",
+						"message": "Element's background color could not be determined because it partially overlaps other elements",
+						"screenshotPath": "elemScreenshots/html/a72151950628e9fd9ac670f09b608e2321ea7f69152c9897bf319e89afca5215.jpeg",
+						"xpath": "p:nth-child(9) > .secondary-button > a[target=\"_blank\"][rel=\"noopener noreferrer\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 1099,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 193,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<p>At Devoted Health, we want to make it easy for you to care for our members. On this page, you'll find all the resources to help you do that, from provider guides and referral lists to detailed instructions on how to use our portal. </p>"
+					},
+					{
+						"html": "<p>For information about authorizations, referrals, claims status, and more, visit our <a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a> </p>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a>"
+					},
+					{
+						"html": "<p>Questions? Call us at <a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>, 8am to 5pm. </p>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<h2>Provider manual</h2>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2023 Provider Manual</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/2024_ProviderManual\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2024 Provider Manual</a>"
+					},
+					{
+						"html": "<h2>Plan documents </h2>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents\" target=\"_blank\" rel=\"noopener noreferrer\">All Plan Documents</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/all-plan-documents-2024/\" target=\"_blank\" rel=\"noopener noreferrer\">2024 Plan Documents</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/24_DH_Provider_Changes\" target=\"_blank\" rel=\"noopener noreferrer\">What to expect in 2024</a>"
+					},
+					{
+						"html": "<h2>State resources</h2>"
+					},
+					{
+						"html": "<p>Find provider quick reference guides and information about joining our network.</p>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-al\">Alabama</a> | <a href=\"/providers/providers-az\">Arizona</a> | <a href=\"/providers/providers-co\">Colorado</a> | <a href=\"/providers/providers-fl\">Florida</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-al\">Alabama</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-az\">Arizona</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-co\">Colorado</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-fl\">Florida</a>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-hi\">Hawaii</a> | <a href=\"/providers/providers-il\">Illinois</a> | <a href=\"/providers/providers-nc\">North Carolina</a> | <a href=\"/providers/providers-oh\">Ohio</a> | <a href=\"/providers/providers-or\">Oregon</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-hi\">Hawaii</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-il\">Illinois</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-nc\">North Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-oh\">Ohio</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-or\">Oregon</a>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-pa\">Pennsylvania</a> | <a href=\"/providers/providers-sc\">South Carolina</a> | <a href=\"/providers/providers-tn\">Tennessee</a> | <a href=\"/providers/providers-tx\">Texas</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-pa\">Pennsylvania</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-sc\">South Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tn\">Tennessee</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tx\">Texas</a>"
+					},
+					{
+						"html": "<h2>Provider learning center</h2>"
+					},
+					{
+						"html": "<p>Get resources for Availity, our Provider Portal, authorizations, member eligibility, and more.</p>"
+					},
+					{
+						"html": "<a href=\"/provider-learning-center\">Go to the learning center</a>"
+					},
+					{
+						"html": "<h2>Improving healthcare quality</h2>"
+					},
+					{
+						"html": "<p>Use these resources to improve Star ratings and the healthcare experience of your patients.</p>"
+					},
+					{
+						"html": "<a href=\"/improving-healthcare-quality\">View guides and tips </a>"
+					},
+					{
+						"html": "<h2>Using Availity</h2>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Availity</a>"
+					},
+					{
+						"html": "<li>New to Availity? <a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a> </li>"
+					},
+					{
+						"html": "<a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a>"
+					},
+					{
+						"html": "<li>Use our <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a> to get training resources for Availity, our Provider Portal, authorizations, referrals, member eligibility, and more.</li>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a>"
+					},
+					{
+						"html": "<h2>Claims</h2>"
+					},
+					{
+						"html": "<p>You have 3 options to submit claims to us: Change Healthcare, Availity, or paper claims.</p>"
+					},
+					{
+						"html": "<p><strong>Change Healthcare<br></strong>You'll need to work with your practice management system to connect to Change Healthcare.</p>"
+					},
+					{
+						"html": "<strong>Change Healthcare<br></strong>"
+					},
+					{
+						"html": "<p><strong>Availity</strong><br>You can use Availity to submit claims, referrals, and more. See <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>for detailed instructions.</p>"
+					},
+					{
+						"html": "<strong>Availity</strong>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>"
+					},
+					{
+						"html": "<p><strong>Paper claims<br></strong>We suggest submitting your claims electronically through Change Healthcare or Availity. If you'd rather use paper claims, here's the data you'll need:</p>"
+					},
+					{
+						"html": "<strong>Paper claims<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F9c2cb681-25d3-482a-93ce-b33944e4815a_dh_professional+_cms-1500_+paper+claim+requirement.pdf\">Professional CMS 1500</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F84edf510-1a15-485f-9ce7-137e0aa93357_dh_institutional_cms+1450+ub-04_+paper+claim+requirement.pdf\">Institutional CMS 1450 (“UB-04”)</a>"
+					},
+					{
+						"html": "<p>Make sure to send your paper claims to:<br>Devoted Health, Inc.<br>Claims<br>PO Box 211524<br>Eagan, MN 55121</p>"
+					},
+					{
+						"html": "<p>Send any mail via USPS to ensure delivery. Some mail carriers don’t deliver to PO boxes.</p>"
+					},
+					{
+						"html": "<strong>Checking Claims Status</strong>"
+					},
+					{
+						"html": "<p>You can use the Devoted provider portal to check claims status and submit an electronic dispute. <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a> </p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a>"
+					},
+					{
+						"html": "<h2>Credentialing</h2>"
+					},
+					{
+						"html": "<strong>Practitioner Credentialing</strong>"
+					},
+					{
+						"html": "<p>Practitioner credentialing is initiated once a contract is executed and the practitioner is loaded into our system. We utilize CAQH applications to complete credentialing. To avoid delays in the credentialing process, please ensure the following:</p>"
+					},
+					{
+						"html": "<li>The CAQH profile is complete and contains all required information (including current malpractice insurance)</li>"
+					},
+					{
+						"html": "<li>Devoted Health is authorized to access the application</li>"
+					},
+					{
+						"html": "<li>Application has been re-attested within the past 120 days </li>"
+					},
+					{
+						"html": "<strong>Facility &amp; Ancillary Provider Credentialing</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Durable medical equipment</h2>"
+					},
+					{
+						"html": "<p>Before ordering durable medical equipment for our members,&nbsp;check our list of covered items.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2023-dme-lists/\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2024</a>"
+					},
+					{
+						"html": "<p>To place an order, contact Integrated Home Care Services directly:</p>"
+					},
+					{
+						"html": "<li><strong>Phone</strong>&nbsp;1-844-215-4264</li>"
+					},
+					{
+						"html": "<strong>Phone</strong>"
+					},
+					{
+						"html": "<li><strong>Fax</strong>&nbsp;1-844-215-4265</li>"
+					},
+					{
+						"html": "<strong>Fax</strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a>"
+					},
+					{
+						"html": "<p>If you're located in one of the states listed below, call us directly at <a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a> for benefits questions or to find a provider. </p>"
+					},
+					{
+						"html": "<a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<li>For 2023, if you're in Alabama, Illinois, or Texas, call us directly </li>"
+					},
+					{
+						"html": "<li>For 2024, if you're in Alabama, Hawaii, Illinois, Pennsylvania, or Texas, call us directly</li>"
+					},
+					{
+						"html": "<h2>OTC Catalog</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<h2>Payspan</h2>"
+					},
+					{
+						"html": "<li><a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a> to register for EFT and download and print electronic versions of Explanation of Payments (EOPs)</li>"
+					},
+					{
+						"html": "<a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a>"
+					},
+					{
+						"html": "<a href=\"/providers/getting-started-with-payspan\">Find out how to register for Payspan</a>"
+					},
+					{
+						"html": "<h2>Provider directory and formulary</h2>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a>"
+					},
+					{
+						"html": "<a href=\"/search-drugs\">Search our formulary</a>"
+					},
+					{
+						"html": "<h2>Referrals &amp; Prior Authorizations</h2>"
+					},
+					{
+						"html": "<strong>Referrals</strong>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-referral-list\">2023 referral list</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2024-referral-list\" target=\"_blank\" rel=\"noopener noreferrer\">2024 referral list</a>"
+					},
+					{
+						"html": "<strong>Prior Authorizations</strong>"
+					},
+					{
+						"html": "<p>Get faster PA responses by following <a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>"
+					},
+					{
+						"html": "<p>Follow our prior authorization <a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>. </p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-prior-authorization-list\">2023 prior authorization list</a>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2024-prior-authorization-list\">2024 prior authorization list</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_ENG_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization request form</a>"
+					},
+					{
+						"html": "<h2>Part D forms</h2>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/\" target=\"_blank\" rel=\"noopener noreferrer\">Prescription drugs</a>"
+					},
+					{
+						"html": "<strong>Submit online</strong>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoverageDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoveragereDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Redetermination request form</a>"
+					},
+					{
+						"html": "<strong>Download for printing</strong>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F11ef44dc-5fce-44f9-9729-b23606bd56ab_dh_partd_coveragedetermination_eng.pdf\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2Feb091e58-2519-4c0e-9ecd-f07e791e894a_dh_partd_redetermination_eng.pdf\">Redetermination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/member-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Reconsideration forms </a>"
+					},
+					{
+						"html": "<h2>Roster updates</h2>"
+					},
+					{
+						"html": "<p>Use these templates to update your rosters. Please email your updates to <a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>.</p>"
+					},
+					{
+						"html": "<a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Provider_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Provider roster template</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Facility_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Facility roster template</a>"
+					},
+					{
+						"html": "<h2>Working with Devoted Health</h2>"
+					},
+					{
+						"html": "<li>What can you say about our plans to patients?<strong> </strong>We’ve made a <a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a> that can help with that</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a> to learn about our delegated partners and how to work with them</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a> for best practices for managing chronic diseases</li>"
+					},
+					{
+						"html": "<a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/in-office-lab-list\">View our in-office lab list</a> to find out which lab tests you can do in your office</li>"
+					},
+					{
+						"html": "<a href=\"/providers/in-office-lab-list\">View our in-office lab list</a>"
+					},
+					{
+						"html": "<li>Learn about <a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a> with us</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"/providers/payment-policies\">payment policies</a></li>"
+					},
+					{
+						"html": "<a href=\"/providers/payment-policies\">payment policies</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a> as an out-of-network provider</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a>"
+					},
+					{
+						"html": "<li>Looking for ways to improve your CAHPS score? Consider implementing some of <a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a>"
+					},
+					{
+						"html": "<li>Learn more about <a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>. We offer virtual and home-based care.</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>"
+					},
+					{
+						"html": "<li>Learn how <a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a>"
+					},
+					{
+						"html": "<h2>Compliance policy and procedures</h2>"
+					},
+					{
+						"html": "<a href=\"/compliance\">Review our policy documents</a>"
+					},
+					{
+						"html": "<h2>Other forms and documents</h2>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/d064f51c-8e21-4eba-b6ea-1ec3f0b60c8b_WOL+template+.pdf\">Waiver of Liability Statement</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/MA%20Regulatory%20Template\" target=\"_blank\" rel=\"noopener noreferrer\">Medicare Advantage Regulatory Attachment</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Annual_Office_Visit_CPT_Code_List_2023\" target=\"_blank\" rel=\"noopener noreferrer\">Annual office visit CPT code list</a>"
+					},
+					{
+						"html": "<a href=\"/providers/coronavirus-providers\">Learn about guidance for COVID-19</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Plan%20Affiliates\" target=\"_blank\" rel=\"noopener noreferrer\">Plan Affiliates list</a>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.22.2023</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<h1>Providers</h1>"
+					},
+					{
+						"html": "<h2>Provider manual</h2>"
+					},
+					{
+						"html": "<h2>Plan documents </h2>"
+					},
+					{
+						"html": "<h2>State resources</h2>"
+					},
+					{
+						"html": "<h2>Provider learning center</h2>"
+					},
+					{
+						"html": "<h2>Improving healthcare quality</h2>"
+					},
+					{
+						"html": "<h2>Using Availity</h2>"
+					},
+					{
+						"html": "<h2>Claims</h2>"
+					},
+					{
+						"html": "<h2>Credentialing</h2>"
+					},
+					{
+						"html": "<h2>Durable medical equipment</h2>"
+					},
+					{
+						"html": "<h2>OTC Catalog</h2>"
+					},
+					{
+						"html": "<h2>Payspan</h2>"
+					},
+					{
+						"html": "<h2>Provider directory and formulary</h2>"
+					},
+					{
+						"html": "<h2>Referrals &amp; Prior Authorizations</h2>"
+					},
+					{
+						"html": "<h2>Part D forms</h2>"
+					},
+					{
+						"html": "<h2>Roster updates</h2>"
+					},
+					{
+						"html": "<h2>Working with Devoted Health</h2>"
+					},
+					{
+						"html": "<h2>Compliance policy and procedures</h2>"
+					},
+					{
+						"html": "<h2>Other forms and documents</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<h1>Providers</h1>"
+					},
+					{
+						"html": "<h2>Provider manual</h2>"
+					},
+					{
+						"html": "<h2>Plan documents </h2>"
+					},
+					{
+						"html": "<h2>State resources</h2>"
+					},
+					{
+						"html": "<h2>Provider learning center</h2>"
+					},
+					{
+						"html": "<h2>Improving healthcare quality</h2>"
+					},
+					{
+						"html": "<h2>Using Availity</h2>"
+					},
+					{
+						"html": "<h2>Claims</h2>"
+					},
+					{
+						"html": "<h2>Credentialing</h2>"
+					},
+					{
+						"html": "<h2>Durable medical equipment</h2>"
+					},
+					{
+						"html": "<h2>OTC Catalog</h2>"
+					},
+					{
+						"html": "<h2>Payspan</h2>"
+					},
+					{
+						"html": "<h2>Provider directory and formulary</h2>"
+					},
+					{
+						"html": "<h2>Referrals &amp; Prior Authorizations</h2>"
+					},
+					{
+						"html": "<h2>Part D forms</h2>"
+					},
+					{
+						"html": "<h2>Roster updates</h2>"
+					},
+					{
+						"html": "<h2>Working with Devoted Health</h2>"
+					},
+					{
+						"html": "<h2>Compliance policy and procedures</h2>"
+					},
+					{
+						"html": "<h2>Other forms and documents</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Availity</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a>"
+					},
+					{
+						"html": "<a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>"
+					},
+					{
+						"html": "<a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a>"
+					},
+					{
+						"html": "<a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a>"
+					},
+					{
+						"html": "<a href=\"/providers/in-office-lab-list\">View our in-office lab list</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 105,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2023 Provider Manual</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/2024_ProviderManual\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2024 Provider Manual</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents\" target=\"_blank\" rel=\"noopener noreferrer\">All Plan Documents</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/all-plan-documents-2024/\" target=\"_blank\" rel=\"noopener noreferrer\">2024 Plan Documents</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/24_DH_Provider_Changes\" target=\"_blank\" rel=\"noopener noreferrer\">What to expect in 2024</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-al\">Alabama</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-az\">Arizona</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-co\">Colorado</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-fl\">Florida</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-hi\">Hawaii</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-il\">Illinois</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-nc\">North Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-oh\">Ohio</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-or\">Oregon</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-pa\">Pennsylvania</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-sc\">South Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tn\">Tennessee</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tx\">Texas</a>"
+					},
+					{
+						"html": "<a href=\"/provider-learning-center\">Go to the learning center</a>"
+					},
+					{
+						"html": "<a href=\"/improving-healthcare-quality\">View guides and tips </a>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Availity</a>"
+					},
+					{
+						"html": "<a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F9c2cb681-25d3-482a-93ce-b33944e4815a_dh_professional+_cms-1500_+paper+claim+requirement.pdf\">Professional CMS 1500</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F84edf510-1a15-485f-9ce7-137e0aa93357_dh_institutional_cms+1450+ub-04_+paper+claim+requirement.pdf\">Institutional CMS 1450 (“UB-04”)</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2023-dme-lists/\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2023</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2024</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a>"
+					},
+					{
+						"html": "<a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a>"
+					},
+					{
+						"html": "<a href=\"/providers/getting-started-with-payspan\">Find out how to register for Payspan</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a>"
+					},
+					{
+						"html": "<a href=\"/search-drugs\">Search our formulary</a>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-referral-list\">2023 referral list</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2024-referral-list\" target=\"_blank\" rel=\"noopener noreferrer\">2024 referral list</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-prior-authorization-list\">2023 prior authorization list</a>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2024-prior-authorization-list\">2024 prior authorization list</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/drug-coverage-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization &amp; step therapy lists for Part B drugs</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_ENG_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization request form</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/\" target=\"_blank\" rel=\"noopener noreferrer\">Prescription drugs</a>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoverageDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoveragereDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Redetermination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F11ef44dc-5fce-44f9-9729-b23606bd56ab_dh_partd_coveragedetermination_eng.pdf\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2Feb091e58-2519-4c0e-9ecd-f07e791e894a_dh_partd_redetermination_eng.pdf\">Redetermination request form</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/member-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Reconsideration forms </a>"
+					},
+					{
+						"html": "<a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Provider_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Provider roster template</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Facility_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Facility roster template</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a>"
+					},
+					{
+						"html": "<a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a>"
+					},
+					{
+						"html": "<a href=\"/providers/in-office-lab-list\">View our in-office lab list</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a>"
+					},
+					{
+						"html": "<a href=\"/providers/payment-policies\">payment policies</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a>"
+					},
+					{
+						"html": "<a href=\"/compliance\">Review our policy documents</a>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/d064f51c-8e21-4eba-b6ea-1ec3f0b60c8b_WOL+template+.pdf\">Waiver of Liability Statement</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/MA%20Regulatory%20Template\" target=\"_blank\" rel=\"noopener noreferrer\">Medicare Advantage Regulatory Attachment</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Annual_Office_Visit_CPT_Code_List_2023\" target=\"_blank\" rel=\"noopener noreferrer\">Annual office visit CPT code list</a>"
+					},
+					{
+						"html": "<a href=\"/providers/coronavirus-providers\">Learn about guidance for COVID-19</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Plan%20Affiliates\" target=\"_blank\" rel=\"noopener noreferrer\">Plan Affiliates list</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 18,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ol><li>The CAQH profile is complete and contains all required information (including current malpractice insurance)</li><li>Devoted Health is authorized to access the application</li><li>Application has been re-attested within the past 120 days </li></ol>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li><strong>Phone</strong>&nbsp;1-844-215-4264</li><li><strong>Fax</strong>&nbsp;1-844-215-4265</li><li><a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a></li></ul>"
+					},
+					{
+						"html": "<ul><li>For 2023, if you're in Alabama, Illinois, or Texas, call us directly </li><li>For 2024, if you're in Alabama, Hawaii, Illinois, Pennsylvania, or Texas, call us directly</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li><li><a href=\"/search-drugs\">Search our formulary</a> </li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 70,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>New to Availity? <a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a> </li>"
+					},
+					{
+						"html": "<li>Use our <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a> to get training resources for Availity, our Provider Portal, authorizations, referrals, member eligibility, and more.</li>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F9c2cb681-25d3-482a-93ce-b33944e4815a_dh_professional+_cms-1500_+paper+claim+requirement.pdf\">Professional CMS 1500</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F84edf510-1a15-485f-9ce7-137e0aa93357_dh_institutional_cms+1450+ub-04_+paper+claim+requirement.pdf\">Institutional CMS 1450 (“UB-04”)</a></li>"
+					},
+					{
+						"html": "<li>The CAQH profile is complete and contains all required information (including current malpractice insurance)</li>"
+					},
+					{
+						"html": "<li>Devoted Health is authorized to access the application</li>"
+					},
+					{
+						"html": "<li>Application has been re-attested within the past 120 days </li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/plan-documents/2023-dme-lists/\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2023</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2024</a></li>"
+					},
+					{
+						"html": "<li><strong>Phone</strong>&nbsp;1-844-215-4264</li>"
+					},
+					{
+						"html": "<li><strong>Fax</strong>&nbsp;1-844-215-4265</li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a></li>"
+					},
+					{
+						"html": "<li>For 2023, if you're in Alabama, Illinois, or Texas, call us directly </li>"
+					},
+					{
+						"html": "<li>For 2024, if you're in Alabama, Hawaii, Illinois, Pennsylvania, or Texas, call us directly</li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a> to register for EFT and download and print electronic versions of Explanation of Payments (EOPs)</li>"
+					},
+					{
+						"html": "<li><a href=\"/providers/getting-started-with-payspan\">Find out how to register for Payspan</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li>"
+					},
+					{
+						"html": "<li><a href=\"/search-drugs\">Search our formulary</a> </li>"
+					},
+					{
+						"html": "<li><a href=\"https://cdrd.cvscaremarkmyd.com/CoverageDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Coverage determination request form</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://cdrd.cvscaremarkmyd.com/CoveragereDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Redetermination request form</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F11ef44dc-5fce-44f9-9729-b23606bd56ab_dh_partd_coveragedetermination_eng.pdf\">Coverage determination request form</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2Feb091e58-2519-4c0e-9ecd-f07e791e894a_dh_partd_redetermination_eng.pdf\">Redetermination request form</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/plan-documents/member-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Reconsideration forms </a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/providers/DH_Provider_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Provider roster template</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/providers/DH_Facility_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Facility roster template</a></li>"
+					},
+					{
+						"html": "<li>What can you say about our plans to patients?<strong> </strong>We’ve made a <a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a> that can help with that</li>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a> to learn about our delegated partners and how to work with them</li>"
+					},
+					{
+						"html": "<li><a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a> for best practices for managing chronic diseases</li>"
+					},
+					{
+						"html": "<li><a href=\"/providers/in-office-lab-list\">View our in-office lab list</a> to find out which lab tests you can do in your office</li>"
+					},
+					{
+						"html": "<li>Learn about <a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a> with us</li>"
+					},
+					{
+						"html": "<li>View our <a href=\"/providers/payment-policies\">payment policies</a></li>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a> as an out-of-network provider</li>"
+					},
+					{
+						"html": "<li>Looking for ways to improve your CAHPS score? Consider implementing some of <a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a></li>"
+					},
+					{
+						"html": "<li>Learn more about <a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>. We offer virtual and home-based care.</li>"
+					},
+					{
+						"html": "<li>Learn how <a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/d064f51c-8e21-4eba-b6ea-1ec3f0b60c8b_WOL+template+.pdf\">Waiver of Liability Statement</a> </li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/MA%20Regulatory%20Template\" target=\"_blank\" rel=\"noopener noreferrer\">Medicare Advantage Regulatory Attachment</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/Annual_Office_Visit_CPT_Code_List_2023\" target=\"_blank\" rel=\"noopener noreferrer\">Annual office visit CPT code list</a></li>"
+					},
+					{
+						"html": "<li><a href=\"/providers/coronavirus-providers\">Learn about guidance for COVID-19</a>. </li>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/Plan%20Affiliates\" target=\"_blank\" rel=\"noopener noreferrer\">Plan Affiliates list</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 24,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 517,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\"><a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a><a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a></div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--link--66d66 desktopNav-module--isActive--ed334\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Our Providers | Devoted Health page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<h1>Providers</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<p>At Devoted Health, we want to make it easy for you to care for our members. On this page, you'll find all the resources to help you do that, from provider guides and referral lists to detailed instructions on how to use our portal. </p>"
+					},
+					{
+						"html": "<p>For information about authorizations, referrals, claims status, and more, visit our <a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a> </p>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">provider portal.</a>"
+					},
+					{
+						"html": "<p>Questions? Call us at <a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>, 8am to 5pm. </p>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-762-3515\" target=\"_blank\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Provider manual</h2></div>"
+					},
+					{
+						"html": "<h2>Provider manual</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2023 Provider Manual</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2023 Provider Manual</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2023/DH-Provider-Manual-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2023 Provider Manual</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/Providers/2024_ProviderManual\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2024 Provider Manual</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/Providers/2024_ProviderManual\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2024 Provider Manual</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/2024_ProviderManual\" target=\"_blank\" rel=\"noopener noreferrer\">View our 2024 Provider Manual</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Plan documents </h2></div>"
+					},
+					{
+						"html": "<h2>Plan documents </h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://www.devoted.com/find-plan-documents\" target=\"_blank\" rel=\"noopener noreferrer\">All Plan Documents</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://www.devoted.com/find-plan-documents\" target=\"_blank\" rel=\"noopener noreferrer\">All Plan Documents</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-plan-documents\" target=\"_blank\" rel=\"noopener noreferrer\">All Plan Documents</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://devoted.com/all-plan-documents-2024/\" target=\"_blank\" rel=\"noopener noreferrer\">2024 Plan Documents</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://devoted.com/all-plan-documents-2024/\" target=\"_blank\" rel=\"noopener noreferrer\">2024 Plan Documents</a></span>"
+					},
+					{
+						"html": "<a href=\"https://devoted.com/all-plan-documents-2024/\" target=\"_blank\" rel=\"noopener noreferrer\">2024 Plan Documents</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/Providers/24_DH_Provider_Changes\" target=\"_blank\" rel=\"noopener noreferrer\">What to expect in 2024</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/Providers/24_DH_Provider_Changes\" target=\"_blank\" rel=\"noopener noreferrer\">What to expect in 2024</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/24_DH_Provider_Changes\" target=\"_blank\" rel=\"noopener noreferrer\">What to expect in 2024</a>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>State resources</h2><p>Find provider quick reference guides and information about joining our network.</p></div>"
+					},
+					{
+						"html": "<h2>State resources</h2>"
+					},
+					{
+						"html": "<p>Find provider quick reference guides and information about joining our network.</p>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-al\">Alabama</a> | <a href=\"/providers/providers-az\">Arizona</a> | <a href=\"/providers/providers-co\">Colorado</a> | <a href=\"/providers/providers-fl\">Florida</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-al\">Alabama</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-az\">Arizona</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-co\">Colorado</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-fl\">Florida</a>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-hi\">Hawaii</a> | <a href=\"/providers/providers-il\">Illinois</a> | <a href=\"/providers/providers-nc\">North Carolina</a> | <a href=\"/providers/providers-oh\">Ohio</a> | <a href=\"/providers/providers-or\">Oregon</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-hi\">Hawaii</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-il\">Illinois</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-nc\">North Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-oh\">Ohio</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-or\">Oregon</a>"
+					},
+					{
+						"html": "<p><a href=\"/providers/providers-pa\">Pennsylvania</a> | <a href=\"/providers/providers-sc\">South Carolina</a> | <a href=\"/providers/providers-tn\">Tennessee</a> | <a href=\"/providers/providers-tx\">Texas</a></p>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-pa\">Pennsylvania</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-sc\">South Carolina</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tn\">Tennessee</a>"
+					},
+					{
+						"html": "<a href=\"/providers/providers-tx\">Texas</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Provider learning center</h2><p>Get resources for Availity, our Provider Portal, authorizations, member eligibility, and more.</p></div>"
+					},
+					{
+						"html": "<h2>Provider learning center</h2>"
+					},
+					{
+						"html": "<p>Get resources for Availity, our Provider Portal, authorizations, member eligibility, and more.</p>"
+					},
+					{
+						"html": "<div class=\"right\"><div><p><span class=\"secondary-button\"><a href=\"/provider-learning-center\">Go to the learning center</a></span></p></div></div>"
+					},
+					{
+						"html": "<div><p><span class=\"secondary-button\"><a href=\"/provider-learning-center\">Go to the learning center</a></span></p></div>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/provider-learning-center\">Go to the learning center</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/provider-learning-center\">Go to the learning center</a></span>"
+					},
+					{
+						"html": "<a href=\"/provider-learning-center\">Go to the learning center</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Improving healthcare quality</h2><p>Use these resources to improve Star ratings and the healthcare experience of your patients.</p><p></p></div>"
+					},
+					{
+						"html": "<h2>Improving healthcare quality</h2>"
+					},
+					{
+						"html": "<p>Use these resources to improve Star ratings and the healthcare experience of your patients.</p>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<div class=\"right\"><div><p><span class=\"secondary-button\"><a href=\"/improving-healthcare-quality\">View guides and tips </a></span></p></div></div>"
+					},
+					{
+						"html": "<div><p><span class=\"secondary-button\"><a href=\"/improving-healthcare-quality\">View guides and tips </a></span></p></div>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/improving-healthcare-quality\">View guides and tips </a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/improving-healthcare-quality\">View guides and tips </a></span>"
+					},
+					{
+						"html": "<a href=\"/improving-healthcare-quality\">View guides and tips </a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Using Availity</h2></div>"
+					},
+					{
+						"html": "<h2>Using Availity</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"https://apps.availity.com/availity/web/public.elegant.login\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Availity</a>"
+					},
+					{
+						"html": "<li>New to Availity? <a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a> </li>"
+					},
+					{
+						"html": "<a href=\"https://www.availity.com/documents/learning/LP_AP_GetStarted/index.html#/\" target=\"_blank\" rel=\"noopener noreferrer\">Register and get started.</a>"
+					},
+					{
+						"html": "<li>Use our <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a> to get training resources for Availity, our Provider Portal, authorizations, referrals, member eligibility, and more.</li>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">Provider portal training library</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Claims</h2><p>You have 3 options to submit claims to us: Change Healthcare, Availity, or paper claims.</p></div>"
+					},
+					{
+						"html": "<h2>Claims</h2>"
+					},
+					{
+						"html": "<p>You have 3 options to submit claims to us: Change Healthcare, Availity, or paper claims.</p>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><strong>Change Healthcare<br></strong>You'll need to work with your practice management system to connect to Change Healthcare.</p>"
+					},
+					{
+						"html": "<strong>Change Healthcare<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><strong>Availity</strong><br>You can use Availity to submit claims, referrals, and more. See <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>for detailed instructions.</p>"
+					},
+					{
+						"html": "<strong>Availity</strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">our claims resources </a>"
+					},
+					{
+						"html": "<p><strong>Paper claims<br></strong>We suggest submitting your claims electronically through Change Healthcare or Availity. If you'd rather use paper claims, here's the data you'll need:</p>"
+					},
+					{
+						"html": "<strong>Paper claims<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F9c2cb681-25d3-482a-93ce-b33944e4815a_dh_professional+_cms-1500_+paper+claim+requirement.pdf\">Professional CMS 1500</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F9c2cb681-25d3-482a-93ce-b33944e4815a_dh_professional+_cms-1500_+paper+claim+requirement.pdf\">Professional CMS 1500</a>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F84edf510-1a15-485f-9ce7-137e0aa93357_dh_institutional_cms+1450+ub-04_+paper+claim+requirement.pdf\">Institutional CMS 1450 (“UB-04”)</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F84edf510-1a15-485f-9ce7-137e0aa93357_dh_institutional_cms+1450+ub-04_+paper+claim+requirement.pdf\">Institutional CMS 1450 (“UB-04”)</a>"
+					},
+					{
+						"html": "<p>Make sure to send your paper claims to:<br>Devoted Health, Inc.<br>Claims<br>PO Box 211524<br>Eagan, MN 55121</p>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>Send any mail via USPS to ensure delivery. Some mail carriers don’t deliver to PO boxes.</p>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<p><strong>Checking Claims Status</strong></p>"
+					},
+					{
+						"html": "<strong>Checking Claims Status</strong>"
+					},
+					{
+						"html": "<p>You can use the Devoted provider portal to check claims status and submit an electronic dispute. <a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a> </p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/provider-portal-training-library/\" target=\"undefined\" rel=\"noopener noreferrer\">View our claims resources.</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Credentialing</h2></div>"
+					},
+					{
+						"html": "<h2>Credentialing</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><strong>Practitioner Credentialing</strong></p>"
+					},
+					{
+						"html": "<strong>Practitioner Credentialing</strong>"
+					},
+					{
+						"html": "<p>Practitioner credentialing is initiated once a contract is executed and the practitioner is loaded into our system. We utilize CAQH applications to complete credentialing. To avoid delays in the credentialing process, please ensure the following:</p>"
+					},
+					{
+						"html": "<ol><li>The CAQH profile is complete and contains all required information (including current malpractice insurance)</li><li>Devoted Health is authorized to access the application</li><li>Application has been re-attested within the past 120 days </li></ol>"
+					},
+					{
+						"html": "<li>The CAQH profile is complete and contains all required information (including current malpractice insurance)</li>"
+					},
+					{
+						"html": "<li>Devoted Health is authorized to access the application</li>"
+					},
+					{
+						"html": "<li>Application has been re-attested within the past 120 days </li>"
+					},
+					{
+						"html": "<p><strong>Facility &amp; Ancillary Provider Credentialing</strong></p>"
+					},
+					{
+						"html": "<strong>Facility &amp; Ancillary Provider Credentialing</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Durable medical equipment</h2></div>"
+					},
+					{
+						"html": "<h2>Durable medical equipment</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>Before ordering durable medical equipment for our members,&nbsp;check our list of covered items.</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/plan-documents/2023-dme-lists/\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2023</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2023-dme-lists/\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2023</a>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2024</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-2024-DMEList-ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Covered items for 2024</a>"
+					},
+					{
+						"html": "<p>To place an order, contact Integrated Home Care Services directly:</p>"
+					},
+					{
+						"html": "<ul><li><strong>Phone</strong>&nbsp;1-844-215-4264</li><li><strong>Fax</strong>&nbsp;1-844-215-4265</li><li><a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a></li></ul>"
+					},
+					{
+						"html": "<li><strong>Phone</strong>&nbsp;1-844-215-4264</li>"
+					},
+					{
+						"html": "<strong>Phone</strong>"
+					},
+					{
+						"html": "<li><strong>Fax</strong>&nbsp;1-844-215-4265</li>"
+					},
+					{
+						"html": "<strong>Fax</strong>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/IHCS_Referal_Source_Quick_Reference_Guide\" target=\"undefined\" rel=\"noopener noreferrer\">Integrated Home Care Services referral guide</a>"
+					},
+					{
+						"html": "<p>If you're located in one of the states listed below, call us directly at <a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a> for benefits questions or to find a provider. </p>"
+					},
+					{
+						"html": "<a href=\"tel:18777623515\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-762-3515</a>"
+					},
+					{
+						"html": "<ul><li>For 2023, if you're in Alabama, Illinois, or Texas, call us directly </li><li>For 2024, if you're in Alabama, Hawaii, Illinois, Pennsylvania, or Texas, call us directly</li></ul>"
+					},
+					{
+						"html": "<li>For 2023, if you're in Alabama, Illinois, or Texas, call us directly </li>"
+					},
+					{
+						"html": "<li>For 2024, if you're in Alabama, Hawaii, Illinois, Pennsylvania, or Texas, call us directly</li>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>OTC Catalog</h2></div>"
+					},
+					{
+						"html": "<h2>OTC Catalog</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/DH-OTC-Catalog2023_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_ENG.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2024/DH-OTC-Catalog2024_SPA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Payspan</h2></div>"
+					},
+					{
+						"html": "<h2>Payspan</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a> to register for EFT and download and print electronic versions of Explanation of Payments (EOPs)</li>"
+					},
+					{
+						"html": "<a href=\"https://www.payspanhealth.com\" target=\"_blank\" rel=\"noopener noreferrer\">Log in to Payspan</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/getting-started-with-payspan\">Find out how to register for Payspan</a></li>"
+					},
+					{
+						"html": "<a href=\"/providers/getting-started-with-payspan\">Find out how to register for Payspan</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Provider directory and formulary</h2></div>"
+					},
+					{
+						"html": "<h2>Provider directory and formulary</h2>"
+					},
+					{
+						"html": "<div class=\"right\"><div><ul><li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li><li><a href=\"/search-drugs\">Search our formulary</a> </li></ul></div></div>"
+					},
+					{
+						"html": "<div><ul><li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li><li><a href=\"/search-drugs\">Search our formulary</a> </li></ul></div>"
+					},
+					{
+						"html": "<ul><li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li><li><a href=\"/search-drugs\">Search our formulary</a> </li></ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Search for in-network providers, pharmacies, and facilities</a>"
+					},
+					{
+						"html": "<li><a href=\"/search-drugs\">Search our formulary</a> </li>"
+					},
+					{
+						"html": "<a href=\"/search-drugs\">Search our formulary</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Referrals &amp; Prior Authorizations</h2></div>"
+					},
+					{
+						"html": "<h2>Referrals &amp; Prior Authorizations</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><strong>Referrals</strong></p>"
+					},
+					{
+						"html": "<strong>Referrals</strong>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/plan-documents/2023-referral-list\">2023 referral list</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/plan-documents/2023-referral-list\">2023 referral list</a></span>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-referral-list\">2023 referral list</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://www.devoted.com/plan-documents/2024-referral-list\" target=\"_blank\" rel=\"noopener noreferrer\">2024 referral list</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://www.devoted.com/plan-documents/2024-referral-list\" target=\"_blank\" rel=\"noopener noreferrer\">2024 referral list</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/2024-referral-list\" target=\"_blank\" rel=\"noopener noreferrer\">2024 referral list</a>"
+					},
+					{
+						"html": "<p><strong>Prior Authorizations</strong></p>"
+					},
+					{
+						"html": "<strong>Prior Authorizations</strong>"
+					},
+					{
+						"html": "<p>Get faster PA responses by following <a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/providers/clinical-documentation-pa\" target=\"undefined\" rel=\"noopener noreferrer\">these guidelines</a>"
+					},
+					{
+						"html": "<p>Follow our prior authorization <a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>. </p>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Post-Acute%20Care%20Guide/Providers\" target=\"_blank\" rel=\"noopener noreferrer\">process for post-acute care</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/plan-documents/2023-prior-authorization-list\">2023 prior authorization list</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/plan-documents/2023-prior-authorization-list\">2023 prior authorization list</a></span>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2023-prior-authorization-list\">2023 prior authorization list</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"/plan-documents/2024-prior-authorization-list\">2024 prior authorization list</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"/plan-documents/2024-prior-authorization-list\">2024 prior authorization list</a></span>"
+					},
+					{
+						"html": "<a href=\"/plan-documents/2024-prior-authorization-list\">2024 prior authorization list</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://www.devoted.com/prescription-drugs/drug-coverage-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization &amp; step therapy lists for Part B drugs</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://www.devoted.com/prescription-drugs/drug-coverage-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization &amp; step therapy lists for Part B drugs</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/drug-coverage-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization &amp; step therapy lists for Part B drugs</a>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_ENG_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization request form</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_ENG_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization request form</a></span>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/Prior_Authorization_Form_ENG_Editable\" target=\"_blank\" rel=\"noopener noreferrer\">Prior authorization request form</a>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Part D forms</h2></div>"
+					},
+					{
+						"html": "<h2>Part D forms</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><span class=\"secondary-button\"><a href=\"https://www.devoted.com/prescription-drugs/\" target=\"_blank\" rel=\"noopener noreferrer\">Prescription drugs</a></span></p>"
+					},
+					{
+						"html": "<span class=\"secondary-button\"><a href=\"https://www.devoted.com/prescription-drugs/\" target=\"_blank\" rel=\"noopener noreferrer\">Prescription drugs</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/prescription-drugs/\" target=\"_blank\" rel=\"noopener noreferrer\">Prescription drugs</a>"
+					},
+					{
+						"html": "<p><strong>Submit online</strong></p>"
+					},
+					{
+						"html": "<strong>Submit online</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://cdrd.cvscaremarkmyd.com/CoverageDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Coverage determination request form</a></li>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoverageDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<li><a href=\"https://cdrd.cvscaremarkmyd.com/CoveragereDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Redetermination request form</a></li>"
+					},
+					{
+						"html": "<a href=\"https://cdrd.cvscaremarkmyd.com/CoveragereDetermination.aspx?ClientID=41\" target=\"_blank\" rel=\"noopener noreferrer\">Redetermination request form</a>"
+					},
+					{
+						"html": "<p><strong>Download for printing</strong></p>"
+					},
+					{
+						"html": "<strong>Download for printing</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F11ef44dc-5fce-44f9-9729-b23606bd56ab_dh_partd_coveragedetermination_eng.pdf\">Coverage determination request form</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2F11ef44dc-5fce-44f9-9729-b23606bd56ab_dh_partd_coveragedetermination_eng.pdf\">Coverage determination request form</a>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2Feb091e58-2519-4c0e-9ecd-f07e791e894a_dh_partd_redetermination_eng.pdf\">Redetermination request form</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/staging-devoted-health%2Feb091e58-2519-4c0e-9ecd-f07e791e894a_dh_partd_redetermination_eng.pdf\">Redetermination request form</a>"
+					},
+					{
+						"html": "<li><a href=\"https://www.devoted.com/plan-documents/member-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Reconsideration forms </a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/plan-documents/member-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Reconsideration forms </a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Roster updates</h2><p>Use these templates to update your rosters. Please email your updates to <a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>.</p></div>"
+					},
+					{
+						"html": "<h2>Roster updates</h2>"
+					},
+					{
+						"html": "<p>Use these templates to update your rosters. Please email your updates to <a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>.</p>"
+					},
+					{
+						"html": "<a href=\"mailto:provider-updates@devoted.com\" target=\"undefined\" rel=\"noopener noreferrer\">provider-updates@devoted.com</a>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/providers/DH_Provider_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Provider roster template</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Provider_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Provider roster template</a>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/providers/DH_Facility_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Facility roster template</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/providers/DH_Facility_Roster_Template.csv\" target=\"_blank\" rel=\"noopener noreferrer\">Facility roster template</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Working with Devoted Health</h2></div>"
+					},
+					{
+						"html": "<h2>Working with Devoted Health</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>What can you say about our plans to patients?<strong> </strong>We’ve made a <a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a> that can help with that</li>"
+					},
+					{
+						"html": "<strong> </strong>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Provider%20Cheat%20Sheet%20FAQ\" target=\"_blank\" rel=\"noopener noreferrer\">handy cheat sheet</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a> to learn about our delegated partners and how to work with them</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_Devoted_Partner_Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted partner guide</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a> for best practices for managing chronic diseases</li>"
+					},
+					{
+						"html": "<a href=\"/providers/clinical-guidelines\">View our clinical guidelines</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/in-office-lab-list\">View our in-office lab list</a> to find out which lab tests you can do in your office</li>"
+					},
+					{
+						"html": "<a href=\"/providers/in-office-lab-list\">View our in-office lab list</a>"
+					},
+					{
+						"html": "<li>Learn about <a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a> with us</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/plan-documents/2023/Discharge_Summary_Data_Sharing_ENG_2023\" target=\"undefined\" rel=\"noopener noreferrer\">sharing discharge summaries</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"/providers/payment-policies\">payment policies</a></li>"
+					},
+					{
+						"html": "<a href=\"/providers/payment-policies\">payment policies</a>"
+					},
+					{
+						"html": "<li>View our <a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a> as an out-of-network provider</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Provider%20Documents/PPO_Out_of_Network_Education\" target=\"undefined\" rel=\"noopener noreferrer\">guide for treating PPO plan members</a>"
+					},
+					{
+						"html": "<li>Looking for ways to improve your CAHPS score? Consider implementing some of <a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/provider-documents/2022/DevotedHealth-2021-Provider_CAHPS_Flyer.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">these best practices</a>"
+					},
+					{
+						"html": "<li>Learn more about <a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>. We offer virtual and home-based care.</li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/23_DM_Flyer_v003\" target=\"_blank\" rel=\"noopener noreferrer\">Devoted Medical</a>"
+					},
+					{
+						"html": "<li>Learn how <a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a></li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/35fed9aa-c96a-442e-9726-9720c31ba0db_23_DH_P_Dentists%E2%80%99+Guide+to+Dental+Debit+Card_Final.pdf\">our dental debit card works</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\"><div class=\"left\"><h2>Compliance policy and procedures</h2></div><div class=\"right\"><div><p><a href=\"/compliance\">Review our policy documents</a></p></div></div></div>"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Compliance policy and procedures</h2></div>"
+					},
+					{
+						"html": "<h2>Compliance policy and procedures</h2>"
+					},
+					{
+						"html": "<div class=\"right\"><div><p><a href=\"/compliance\">Review our policy documents</a></p></div></div>"
+					},
+					{
+						"html": "<div><p><a href=\"/compliance\">Review our policy documents</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/compliance\">Review our policy documents</a></p>"
+					},
+					{
+						"html": "<a href=\"/compliance\">Review our policy documents</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h2>Other forms and documents</h2></div>"
+					},
+					{
+						"html": "<h2>Other forms and documents</h2>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/d064f51c-8e21-4eba-b6ea-1ec3f0b60c8b_WOL+template+.pdf\">Waiver of Liability Statement</a> </li>"
+					},
+					{
+						"html": "<a href=\"https://devoted-health-2020.cdn.prismic.io/devoted-health-2020/d064f51c-8e21-4eba-b6ea-1ec3f0b60c8b_WOL+template+.pdf\">Waiver of Liability Statement</a>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/MA%20Regulatory%20Template\" target=\"_blank\" rel=\"noopener noreferrer\">Medicare Advantage Regulatory Attachment</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/MA%20Regulatory%20Template\" target=\"_blank\" rel=\"noopener noreferrer\">Medicare Advantage Regulatory Attachment</a>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/Annual_Office_Visit_CPT_Code_List_2023\" target=\"_blank\" rel=\"noopener noreferrer\">Annual office visit CPT code list</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Annual_Office_Visit_CPT_Code_List_2023\" target=\"_blank\" rel=\"noopener noreferrer\">Annual office visit CPT code list</a>"
+					},
+					{
+						"html": "<li><a href=\"/providers/coronavirus-providers\">Learn about guidance for COVID-19</a>. </li>"
+					},
+					{
+						"html": "<a href=\"/providers/coronavirus-providers\">Learn about guidance for COVID-19</a>"
+					},
+					{
+						"html": "<li><a href=\"https://assets.devoted.com/Providers/Plan%20Affiliates\" target=\"_blank\" rel=\"noopener noreferrer\">Plan Affiliates list</a></li>"
+					},
+					{
+						"html": "<a href=\"https://assets.devoted.com/Providers/Plan%20Affiliates\" target=\"_blank\" rel=\"noopener noreferrer\">Plan Affiliates list</a>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.22.2023</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.22.2023</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

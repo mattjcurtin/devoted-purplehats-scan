@@ -1,0 +1,2732 @@
+{
+	"url": "https://devoted.com/privacy-policy/",
+	"pageTitle": "Internet Privacy Policy | Devoted Health",
+	"totalItems": 766,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 4,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 762,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 183,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li>"
+					},
+					{
+						"html": "<h1>Internet Privacy Policy</h1>"
+					},
+					{
+						"html": "<h2>What does this cover?</h2>"
+					},
+					{
+						"html": "<p>This Devoted Privacy Policy (the “Policy”) describes how we collect and use personal information about you when you visit our website or use our products and services.</p>"
+					},
+					{
+						"html": "<p>In this Policy, “we,” “us,” and “our” mean Devoted Health Inc. and our affiliated companies, subsidiaries and related companies (collectively “Devoted”), and “you” and “your” means any person who visits our website or uses our products and services.</p>"
+					},
+					{
+						"html": "<p>By “personal information,” we mean information that directly identifies you, such as your name, address, phone number (including mobile phone number), or email address. There are 2 types of personal information:</p>"
+					},
+					{
+						"html": "<li>Personally Identifiable Information (PII)</li>"
+					},
+					{
+						"html": "<li>Protected Health Information (PHI)</li>"
+					},
+					{
+						"html": "<p>This portion of the Policy deals with how Devoted collects, uses, shares, and protects PII. <a href=\"/privacy-practices\">View our Notice of Privacy Practices</a> to learn how we collect, use, share, and protect PHI.</p>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">View our Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<h2>Your Personal Information</h2>"
+					},
+					{
+						"html": "<p>Personally Identifiable Information (PII), as described in US privacy and information security law, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we protect your personal information<br></strong>"
+					},
+					{
+						"html": "<p>The safety and security of your PII also depends on you. We encourage you to take steps to protect the confidentiality of your account and personal information, including by doing the following:</p>"
+					},
+					{
+						"html": "<li>Reviewing your personal accounts, including social media accounts, periodically and immediately reporting any unexpected activity or unrecognized information;</li>"
+					},
+					{
+						"html": "<li>Installing the latest security updates and anti-virus software on your devices to help prevent malware and viruses;</li>"
+					},
+					{
+						"html": "<li>Using complex passwords;</li>"
+					},
+					{
+						"html": "<li>Not using the same password on more than one website;</li>"
+					},
+					{
+						"html": "<li>Using 2-factor authentication where applicable;</li>"
+					},
+					{
+						"html": "<li>Not sharing your password with others;</li>"
+					},
+					{
+						"html": "<li>Password protecting your computer and mobile devices; and</li>"
+					},
+					{
+						"html": "<li>Signing out / Logging off of website sessions so that your session is closed, especially when using a public computer</li>"
+					},
+					{
+						"html": "<p>SMS (text)&nbsp; messaging is not an encrypted (secure) channel. If you text Protected Health Information (PHI) there is a risk that PHI could be intercepted or viewed by third parties, including others who access your device.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy/digital-communication-risks\">Member Communication Risks</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we use your information<br></strong>"
+					},
+					{
+						"html": "<li><strong>To provide you with products and services</strong>, such as to: share services that are relevant to your needs; deliver content that you may find interesting or helpful; and process, maintain, and service your account;</li>"
+					},
+					{
+						"html": "<strong>To provide you with products and services</strong>"
+					},
+					{
+						"html": "<li><strong>To respond to you</strong>, such as when you: send us an inquiry via SMS (text) message; fill out a form to be contacted; make a request or an inquiry; ask to set up an appointment with a sales representative; request materials in the mail, or share a comment or concern;</li>"
+					},
+					{
+						"html": "<strong>To respond to you</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>To personalize your experience with us</strong>"
+					},
+					{
+						"html": "<li><strong>For marketing and advertising</strong>, such as to: send you marketing and advertising communications; to customize the marketing and advertising that we show you; and to identify others like you who may be interested in similar products and services;</li>"
+					},
+					{
+						"html": "<strong>For marketing and advertising</strong>"
+					},
+					{
+						"html": "<li><strong>For analytics</strong>, such as to: understand how you use our website; understand how you shop for and interact with our products and services; determine the methods and devices used to access our website; and improve our website;</li>"
+					},
+					{
+						"html": "<strong>For analytics</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>For business purposes</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>For legal and safety purposes</strong>"
+					},
+					{
+						"html": "<li><strong>To fulfill any other purpose for which you provide it and any other purpose with your consent, </strong>for which we will inform you of the purpose for which we collect it or seek your consent as necessary. </li>"
+					},
+					{
+						"html": "<strong>To fulfill any other purpose for which you provide it and any other purpose with your consent, </strong>"
+					},
+					{
+						"html": "<p><strong>What information we collect<br></strong>In order to improve your experience when using our website, plan, services, or products, we collect a variety of types of information. &nbsp;Examples include:</p>"
+					},
+					{
+						"html": "<strong>What information we collect<br></strong>"
+					},
+					{
+						"html": "<li><strong>Contact information</strong>, such as your name, address, phone number, or email address. Examples include when you subscribe to a newsletter, fill out a form, or enter information on our website;</li>"
+					},
+					{
+						"html": "<strong>Contact information</strong>"
+					},
+					{
+						"html": "<li><strong>Preference information</strong>, such as your contact and marketing preferences, and plan or product interests;</li>"
+					},
+					{
+						"html": "<strong>Preference information</strong>"
+					},
+					{
+						"html": "<li><strong>Profile and account information</strong>, which may include Contact and Preference information; </li>"
+					},
+					{
+						"html": "<strong>Profile and account information</strong>"
+					},
+					{
+						"html": "<li><strong>Demographic information</strong>, which may include age or birth date, gender, ZIP code, and other information about you;</li>"
+					},
+					{
+						"html": "<strong>Demographic information</strong>"
+					},
+					{
+						"html": "<li><strong>Call recordings</strong> including information about your call and that you share when you call us on the phone;</li>"
+					},
+					{
+						"html": "<strong>Call recordings</strong>"
+					},
+					{
+						"html": "<li><strong>Location information</strong> of your device that you use when interacting with our website or calling us, if your device settings allow us to collect location information; and</li>"
+					},
+					{
+						"html": "<strong>Location information</strong>"
+					},
+					{
+						"html": "<li><strong>Device and browsing information</strong>, including information about your phone, tablet, computer, or device, and online browsing activity (collectively, “automatically collected information”). </li>"
+					},
+					{
+						"html": "<strong>Device and browsing information</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we collect your information<br></strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>You provide,</strong>"
+					},
+					{
+						"html": "<li><strong>At events you attend,</strong> such as: the types of information noted above that you provide, and video recordings and photographs that we collect for security, fraud, loss prevention, incident reporting, and operational purposes;</li>"
+					},
+					{
+						"html": "<strong>At events you attend,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From wi-fi and mobile devices,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From third parties,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From social media platforms and networks</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Using cookies, tracking pixels, and automatic collection methods.</strong>"
+					},
+					{
+						"html": "<p>If you have questions about the tools that are described in this policy, please visit the websites below to learn more about any options they may have available regarding tracking information.</p>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Google:</strong>"
+					},
+					{
+						"html": "<a href=\"https://encompasshealth.com/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://chrome.google.com/webstore/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<li><strong>Meta: </strong><a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> or <a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>&nbsp;</li>"
+					},
+					{
+						"html": "<strong>Meta: </strong>"
+					},
+					{
+						"html": "<a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we share information<br></strong>"
+					},
+					{
+						"html": "<em>other</em>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Third parties and service providers</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Social media platforms and networks</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>To a buyer or other successor in interest</strong>"
+					},
+					{
+						"html": "<li><strong>To fulfill the purpose for which you provide it.</strong> For example, when you sign up for one of our Medicare Advantage plans, we may share your information with Medicare to verify your eligibility and for them to cover all or part of the premiums for our plans; and</li>"
+					},
+					{
+						"html": "<strong>To fulfill the purpose for which you provide it.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Additional third parties</strong>"
+					},
+					{
+						"html": "<strong>Notices and Disclosures</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>California Privacy Rights.</strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Children's Privacy.</strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<p><strong>Your rights and choices regarding personal information<br></strong>We strive to offer you with choices about how personal information is used and shared. Your choices include:</p>"
+					},
+					{
+						"html": "<strong>Your rights and choices regarding personal information<br></strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Direct Mail Choices.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Online Advertising.</strong>"
+					},
+					{
+						"html": "<a href=\"http://www.networkadvertising.org/managing/opt_out.asp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.networkadvertising.org/managing/opt_out.asp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener noreferrer\">www.aboutads.info/choices</a>"
+					},
+					{
+						"html": "<li><strong>Social Media Platforms and Networks.</strong> We encourage you to review your privacy options and settings with the social media platforms and networks you use to understand what choices you have about sharing information from those platforms and networks with us. </li>"
+					},
+					{
+						"html": "<strong>Social Media Platforms and Networks.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Email Choices.</strong>"
+					},
+					{
+						"html": "<li><strong>Mobile Location Choices.</strong> You may choose not to provide your location to us by customizing your mobile device settings to prevent sharing of location information. </li>"
+					},
+					{
+						"html": "<strong>Mobile Location Choices.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>SMS (text).</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Accessing and Correcting Your Information<br></strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Do Not Track Signals<br></strong>"
+					},
+					{
+						"html": "<h2>How to Contact Us</h2>"
+					},
+					{
+						"html": "<p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>"
+					},
+					{
+						"html": "<p>Devoted Health<br>ATTN: Emily Reilly, Privacy Officer<br>PO Box 21327<br>Eagan, MN 55121</p>"
+					},
+					{
+						"html": "<p><strong>Phone: </strong><a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711)<br><strong>Email: </strong><a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a></p>"
+					},
+					{
+						"html": "<strong>Phone: </strong>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<strong>Email: </strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<h2>Updates to This Policy</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Changes to this Notice<br></strong>"
+					},
+					{
+						"html": "<p><strong>Effective date<br></strong>This Policy is effective August 11, 2023.</p>"
+					},
+					{
+						"html": "<strong>Effective date<br></strong>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->08.14.2023</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<h1>Internet Privacy Policy</h1>"
+					},
+					{
+						"html": "<h2>What does this cover?</h2>"
+					},
+					{
+						"html": "<h2>Your Personal Information</h2>"
+					},
+					{
+						"html": "<h2>How to Contact Us</h2>"
+					},
+					{
+						"html": "<h2>Updates to This Policy</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<h1>Internet Privacy Policy</h1>"
+					},
+					{
+						"html": "<h2>What does this cover?</h2>"
+					},
+					{
+						"html": "<h2>Your Personal Information</h2>"
+					},
+					{
+						"html": "<h2>How to Contact Us</h2>"
+					},
+					{
+						"html": "<h2>Updates to This Policy</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a href=\"/privacy-practices\">View our Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy/digital-communication-risks\">Member Communication Risks</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"http://www.networkadvertising.org/managing/opt_out.asp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.networkadvertising.org/managing/opt_out.asp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener noreferrer\">www.aboutads.info/choices</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 45,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">View our Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy/digital-communication-risks\">Member Communication Risks</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<a href=\"https://encompasshealth.com/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://chrome.google.com/webstore/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a href=\"http://www.networkadvertising.org/managing/opt_out.asp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.networkadvertising.org/managing/opt_out.asp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener noreferrer\">www.aboutads.info/choices</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 15,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li></ul>"
+					},
+					{
+						"html": "<ul><li>Personally Identifiable Information (PII)</li><li>Protected Health Information (PHI)</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 76,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li>"
+					},
+					{
+						"html": "<li>Personally Identifiable Information (PII)</li>"
+					},
+					{
+						"html": "<li>Protected Health Information (PHI)</li>"
+					},
+					{
+						"html": "<li>Reviewing your personal accounts, including social media accounts, periodically and immediately reporting any unexpected activity or unrecognized information;</li>"
+					},
+					{
+						"html": "<li>Installing the latest security updates and anti-virus software on your devices to help prevent malware and viruses;</li>"
+					},
+					{
+						"html": "<li>Using complex passwords;</li>"
+					},
+					{
+						"html": "<li>Not using the same password on more than one website;</li>"
+					},
+					{
+						"html": "<li>Using 2-factor authentication where applicable;</li>"
+					},
+					{
+						"html": "<li>Not sharing your password with others;</li>"
+					},
+					{
+						"html": "<li>Password protecting your computer and mobile devices; and</li>"
+					},
+					{
+						"html": "<li>Signing out / Logging off of website sessions so that your session is closed, especially when using a public computer</li>"
+					},
+					{
+						"html": "<li><strong>To provide you with products and services</strong>, such as to: share services that are relevant to your needs; deliver content that you may find interesting or helpful; and process, maintain, and service your account;</li>"
+					},
+					{
+						"html": "<li><strong>To respond to you</strong>, such as when you: send us an inquiry via SMS (text) message; fill out a form to be contacted; make a request or an inquiry; ask to set up an appointment with a sales representative; request materials in the mail, or share a comment or concern;</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>For marketing and advertising</strong>, such as to: send you marketing and advertising communications; to customize the marketing and advertising that we show you; and to identify others like you who may be interested in similar products and services;</li>"
+					},
+					{
+						"html": "<li><strong>For analytics</strong>, such as to: understand how you use our website; understand how you shop for and interact with our products and services; determine the methods and devices used to access our website; and improve our website;</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>To fulfill any other purpose for which you provide it and any other purpose with your consent, </strong>for which we will inform you of the purpose for which we collect it or seek your consent as necessary. </li>"
+					},
+					{
+						"html": "<li><strong>Contact information</strong>, such as your name, address, phone number, or email address. Examples include when you subscribe to a newsletter, fill out a form, or enter information on our website;</li>"
+					},
+					{
+						"html": "<li><strong>Preference information</strong>, such as your contact and marketing preferences, and plan or product interests;</li>"
+					},
+					{
+						"html": "<li><strong>Profile and account information</strong>, which may include Contact and Preference information; </li>"
+					},
+					{
+						"html": "<li><strong>Demographic information</strong>, which may include age or birth date, gender, ZIP code, and other information about you;</li>"
+					},
+					{
+						"html": "<li><strong>Call recordings</strong> including information about your call and that you share when you call us on the phone;</li>"
+					},
+					{
+						"html": "<li><strong>Location information</strong> of your device that you use when interacting with our website or calling us, if your device settings allow us to collect location information; and</li>"
+					},
+					{
+						"html": "<li><strong>Device and browsing information</strong>, including information about your phone, tablet, computer, or device, and online browsing activity (collectively, “automatically collected information”). </li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>At events you attend,</strong> such as: the types of information noted above that you provide, and video recordings and photographs that we collect for security, fraud, loss prevention, incident reporting, and operational purposes;</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>Meta: </strong><a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> or <a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>&nbsp;</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>To fulfill the purpose for which you provide it.</strong> For example, when you sign up for one of our Medicare Advantage plans, we may share your information with Medicare to verify your eligibility and for them to cover all or part of the premiums for our plans; and</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>Social Media Platforms and Networks.</strong> We encourage you to review your privacy options and settings with the social media platforms and networks you use to understand what choices you have about sharing information from those platforms and networks with us. </li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><strong>Mobile Location Choices.</strong> You may choose not to provide your location to us by customizing your mobile device settings to prevent sharing of location information. </li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 307,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/politica-privacidad\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Internet Privacy Policy page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--wrapper--d56bc\"><div class=\"breadCrumbs-module--content--3a842\"><ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li></ul></div></div>"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--content--3a842\"><ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li></ul></div>"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li></ul>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Internet Privacy Policy</li>"
+					},
+					{
+						"html": "<h1>Internet Privacy Policy</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2>What does this cover?</h2>"
+					},
+					{
+						"html": "<p>This Devoted Privacy Policy (the “Policy”) describes how we collect and use personal information about you when you visit our website or use our products and services.</p>"
+					},
+					{
+						"html": "<p>In this Policy, “we,” “us,” and “our” mean Devoted Health Inc. and our affiliated companies, subsidiaries and related companies (collectively “Devoted”), and “you” and “your” means any person who visits our website or uses our products and services.</p>"
+					},
+					{
+						"html": "<p>By “personal information,” we mean information that directly identifies you, such as your name, address, phone number (including mobile phone number), or email address. There are 2 types of personal information:</p>"
+					},
+					{
+						"html": "<ul><li>Personally Identifiable Information (PII)</li><li>Protected Health Information (PHI)</li></ul>"
+					},
+					{
+						"html": "<li>Personally Identifiable Information (PII)</li>"
+					},
+					{
+						"html": "<li>Protected Health Information (PHI)</li>"
+					},
+					{
+						"html": "<p>This portion of the Policy deals with how Devoted collects, uses, shares, and protects PII. <a href=\"/privacy-practices\">View our Notice of Privacy Practices</a> to learn how we collect, use, share, and protect PHI.</p>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">View our Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<h2>Your Personal Information</h2>"
+					},
+					{
+						"html": "<p>Personally Identifiable Information (PII), as described in US privacy and information security law, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we protect your personal information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>The safety and security of your PII also depends on you. We encourage you to take steps to protect the confidentiality of your account and personal information, including by doing the following:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Reviewing your personal accounts, including social media accounts, periodically and immediately reporting any unexpected activity or unrecognized information;</li>"
+					},
+					{
+						"html": "<li>Installing the latest security updates and anti-virus software on your devices to help prevent malware and viruses;</li>"
+					},
+					{
+						"html": "<li>Using complex passwords;</li>"
+					},
+					{
+						"html": "<li>Not using the same password on more than one website;</li>"
+					},
+					{
+						"html": "<li>Using 2-factor authentication where applicable;</li>"
+					},
+					{
+						"html": "<li>Not sharing your password with others;</li>"
+					},
+					{
+						"html": "<li>Password protecting your computer and mobile devices; and</li>"
+					},
+					{
+						"html": "<li>Signing out / Logging off of website sessions so that your session is closed, especially when using a public computer</li>"
+					},
+					{
+						"html": "<p>SMS (text)&nbsp; messaging is not an encrypted (secure) channel. If you text Protected Health Information (PHI) there is a risk that PHI could be intercepted or viewed by third parties, including others who access your device.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy/digital-communication-risks\">Member Communication Risks</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-practices\">Notice of Privacy Practices</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we use your information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><strong>To provide you with products and services</strong>, such as to: share services that are relevant to your needs; deliver content that you may find interesting or helpful; and process, maintain, and service your account;</li>"
+					},
+					{
+						"html": "<strong>To provide you with products and services</strong>"
+					},
+					{
+						"html": "<li><strong>To respond to you</strong>, such as when you: send us an inquiry via SMS (text) message; fill out a form to be contacted; make a request or an inquiry; ask to set up an appointment with a sales representative; request materials in the mail, or share a comment or concern;</li>"
+					},
+					{
+						"html": "<strong>To respond to you</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>To personalize your experience with us</strong>"
+					},
+					{
+						"html": "<li><strong>For marketing and advertising</strong>, such as to: send you marketing and advertising communications; to customize the marketing and advertising that we show you; and to identify others like you who may be interested in similar products and services;</li>"
+					},
+					{
+						"html": "<strong>For marketing and advertising</strong>"
+					},
+					{
+						"html": "<li><strong>For analytics</strong>, such as to: understand how you use our website; understand how you shop for and interact with our products and services; determine the methods and devices used to access our website; and improve our website;</li>"
+					},
+					{
+						"html": "<strong>For analytics</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>For business purposes</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>For legal and safety purposes</strong>"
+					},
+					{
+						"html": "<li><strong>To fulfill any other purpose for which you provide it and any other purpose with your consent, </strong>for which we will inform you of the purpose for which we collect it or seek your consent as necessary. </li>"
+					},
+					{
+						"html": "<strong>To fulfill any other purpose for which you provide it and any other purpose with your consent, </strong>"
+					},
+					{
+						"html": "<p><strong>What information we collect<br></strong>In order to improve your experience when using our website, plan, services, or products, we collect a variety of types of information. &nbsp;Examples include:</p>"
+					},
+					{
+						"html": "<strong>What information we collect<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><strong>Contact information</strong>, such as your name, address, phone number, or email address. Examples include when you subscribe to a newsletter, fill out a form, or enter information on our website;</li>"
+					},
+					{
+						"html": "<strong>Contact information</strong>"
+					},
+					{
+						"html": "<li><strong>Preference information</strong>, such as your contact and marketing preferences, and plan or product interests;</li>"
+					},
+					{
+						"html": "<strong>Preference information</strong>"
+					},
+					{
+						"html": "<li><strong>Profile and account information</strong>, which may include Contact and Preference information; </li>"
+					},
+					{
+						"html": "<strong>Profile and account information</strong>"
+					},
+					{
+						"html": "<li><strong>Demographic information</strong>, which may include age or birth date, gender, ZIP code, and other information about you;</li>"
+					},
+					{
+						"html": "<strong>Demographic information</strong>"
+					},
+					{
+						"html": "<li><strong>Call recordings</strong> including information about your call and that you share when you call us on the phone;</li>"
+					},
+					{
+						"html": "<strong>Call recordings</strong>"
+					},
+					{
+						"html": "<li><strong>Location information</strong> of your device that you use when interacting with our website or calling us, if your device settings allow us to collect location information; and</li>"
+					},
+					{
+						"html": "<strong>Location information</strong>"
+					},
+					{
+						"html": "<li><strong>Device and browsing information</strong>, including information about your phone, tablet, computer, or device, and online browsing activity (collectively, “automatically collected information”). </li>"
+					},
+					{
+						"html": "<strong>Device and browsing information</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we collect your information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>You provide,</strong>"
+					},
+					{
+						"html": "<li><strong>At events you attend,</strong> such as: the types of information noted above that you provide, and video recordings and photographs that we collect for security, fraud, loss prevention, incident reporting, and operational purposes;</li>"
+					},
+					{
+						"html": "<strong>At events you attend,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From wi-fi and mobile devices,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From third parties,</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>From social media platforms and networks</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Using cookies, tracking pixels, and automatic collection methods.</strong>"
+					},
+					{
+						"html": "<p>If you have questions about the tools that are described in this policy, please visit the websites below to learn more about any options they may have available regarding tracking information.</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Google:</strong>"
+					},
+					{
+						"html": "<a href=\"https://encompasshealth.com/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://chrome.google.com/webstore/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<li><strong>Meta: </strong><a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> or <a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>&nbsp;</li>"
+					},
+					{
+						"html": "<strong>Meta: </strong>"
+					},
+					{
+						"html": "<a href=\"http://facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"https://www.facebook.com/privacy/guide/collection/\" target=\"_blank\" rel=\"noopener noreferrer\">Opt Out</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>How we share information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<em>other</em>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Third parties and service providers</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Social media platforms and networks</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>To a buyer or other successor in interest</strong>"
+					},
+					{
+						"html": "<li><strong>To fulfill the purpose for which you provide it.</strong> For example, when you sign up for one of our Medicare Advantage plans, we may share your information with Medicare to verify your eligibility and for them to cover all or part of the premiums for our plans; and</li>"
+					},
+					{
+						"html": "<strong>To fulfill the purpose for which you provide it.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Additional third parties</strong>"
+					},
+					{
+						"html": "<p><strong>Notices and Disclosures</strong></p>"
+					},
+					{
+						"html": "<strong>Notices and Disclosures</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>California Privacy Rights.</strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Children's Privacy.</strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<p><strong>Your rights and choices regarding personal information<br></strong>We strive to offer you with choices about how personal information is used and shared. Your choices include:</p>"
+					},
+					{
+						"html": "<strong>Your rights and choices regarding personal information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Direct Mail Choices.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Online Advertising.</strong>"
+					},
+					{
+						"html": "<a href=\"http://www.networkadvertising.org/managing/opt_out.asp\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.networkadvertising.org/managing/opt_out.asp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.aboutads.info/choices\" target=\"_blank\" rel=\"noopener noreferrer\">www.aboutads.info/choices</a>"
+					},
+					{
+						"html": "<li><strong>Social Media Platforms and Networks.</strong> We encourage you to review your privacy options and settings with the social media platforms and networks you use to understand what choices you have about sharing information from those platforms and networks with us. </li>"
+					},
+					{
+						"html": "<strong>Social Media Platforms and Networks.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>Email Choices.</strong>"
+					},
+					{
+						"html": "<li><strong>Mobile Location Choices.</strong> You may choose not to provide your location to us by customizing your mobile device settings to prevent sharing of location information. </li>"
+					},
+					{
+						"html": "<strong>Mobile Location Choices.</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>SMS (text).</strong>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Accessing and Correcting Your Information<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Do Not Track Signals<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<h2>How to Contact Us</h2>"
+					},
+					{
+						"html": "<p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>"
+					},
+					{
+						"html": "<p>Devoted Health<br>ATTN: Emily Reilly, Privacy Officer<br>PO Box 21327<br>Eagan, MN 55121</p>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><strong>Phone: </strong><a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a> (TTY 711)<br><strong>Email: </strong><a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a></p>"
+					},
+					{
+						"html": "<strong>Phone: </strong>"
+					},
+					{
+						"html": "<a href=\"tel:1-800-338-6833\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-338-6833</a>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<strong>Email: </strong>"
+					},
+					{
+						"html": "<a href=\"mailto:privacy@devoted.com\" target=\"_blank\" rel=\"noopener noreferrer\">privacy@devoted.com</a>"
+					},
+					{
+						"html": "<h2>Updates to This Policy</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<strong>Changes to this Notice<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><strong>Effective date<br></strong>This Policy is effective August 11, 2023.</p>"
+					},
+					{
+						"html": "<strong>Effective date<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->08.14.2023</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->08.14.2023</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

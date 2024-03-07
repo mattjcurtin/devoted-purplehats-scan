@@ -1,0 +1,2874 @@
+{
+	"url": "https://devoted.com/providers/in-office-lab-list",
+	"pageTitle": "In-Office Lab List | Devoted Health",
+	"totalItems": 813,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 4,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 809,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 200,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">In-Office Lab List</li>"
+					},
+					{
+						"html": "<h1>In-Office Lab List</h1>"
+					},
+					{
+						"html": "<p>Here are the lab tests you can perform in your office. If a test isn't in this list, you'll need to send it to the lab services provider in your state. Please reference your Quick Reference Guide, which can be found under Plan Resources on our <a href=\"/providers\">Providers page</a>.</p>"
+					},
+					{
+						"html": "<a href=\"/providers\">Providers page</a>"
+					},
+					{
+						"html": "<h2>PCPs and Specialists</h2>"
+					},
+					{
+						"html": "<strong>A</strong>"
+					},
+					{
+						"html": "<li>ABO compatibility (<strong>86900</strong>)</li>"
+					},
+					{
+						"html": "<strong>86900</strong>"
+					},
+					{
+						"html": "<li>Amylase (<strong>82150</strong>)</li>"
+					},
+					{
+						"html": "<strong>82150</strong>"
+					},
+					{
+						"html": "<li>Assay body fluid glucose (<strong>82947</strong>)</li>"
+					},
+					{
+						"html": "<strong>82947</strong>"
+					},
+					{
+						"html": "<strong>B</strong>"
+					},
+					{
+						"html": "<li>Basic metabolic panel (<strong>80048</strong>)</li>"
+					},
+					{
+						"html": "<strong>80048</strong>"
+					},
+					{
+						"html": "<li>Bilirubin, direct (<strong>82248</strong>)</li>"
+					},
+					{
+						"html": "<strong>82248</strong>"
+					},
+					{
+						"html": "<li>Bilirubin, total (<strong>82247</strong>)</li>"
+					},
+					{
+						"html": "<strong>82247</strong>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative, feces, 1-3 simultaneous determinations, performed for other than colorectal neoplasm screening (<strong>82272</strong>)</li>"
+					},
+					{
+						"html": "<strong>82272</strong>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative; other sources (<strong>82271</strong>)</li>"
+					},
+					{
+						"html": "<strong>82271</strong>"
+					},
+					{
+						"html": "<strong>C</strong>"
+					},
+					{
+						"html": "<li>Calcium, serum (<strong>82310</strong>)</li>"
+					},
+					{
+						"html": "<strong>82310</strong>"
+					},
+					{
+						"html": "<li>Cell count, miscellaneous body fluids, except blood, with differential count (<strong>89051</strong>)</li>"
+					},
+					{
+						"html": "<strong>89051</strong>"
+					},
+					{
+						"html": "<li>Chorionic gonadotropin (<strong>84703</strong>)</li>"
+					},
+					{
+						"html": "<strong>84703</strong>"
+					},
+					{
+						"html": "<li>Collection of venous blood by venipuncture (<strong>36415</strong>)</li>"
+					},
+					{
+						"html": "<strong>36415</strong>"
+					},
+					{
+						"html": "<li>Compete blood count (CBC), automated (HgB, HcT, RBW, WBC, and platelet count) and automated differential WBC count (<strong>85025</strong>)</li>"
+					},
+					{
+						"html": "<strong>85025</strong>"
+					},
+					{
+						"html": "<li>Crystal identification by light microscopy with or without polarizing lens analysis or body fluid (except urine) (<strong>89060</strong>)</li>"
+					},
+					{
+						"html": "<strong>89060</strong>"
+					},
+					{
+						"html": "<li>Culture, bacterial, screening only, for single organisms (<strong>87081</strong>)</li>"
+					},
+					{
+						"html": "<strong>87081</strong>"
+					},
+					{
+						"html": "<li>Culture, bacterial; any other source but urine, blood or stool, with isolation andpresumptive identification of isolates (<strong>87070</strong>)</li>"
+					},
+					{
+						"html": "<strong>87070</strong>"
+					},
+					{
+						"html": "<strong>D</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>80305</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>80306</strong>"
+					},
+					{
+						"html": "<strong>E</strong>"
+					},
+					{
+						"html": "<li>Electrolyte panel (CO2, K, Na) (<strong>80051</strong>)</li>"
+					},
+					{
+						"html": "<strong>80051</strong>"
+					},
+					{
+						"html": "<strong>F</strong>"
+					},
+					{
+						"html": "<li>Feces screening for occult blood (<strong>82270</strong>)</li>"
+					},
+					{
+						"html": "<strong>82270</strong>"
+					},
+					{
+						"html": "<li>Fingerstick hemoglobin (Hgb) (<strong>85018</strong>)</li>"
+					},
+					{
+						"html": "<strong>85018</strong>"
+					},
+					{
+						"html": "<strong>G</strong>"
+					},
+					{
+						"html": "<li>Gases, blood, any combination of pH, pCO2, pO2, CO2, HCO3 (including calculated O2 saturation) (<strong>82803</strong>)</li>"
+					},
+					{
+						"html": "<strong>82803</strong>"
+					},
+					{
+						"html": "<li>Glucose; blood sugar by glucometer (<strong>82962</strong>)</li>"
+					},
+					{
+						"html": "<strong>82962</strong>"
+					},
+					{
+						"html": "<li>Glucose; blood, reagent strip (<strong>82948</strong>)</li>"
+					},
+					{
+						"html": "<strong>82948</strong>"
+					},
+					{
+						"html": "<li>Glycosylated hemoglobin test (<strong>83036</strong>)</li>"
+					},
+					{
+						"html": "<strong>83036</strong>"
+					},
+					{
+						"html": "<strong>H</strong>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, breath test analysis; drug administration (<strong>83014</strong>)</li>"
+					},
+					{
+						"html": "<strong>83014</strong>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, urea breath test (<strong>83013</strong>)</li>"
+					},
+					{
+						"html": "<strong>83013</strong>"
+					},
+					{
+						"html": "<li>Hematocrit (<strong>85014</strong>)</li>"
+					},
+					{
+						"html": "<strong>85014</strong>"
+					},
+					{
+						"html": "<li>Hepatic function panel (7) (<strong>80076</strong>)</li>"
+					},
+					{
+						"html": "<strong>80076</strong>"
+					},
+					{
+						"html": "<li>Heterophile antibodies; screening (<strong>86308</strong>)</li>"
+					},
+					{
+						"html": "<strong>86308</strong>"
+					},
+					{
+						"html": "<strong>I</strong>"
+					},
+					{
+						"html": "<li>Infections agent detection by immunoassay with direct optical observation; adenovirus (<strong>87809</strong>)</li>"
+					},
+					{
+						"html": "<strong>87809</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method, Influenza A or B, each (<strong>87400</strong>)</li>"
+					},
+					{
+						"html": "<strong>87400</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; respiratory syncytial virus (<strong>87420</strong>)</li>"
+					},
+					{
+						"html": "<strong>87420</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; rotavirus (<strong>87425</strong>)</li>"
+					},
+					{
+						"html": "<strong>87425</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, Streptococcus, group A (<strong>87430</strong>)</li>"
+					},
+					{
+						"html": "<strong>87430</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; influenza (Rapid Flu) (<strong>87804</strong>)</li>"
+					},
+					{
+						"html": "<strong>87804</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; Streptococcus, group A (Rapid Strep) (<strong>87880</strong>)</li>"
+					},
+					{
+						"html": "<strong>87880</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by nucleic acid (DNA or RNA); streptococus, group A, amplified probe technique (<strong>87651</strong>)</li>"
+					},
+					{
+						"html": "<strong>87651</strong>"
+					},
+					{
+						"html": "<strong>L</strong>"
+					},
+					{
+						"html": "<li>Lead, serum (<strong>83655</strong>)</li>"
+					},
+					{
+						"html": "<strong>83655</strong>"
+					},
+					{
+						"html": "<li>Lipase (<strong>83690</strong>)</li>"
+					},
+					{
+						"html": "<strong>83690</strong>"
+					},
+					{
+						"html": "<strong>M</strong>"
+					},
+					{
+						"html": "<li>Magnesium, serum (<strong>83735</strong>)</li>"
+					},
+					{
+						"html": "<strong>83735</strong>"
+					},
+					{
+						"html": "<li>Microalbumin, quantitative (<strong>82043</strong>)</li>"
+					},
+					{
+						"html": "<strong>82043</strong>"
+					},
+					{
+						"html": "<strong>O</strong>"
+					},
+					{
+						"html": "<li>Ova and parasites, direct smears, concentration and identification (<strong>87177</strong>)</li>"
+					},
+					{
+						"html": "<strong>87177</strong>"
+					},
+					{
+						"html": "<strong>P</strong>"
+					},
+					{
+						"html": "<li>Partial thromboplastin time (<strong>85730</strong>)</li>"
+					},
+					{
+						"html": "<strong>85730</strong>"
+					},
+					{
+						"html": "<li>Particle agglutination, screen, each antibody (<strong>86403</strong>)</li>"
+					},
+					{
+						"html": "<strong>86403</strong>"
+					},
+					{
+						"html": "<li>Phosphorous, serum (<strong>84100</strong>)</li>"
+					},
+					{
+						"html": "<strong>84100</strong>"
+					},
+					{
+						"html": "<li>Potassium, serum (<strong>84132</strong>)</li>"
+					},
+					{
+						"html": "<strong>84132</strong>"
+					},
+					{
+						"html": "<li>Prolactin (<strong>84146</strong>)</li>"
+					},
+					{
+						"html": "<strong>84146</strong>"
+					},
+					{
+						"html": "<li>Prothrombin time (<strong>85610</strong>)</li>"
+					},
+					{
+						"html": "<strong>85610</strong>"
+					},
+					{
+						"html": "<strong>R</strong>"
+					},
+					{
+						"html": "<li>Rh status (<strong>86901</strong>)</li>"
+					},
+					{
+						"html": "<strong>86901</strong>"
+					},
+					{
+						"html": "<li>RSV assay w/optic (<strong>87807</strong>)</li>"
+					},
+					{
+						"html": "<strong>87807</strong>"
+					},
+					{
+						"html": "<strong>S</strong>"
+					},
+					{
+						"html": "<li>Sedimentation rate, erythrocyte; non-automated (<strong>85651</strong>)</li>"
+					},
+					{
+						"html": "<strong>85651</strong>"
+					},
+					{
+						"html": "<li>Skin test, tuberculosis, intradermal (<strong>86580</strong>)</li>"
+					},
+					{
+						"html": "<strong>86580</strong>"
+					},
+					{
+						"html": "<li>Spun hematocrit (<strong>85013</strong>)</li>"
+					},
+					{
+						"html": "<strong>85013</strong>"
+					},
+					{
+						"html": "<strong>T</strong>"
+					},
+					{
+						"html": "<li>Thyroid stimulating hormone (TSH) (<strong>84443</strong>)</li>"
+					},
+					{
+						"html": "<strong>84443</strong>"
+					},
+					{
+						"html": "<li>Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (e.g. scabies) (<strong>87220</strong>)</li>"
+					},
+					{
+						"html": "<strong>87220</strong>"
+					},
+					{
+						"html": "<strong>U</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated with microscopy (<strong>81001</strong>)</li>"
+					},
+					{
+						"html": "<strong>81001</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated without microscopy (<strong>81003</strong>)</li>"
+					},
+					{
+						"html": "<strong>81003</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated with microscopy (<strong>81000</strong>)</li>"
+					},
+					{
+						"html": "<strong>81000</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated without microscopy (<strong>81002</strong>)</li>"
+					},
+					{
+						"html": "<strong>81002</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, qualitative or semi quantitative, except immunoassays (<strong>81005</strong>)</li>"
+					},
+					{
+						"html": "<strong>81005</strong>"
+					},
+					{
+						"html": "<li>Urinalysis; microscopic only (<strong>81015</strong>)</li>"
+					},
+					{
+						"html": "<strong>81015</strong>"
+					},
+					{
+						"html": "<li>Urine pregnancy test, by visual color comparison methods (<strong>81025</strong>)</li>"
+					},
+					{
+						"html": "<strong>81025</strong>"
+					},
+					{
+						"html": "<strong>W</strong>"
+					},
+					{
+						"html": "<li>Wet mount for infection agents (e.g. saline, India ink, KOH preps) (<strong>87210</strong>)</li>"
+					},
+					{
+						"html": "<strong>87210</strong>"
+					},
+					{
+						"html": "<h2>Hematologists and Oncologists</h2>"
+					},
+					{
+						"html": "<li>Blood count; automated differential WBC count blood smear, microscopic examination with manual differential WBC count (<strong>85007</strong>)</li>"
+					},
+					{
+						"html": "<strong>85007</strong>"
+					},
+					{
+						"html": "<li>Bone marrow; smear interpretation only, with or without differential cell count (<strong>85097</strong>)</li>"
+					},
+					{
+						"html": "<strong>85097</strong>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->10.01.2021</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<h1>In-Office Lab List</h1>"
+					},
+					{
+						"html": "<h2>PCPs and Specialists</h2>"
+					},
+					{
+						"html": "<h2>Hematologists and Oncologists</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<h1>In-Office Lab List</h1>"
+					},
+					{
+						"html": "<h2>PCPs and Specialists</h2>"
+					},
+					{
+						"html": "<h2>Hematologists and Oncologists</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"/providers\">Providers page</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 33,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a>"
+					},
+					{
+						"html": "<a href=\"/providers\">Providers page</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 25,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a></li><li class=\"breadCrumbs-module--listItem--c64a5\">In-Office Lab List</li></ul>"
+					},
+					{
+						"html": "<ul><li>ABO compatibility (<strong>86900</strong>)</li><li>Amylase (<strong>82150</strong>)</li><li>Assay body fluid glucose (<strong>82947</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li>Electrolyte panel (CO2, K, Na) (<strong>80051</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Feces screening for occult blood (<strong>82270</strong>)</li><li>Fingerstick hemoglobin (Hgb) (<strong>85018</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li>Lead, serum (<strong>83655</strong>)</li><li>Lipase (<strong>83690</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Magnesium, serum (<strong>83735</strong>)</li><li>Microalbumin, quantitative (<strong>82043</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Ova and parasites, direct smears, concentration and identification (<strong>87177</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li>Rh status (<strong>86901</strong>)</li><li>RSV assay w/optic (<strong>87807</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Sedimentation rate, erythrocyte; non-automated (<strong>85651</strong>)</li><li>Skin test, tuberculosis, intradermal (<strong>86580</strong>)</li><li>Spun hematocrit (<strong>85013</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Thyroid stimulating hormone (TSH) (<strong>84443</strong>)</li><li>Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (e.g. scabies) (<strong>87220</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul><li>Wet mount for infection agents (e.g. saline, India ink, KOH preps) (<strong>87210</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul><li>Blood count; automated differential WBC count blood smear, microscopic examination with manual differential WBC count (<strong>85007</strong>)</li><li>Bone marrow; smear interpretation only, with or without differential cell count (<strong>85097</strong>)</li></ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 97,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a></li>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">In-Office Lab List</li>"
+					},
+					{
+						"html": "<li>ABO compatibility (<strong>86900</strong>)</li>"
+					},
+					{
+						"html": "<li>Amylase (<strong>82150</strong>)</li>"
+					},
+					{
+						"html": "<li>Assay body fluid glucose (<strong>82947</strong>)</li>"
+					},
+					{
+						"html": "<li>Basic metabolic panel (<strong>80048</strong>)</li>"
+					},
+					{
+						"html": "<li>Bilirubin, direct (<strong>82248</strong>)</li>"
+					},
+					{
+						"html": "<li>Bilirubin, total (<strong>82247</strong>)</li>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative, feces, 1-3 simultaneous determinations, performed for other than colorectal neoplasm screening (<strong>82272</strong>)</li>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative; other sources (<strong>82271</strong>)</li>"
+					},
+					{
+						"html": "<li>Calcium, serum (<strong>82310</strong>)</li>"
+					},
+					{
+						"html": "<li>Cell count, miscellaneous body fluids, except blood, with differential count (<strong>89051</strong>)</li>"
+					},
+					{
+						"html": "<li>Chorionic gonadotropin (<strong>84703</strong>)</li>"
+					},
+					{
+						"html": "<li>Collection of venous blood by venipuncture (<strong>36415</strong>)</li>"
+					},
+					{
+						"html": "<li>Compete blood count (CBC), automated (HgB, HcT, RBW, WBC, and platelet count) and automated differential WBC count (<strong>85025</strong>)</li>"
+					},
+					{
+						"html": "<li>Crystal identification by light microscopy with or without polarizing lens analysis or body fluid (except urine) (<strong>89060</strong>)</li>"
+					},
+					{
+						"html": "<li>Culture, bacterial, screening only, for single organisms (<strong>87081</strong>)</li>"
+					},
+					{
+						"html": "<li>Culture, bacterial; any other source but urine, blood or stool, with isolation andpresumptive identification of isolates (<strong>87070</strong>)</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>Electrolyte panel (CO2, K, Na) (<strong>80051</strong>)</li>"
+					},
+					{
+						"html": "<li>Feces screening for occult blood (<strong>82270</strong>)</li>"
+					},
+					{
+						"html": "<li>Fingerstick hemoglobin (Hgb) (<strong>85018</strong>)</li>"
+					},
+					{
+						"html": "<li>Gases, blood, any combination of pH, pCO2, pO2, CO2, HCO3 (including calculated O2 saturation) (<strong>82803</strong>)</li>"
+					},
+					{
+						"html": "<li>Glucose; blood sugar by glucometer (<strong>82962</strong>)</li>"
+					},
+					{
+						"html": "<li>Glucose; blood, reagent strip (<strong>82948</strong>)</li>"
+					},
+					{
+						"html": "<li>Glycosylated hemoglobin test (<strong>83036</strong>)</li>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, breath test analysis; drug administration (<strong>83014</strong>)</li>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, urea breath test (<strong>83013</strong>)</li>"
+					},
+					{
+						"html": "<li>Hematocrit (<strong>85014</strong>)</li>"
+					},
+					{
+						"html": "<li>Hepatic function panel (7) (<strong>80076</strong>)</li>"
+					},
+					{
+						"html": "<li>Heterophile antibodies; screening (<strong>86308</strong>)</li>"
+					},
+					{
+						"html": "<li>Infections agent detection by immunoassay with direct optical observation; adenovirus (<strong>87809</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method, Influenza A or B, each (<strong>87400</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; respiratory syncytial virus (<strong>87420</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; rotavirus (<strong>87425</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, Streptococcus, group A (<strong>87430</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; influenza (Rapid Flu) (<strong>87804</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; Streptococcus, group A (Rapid Strep) (<strong>87880</strong>)</li>"
+					},
+					{
+						"html": "<li>Infectious agent detection by nucleic acid (DNA or RNA); streptococus, group A, amplified probe technique (<strong>87651</strong>)</li>"
+					},
+					{
+						"html": "<li>Lead, serum (<strong>83655</strong>)</li>"
+					},
+					{
+						"html": "<li>Lipase (<strong>83690</strong>)</li>"
+					},
+					{
+						"html": "<li>Magnesium, serum (<strong>83735</strong>)</li>"
+					},
+					{
+						"html": "<li>Microalbumin, quantitative (<strong>82043</strong>)</li>"
+					},
+					{
+						"html": "<li>Ova and parasites, direct smears, concentration and identification (<strong>87177</strong>)</li>"
+					},
+					{
+						"html": "<li>Partial thromboplastin time (<strong>85730</strong>)</li>"
+					},
+					{
+						"html": "<li>Particle agglutination, screen, each antibody (<strong>86403</strong>)</li>"
+					},
+					{
+						"html": "<li>Phosphorous, serum (<strong>84100</strong>)</li>"
+					},
+					{
+						"html": "<li>Potassium, serum (<strong>84132</strong>)</li>"
+					},
+					{
+						"html": "<li>Prolactin (<strong>84146</strong>)</li>"
+					},
+					{
+						"html": "<li>Prothrombin time (<strong>85610</strong>)</li>"
+					},
+					{
+						"html": "<li>Rh status (<strong>86901</strong>)</li>"
+					},
+					{
+						"html": "<li>RSV assay w/optic (<strong>87807</strong>)</li>"
+					},
+					{
+						"html": "<li>Sedimentation rate, erythrocyte; non-automated (<strong>85651</strong>)</li>"
+					},
+					{
+						"html": "<li>Skin test, tuberculosis, intradermal (<strong>86580</strong>)</li>"
+					},
+					{
+						"html": "<li>Spun hematocrit (<strong>85013</strong>)</li>"
+					},
+					{
+						"html": "<li>Thyroid stimulating hormone (TSH) (<strong>84443</strong>)</li>"
+					},
+					{
+						"html": "<li>Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (e.g. scabies) (<strong>87220</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated with microscopy (<strong>81001</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated without microscopy (<strong>81003</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated with microscopy (<strong>81000</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated without microscopy (<strong>81002</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis, qualitative or semi quantitative, except immunoassays (<strong>81005</strong>)</li>"
+					},
+					{
+						"html": "<li>Urinalysis; microscopic only (<strong>81015</strong>)</li>"
+					},
+					{
+						"html": "<li>Urine pregnancy test, by visual color comparison methods (<strong>81025</strong>)</li>"
+					},
+					{
+						"html": "<li>Wet mount for infection agents (e.g. saline, India ink, KOH preps) (<strong>87210</strong>)</li>"
+					},
+					{
+						"html": "<li>Blood count; automated differential WBC count blood smear, microscopic examination with manual differential WBC count (<strong>85007</strong>)</li>"
+					},
+					{
+						"html": "<li>Bone marrow; smear interpretation only, with or without differential cell count (<strong>85097</strong>)</li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 338,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\"><a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a><a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to In-Office Lab List page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--wrapper--d56bc\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--content--3a842\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a></li><li class=\"breadCrumbs-module--listItem--c64a5\">In-Office Lab List</li></ul>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\"><a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a></li>"
+					},
+					{
+						"html": "<a class=\"breadCrumbs-module--link--0f872\" href=\"/providers/\">providers</a>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">In-Office Lab List</li>"
+					},
+					{
+						"html": "<h1>In-Office Lab List</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 null\">"
+					},
+					{
+						"html": "<hr class=\"gridOneCol-module--gray--a302c\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>Here are the lab tests you can perform in your office. If a test isn't in this list, you'll need to send it to the lab services provider in your state. Please reference your Quick Reference Guide, which can be found under Plan Resources on our <a href=\"/providers\">Providers page</a>.</p>"
+					},
+					{
+						"html": "<a href=\"/providers\">Providers page</a>"
+					},
+					{
+						"html": "<h2>PCPs and Specialists</h2>"
+					},
+					{
+						"html": "<p><strong>A</strong></p>"
+					},
+					{
+						"html": "<strong>A</strong>"
+					},
+					{
+						"html": "<ul><li>ABO compatibility (<strong>86900</strong>)</li><li>Amylase (<strong>82150</strong>)</li><li>Assay body fluid glucose (<strong>82947</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>ABO compatibility (<strong>86900</strong>)</li>"
+					},
+					{
+						"html": "<strong>86900</strong>"
+					},
+					{
+						"html": "<li>Amylase (<strong>82150</strong>)</li>"
+					},
+					{
+						"html": "<strong>82150</strong>"
+					},
+					{
+						"html": "<li>Assay body fluid glucose (<strong>82947</strong>)</li>"
+					},
+					{
+						"html": "<strong>82947</strong>"
+					},
+					{
+						"html": "<p><strong>B</strong></p>"
+					},
+					{
+						"html": "<strong>B</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Basic metabolic panel (<strong>80048</strong>)</li>"
+					},
+					{
+						"html": "<strong>80048</strong>"
+					},
+					{
+						"html": "<li>Bilirubin, direct (<strong>82248</strong>)</li>"
+					},
+					{
+						"html": "<strong>82248</strong>"
+					},
+					{
+						"html": "<li>Bilirubin, total (<strong>82247</strong>)</li>"
+					},
+					{
+						"html": "<strong>82247</strong>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative, feces, 1-3 simultaneous determinations, performed for other than colorectal neoplasm screening (<strong>82272</strong>)</li>"
+					},
+					{
+						"html": "<strong>82272</strong>"
+					},
+					{
+						"html": "<li>Blood, occult, by peroxidase activity (e.g. guaiac), qualitative; other sources (<strong>82271</strong>)</li>"
+					},
+					{
+						"html": "<strong>82271</strong>"
+					},
+					{
+						"html": "<p><strong>C</strong></p>"
+					},
+					{
+						"html": "<strong>C</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Calcium, serum (<strong>82310</strong>)</li>"
+					},
+					{
+						"html": "<strong>82310</strong>"
+					},
+					{
+						"html": "<li>Cell count, miscellaneous body fluids, except blood, with differential count (<strong>89051</strong>)</li>"
+					},
+					{
+						"html": "<strong>89051</strong>"
+					},
+					{
+						"html": "<li>Chorionic gonadotropin (<strong>84703</strong>)</li>"
+					},
+					{
+						"html": "<strong>84703</strong>"
+					},
+					{
+						"html": "<li>Collection of venous blood by venipuncture (<strong>36415</strong>)</li>"
+					},
+					{
+						"html": "<strong>36415</strong>"
+					},
+					{
+						"html": "<li>Compete blood count (CBC), automated (HgB, HcT, RBW, WBC, and platelet count) and automated differential WBC count (<strong>85025</strong>)</li>"
+					},
+					{
+						"html": "<strong>85025</strong>"
+					},
+					{
+						"html": "<li>Crystal identification by light microscopy with or without polarizing lens analysis or body fluid (except urine) (<strong>89060</strong>)</li>"
+					},
+					{
+						"html": "<strong>89060</strong>"
+					},
+					{
+						"html": "<li>Culture, bacterial, screening only, for single organisms (<strong>87081</strong>)</li>"
+					},
+					{
+						"html": "<strong>87081</strong>"
+					},
+					{
+						"html": "<li>Culture, bacterial; any other source but urine, blood or stool, with isolation andpresumptive identification of isolates (<strong>87070</strong>)</li>"
+					},
+					{
+						"html": "<strong>87070</strong>"
+					},
+					{
+						"html": "<p><strong>D</strong></p>"
+					},
+					{
+						"html": "<strong>D</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>80305</strong>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<strong>80306</strong>"
+					},
+					{
+						"html": "<p><strong>E</strong></p>"
+					},
+					{
+						"html": "<strong>E</strong>"
+					},
+					{
+						"html": "<ul><li>Electrolyte panel (CO2, K, Na) (<strong>80051</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Electrolyte panel (CO2, K, Na) (<strong>80051</strong>)</li>"
+					},
+					{
+						"html": "<strong>80051</strong>"
+					},
+					{
+						"html": "<p><strong>F</strong></p>"
+					},
+					{
+						"html": "<strong>F</strong>"
+					},
+					{
+						"html": "<ul><li>Feces screening for occult blood (<strong>82270</strong>)</li><li>Fingerstick hemoglobin (Hgb) (<strong>85018</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Feces screening for occult blood (<strong>82270</strong>)</li>"
+					},
+					{
+						"html": "<strong>82270</strong>"
+					},
+					{
+						"html": "<li>Fingerstick hemoglobin (Hgb) (<strong>85018</strong>)</li>"
+					},
+					{
+						"html": "<strong>85018</strong>"
+					},
+					{
+						"html": "<p><strong>G</strong></p>"
+					},
+					{
+						"html": "<strong>G</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Gases, blood, any combination of pH, pCO2, pO2, CO2, HCO3 (including calculated O2 saturation) (<strong>82803</strong>)</li>"
+					},
+					{
+						"html": "<strong>82803</strong>"
+					},
+					{
+						"html": "<li>Glucose; blood sugar by glucometer (<strong>82962</strong>)</li>"
+					},
+					{
+						"html": "<strong>82962</strong>"
+					},
+					{
+						"html": "<li>Glucose; blood, reagent strip (<strong>82948</strong>)</li>"
+					},
+					{
+						"html": "<strong>82948</strong>"
+					},
+					{
+						"html": "<li>Glycosylated hemoglobin test (<strong>83036</strong>)</li>"
+					},
+					{
+						"html": "<strong>83036</strong>"
+					},
+					{
+						"html": "<p><strong>H</strong></p>"
+					},
+					{
+						"html": "<strong>H</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, breath test analysis; drug administration (<strong>83014</strong>)</li>"
+					},
+					{
+						"html": "<strong>83014</strong>"
+					},
+					{
+						"html": "<li>Helicobacter pylori, urea breath test (<strong>83013</strong>)</li>"
+					},
+					{
+						"html": "<strong>83013</strong>"
+					},
+					{
+						"html": "<li>Hematocrit (<strong>85014</strong>)</li>"
+					},
+					{
+						"html": "<strong>85014</strong>"
+					},
+					{
+						"html": "<li>Hepatic function panel (7) (<strong>80076</strong>)</li>"
+					},
+					{
+						"html": "<strong>80076</strong>"
+					},
+					{
+						"html": "<li>Heterophile antibodies; screening (<strong>86308</strong>)</li>"
+					},
+					{
+						"html": "<strong>86308</strong>"
+					},
+					{
+						"html": "<p><strong>I</strong></p>"
+					},
+					{
+						"html": "<strong>I</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Infections agent detection by immunoassay with direct optical observation; adenovirus (<strong>87809</strong>)</li>"
+					},
+					{
+						"html": "<strong>87809</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method, Influenza A or B, each (<strong>87400</strong>)</li>"
+					},
+					{
+						"html": "<strong>87400</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; respiratory syncytial virus (<strong>87420</strong>)</li>"
+					},
+					{
+						"html": "<strong>87420</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, qualitative or semi quantitative, multiple step method; rotavirus (<strong>87425</strong>)</li>"
+					},
+					{
+						"html": "<strong>87425</strong>"
+					},
+					{
+						"html": "<li>Infectious agent antigen detection by enzyme immunoassay technique, Streptococcus, group A (<strong>87430</strong>)</li>"
+					},
+					{
+						"html": "<strong>87430</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; influenza (Rapid Flu) (<strong>87804</strong>)</li>"
+					},
+					{
+						"html": "<strong>87804</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by immunoassay with direct optical observation; Streptococcus, group A (Rapid Strep) (<strong>87880</strong>)</li>"
+					},
+					{
+						"html": "<strong>87880</strong>"
+					},
+					{
+						"html": "<li>Infectious agent detection by nucleic acid (DNA or RNA); streptococus, group A, amplified probe technique (<strong>87651</strong>)</li>"
+					},
+					{
+						"html": "<strong>87651</strong>"
+					},
+					{
+						"html": "<p><strong>L</strong></p>"
+					},
+					{
+						"html": "<strong>L</strong>"
+					},
+					{
+						"html": "<ul><li>Lead, serum (<strong>83655</strong>)</li><li>Lipase (<strong>83690</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Lead, serum (<strong>83655</strong>)</li>"
+					},
+					{
+						"html": "<strong>83655</strong>"
+					},
+					{
+						"html": "<li>Lipase (<strong>83690</strong>)</li>"
+					},
+					{
+						"html": "<strong>83690</strong>"
+					},
+					{
+						"html": "<p><strong>M</strong></p>"
+					},
+					{
+						"html": "<strong>M</strong>"
+					},
+					{
+						"html": "<ul><li>Magnesium, serum (<strong>83735</strong>)</li><li>Microalbumin, quantitative (<strong>82043</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Magnesium, serum (<strong>83735</strong>)</li>"
+					},
+					{
+						"html": "<strong>83735</strong>"
+					},
+					{
+						"html": "<li>Microalbumin, quantitative (<strong>82043</strong>)</li>"
+					},
+					{
+						"html": "<strong>82043</strong>"
+					},
+					{
+						"html": "<p><strong>O</strong></p>"
+					},
+					{
+						"html": "<strong>O</strong>"
+					},
+					{
+						"html": "<ul><li>Ova and parasites, direct smears, concentration and identification (<strong>87177</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Ova and parasites, direct smears, concentration and identification (<strong>87177</strong>)</li>"
+					},
+					{
+						"html": "<strong>87177</strong>"
+					},
+					{
+						"html": "<p><strong>P</strong></p>"
+					},
+					{
+						"html": "<strong>P</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Partial thromboplastin time (<strong>85730</strong>)</li>"
+					},
+					{
+						"html": "<strong>85730</strong>"
+					},
+					{
+						"html": "<li>Particle agglutination, screen, each antibody (<strong>86403</strong>)</li>"
+					},
+					{
+						"html": "<strong>86403</strong>"
+					},
+					{
+						"html": "<li>Phosphorous, serum (<strong>84100</strong>)</li>"
+					},
+					{
+						"html": "<strong>84100</strong>"
+					},
+					{
+						"html": "<li>Potassium, serum (<strong>84132</strong>)</li>"
+					},
+					{
+						"html": "<strong>84132</strong>"
+					},
+					{
+						"html": "<li>Prolactin (<strong>84146</strong>)</li>"
+					},
+					{
+						"html": "<strong>84146</strong>"
+					},
+					{
+						"html": "<li>Prothrombin time (<strong>85610</strong>)</li>"
+					},
+					{
+						"html": "<strong>85610</strong>"
+					},
+					{
+						"html": "<p><strong>R</strong></p>"
+					},
+					{
+						"html": "<strong>R</strong>"
+					},
+					{
+						"html": "<ul><li>Rh status (<strong>86901</strong>)</li><li>RSV assay w/optic (<strong>87807</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Rh status (<strong>86901</strong>)</li>"
+					},
+					{
+						"html": "<strong>86901</strong>"
+					},
+					{
+						"html": "<li>RSV assay w/optic (<strong>87807</strong>)</li>"
+					},
+					{
+						"html": "<strong>87807</strong>"
+					},
+					{
+						"html": "<p><strong>S</strong></p>"
+					},
+					{
+						"html": "<strong>S</strong>"
+					},
+					{
+						"html": "<ul><li>Sedimentation rate, erythrocyte; non-automated (<strong>85651</strong>)</li><li>Skin test, tuberculosis, intradermal (<strong>86580</strong>)</li><li>Spun hematocrit (<strong>85013</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Sedimentation rate, erythrocyte; non-automated (<strong>85651</strong>)</li>"
+					},
+					{
+						"html": "<strong>85651</strong>"
+					},
+					{
+						"html": "<li>Skin test, tuberculosis, intradermal (<strong>86580</strong>)</li>"
+					},
+					{
+						"html": "<strong>86580</strong>"
+					},
+					{
+						"html": "<li>Spun hematocrit (<strong>85013</strong>)</li>"
+					},
+					{
+						"html": "<strong>85013</strong>"
+					},
+					{
+						"html": "<p><strong>T</strong></p>"
+					},
+					{
+						"html": "<strong>T</strong>"
+					},
+					{
+						"html": "<ul><li>Thyroid stimulating hormone (TSH) (<strong>84443</strong>)</li><li>Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (e.g. scabies) (<strong>87220</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Thyroid stimulating hormone (TSH) (<strong>84443</strong>)</li>"
+					},
+					{
+						"html": "<strong>84443</strong>"
+					},
+					{
+						"html": "<li>Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (e.g. scabies) (<strong>87220</strong>)</li>"
+					},
+					{
+						"html": "<strong>87220</strong>"
+					},
+					{
+						"html": "<p><strong>U</strong></p>"
+					},
+					{
+						"html": "<strong>U</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated with microscopy (<strong>81001</strong>)</li>"
+					},
+					{
+						"html": "<strong>81001</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, automated without microscopy (<strong>81003</strong>)</li>"
+					},
+					{
+						"html": "<strong>81003</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated with microscopy (<strong>81000</strong>)</li>"
+					},
+					{
+						"html": "<strong>81000</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, by dip stick or tablet reagent, non-automated without microscopy (<strong>81002</strong>)</li>"
+					},
+					{
+						"html": "<strong>81002</strong>"
+					},
+					{
+						"html": "<li>Urinalysis, qualitative or semi quantitative, except immunoassays (<strong>81005</strong>)</li>"
+					},
+					{
+						"html": "<strong>81005</strong>"
+					},
+					{
+						"html": "<li>Urinalysis; microscopic only (<strong>81015</strong>)</li>"
+					},
+					{
+						"html": "<strong>81015</strong>"
+					},
+					{
+						"html": "<li>Urine pregnancy test, by visual color comparison methods (<strong>81025</strong>)</li>"
+					},
+					{
+						"html": "<strong>81025</strong>"
+					},
+					{
+						"html": "<p><strong>W</strong></p>"
+					},
+					{
+						"html": "<strong>W</strong>"
+					},
+					{
+						"html": "<ul><li>Wet mount for infection agents (e.g. saline, India ink, KOH preps) (<strong>87210</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Wet mount for infection agents (e.g. saline, India ink, KOH preps) (<strong>87210</strong>)</li>"
+					},
+					{
+						"html": "<strong>87210</strong>"
+					},
+					{
+						"html": "<h2>Hematologists and Oncologists</h2>"
+					},
+					{
+						"html": "<ul><li>Blood count; automated differential WBC count blood smear, microscopic examination with manual differential WBC count (<strong>85007</strong>)</li><li>Bone marrow; smear interpretation only, with or without differential cell count (<strong>85097</strong>)</li></ul>"
+					},
+					{
+						"html": "<li>Blood count; automated differential WBC count blood smear, microscopic examination with manual differential WBC count (<strong>85007</strong>)</li>"
+					},
+					{
+						"html": "<strong>85007</strong>"
+					},
+					{
+						"html": "<li>Bone marrow; smear interpretation only, with or without differential cell count (<strong>85097</strong>)</li>"
+					},
+					{
+						"html": "<strong>85097</strong>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->10.01.2021</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->10.01.2021</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/providers/in-office-lab-list/"
+}

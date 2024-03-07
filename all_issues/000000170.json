@@ -1,0 +1,779 @@
+{
+	"url": "https://fhir.devoted.com/fhir",
+	"pageTitle": "Swagger UI",
+	"totalItems": 158,
+	"mustFix": {
+		"totalItems": 9,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<span class=\"version\">HAPI FHIR Server 6.6.0</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #ffffff, background color: #888888, font size: 7.2pt (9.6px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/a267cfa5ade685f58db4ea2d7717d256ff64d53338934a4cf07d020314b96f29.jpeg",
+						"xpath": ".version"
+					},
+					{
+						"html": "<a class=\"pageButton pageButtonSelected\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=System%20Level%20Operations\">\n            System Level Operations\n            \n        </a>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #ffffff, background color: #888888, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/53b6432c61644217b2832c10dac2962cfe0fc8ac0bb523b60bcbb35cb0404176.jpeg",
+						"xpath": ".pageButtonSelected"
+					},
+					{
+						"html": "<h4 class=\"errors__title\">Errors</h4>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1",
+						"screenshotPath": "elemScreenshots/html/07a8a888191d2896c950cab9029dab184fac20ceace7a8ef945c7072f258b6bd.jpeg",
+						"xpath": ".errors__title"
+					},
+					{
+						"html": "<button class=\"btn errors__clear-btn\">Hide</button>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/1dcaf447f814600ec1c0d8d9095b3fd49927b60926c3eca97881cf8aec6f8ffd.jpeg",
+						"xpath": "button"
+					},
+					{
+						"html": "<h4>Fetch error</h4>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/6c4bfaf911526a37e2906b6ca1f81e198903d2574acf980c8882b9c81b334fd9.jpeg",
+						"xpath": ".error-wrapper:nth-child(1) > div > h4"
+					},
+					{
+						"html": "<span class=\"message thrown\">Failed to fetch http://localhost:8080/fhir/api-docs?page=System Level Operations</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b434d4cd6d9ad4427511a1d1347aad87214c790c9d93575f57ded446fa6d36b5.jpeg",
+						"xpath": ".error-wrapper:nth-child(1) > div > .message.thrown"
+					},
+					{
+						"html": "<h4>Fetch error</h4>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/b31f8362930f60d0f9a9a692d9c3cd679931e7f5baf70cb3c93c301087ec0641.jpeg",
+						"xpath": ".error-wrapper:nth-child(2) > div > h4"
+					},
+					{
+						"html": "<span class=\"message thrown\">Possible mixed-content issue? The page was loaded over https:// but a http:// URL was specified. Check that you are not attempting to load mixed content.</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #e8e8ea, background color: #faf8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/538e4894bef3a6f2c23808686cea6ad7278daa0c989cf07a139beb54e4cb851c.jpeg",
+						"xpath": ".error-wrapper:nth-child(2) > div > .message.thrown"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"axeImpact": "critical",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">",
+						"message": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/1588c67c6659f140b88436e87175c0ec74a6e3e2a3839119e4d31a037e52fd19.jpeg",
+						"xpath": "#banner_img"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 8,
+		"rules": {
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<h4 class=\"title\">Failed to load API definition.</h4>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/8a502484b9600fe352a53f661e69cf5632b69e809fa6ea796345aaf4e5ebdf39.jpeg",
+						"xpath": ".title"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/73b609c4a23d86816850a1720eca8f0e223396ac8e0b39d7cbaccb66ab255d4b.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<div class=\"banner\">\n    <img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">\n    <h1>HAPI FHIR R4 Server<br><span class=\"version\">HAPI FHIR Server 6.6.0</span></h1>\n</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/ddbb5a52fc0834de80b27ccfb87bf266c0c14deda53c4d1ae6d6974f1cb0fca5.jpeg",
+						"xpath": ".banner"
+					},
+					{
+						"html": "<div class=\"banner2\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/6a8c4c553ba9770d8eb59344399de38ea804fde9200c6997a7994aa9ea39c828.jpeg",
+						"xpath": ".banner2"
+					},
+					{
+						"html": "<div class=\"banner3\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/bbbb50a748b3cf866fb1a70f24cc780c63ab1a6a20416fff4748a02fefc4cc24.jpeg",
+						"xpath": ".banner3"
+					},
+					{
+						"html": "<h4 class=\"title\">Failed to load API definition.</h4>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/8a502484b9600fe352a53f661e69cf5632b69e809fa6ea796345aaf4e5ebdf39.jpeg",
+						"xpath": ".title"
+					},
+					{
+						"html": "<h4 class=\"errors__title\">Errors</h4>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/07a8a888191d2896c950cab9029dab184fac20ceace7a8ef945c7072f258b6bd.jpeg",
+						"xpath": ".errors__title"
+					},
+					{
+						"html": "<div class=\"no-margin\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/2a85e3431980f1c85b831b3cfc66a38ab24a8c41c3033822dbd1fa1ab82bce00.jpeg",
+						"xpath": ".no-margin"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"passed": {
+		"totalItems": 141,
+		"rules": {
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<button class=\"btn errors__clear-btn\">Hide</button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 36,
+				"items": [
+					{
+						"html": "<h1>HAPI FHIR R4 Server<br><span class=\"version\">HAPI FHIR Server 6.6.0</span></h1>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">FHIR Server Base URL</div>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">OpenAPI Docs</div>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir/api-docs\">http://localhost:8080/fhir/api-docs</a>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">FHIR Version</div>"
+					},
+					{
+						"html": "<div class=\"banner2_value\">4.0.1 (R4)</div>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=All\">\n            All\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=PractitionerRole\">\n            PractitionerRole\n            <span class=\"resourceCountBadge\">1031028</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">1031028</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=MedicationKnowledge\">\n            MedicationKnowledge\n            <span class=\"resourceCountBadge\">164231</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">164231</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Practitioner\">\n            Practitioner\n            <span class=\"resourceCountBadge\">116220</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">116220</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Location\">\n            Location\n            <span class=\"resourceCountBadge\">18811</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">18811</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=HealthcareService\">\n            HealthcareService\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Organization\">\n            Organization\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OrganizationAffiliation\">\n            OrganizationAffiliation\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=List\">\n            List\n            <span class=\"resourceCountBadge\">172</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">172</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=SearchParameter\">\n            SearchParameter\n            <span class=\"resourceCountBadge\">97</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">97</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=StructureDefinition\">\n            StructureDefinition\n            <span class=\"resourceCountBadge\">47</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">47</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=ValueSet\">\n            ValueSet\n            <span class=\"resourceCountBadge\">39</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">39</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=CodeSystem\">\n            CodeSystem\n            <span class=\"resourceCountBadge\">10</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">10</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=InsurancePlan\">\n            InsurancePlan\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OperationDefinition\">\n            OperationDefinition\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Subscription\">\n            Subscription\n            \n        </a>"
+					},
+					{
+						"html": "<h4 class=\"title\">Failed to load API definition.</h4>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<h1>HAPI FHIR R4 Server<br><span class=\"version\">HAPI FHIR Server 6.6.0</span></h1>"
+					},
+					{
+						"html": "<h4 class=\"title\">Failed to load API definition.</h4>"
+					},
+					{
+						"html": "<h4 class=\"errors__title\">Errors</h4>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<h1>HAPI FHIR R4 Server<br><span class=\"version\">HAPI FHIR Server 6.6.0</span></h1>"
+					},
+					{
+						"html": "<h4 class=\"errors__title\">Errors</h4>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir/api-docs\">http://localhost:8080/fhir/api-docs</a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=All\">\n            All\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton pageButtonSelected\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=System%20Level%20Operations\">\n            System Level Operations\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=PractitionerRole\">\n            PractitionerRole\n            <span class=\"resourceCountBadge\">1031028</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=MedicationKnowledge\">\n            MedicationKnowledge\n            <span class=\"resourceCountBadge\">164231</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Practitioner\">\n            Practitioner\n            <span class=\"resourceCountBadge\">116220</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Location\">\n            Location\n            <span class=\"resourceCountBadge\">18811</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=HealthcareService\">\n            HealthcareService\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Organization\">\n            Organization\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OrganizationAffiliation\">\n            OrganizationAffiliation\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=List\">\n            List\n            <span class=\"resourceCountBadge\">172</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=SearchParameter\">\n            SearchParameter\n            <span class=\"resourceCountBadge\">97</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=StructureDefinition\">\n            StructureDefinition\n            <span class=\"resourceCountBadge\">47</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=ValueSet\">\n            ValueSet\n            <span class=\"resourceCountBadge\">39</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=CodeSystem\">\n            CodeSystem\n            <span class=\"resourceCountBadge\">10</span>\n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=InsurancePlan\">\n            InsurancePlan\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OperationDefinition\">\n            OperationDefinition\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Subscription\">\n            Subscription\n            \n        </a>"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">"
+					},
+					{
+						"html": "<button class=\"btn errors__clear-btn\">Hide</button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 65,
+				"items": [
+					{
+						"html": "<div class=\"container\">\n</div>"
+					},
+					{
+						"html": "<img id=\"banner_img\" src=\"raccoon.png\" style=\"height: 100px;\">"
+					},
+					{
+						"html": "<h1>HAPI FHIR R4 Server<br><span class=\"version\">HAPI FHIR Server 6.6.0</span></h1>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<span class=\"version\">HAPI FHIR Server 6.6.0</span>"
+					},
+					{
+						"html": "<div>\n        <div class=\"banner2_key\">FHIR Server Base URL</div><div class=\"banner2_value\"><a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a></div>\n    </div>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">FHIR Server Base URL</div>"
+					},
+					{
+						"html": "<div class=\"banner2_value\"><a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a></div>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir\">http://localhost:8080/fhir</a>"
+					},
+					{
+						"html": "<div>\n        <div class=\"banner2_key\">OpenAPI Docs</div><div class=\"banner2_value\"><a href=\"http://localhost:8080/fhir/api-docs\">http://localhost:8080/fhir/api-docs</a></div>\n    </div>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">OpenAPI Docs</div>"
+					},
+					{
+						"html": "<div class=\"banner2_value\"><a href=\"http://localhost:8080/fhir/api-docs\">http://localhost:8080/fhir/api-docs</a></div>"
+					},
+					{
+						"html": "<a href=\"http://localhost:8080/fhir/api-docs\">http://localhost:8080/fhir/api-docs</a>"
+					},
+					{
+						"html": "<div>\n        <div class=\"banner2_key\">FHIR Version</div><div class=\"banner2_value\">4.0.1 (R4)</div>\n    </div>"
+					},
+					{
+						"html": "<div class=\"banner2_key\">FHIR Version</div>"
+					},
+					{
+						"html": "<div class=\"banner2_value\">4.0.1 (R4)</div>"
+					},
+					{
+						"html": "<div class=\"pageButtons\" id=\"pageButtons\">"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=All\">\n            All\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton pageButtonSelected\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=System%20Level%20Operations\">\n            System Level Operations\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=PractitionerRole\">\n            PractitionerRole\n            <span class=\"resourceCountBadge\">1031028</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">1031028</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=MedicationKnowledge\">\n            MedicationKnowledge\n            <span class=\"resourceCountBadge\">164231</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">164231</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Practitioner\">\n            Practitioner\n            <span class=\"resourceCountBadge\">116220</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">116220</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Location\">\n            Location\n            <span class=\"resourceCountBadge\">18811</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">18811</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=HealthcareService\">\n            HealthcareService\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Organization\">\n            Organization\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OrganizationAffiliation\">\n            OrganizationAffiliation\n            <span class=\"resourceCountBadge\">6415</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">6415</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=List\">\n            List\n            <span class=\"resourceCountBadge\">172</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">172</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=SearchParameter\">\n            SearchParameter\n            <span class=\"resourceCountBadge\">97</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">97</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=StructureDefinition\">\n            StructureDefinition\n            <span class=\"resourceCountBadge\">47</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">47</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=ValueSet\">\n            ValueSet\n            <span class=\"resourceCountBadge\">39</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">39</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=CodeSystem\">\n            CodeSystem\n            <span class=\"resourceCountBadge\">10</span>\n        </a>"
+					},
+					{
+						"html": "<span class=\"resourceCountBadge\">10</span>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=InsurancePlan\">\n            InsurancePlan\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=OperationDefinition\">\n            OperationDefinition\n            \n        </a>"
+					},
+					{
+						"html": "<a class=\"pageButton\" href=\"https://fhir.devoted.com/fhir/swagger-ui/?page=Subscription\">\n            Subscription\n            \n        </a>"
+					},
+					{
+						"html": "<div id=\"swagger-ui\">"
+					},
+					{
+						"html": "<div class=\"swagger-ui\">"
+					},
+					{
+						"html": "<div class=\"loading-container\">"
+					},
+					{
+						"html": "<div class=\"info\">"
+					},
+					{
+						"html": "<div class=\"loading-container\">"
+					},
+					{
+						"html": "<pre class=\"errors-wrapper\">"
+					},
+					{
+						"html": "<hgroup class=\"error\"><h4 class=\"errors__title\">Errors</h4><button class=\"btn errors__clear-btn\">Hide</button></hgroup>"
+					},
+					{
+						"html": "<button class=\"btn errors__clear-btn\">Hide</button>"
+					},
+					{
+						"html": "<div class=\"errors\">"
+					},
+					{
+						"html": "<div class=\"error-wrapper\"><div><h4>Fetch error</h4><span class=\"message thrown\">Failed to fetch http://localhost:8080/fhir/api-docs?page=System Level Operations</span><div class=\"error-line\"></div></div></div>"
+					},
+					{
+						"html": "<div><h4>Fetch error</h4><span class=\"message thrown\">Failed to fetch http://localhost:8080/fhir/api-docs?page=System Level Operations</span><div class=\"error-line\"></div></div>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					},
+					{
+						"html": "<span class=\"message thrown\">Failed to fetch http://localhost:8080/fhir/api-docs?page=System Level Operations</span>"
+					},
+					{
+						"html": "<div class=\"error-line\"></div>"
+					},
+					{
+						"html": "<div class=\"error-wrapper\"><div><h4>Fetch error</h4><span class=\"message thrown\">Possible mixed-content issue? The page was loaded over https:// but a http:// URL was specified. Check that you are not attempting to load mixed content.</span><div class=\"error-line\"></div></div></div>"
+					},
+					{
+						"html": "<div><h4>Fetch error</h4><span class=\"message thrown\">Possible mixed-content issue? The page was loaded over https:// but a http:// URL was specified. Check that you are not attempting to load mixed content.</span><div class=\"error-line\"></div></div>"
+					},
+					{
+						"html": "<h4>Fetch error</h4>"
+					},
+					{
+						"html": "<span class=\"message thrown\">Possible mixed-content issue? The page was loaded over https:// but a http:// URL was specified. Check that you are not attempting to load mixed content.</span>"
+					},
+					{
+						"html": "<div class=\"error-line\"></div>"
+					}
+				]
+			},
+			"scrollable-region-focusable": {
+				"description": "Scrollable region must have keyboard access",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/scrollable-region-focusable?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag211"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://fhir.devoted.com/fhir/swagger-ui/"
+}

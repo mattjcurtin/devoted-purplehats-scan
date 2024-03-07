@@ -1,0 +1,2155 @@
+{
+	"url": "https://devoted.com/using-tech-to-stay-connected",
+	"pageTitle": "Using Tech to Stay Connected | Devoted Health",
+	"totalItems": 572,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"needsReview": {
+		"totalItems": 5,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h1>Using Tech to Stay Connected</h1>",
+						"message": "Element's background color could not be determined because it's partially obscured by another element",
+						"screenshotPath": "elemScreenshots/html/f544e5472ebad20569f6db95a85e0f4d4468f5cba172eb10affc1c271e3a4042.jpeg",
+						"xpath": "h1",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 567,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 99,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Get up to speed</h2>"
+					},
+					{
+						"html": "<p>Whenever you dive into something new, it takes a little time to get comfortable. Here are some great, free tech tutorials to get you started:</p>"
+					},
+					{
+						"html": "<li><a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a> from Easter Seals Greater Houston has videos focused mainly on the basics, like setting an alarm on an iPad and using Facetime</li>"
+					},
+					{
+						"html": "<a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a>"
+					},
+					{
+						"html": "<li><a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a> has a tech tip video collection with titles like Setting Up Your Apple ID and How to Create a Spotify Playlist in the Mobile App&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a>"
+					},
+					{
+						"html": "<li><a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a> has a much broader range of courses, from email basics to online shopping and social media</li>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a>"
+					},
+					{
+						"html": "<p>Just remember to go slow. Pick one thing you want to learn and take the time to get comfortable with it.&nbsp;</p>"
+					},
+					{
+						"html": "<p>We also recommend learning about Internet safety with these great starting points:</p>"
+					},
+					{
+						"html": "<a href=\"https://edu.gcfglobal.org/en/internetsafety/\" target=\"_blank\" rel=\"noopener noreferrer\">GCF Global’s Internet Safety course</a>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/p/internet-safety\" target=\"_blank\" rel=\"noopener noreferrer\">Tech Boomers Internet safety courses</a>"
+					},
+					{
+						"html": "<h2>Connect by phone</h2>"
+					},
+					{
+						"html": "<p>Here are some ways to get social with a simple phone call.</p>"
+					},
+					{
+						"html": "<p><strong>Schedule calls with loved ones<br></strong>Pick some friends or family members you love talking to and book a time each week to talk. That way, you always have a connection and something to look forward to. You can either do plain old phone calls or video calls.</p>"
+					},
+					{
+						"html": "<strong>Schedule calls with loved ones<br></strong>"
+					},
+					{
+						"html": "<p><strong>Call a friendly service<br></strong>When you find yourself needing a friendly voice and no one’s around, try calling a free service where they have folks standing by just to talk to you. We found a couple of them we like:</p>"
+					},
+					{
+						"html": "<strong>Call a friendly service<br></strong>"
+					},
+					{
+						"html": "<li><a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>. Just call <a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>. All they ask of you is your first name so they know who they’re talking to.&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>"
+					},
+					{
+						"html": "<li><a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>. Call <a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>, leave your contact info, and they’ll call you back.</li>"
+					},
+					{
+						"html": "<a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>"
+					},
+					{
+						"html": "<p><strong>Call a warmline<br></strong>You’ve probably heard of hotlines that you can call in a crisis. A warmline is a step down from that. They’re typically free and you call when you need emotional support:</p>"
+					},
+					{
+						"html": "<strong>Call a warmline<br></strong>"
+					},
+					{
+						"html": "<li>National Alliance on Mental Illness (NAMI) has a <a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a>"
+					},
+					{
+						"html": "<li><a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a> is available either when you just want someone to talk to or if you’re having a crisis. Call or text 988.&nbsp;&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a>"
+					},
+					{
+						"html": "<h2>Connect online</h2>"
+					},
+					{
+						"html": "<p>The Internet offers all kinds of ways to connect online. Let’s look at a few of them.&nbsp;</p>"
+					},
+					{
+						"html": "<strong>Take a class</strong>"
+					},
+					{
+						"html": "<li><a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a> has an amazing variety of online classes, including travel, yoga, and cooking. Take 10 live classes and unlimited community-led classes each week at no cost.&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a>"
+					},
+					{
+						"html": "<li>SilverSneakers offers virtual fitness classes and it’s included with your Devoted Health plan. <a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>, select <strong>Check My Eligibility</strong>, and create an account.</li>"
+					},
+					{
+						"html": "<a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>"
+					},
+					{
+						"html": "<strong>Check My Eligibility</strong>"
+					},
+					{
+						"html": "<p><strong>Sign up as a mentor on eldera<br></strong>Eldera connects people ages 5 to 18 with mentors ages 60 and up for weekly conversations and activities. <a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>.</p>"
+					},
+					{
+						"html": "<strong>Sign up as a mentor on eldera<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>"
+					},
+					{
+						"html": "<p><strong>Have some fun<br></strong>These ideas won’t necessarily connect you with others, but they’re a way to break out of the same old routines:</p>"
+					},
+					{
+						"html": "<strong>Have some fun<br></strong>"
+					},
+					{
+						"html": "<a href=\"https://nationalzoo.si.edu/webcams\" target=\"_blank\" rel=\"noopener noreferrer\">Check in on the animals at the National Zoo</a>"
+					},
+					{
+						"html": "<a href=\"https://explore.org/livecams\" target=\"_blank\" rel=\"noopener noreferrer\">Sneak a peek at animals all over the world</a>"
+					},
+					{
+						"html": "<a href=\"https://www.louvre.fr/en/online-tours\" target=\"_blank\" rel=\"noopener noreferrer\">Take a virtual tour of the Louvre</a>"
+					},
+					{
+						"html": "<a href=\"https://artsandculture.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Explore arts and culture from around the globe</a>"
+					},
+					{
+						"html": "<p>You can also dive into podcasts, which are basically radio shows for the Internet. You can listen whenever you want, they’re free, and there are TONS of them. Plus, they’re easy to get started with, especially with these guides:</p>"
+					},
+					{
+						"html": "<a href=\"https://www.wishtv.com/news/all-indiana-podcast-network-feature-of-the-week/beginners-guide-to-podcasting-getting-started-listening-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">WISH-TV’s Beginners Guide to Podcasting</a>"
+					},
+					{
+						"html": "<a href=\"https://www.goodhousekeeping.com/life/entertainment/a34044805/how-to-listen-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Housekeeping’s A Beginner's Guide to Finding and Listening to Podcasts</a>"
+					},
+					{
+						"html": "<p>There's always music, too. We asked members for songs that made them smile and now we can't stop dancing! Take a listen to our member playlist:</p>"
+					},
+					{
+						"html": "<a href=\"https://www.youtube.com/playlist?list=PLWhCgHlnjGmElwZ6U8VU9IpyEW-k3asIj\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a>"
+					},
+					{
+						"html": "<li><a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a> (Spotify login required)</li>"
+					},
+					{
+						"html": "<a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h1>Using Tech to Stay Connected</h1>"
+					},
+					{
+						"html": "<h2>Get up to speed</h2>"
+					},
+					{
+						"html": "<h2>Connect by phone</h2>"
+					},
+					{
+						"html": "<h2>Connect online</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h1>Using Tech to Stay Connected</h1>"
+					},
+					{
+						"html": "<h2>Get up to speed</h2>"
+					},
+					{
+						"html": "<h2>Connect by phone</h2>"
+					},
+					{
+						"html": "<h2>Connect online</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a>"
+					},
+					{
+						"html": "<a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a>"
+					},
+					{
+						"html": "<a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>"
+					},
+					{
+						"html": "<a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>"
+					},
+					{
+						"html": "<a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a>"
+					},
+					{
+						"html": "<a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>"
+					},
+					{
+						"html": "<a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>"
+					},
+					{
+						"html": "<a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 54,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a>"
+					},
+					{
+						"html": "<a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a>"
+					},
+					{
+						"html": "<a href=\"https://edu.gcfglobal.org/en/internetsafety/\" target=\"_blank\" rel=\"noopener noreferrer\">GCF Global’s Internet Safety course</a>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/p/internet-safety\" target=\"_blank\" rel=\"noopener noreferrer\">Tech Boomers Internet safety courses</a>"
+					},
+					{
+						"html": "<a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>"
+					},
+					{
+						"html": "<a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>"
+					},
+					{
+						"html": "<a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a>"
+					},
+					{
+						"html": "<a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a>"
+					},
+					{
+						"html": "<a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a>"
+					},
+					{
+						"html": "<a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>"
+					},
+					{
+						"html": "<a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>"
+					},
+					{
+						"html": "<a href=\"https://nationalzoo.si.edu/webcams\" target=\"_blank\" rel=\"noopener noreferrer\">Check in on the animals at the National Zoo</a>"
+					},
+					{
+						"html": "<a href=\"https://explore.org/livecams\" target=\"_blank\" rel=\"noopener noreferrer\">Sneak a peek at animals all over the world</a>"
+					},
+					{
+						"html": "<a href=\"https://www.louvre.fr/en/online-tours\" target=\"_blank\" rel=\"noopener noreferrer\">Take a virtual tour of the Louvre</a>"
+					},
+					{
+						"html": "<a href=\"https://artsandculture.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Explore arts and culture from around the globe</a>"
+					},
+					{
+						"html": "<a href=\"https://www.wishtv.com/news/all-indiana-podcast-network-feature-of-the-week/beginners-guide-to-podcasting-getting-started-listening-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">WISH-TV’s Beginners Guide to Podcasting</a>"
+					},
+					{
+						"html": "<a href=\"https://www.goodhousekeeping.com/life/entertainment/a34044805/how-to-listen-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Housekeeping’s A Beginner's Guide to Finding and Listening to Podcasts</a>"
+					},
+					{
+						"html": "<a href=\"https://www.youtube.com/playlist?list=PLWhCgHlnjGmElwZ6U8VU9IpyEW-k3asIj\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a>"
+					},
+					{
+						"html": "<a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 13,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 48,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li><a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a> from Easter Seals Greater Houston has videos focused mainly on the basics, like setting an alarm on an iPad and using Facetime</li>"
+					},
+					{
+						"html": "<li><a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a> has a tech tip video collection with titles like Setting Up Your Apple ID and How to Create a Spotify Playlist in the Mobile App&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a> has a much broader range of courses, from email basics to online shopping and social media</li>"
+					},
+					{
+						"html": "<li><a href=\"https://edu.gcfglobal.org/en/internetsafety/\" target=\"_blank\" rel=\"noopener noreferrer\">GCF Global’s Internet Safety course</a>&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://techboomers.com/p/internet-safety\" target=\"_blank\" rel=\"noopener noreferrer\">Tech Boomers Internet safety courses</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>. Just call <a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>. All they ask of you is your first name so they know who they’re talking to.&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>. Call <a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>, leave your contact info, and they’ll call you back.</li>"
+					},
+					{
+						"html": "<li>National Alliance on Mental Illness (NAMI) has a <a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a> is available either when you just want someone to talk to or if you’re having a crisis. Call or text 988.&nbsp;&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a> has an amazing variety of online classes, including travel, yoga, and cooking. Take 10 live classes and unlimited community-led classes each week at no cost.&nbsp;</li>"
+					},
+					{
+						"html": "<li>SilverSneakers offers virtual fitness classes and it’s included with your Devoted Health plan. <a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>, select <strong>Check My Eligibility</strong>, and create an account.</li>"
+					},
+					{
+						"html": "<li><a href=\"https://nationalzoo.si.edu/webcams\" target=\"_blank\" rel=\"noopener noreferrer\">Check in on the animals at the National Zoo</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://explore.org/livecams\" target=\"_blank\" rel=\"noopener noreferrer\">Sneak a peek at animals all over the world</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.louvre.fr/en/online-tours\" target=\"_blank\" rel=\"noopener noreferrer\">Take a virtual tour of the Louvre</a>&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://artsandculture.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Explore arts and culture from around the globe</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.wishtv.com/news/all-indiana-podcast-network-feature-of-the-week/beginners-guide-to-podcasting-getting-started-listening-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">WISH-TV’s Beginners Guide to Podcasting</a>&nbsp;</li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.goodhousekeeping.com/life/entertainment/a34044805/how-to-listen-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Housekeeping’s A Beginner's Guide to Finding and Listening to Podcasts</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://www.youtube.com/playlist?list=PLWhCgHlnjGmElwZ6U8VU9IpyEW-k3asIj\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a></li>"
+					},
+					{
+						"html": "<li><a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a> (Spotify login required)</li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 220,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/utilizar-la-tecnologia-para-mantenerse-conectado\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to Using Tech to Stay Connected page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<h1>Using Tech to Stay Connected</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Get up to speed</h2>"
+					},
+					{
+						"html": "<p>Whenever you dive into something new, it takes a little time to get comfortable. Here are some great, free tech tutorials to get you started:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a> from Easter Seals Greater Houston has videos focused mainly on the basics, like setting an alarm on an iPad and using Facetime</li>"
+					},
+					{
+						"html": "<a href=\"https://bridgingapps.org/seniors/resources-for-seniors/\" target=\"_blank\" rel=\"noopener noreferrer\">BridgingApps</a>"
+					},
+					{
+						"html": "<li><a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a> has a tech tip video collection with titles like Setting Up Your Apple ID and How to Create a Spotify Playlist in the Mobile App&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://seniorplanet.org/videos/\" target=\"_blank\" rel=\"noopener noreferrer\">Senior Planet from AARP</a>"
+					},
+					{
+						"html": "<li><a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a> has a much broader range of courses, from email basics to online shopping and social media</li>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TechBoomers</a>"
+					},
+					{
+						"html": "<p>Just remember to go slow. Pick one thing you want to learn and take the time to get comfortable with it.&nbsp;</p>"
+					},
+					{
+						"html": "<p>We also recommend learning about Internet safety with these great starting points:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://edu.gcfglobal.org/en/internetsafety/\" target=\"_blank\" rel=\"noopener noreferrer\">GCF Global’s Internet Safety course</a>&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://edu.gcfglobal.org/en/internetsafety/\" target=\"_blank\" rel=\"noopener noreferrer\">GCF Global’s Internet Safety course</a>"
+					},
+					{
+						"html": "<li><a href=\"https://techboomers.com/p/internet-safety\" target=\"_blank\" rel=\"noopener noreferrer\">Tech Boomers Internet safety courses</a></li>"
+					},
+					{
+						"html": "<a href=\"https://techboomers.com/p/internet-safety\" target=\"_blank\" rel=\"noopener noreferrer\">Tech Boomers Internet safety courses</a>"
+					},
+					{
+						"html": "<h2>Connect by phone</h2>"
+					},
+					{
+						"html": "<p>Here are some ways to get social with a simple phone call.</p>"
+					},
+					{
+						"html": "<p><strong>Schedule calls with loved ones<br></strong>Pick some friends or family members you love talking to and book a time each week to talk. That way, you always have a connection and something to look forward to. You can either do plain old phone calls or video calls.</p>"
+					},
+					{
+						"html": "<strong>Schedule calls with loved ones<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p><strong>Call a friendly service<br></strong>When you find yourself needing a friendly voice and no one’s around, try calling a free service where they have folks standing by just to talk to you. We found a couple of them we like:</p>"
+					},
+					{
+						"html": "<strong>Call a friendly service<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>. Just call <a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>. All they ask of you is your first name so they know who they’re talking to.&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://friendsco.org/coffee-talk/\" target=\"_blank\" rel=\"noopener noreferrer\">Coffee Talk</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-877-238-2282\" target=\"undefined\" rel=\"noopener noreferrer\">1-877-238-2282</a>"
+					},
+					{
+						"html": "<li><a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>. Call <a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>, leave your contact info, and they’ll call you back.</li>"
+					},
+					{
+						"html": "<a href=\"https://aarpcommunityconnections.org/\" target=\"_blank\" rel=\"noopener noreferrer\">AARP Friendly Voice</a>"
+					},
+					{
+						"html": "<a href=\"tel:1-888-281-0145\" target=\"undefined\" rel=\"noopener noreferrer\">1-888-281-0145</a>"
+					},
+					{
+						"html": "<p><strong>Call a warmline<br></strong>You’ve probably heard of hotlines that you can call in a crisis. A warmline is a step down from that. They’re typically free and you call when you need emotional support:</p>"
+					},
+					{
+						"html": "<strong>Call a warmline<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>National Alliance on Mental Illness (NAMI) has a <a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.nami.org/NAMI/media/NAMI-Media/Helpline/NAMI-National-HelpLine-WarmLine-Directory.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">warmline directory so you can find a line in your area</a>"
+					},
+					{
+						"html": "<li><a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a> is available either when you just want someone to talk to or if you’re having a crisis. Call or text 988.&nbsp;&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://samaritanshope.org/our-services/24-7-helpline/\" target=\"_blank\" rel=\"noopener noreferrer\">Samaritans 24/7 helpline</a>"
+					},
+					{
+						"html": "<h2>Connect online</h2>"
+					},
+					{
+						"html": "<p>The Internet offers all kinds of ways to connect online. Let’s look at a few of them.&nbsp;</p>"
+					},
+					{
+						"html": "<p><strong>Take a class</strong></p>"
+					},
+					{
+						"html": "<strong>Take a class</strong>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a> has an amazing variety of online classes, including travel, yoga, and cooking. Take 10 live classes and unlimited community-led classes each week at no cost.&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://www.getsetup.io/\" target=\"_blank\" rel=\"noopener noreferrer\">GetSetUp</a>"
+					},
+					{
+						"html": "<li>SilverSneakers offers virtual fitness classes and it’s included with your Devoted Health plan. <a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>, select <strong>Check My Eligibility</strong>, and create an account.</li>"
+					},
+					{
+						"html": "<a href=\"http://www.silversneakers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit their website</a>"
+					},
+					{
+						"html": "<strong>Check My Eligibility</strong>"
+					},
+					{
+						"html": "<p><strong>Sign up as a mentor on eldera<br></strong>Eldera connects people ages 5 to 18 with mentors ages 60 and up for weekly conversations and activities. <a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>.</p>"
+					},
+					{
+						"html": "<strong>Sign up as a mentor on eldera<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://www.eldera.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about mentoring with eldera</a>"
+					},
+					{
+						"html": "<p><strong>Have some fun<br></strong>These ideas won’t necessarily connect you with others, but they’re a way to break out of the same old routines:</p>"
+					},
+					{
+						"html": "<strong>Have some fun<br></strong>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://nationalzoo.si.edu/webcams\" target=\"_blank\" rel=\"noopener noreferrer\">Check in on the animals at the National Zoo</a></li>"
+					},
+					{
+						"html": "<a href=\"https://nationalzoo.si.edu/webcams\" target=\"_blank\" rel=\"noopener noreferrer\">Check in on the animals at the National Zoo</a>"
+					},
+					{
+						"html": "<li><a href=\"https://explore.org/livecams\" target=\"_blank\" rel=\"noopener noreferrer\">Sneak a peek at animals all over the world</a></li>"
+					},
+					{
+						"html": "<a href=\"https://explore.org/livecams\" target=\"_blank\" rel=\"noopener noreferrer\">Sneak a peek at animals all over the world</a>"
+					},
+					{
+						"html": "<li><a href=\"https://www.louvre.fr/en/online-tours\" target=\"_blank\" rel=\"noopener noreferrer\">Take a virtual tour of the Louvre</a>&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://www.louvre.fr/en/online-tours\" target=\"_blank\" rel=\"noopener noreferrer\">Take a virtual tour of the Louvre</a>"
+					},
+					{
+						"html": "<li><a href=\"https://artsandculture.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Explore arts and culture from around the globe</a></li>"
+					},
+					{
+						"html": "<a href=\"https://artsandculture.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Explore arts and culture from around the globe</a>"
+					},
+					{
+						"html": "<p>You can also dive into podcasts, which are basically radio shows for the Internet. You can listen whenever you want, they’re free, and there are TONS of them. Plus, they’re easy to get started with, especially with these guides:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.wishtv.com/news/all-indiana-podcast-network-feature-of-the-week/beginners-guide-to-podcasting-getting-started-listening-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">WISH-TV’s Beginners Guide to Podcasting</a>&nbsp;</li>"
+					},
+					{
+						"html": "<a href=\"https://www.wishtv.com/news/all-indiana-podcast-network-feature-of-the-week/beginners-guide-to-podcasting-getting-started-listening-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">WISH-TV’s Beginners Guide to Podcasting</a>"
+					},
+					{
+						"html": "<li><a href=\"https://www.goodhousekeeping.com/life/entertainment/a34044805/how-to-listen-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Housekeeping’s A Beginner's Guide to Finding and Listening to Podcasts</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.goodhousekeeping.com/life/entertainment/a34044805/how-to-listen-to-podcasts/\" target=\"_blank\" rel=\"noopener noreferrer\">Good Housekeeping’s A Beginner's Guide to Finding and Listening to Podcasts</a>"
+					},
+					{
+						"html": "<p>There's always music, too. We asked members for songs that made them smile and now we can't stop dancing! Take a listen to our member playlist:</p>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a href=\"https://www.youtube.com/playlist?list=PLWhCgHlnjGmElwZ6U8VU9IpyEW-k3asIj\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a></li>"
+					},
+					{
+						"html": "<a href=\"https://www.youtube.com/playlist?list=PLWhCgHlnjGmElwZ6U8VU9IpyEW-k3asIj\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a>"
+					},
+					{
+						"html": "<li><a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a> (Spotify login required)</li>"
+					},
+					{
+						"html": "<a href=\"https://open.spotify.com/playlist/1x1CJLjLPIwJmvrEV6S2LH?si=YS-TV0oeQM-q6_lyzYzBoA\" target=\"_blank\" rel=\"noopener noreferrer\">Spotify</a>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->02.22.2024</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://devoted.com/using-tech-to-stay-connected/"
+}

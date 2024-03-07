@@ -1,0 +1,171 @@
+{
+	"url": "https://my.devoted.com/",
+	"pageTitle": "Devoted Health Member Portal",
+	"totalItems": 15,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 2,
+		"rules": {
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/94fad5a7b7dfb30cdb2a225bda5664184699ca82ba7446089b96b1dfad0e94e3.jpeg",
+						"xpath": "html"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/a2bd961df016568e1c3421f3493303e553d2b322937411d861623e5aba54213e.jpeg",
+						"xpath": "html"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"passed": {
+		"totalItems": 13,
+		"rules": {
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<div id=\"root\"><div id=\"root_content\" class=\"root-content not-logged-in\"><div class=\"loading\"><div class=\"ball-loader\"><div class=\"ball-loader-ball ball1\"></div><div class=\"ball-loader-ball ball2\"></div><div class=\"ball-loader-ball ball3\"></div></div></div></div></div>"
+					},
+					{
+						"html": "<div id=\"root_content\" class=\"root-content not-logged-in\"><div class=\"loading\"><div class=\"ball-loader\"><div class=\"ball-loader-ball ball1\"></div><div class=\"ball-loader-ball ball2\"></div><div class=\"ball-loader-ball ball3\"></div></div></div></div>"
+					},
+					{
+						"html": "<div class=\"loading\"><div class=\"ball-loader\"><div class=\"ball-loader-ball ball1\"></div><div class=\"ball-loader-ball ball2\"></div><div class=\"ball-loader-ball ball3\"></div></div></div>"
+					},
+					{
+						"html": "<div class=\"ball-loader\"><div class=\"ball-loader-ball ball1\"></div><div class=\"ball-loader-ball ball2\"></div><div class=\"ball-loader-ball ball3\"></div></div>"
+					},
+					{
+						"html": "<div class=\"ball-loader-ball ball1\"></div>"
+					},
+					{
+						"html": "<div class=\"ball-loader-ball ball2\"></div>"
+					},
+					{
+						"html": "<div class=\"ball-loader-ball ball3\"></div>"
+					}
+				]
+			}
+		}
+	}
+}

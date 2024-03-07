@@ -1,0 +1,2692 @@
+{
+	"url": "https://devoted.com/es/conozca-nuestro-equipo/",
+	"pageTitle": "Conozca a nuestro equipo | Devoted Health",
+	"totalItems": 741,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 1,
+		"rules": {
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<h3>Tenemos una misión.</h3>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/4b3b2bdaac34cf1e0c6a77a3826a269a28d2e1b6eb7039a2563dea5a10fc385a.jpeg",
+						"xpath": ".pageSection-module--wrapper--c1860.undefined:nth-child(1) > .gridTwoCol-module--wrapper--ea3c9 > .gridTwoCol-module--content--12f90.gridTwoCol-module--wide--1a69f.null > .row > .left > h3"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 4,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/a3cb5e989893e0b0a504aead732ec09cae54d75d1e30a01b4bcb055a30e3f13a.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/0dd2ef34a1fe684d3cc9925f485a536aa49c462536088e53ee73707b3f777a79.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/cabeff72103c76bbc83be08246d70d9c3dc458fd61d536c0bf9c01a38b853eee.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/fcfa0d80ca615e0fd6705986ea4012152c396ad0bcb1d91f58c01ca8099f9257.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 736,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 24,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-un-plan\">Comparar planes</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-un-plan\">Solicitar un plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/aprender-sobre-devoted-health\">Aprender sobre Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/recursos/sus-opciones-de-medicare\">Mis opciones de Medicare</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/buscar-proveedores\">Buscar proveedores y farmacias</a></li><li><a role=\"menuitem\" href=\"/es/buscar-medicamentos\">Buscar medicamentos con receta</a></li><li><a role=\"menuitem\" href=\"/es/medico/care-ondemand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/buscar-proveedores\">Buscar proveedores y farmacias</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/buscar-medicamentos\">Buscar medicamentos con receta</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/medico/care-ondemand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/encontrar-plan-docs/\">Ver los documentos de mi plan</a></li><li><a role=\"menuitem\" href=\"/es/documentos-plan/formularios-miembros\">Buscar formularios</a></li><li><a role=\"menuitem\" href=\"/es/beneficios\">Mis beneficios de Devoted</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/encontrar-plan-docs/\">Ver los documentos de mi plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/documentos-plan/formularios-miembros\">Buscar formularios</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/beneficios\">Mis beneficios de Devoted</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/es/guia-de-devoted\">Pregunte a un Guía de Devoted</a></li><li><a role=\"menuitem\" href=\"/es/medico\">Conectarse a la atención</a></li><li><a role=\"menuitem\" href=\"/es/derechos-y-responsabilidades-del-miembro\">Mis derechos y responsabilidades</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/guia-de-devoted\">Pregunte a un Guía de Devoted</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/medico\">Conectarse a la atención</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/es/derechos-y-responsabilidades-del-miembro\">Mis derechos y responsabilidades</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<hr style=\"background-position:center 70%\" class=\"boxSection-module--bar--65dfd\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 109,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li>"
+					},
+					{
+						"html": "<h1>Conozca a nuestro equipo</h1>"
+					},
+					{
+						"html": "<h3>Tenemos una misión.</h3>"
+					},
+					{
+						"html": "<strong>Queremos cambiar la atención médica: cómo se paga, se provee y se vive.</strong>"
+					},
+					{
+						"html": "<p>Así que hemos reunido a muchas personas inteligentes, de gran corazón, que vienen de la industria de la atención médica, la tecnología, el comercio minorista y otras; el tipo de personas que prosperan en los desafíos que importan. &nbsp;Eso es lo que significa ser Devoted.</p>"
+					},
+					{
+						"html": "<p>Mira, la atención médica no funciona. ¿Y arreglarla? Es un trabajo muy difícil. La gente dice que no se puede hacer. &nbsp;Es muy grande.  Es demasiado. Nosotros decimos que están equivocados.</p>"
+					},
+					{
+						"html": "<h2 class=\"cardSection-module--title--972c2\">Equipo ejecutivo</h2>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Ed Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Director Ejecutivo</h4>"
+					},
+					{
+						"html": "<p>Ex Director de Tecnología, Director de Operaciones, Presidente de Servicios, Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Todd Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Presidente Ejecutivo</h4>"
+					},
+					{
+						"html": "<p>Cofundador de Athenahealth y Castlight Health; ex Director de Tecnología de los Estados Unidos</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Leslie Brunner</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Personal</h4>"
+					},
+					{
+						"html": "<p>Ex Presidenta en MiniLuxe y Directora de Personal en Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jeremy Delinsky</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de Operaciones</h4>"
+					},
+					{
+						"html": "<p>Ex Director de Tecnología de Wayfair y Director de Productos/Director de Tecnología de Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Nancy Go</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Mercadeo</h4>"
+					},
+					{
+						"html": "<p>Ex Vicepresidenta de Mercadeo de Marca en Wayfair  y veterano de Procter &amp; Gamble, Parthenon/E&amp;Y</p>"
+					},
+					{
+						"html": "<a href=\"https://www.linkedin.com/in/nancy-tao-go-863aa5/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Monna Nanavati</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de producto</h4>"
+					},
+					{
+						"html": "<p>Ex director de operaciones de Docent Health, vicepresidente de innovación de productos, Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Michael Nochomovitz, MD</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de asociaciones clínicas</h4>"
+					},
+					{
+						"html": "<p>Ex Director de integración clínica / &nbsp;Oficial de desarrollo de redes, New York Presbyterian</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Shannon O'Kane</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Cumplimiento de Medicare</h4>"
+					},
+					{
+						"html": "<p>Ex Director Principal de Operaciones de Servicio y Jefe Principal de Cumplimiento de Medicare en Aetna</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Dariel Quintana</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Mercados de Medicare</h4>"
+					},
+					{
+						"html": "<p>Ex Vicepresidente Regional, Vicepresidente de Desarrollo de Proveedores y Vicepresidente de Florida Primary Care, Humana</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Adam Thackery</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director Financiero</h4>"
+					},
+					{
+						"html": "<p>Ex Director Financiero de Universal American Corp</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Neil Wagle, MD, MBA</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director médico</h4>"
+					},
+					{
+						"html": "<p>Médico de atención primaria en Brigham and Women's Hospital; Ex Director de calidad asociado en Partners HealthCare</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Margaret McKenna</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<p>Exjefe de Ingeniería de Plataformas en Runkeeper y el Broad Institute, veterano del Servicio Digital de Estados Unidos</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jack Nye</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<p>Exvicepresidente de Ingeniería en Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<h3>Junta directiva</h3>"
+					},
+					{
+						"html": "<p>Bryan Roberts, PhD<br>Bob Kocher, MD<br>Kathleen Sebelius<br>Bill Frist, MD<br>Vijay Pande, PhD<br>Tabreez Verjee<br>Bruce Perkins<br>Ed Park<br>Todd Park<br>DJ Patil</p>"
+					},
+					{
+						"html": "<h3>Únase a nuestro equipo.</h3>"
+					},
+					{
+						"html": "<p>Estamos en este camino largo y difícil. Queremos trabajar con personas que amamos, por una causa en la que creemos. La vida es corta.</p>"
+					},
+					{
+						"html": "<a href=\"https://jobs.lever.co/devoted/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"label\">Ver puestos de trab</span>ajo disponibles</a>"
+					},
+					{
+						"html": "<span class=\"label\">Ver puestos de trab</span>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Envíe un mensaje de texto a una Guía al<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">O llámenos al<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->03.15.2021</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 34,
+				"items": [
+					{
+						"html": "<h1>Conozca a nuestro equipo</h1>"
+					},
+					{
+						"html": "<h3>Tenemos una misión.</h3>"
+					},
+					{
+						"html": "<h2 class=\"cardSection-module--title--972c2\">Equipo ejecutivo</h2>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Ed Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Director Ejecutivo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Todd Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Presidente Ejecutivo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Leslie Brunner</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Personal</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jeremy Delinsky</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de Operaciones</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Nancy Go</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Mercadeo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Monna Nanavati</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de producto</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Michael Nochomovitz, MD</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de asociaciones clínicas</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Shannon O'Kane</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Cumplimiento de Medicare</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Dariel Quintana</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Mercados de Medicare</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Adam Thackery</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director Financiero</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Neil Wagle, MD, MBA</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director médico</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Margaret McKenna</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jack Nye</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<h3>Junta directiva</h3>"
+					},
+					{
+						"html": "<h3>Únase a nuestro equipo.</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 33,
+				"items": [
+					{
+						"html": "<h1>Conozca a nuestro equipo</h1>"
+					},
+					{
+						"html": "<h2 class=\"cardSection-module--title--972c2\">Equipo ejecutivo</h2>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Ed Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Director Ejecutivo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Todd Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Presidente Ejecutivo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Leslie Brunner</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Personal</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jeremy Delinsky</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de Operaciones</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Nancy Go</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Mercadeo</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Monna Nanavati</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de producto</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Michael Nochomovitz, MD</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de asociaciones clínicas</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Shannon O'Kane</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Cumplimiento de Medicare</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Dariel Quintana</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Mercados de Medicare</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Adam Thackery</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director Financiero</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Neil Wagle, MD, MBA</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director médico</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Margaret McKenna</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jack Nye</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<h3>Junta directiva</h3>"
+					},
+					{
+						"html": "<h3>Únase a nuestro equipo.</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/064b18dbfa9ce3c89afbd6ee92c271685c8080e2_executive-team-ed-park.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ce0a67ba-bb4e-44ac-90af-d07c7b986091_todd2%20-%20edited%20(3).png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=82%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ff376194f1fe62c5cf83f4f76b3cd0fccf8cb2f1_executive-team-leslie-brunner.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7020b71c-ada3-446c-a47c-0d11049ffc8a_jeremy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=178%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/be52106d-e183-4a13-b978-8b0fa79bfe20_nancy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=144%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/c026d355-ac21-4d27-8621-0c3b617f11bb_Monna%20Nanavati.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=720%2C0%2C2854%2C2848&amp;w=501&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/d7b1b5eb-1b8f-48ed-947c-a4c709f4bf58_michael-nochomovitz.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/9931f50d-b96d-41f2-9de6-ce94ca3418c2_shannon2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=124%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-staging/d5bcd6d771f5a530dfb12934144f011a0de7f7c5_executive-team-dariel-quintana.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7dd5aebe-f6c6-4b42-a275-2417dcaff216_adam2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=217%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/7e810938-8483-4d40-bb66-15ed59525aa1_neil%20wagle%20photo.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=2318%2C0%2C1362%2C1362&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/9b4d782a-74fb-432a-ab5c-32a83d949863_MargaretMcKenna.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/14e1788c-14b8-42cc-9396-7ada6e88f7b0_JackNye.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/064b18dbfa9ce3c89afbd6ee92c271685c8080e2_executive-team-ed-park.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ce0a67ba-bb4e-44ac-90af-d07c7b986091_todd2%20-%20edited%20(3).png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=82%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ff376194f1fe62c5cf83f4f76b3cd0fccf8cb2f1_executive-team-leslie-brunner.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7020b71c-ada3-446c-a47c-0d11049ffc8a_jeremy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=178%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/be52106d-e183-4a13-b978-8b0fa79bfe20_nancy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=144%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/c026d355-ac21-4d27-8621-0c3b617f11bb_Monna%20Nanavati.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=720%2C0%2C2854%2C2848&amp;w=501&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/d7b1b5eb-1b8f-48ed-947c-a4c709f4bf58_michael-nochomovitz.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/9931f50d-b96d-41f2-9de6-ce94ca3418c2_shannon2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=124%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-staging/d5bcd6d771f5a530dfb12934144f011a0de7f7c5_executive-team-dariel-quintana.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7dd5aebe-f6c6-4b42-a275-2417dcaff216_adam2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=217%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/7e810938-8483-4d40-bb66-15ed59525aa1_neil%20wagle%20photo.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=2318%2C0%2C1362%2C1362&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/9b4d782a-74fb-432a-ab5c-32a83d949863_MargaretMcKenna.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/14e1788c-14b8-42cc-9396-7ada6e88f7b0_JackNye.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 34,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://www.linkedin.com/in/nancy-tao-go-863aa5/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>"
+					},
+					{
+						"html": "<a href=\"https://jobs.lever.co/devoted/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"label\">Ver puestos de trab</span>ajo disponibles</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li></ul>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 30,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 10,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr style=\"background-position:center 70%\" class=\"boxSection-module--bar--65dfd\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"es\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"presentation-role-conflict": {
+				"description": "Ensure elements marked as presentational are consistently ignored",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/presentation-role-conflict?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/064b18dbfa9ce3c89afbd6ee92c271685c8080e2_executive-team-ed-park.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ce0a67ba-bb4e-44ac-90af-d07c7b986091_todd2%20-%20edited%20(3).png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=82%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ff376194f1fe62c5cf83f4f76b3cd0fccf8cb2f1_executive-team-leslie-brunner.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7020b71c-ada3-446c-a47c-0d11049ffc8a_jeremy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=178%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/be52106d-e183-4a13-b978-8b0fa79bfe20_nancy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=144%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/c026d355-ac21-4d27-8621-0c3b617f11bb_Monna%20Nanavati.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=720%2C0%2C2854%2C2848&amp;w=501&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/d7b1b5eb-1b8f-48ed-947c-a4c709f4bf58_michael-nochomovitz.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/9931f50d-b96d-41f2-9de6-ce94ca3418c2_shannon2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=124%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-staging/d5bcd6d771f5a530dfb12934144f011a0de7f7c5_executive-team-dariel-quintana.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7dd5aebe-f6c6-4b42-a275-2417dcaff216_adam2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=217%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/7e810938-8483-4d40-bb66-15ed59525aa1_neil%20wagle%20photo.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=2318%2C0%2C1362%2C1362&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/9b4d782a-74fb-432a-ab5c-32a83d949863_MargaretMcKenna.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/14e1788c-14b8-42cc-9396-7ada6e88f7b0_JackNye.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 327,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--logoLink--608e0\" href=\"/es/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">¿Necesita ayuda? Llámenos.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-844-974-3085<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Cambiar el idioma a: English\" href=\"/meet-our-team\">English</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Unirse a un plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Encontrar médicos y medicamentos</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Mi plan y beneficios</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Ayuda para miembros</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navegó a la página Conozca a nuestro equipo</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--wrapper--d56bc\"><div class=\"breadCrumbs-module--content--3a842\"><ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li></ul></div></div>"
+					},
+					{
+						"html": "<div class=\"breadCrumbs-module--content--3a842\"><ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li></ul></div>"
+					},
+					{
+						"html": "<ul class=\"breadCrumbs-module--list--a1fb9\"><li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li></ul>"
+					},
+					{
+						"html": "<li class=\"breadCrumbs-module--listItem--c64a5\">Conozca a nuestro equipo</li>"
+					},
+					{
+						"html": "<h1>Conozca a nuestro equipo</h1>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d undefined\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h3>Tenemos una misión.</h3></div>"
+					},
+					{
+						"html": "<h3>Tenemos una misión.</h3>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p><strong>Queremos cambiar la atención médica: cómo se paga, se provee y se vive.</strong></p>"
+					},
+					{
+						"html": "<strong>Queremos cambiar la atención médica: cómo se paga, se provee y se vive.</strong>"
+					},
+					{
+						"html": "<p>Así que hemos reunido a muchas personas inteligentes, de gran corazón, que vienen de la industria de la atención médica, la tecnología, el comercio minorista y otras; el tipo de personas que prosperan en los desafíos que importan. &nbsp;Eso es lo que significa ser Devoted.</p>"
+					},
+					{
+						"html": "<p>Mira, la atención médica no funciona. ¿Y arreglarla? Es un trabajo muy difícil. La gente dice que no se puede hacer. &nbsp;Es muy grande.  Es demasiado. Nosotros decimos que están equivocados.</p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<div class=\"boxSection-module--wrapper--ca8ca boxSection-module--beige--e8323\">"
+					},
+					{
+						"html": "<hr style=\"background-position:center 70%\" class=\"boxSection-module--bar--65dfd\">"
+					},
+					{
+						"html": "<section class=\"cardSection-module--wrapper--8985b\">"
+					},
+					{
+						"html": "<div class=\"cardSection-module--content--f9859\">"
+					},
+					{
+						"html": "<h2 class=\"cardSection-module--title--972c2\">Equipo ejecutivo</h2>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/064b18dbfa9ce3c89afbd6ee92c271685c8080e2_executive-team-ed-park.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/064b18dbfa9ce3c89afbd6ee92c271685c8080e2_executive-team-ed-park.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Ed Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Director Ejecutivo</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Director de Tecnología, Director de Operaciones, Presidente de Servicios, Athenahealth</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Director de Tecnología, Director de Operaciones, Presidente de Servicios, Athenahealth</p></div>"
+					},
+					{
+						"html": "<p>Ex Director de Tecnología, Director de Operaciones, Presidente de Servicios, Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ce0a67ba-bb4e-44ac-90af-d07c7b986091_todd2%20-%20edited%20(3).png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=82%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Todd Park</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Cofundador y Presidente Ejecutivo</h4>"
+					},
+					{
+						"html": "<div><div><p>Cofundador de Athenahealth y Castlight Health; ex Director de Tecnología de los Estados Unidos</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Cofundador de Athenahealth y Castlight Health; ex Director de Tecnología de los Estados Unidos</p></div>"
+					},
+					{
+						"html": "<p>Cofundador de Athenahealth y Castlight Health; ex Director de Tecnología de los Estados Unidos</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ff376194f1fe62c5cf83f4f76b3cd0fccf8cb2f1_executive-team-leslie-brunner.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/ff376194f1fe62c5cf83f4f76b3cd0fccf8cb2f1_executive-team-leslie-brunner.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Leslie Brunner</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Personal</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Presidenta en MiniLuxe y Directora de Personal en Athenahealth</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Presidenta en MiniLuxe y Directora de Personal en Athenahealth</p></div>"
+					},
+					{
+						"html": "<p>Ex Presidenta en MiniLuxe y Directora de Personal en Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7020b71c-ada3-446c-a47c-0d11049ffc8a_jeremy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=178%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jeremy Delinsky</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de Operaciones</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Director de Tecnología de Wayfair y Director de Productos/Director de Tecnología de Athenahealth</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Director de Tecnología de Wayfair y Director de Productos/Director de Tecnología de Athenahealth</p></div>"
+					},
+					{
+						"html": "<p>Ex Director de Tecnología de Wayfair y Director de Productos/Director de Tecnología de Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/be52106d-e183-4a13-b978-8b0fa79bfe20_nancy%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=144%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Nancy Go</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Directora de Mercadeo</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Vicepresidenta de Mercadeo de Marca en Wayfair  y veterano de Procter &amp; Gamble, Parthenon/E&amp;Y</p></div><a href=\"https://www.linkedin.com/in/nancy-tao-go-863aa5/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Vicepresidenta de Mercadeo de Marca en Wayfair  y veterano de Procter &amp; Gamble, Parthenon/E&amp;Y</p></div>"
+					},
+					{
+						"html": "<p>Ex Vicepresidenta de Mercadeo de Marca en Wayfair  y veterano de Procter &amp; Gamble, Parthenon/E&amp;Y</p>"
+					},
+					{
+						"html": "<a href=\"https://www.linkedin.com/in/nancy-tao-go-863aa5/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/c026d355-ac21-4d27-8621-0c3b617f11bb_Monna%20Nanavati.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=720%2C0%2C2854%2C2848&amp;w=501&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Monna Nanavati</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de producto</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex director de operaciones de Docent Health, vicepresidente de innovación de productos, Athenahealth</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex director de operaciones de Docent Health, vicepresidente de innovación de productos, Athenahealth</p></div>"
+					},
+					{
+						"html": "<p>Ex director de operaciones de Docent Health, vicepresidente de innovación de productos, Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/d7b1b5eb-1b8f-48ed-947c-a4c709f4bf58_michael-nochomovitz.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/d7b1b5eb-1b8f-48ed-947c-a4c709f4bf58_michael-nochomovitz.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Michael Nochomovitz, MD</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director de asociaciones clínicas</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Director de integración clínica / &nbsp;Oficial de desarrollo de redes, New York Presbyterian</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Director de integración clínica / &nbsp;Oficial de desarrollo de redes, New York Presbyterian</p></div>"
+					},
+					{
+						"html": "<p>Ex Director de integración clínica / &nbsp;Oficial de desarrollo de redes, New York Presbyterian</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/9931f50d-b96d-41f2-9de6-ce94ca3418c2_shannon2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=124%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Shannon O'Kane</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Cumplimiento de Medicare</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Director Principal de Operaciones de Servicio y Jefe Principal de Cumplimiento de Medicare en Aetna</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Director Principal de Operaciones de Servicio y Jefe Principal de Cumplimiento de Medicare en Aetna</p></div>"
+					},
+					{
+						"html": "<p>Ex Director Principal de Operaciones de Servicio y Jefe Principal de Cumplimiento de Medicare en Aetna</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-staging/d5bcd6d771f5a530dfb12934144f011a0de7f7c5_executive-team-dariel-quintana.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-staging/d5bcd6d771f5a530dfb12934144f011a0de7f7c5_executive-team-dariel-quintana.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Dariel Quintana</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Jefe de Mercados de Medicare</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Vicepresidente Regional, Vicepresidente de Desarrollo de Proveedores y Vicepresidente de Florida Primary Care, Humana</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Vicepresidente Regional, Vicepresidente de Desarrollo de Proveedores y Vicepresidente de Florida Primary Care, Humana</p></div>"
+					},
+					{
+						"html": "<p>Ex Vicepresidente Regional, Vicepresidente de Desarrollo de Proveedores y Vicepresidente de Florida Primary Care, Humana</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/staging-devoted-health/7dd5aebe-f6c6-4b42-a275-2417dcaff216_adam2%20-%20edited.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=217%2C0%2C500%2C500&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Adam Thackery</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director Financiero</h4>"
+					},
+					{
+						"html": "<div><div><p>Ex Director Financiero de Universal American Corp</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Ex Director Financiero de Universal American Corp</p></div>"
+					},
+					{
+						"html": "<p>Ex Director Financiero de Universal American Corp</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\">"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health/7e810938-8483-4d40-bb66-15ed59525aa1_neil%20wagle%20photo.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=2318%2C0%2C1362%2C1362&amp;w=500&amp;h=500\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Neil Wagle, MD, MBA</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Director médico</h4>"
+					},
+					{
+						"html": "<div><div><p>Médico de atención primaria en Brigham and Women's Hospital; Ex Director de calidad asociado en Partners HealthCare</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Médico de atención primaria en Brigham and Women's Hospital; Ex Director de calidad asociado en Partners HealthCare</p></div>"
+					},
+					{
+						"html": "<p>Médico de atención primaria en Brigham and Women's Hospital; Ex Director de calidad asociado en Partners HealthCare</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/9b4d782a-74fb-432a-ab5c-32a83d949863_MargaretMcKenna.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/9b4d782a-74fb-432a-ab5c-32a83d949863_MargaretMcKenna.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Margaret McKenna</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<div><div><p>Exjefe de Ingeniería de Plataformas en Runkeeper y el Broad Institute, veterano del Servicio Digital de Estados Unidos</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Exjefe de Ingeniería de Plataformas en Runkeeper y el Broad Institute, veterano del Servicio Digital de Estados Unidos</p></div>"
+					},
+					{
+						"html": "<p>Exjefe de Ingeniería de Plataformas en Runkeeper y el Broad Institute, veterano del Servicio Digital de Estados Unidos</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<figure class=\"cardProfile-module--wrapper--1ce6e\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--content--e7ad5\">"
+					},
+					{
+						"html": "<div class=\"cardProfile-module--imgContainer--4e226\"><img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/14e1788c-14b8-42cc-9396-7ada6e88f7b0_JackNye.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img class=\"cardProfile-module--img--332e2\" src=\"https://images.prismic.io/devoted-health-2020/14e1788c-14b8-42cc-9396-7ada6e88f7b0_JackNye.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\">"
+					},
+					{
+						"html": "<h3 class=\"cardProfile-module--heading--51ff5\">Jack Nye</h3>"
+					},
+					{
+						"html": "<h4 class=\"cardProfile-module--subheading--f59e2\">Codirector de Tecnología</h4>"
+					},
+					{
+						"html": "<div><div><p>Exvicepresidente de Ingeniería en Athenahealth</p></div><a>LinkedIn</a></div>"
+					},
+					{
+						"html": "<div><p>Exvicepresidente de Ingeniería en Athenahealth</p></div>"
+					},
+					{
+						"html": "<p>Exvicepresidente de Ingeniería en Athenahealth</p>"
+					},
+					{
+						"html": "<a>LinkedIn</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\"><div class=\"left\"><h3>Junta directiva</h3></div><div class=\"right\"><div><p>Bryan Roberts, PhD<br>Bob Kocher, MD<br>Kathleen Sebelius<br>Bill Frist, MD<br>Vijay Pande, PhD<br>Tabreez Verjee<br>Bruce Perkins<br>Ed Park<br>Todd Park<br>DJ Patil</p></div></div></div>"
+					},
+					{
+						"html": "<div class=\"left\"><h3>Junta directiva</h3></div>"
+					},
+					{
+						"html": "<h3>Junta directiva</h3>"
+					},
+					{
+						"html": "<div class=\"right\"><div><p>Bryan Roberts, PhD<br>Bob Kocher, MD<br>Kathleen Sebelius<br>Bill Frist, MD<br>Vijay Pande, PhD<br>Tabreez Verjee<br>Bruce Perkins<br>Ed Park<br>Todd Park<br>DJ Patil</p></div></div>"
+					},
+					{
+						"html": "<div><p>Bryan Roberts, PhD<br>Bob Kocher, MD<br>Kathleen Sebelius<br>Bill Frist, MD<br>Vijay Pande, PhD<br>Tabreez Verjee<br>Bruce Perkins<br>Ed Park<br>Todd Park<br>DJ Patil</p></div>"
+					},
+					{
+						"html": "<p>Bryan Roberts, PhD<br>Bob Kocher, MD<br>Kathleen Sebelius<br>Bill Frist, MD<br>Vijay Pande, PhD<br>Tabreez Verjee<br>Bruce Perkins<br>Ed Park<br>Todd Park<br>DJ Patil</p>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--wide--1a69f null\">"
+					},
+					{
+						"html": "<hr class=\"gridTwoCol-module--gray--f1778\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><h3>Únase a nuestro equipo.</h3></div>"
+					},
+					{
+						"html": "<h3>Únase a nuestro equipo.</h3>"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<p>Estamos en este camino largo y difícil. Queremos trabajar con personas que amamos, por una causa en la que creemos. La vida es corta.</p>"
+					},
+					{
+						"html": "<p><a href=\"https://jobs.lever.co/devoted/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"label\">Ver puestos de trab</span>ajo disponibles</a></p>"
+					},
+					{
+						"html": "<a href=\"https://jobs.lever.co/devoted/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"label\">Ver puestos de trab</span>ajo disponibles</a>"
+					},
+					{
+						"html": "<span class=\"label\">Ver puestos de trab</span>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--left--34dfb gridOneCol-module--small--46cce\">"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\">"
+					},
+					{
+						"html": "<img src=\"https://images.prismic.io/devoted-health/21459fb86936c296baa8f242faa8a5c2fbf79033_devoted-group-illustration-meet-our-team.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Imprimir esta página</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Recursos</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/medicamentos-receta/\">Medicamentos con receta</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/salud-y-bienestar/\">Salud y bienestar</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-de-ventas/\">Eventos de ventas</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/eventos-para-miembros/\">Eventos para miembros</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/recursos/sus-opciones-de-medicare/\">Sus opciones de Medicare</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">Para proveedores</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">Para corredores</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">Para desarrolladores</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Sobre nosotros</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-historia/\">Nuestra historia</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/nuestra-tecnologia/\">Nuestra tecnología</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a></li>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/es/conozca-nuestro-equipo/\">Nuestro equipo</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/area-servicio/\">Nuestra área de servicio</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Sala de prensa</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Empleos</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/contactenos/\">Contáctenos</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Políticas</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/condiciones-de-uso/\">Condiciones de uso</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/politica-privacidad/\">Política de privacidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/aviso-no-discriminacion/\">Aviso de no discriminación</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/accesibilidad/\">Accesibilidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/estrategia-mejoramiento-calidad/\">Estrategia para mejorar la calidad</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/es/derechos-y-responsabilidades-del-miembro/\">Derechos y responsabilidades del miembro</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Cumplimiento</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Código de conducta</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Los Guías para miembros de Devoted Health están disponibles de 8 a.m a 8 p.m, los 7 Días a la semana.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Envíe un mensaje de texto a una Guía al<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">O llámenos al<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/es/renuncias/\">Renuncias</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/es/renuncias/\">Renuncias</a></p>"
+					},
+					{
+						"html": "<a href=\"/es/renuncias/\">Renuncias</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->03.15.2021</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Última actualización:<!-- --> <!-- -->03.15.2021</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Ir al contenido</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}

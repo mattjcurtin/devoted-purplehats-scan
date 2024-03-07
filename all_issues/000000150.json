@@ -1,0 +1,2870 @@
+{
+	"url": "https://www.devoted.com/",
+	"pageTitle": "Devoted Health",
+	"totalItems": 775,
+	"mustFix": {
+		"totalItems": 0,
+		"rules": {}
+	},
+	"goodToFix": {
+		"totalItems": 1,
+		"rules": {
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"axeImpact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/cc80ff44ee01eca42720cc1ead15dac3bc1d00dd07add8a7184aeb8e6984d933.jpeg",
+						"xpath": "html"
+					}
+				]
+			}
+		}
+	},
+	"needsReview": {
+		"totalItems": 9,
+		"rules": {
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/21fed1033cf43ef23087bd0c76be8b9d8d001a0dd0780b42777c8227553c0d09.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(1) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/d821f9bbd92a75cb1e1285e428707b9b79f2110cbec2d47fe94a2b7e1afe31c8.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(2) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/13680b8711a776a326d71e2ddfc3d60c4cb50909f378c12c90de647255da230b.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(3) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/1e776f84d48633f06ea24f2a16b344f24dc8d93020912f327c8713db7d76ae39.jpeg",
+						"xpath": ".desktopNav-module--listItem--e20a2:nth-child(4) > .dropdownMenu-module--wrapper--bc3d0 > .dropdownMenu-module--button--eeb9b[role=\"button\"][aria-haspopup=\"true\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<h2>Save more. Live more.</h2>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/678c5f175fb3ec408dc5fec735ca67216e89f8ac7a768d297fe0938ebd5be015.jpeg",
+						"xpath": ".backgroundHeroImage-module--textContent--36042 > div > h2",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<p>Devoted is a complete package of benefits, savings, and support, so everyone can live the life they want. Learn why thousands are choosing Devoted. Call us to get a plan recommendation.</p>",
+						"message": "Element's background color could not be determined due to a background image",
+						"screenshotPath": "elemScreenshots/html/8008849fa034f6b187cd2ee6b7764b3baa9e4d4bb83e02749de8c2b8bfd649d4.jpeg",
+						"xpath": ".backgroundHeroImage-module--textContent--36042 > div > p:nth-child(2)",
+						"displayNeedsReview": true
+					}
+				]
+			},
+			"frame-title-unique": {
+				"description": "Frames must have a unique title attribute",
+				"axeImpact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title-unique?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/Q17QerINSZY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+						"message": "Element's title attribute is not unique",
+						"screenshotPath": "elemScreenshots/html/ae122791285cbd43d90e970dcd9a0ee46c3e5d33b7ace6b7225e7f5bba2a9943.jpeg",
+						"xpath": ".videoCarousel-module--video--dd9f4:nth-child(1) > .videoCarousel-module--youtubePlayerContainer--f2210 > .videoCarousel-module--youtubePlayer--a7011[title=\"YouTube video player\"][frameborder=\"0\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/pSkgnMFOY_k?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+						"message": "Element's title attribute is not unique",
+						"screenshotPath": "elemScreenshots/html/484275ccee8f59bb84c028ff62c71743e0b353547490d2233d15e9124e75fc7a.jpeg",
+						"xpath": ".videoCarousel-module--video--dd9f4:nth-child(2) > .videoCarousel-module--youtubePlayerContainer--f2210 > .videoCarousel-module--youtubePlayer--a7011[title=\"YouTube video player\"][frameborder=\"0\"]",
+						"displayNeedsReview": true
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/iXi1YudIIqY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+						"message": "Element's title attribute is not unique",
+						"screenshotPath": "elemScreenshots/html/74f07503283d6c7b3b0dd9cb7cc8660ea39d95ca0953fce458676dd4e99b1377.jpeg",
+						"xpath": ".videoCarousel-module--video--dd9f4:nth-child(3) > .videoCarousel-module--youtubePlayerContainer--f2210 > .videoCarousel-module--youtubePlayer--a7011[title=\"YouTube video player\"][frameborder=\"0\"]",
+						"displayNeedsReview": true
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 765,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 29,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<ul role=\"menu\">"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Compare plans</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-a-plan\">Apply for a plan</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/learn-about-devoted-health\">Learn about Devoted Health</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/resources/your-medicare-options\">My Medicare options</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a></li><li><a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a></li><li><a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-providers\">Search providers &amp; pharmacies</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/search-drugs\">Search prescription drugs</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical/care-on-demand\">24/7 Care OnDemand</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a></li><li><a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a></li><li><a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/find-plan-documents\">See my plan documents</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/plan-documents/member-forms\">Find forms</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/benefits\">My Devoted benefits</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<ul role=\"menu\"><li><a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a></li><li><a role=\"menuitem\" href=\"/medical\">Get connected to care</a></li><li><a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a></li></ul>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-guides\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/medical\">Get connected to care</a>"
+					},
+					{
+						"html": "<a role=\"menuitem\" href=\"/member-rights-and-responsibilities\">My rights and responsibilities</a>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"\" data-rh=\"class\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-a11y",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"backgroundHeroImage-module--content--6becb\" style=\"background-image:url(https://images.prismic.io/devoted-health-2020/7881a7e3-d692-4a17-a6a2-3fa5a95de56f_lionel-hero-bg-lr.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max)\">"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"countyForm-module--button--ac444\" data-testid=\"find-plan\">Find a Plan</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\" type=\"submit\">Give Me A Call</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 99,
+				"items": [
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<h2>Learn more about your Medicare options</h2>"
+					},
+					{
+						"html": "<p>Find out if a Medicare Advantage plan is right for you in this FREE Medicare Comparison Guide.</p>"
+					},
+					{
+						"html": "<a href=\"https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&amp;utm_medium=homepage&amp;utm_campaign=&amp;utm_term=&amp;utm_content=guide-hero&amp;utm_cid=ZZCT00034\" target=\"undefined\" rel=\"noopener noreferrer\">Download now</a>"
+					},
+					{
+						"html": "<h2>Complete benefits and real monthly savings</h2>"
+					},
+					{
+						"html": "<p>Ready to explore options near you? See how a Devoted Health Medicare Advantage plan could help you save.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-a-plan\" target=\"undefined\" rel=\"noopener noreferrer\">Compare plans</a>"
+					},
+					{
+						"html": "<a href=\"tel:18009900723\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-990-0723 (TTY 711)</a>"
+					},
+					{
+						"html": "<h2 class=\"iconList-module--header--c3287\">Medicare Advantage plans with big benefits and savings</h2>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Dental</p>"
+					},
+					{
+						"html": "<p>Money for dentures, crowns, and root canals</p>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Over-the-counter</p>"
+					},
+					{
+						"html": "<p>Money to spend on items like vitamins and toothpaste</p>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">$0 vision exams</p>"
+					},
+					{
+						"html": "<p>Plus money for eyeglasses or contacts</p>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Prescription drugs</p>"
+					},
+					{
+						"html": "<p>Starting at $0</p>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Fitness</p>"
+					},
+					{
+						"html": "<p>Money to spend on gym equipment and fitness trackers</p>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">$0 hearing exams</p>"
+					},
+					{
+						"html": "<p>Plus low copays for hearing aids</p>"
+					},
+					{
+						"html": "<h2 class=\"findAPlan-module--header--1e839\">Find a plan in your area</h2>"
+					},
+					{
+						"html": "<label for=\"zipcode\" class=\"countyForm-module--orange--2b7f4\">Please enter your ZIP Code.</label>"
+					},
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<button class=\"countyForm-module--button--ac444\" data-testid=\"find-plan\">Find a Plan</button>"
+					},
+					{
+						"html": "<h2>See why members love Devoted Health – and you will too</h2>"
+					},
+					{
+						"html": "<strong>Gloria has the recipe to happiness</strong>"
+					},
+					{
+						"html": "<strong>This changed Opie's life</strong>"
+					},
+					{
+						"html": "<strong>How Judy got closer to meeting her goals</strong>"
+					},
+					{
+						"html": "<h2>Need help? Ask a Guide.</h2>"
+					},
+					{
+						"html": "<p>Every Devoted membership comes with free access to a world-class service team based in the USA. Get support making the most of your benefits and savings.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/member-guides/\" target=\"undefined\" rel=\"noopener noreferrer\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<h2>Medicare coverage you can count on</h2>"
+					},
+					{
+						"html": "<h3>Search for your doctors</h3>"
+					},
+					{
+						"html": "<p>Explore our provider directory to see if your doctors are in our network.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Find a Provider</a>"
+					},
+					{
+						"html": "<h3>Look up your prescriptions</h3>"
+					},
+					{
+						"html": "<p>Check that your drugs are covered or download the complete list.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-drugs\" target=\"undefined\" rel=\"noopener noreferrer\">Search Our Drug List</a>"
+					},
+					{
+						"html": "<h2 class=\"leadGenForm-module--heading--25364\">Get help finding the right plan for you.</h2>"
+					},
+					{
+						"html": "<p>Want to learn more about your options? Complete the form and we'll be in touch to schedule a 1-on-1.</p>"
+					},
+					{
+						"html": "<p>Ready now? Call us at 1-800-990-0723 (TTY 711)</p>"
+					},
+					{
+						"html": "<label for=\"firstName\">First Name<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<label for=\"lastName\">Last Name<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<label for=\"phone\">Phone Number<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<label for=\"zipCode\">ZIP Code<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<legend>Your Preferred Language:<!-- --> </legend>"
+					},
+					{
+						"html": "<label for=\"language0\" class=\"radioOptions-module--checkLabel--bc8f4\">English</label>"
+					},
+					{
+						"html": "<label for=\"language1\" class=\"radioOptions-module--checkLabel--bc8f4\">Spanish</label>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\" type=\"submit\">Give Me A Call</button>"
+					},
+					{
+						"html": "<p class=\"leadGenForm-module--legal--1864f\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan.</p>"
+					},
+					{
+						"html": "<p>Lionel Richie is a paid spokesperson for Devoted Health.</p>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.15.2023</p>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"duplicate-id-aria": {
+				"description": "IDs used in ARIA and labels must be unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/duplicate-id-aria?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<h2>Learn more about your Medicare options</h2>"
+					},
+					{
+						"html": "<h2>Complete benefits and real monthly savings</h2>"
+					},
+					{
+						"html": "<h2>Save more. Live more.</h2>"
+					},
+					{
+						"html": "<h2 class=\"iconList-module--header--c3287\">Medicare Advantage plans with big benefits and savings</h2>"
+					},
+					{
+						"html": "<h2 class=\"findAPlan-module--header--1e839\">Find a plan in your area</h2>"
+					},
+					{
+						"html": "<h2>See why members love Devoted Health – and you will too</h2>"
+					},
+					{
+						"html": "<h2>Need help? Ask a Guide.</h2>"
+					},
+					{
+						"html": "<h2>Medicare coverage you can count on</h2>"
+					},
+					{
+						"html": "<h3>Search for your doctors</h3>"
+					},
+					{
+						"html": "<h3>Look up your prescriptions</h3>"
+					},
+					{
+						"html": "<h2 class=\"leadGenForm-module--heading--25364\">Get help finding the right plan for you.</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					}
+				]
+			},
+			"frame-title": {
+				"description": "Frames must have an accessible name",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/Q17QerINSZY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/pSkgnMFOY_k?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/iXi1YudIIqY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<h2>Learn more about your Medicare options</h2>"
+					},
+					{
+						"html": "<h2>Complete benefits and real monthly savings</h2>"
+					},
+					{
+						"html": "<h2>Save more. Live more.</h2>"
+					},
+					{
+						"html": "<h2 class=\"iconList-module--header--c3287\">Medicare Advantage plans with big benefits and savings</h2>"
+					},
+					{
+						"html": "<h2 class=\"findAPlan-module--header--1e839\">Find a plan in your area</h2>"
+					},
+					{
+						"html": "<h2>See why members love Devoted Health – and you will too</h2>"
+					},
+					{
+						"html": "<h2>Need help? Ask a Guide.</h2>"
+					},
+					{
+						"html": "<h2>Medicare coverage you can count on</h2>"
+					},
+					{
+						"html": "<h3>Search for your doctors</h3>"
+					},
+					{
+						"html": "<h3>Look up your prescriptions</h3>"
+					},
+					{
+						"html": "<h2 class=\"leadGenForm-module--heading--25364\">Get help finding the right plan for you.</h2>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/aa26bdac-58b9-4ddf-a2af-4ebbd638f16b_shutterstock_568890457.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/5f59074f-3966-47f1-b81d-ce5dd688aa55_shutterstock_1923876362.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/abc8b4a6-0176-4936-9ee8-85c5b1b1c7a4_doctorbag-RC.png?auto=compress,format&amp;rect=0,0,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?auto=compress,format&amp;rect=0,20,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/aa26bdac-58b9-4ddf-a2af-4ebbd638f16b_shutterstock_568890457.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/5f59074f-3966-47f1-b81d-ce5dd688aa55_shutterstock_1923876362.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/abc8b4a6-0176-4936-9ee8-85c5b1b1c7a4_doctorbag-RC.png?auto=compress,format&amp;rect=0,0,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?auto=compress,format&amp;rect=0,20,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html class=\"js crjs\" lang=\"en\" data-rh=\"lang\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 38,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<a href=\"https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&amp;utm_medium=homepage&amp;utm_campaign=&amp;utm_term=&amp;utm_content=guide-hero&amp;utm_cid=ZZCT00034\" target=\"undefined\" rel=\"noopener noreferrer\">Download now</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-a-plan\" target=\"undefined\" rel=\"noopener noreferrer\">Compare plans</a>"
+					},
+					{
+						"html": "<a href=\"tel:18009900723\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-990-0723 (TTY 711)</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/member-guides/\" target=\"undefined\" rel=\"noopener noreferrer\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Find a Provider</a>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-drugs\" target=\"undefined\" rel=\"noopener noreferrer\">Search Our Drug List</a>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<ul class=\"iconList-module--columnContainer--6d9cf\">"
+					},
+					{
+						"html": "<ul class=\"radioOptions-module--radioList--383e3\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 37,
+				"items": [
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<li class=\"radioOptions-module--inline--bc001\">"
+					},
+					{
+						"html": "<li class=\"radioOptions-module--inline--bc001\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-a11y",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-a11y",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<button class=\"countyForm-module--button--ac444\" data-testid=\"find-plan\">Find a Plan</button>"
+					},
+					{
+						"html": "<hr class=\"leadGenForm-module--bar--af5da\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\" type=\"submit\">Give Me A Call</button>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					}
+				]
+			},
+			"presentation-role-conflict": {
+				"description": "Ensure elements marked as presentational are consistently ignored",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/presentation-role-conflict?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 11,
+				"items": [
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/aa26bdac-58b9-4ddf-a2af-4ebbd638f16b_shutterstock_568890457.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/5f59074f-3966-47f1-b81d-ce5dd688aa55_shutterstock_1923876362.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/abc8b4a6-0176-4936-9ee8-85c5b1b1c7a4_doctorbag-RC.png?auto=compress,format&amp;rect=0,0,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?auto=compress,format&amp;rect=0,20,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 334,
+				"items": [
+					{
+						"html": "<div id=\"___gatsby\">"
+					},
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<main is=\"x3d\">"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					},
+					{
+						"html": "<div class=\"basicPage-module--wrapper--c18c8\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--wrapper--72bcd\">"
+					},
+					{
+						"html": "<div class=\"stickyNav-module--content--bfc6d\">"
+					},
+					{
+						"html": "<header class=\"siteHeader-module--header--81794\">"
+					},
+					{
+						"html": "<div class=\"siteHeader-module--content--3cfc6\">"
+					},
+					{
+						"html": "<div class=\"nav-module--nav--3426d\">"
+					},
+					{
+						"html": "<nav class=\"desktopNav-module--nav--161ce\" role=\"navigation\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logoBar--08db1\">"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--logo--7d0c2\"><a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"desktopNav-module--logoLink--608e0\" href=\"/\"><span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--visuallyHidden--f642f\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--cta--97a00\"><span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span><a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a></div>"
+					},
+					{
+						"html": "<span class=\"desktopNav-module--hours--56f0b\">Need Help? Call Us.</span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--phoneNumber--d8a99\">1-800-990-0723<span> TTY 711</span></a>"
+					},
+					{
+						"html": "<span> TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--linkBar--01ab6\">"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<span class=\"languageToggle-module--wrapper--f45ef\"><a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a></span>"
+					},
+					{
+						"html": "<a class=\"desktopNav-module--link--66d66\" aria-label=\"Change language to: Spanish\" href=\"/es/\">Español</a>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--primary--77607\">"
+					},
+					{
+						"html": "<ul class=\"desktopNav-module--list--aee9e\">"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Join a plan</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Find doctors &amp; drugs</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">My plan &amp; benefits</button>"
+					},
+					{
+						"html": "<li class=\"desktopNav-module--listItem--e20a2\">"
+					},
+					{
+						"html": "<div class=\"dropdownMenu-module--wrapper--bc3d0\">"
+					},
+					{
+						"html": "<button role=\"button\" aria-haspopup=\"true\" class=\"dropdownMenu-module--button--eeb9b \">Member support</button>"
+					},
+					{
+						"html": "<div class=\"desktopNav-module--loginButtonWrapper--90f58\"><a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a></div>"
+					},
+					{
+						"html": "<a href=\"https://my.devoted.com/\"><div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div></a>"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--medium--d22ec\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\">Login</button>"
+					},
+					{
+						"html": "<div class=\"a11y-module--a11y--efae4\" role=\"status\" aria-live=\"polite\">Navigated to  page</div>"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					},
+					{
+						"html": "<div class=\"basicPage-module--contentWrapper--6c88d basicPage-module--bigOrangeHeaders--6f6e7\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--split--93623 gridTwoCol-module--noBorder--dd2c3\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\">"
+					},
+					{
+						"html": "<h2>Learn more about your Medicare options</h2>"
+					},
+					{
+						"html": "<p>Find out if a Medicare Advantage plan is right for you in this FREE Medicare Comparison Guide.</p>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<span class=\"primary-button\"><a href=\"https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&amp;utm_medium=homepage&amp;utm_campaign=&amp;utm_term=&amp;utm_content=guide-hero&amp;utm_cid=ZZCT00034\" target=\"undefined\" rel=\"noopener noreferrer\">Download now</a></span>"
+					},
+					{
+						"html": "<a href=\"https://hello.devoted.com/evg/eng/guide-gen/lp-s1/24-1a/?utm_source=content_direct&amp;utm_medium=homepage&amp;utm_campaign=&amp;utm_term=&amp;utm_content=guide-hero&amp;utm_cid=ZZCT00034\" target=\"undefined\" rel=\"noopener noreferrer\">Download now</a>"
+					},
+					{
+						"html": "<div class=\"right\"><div><img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\"></div></div>"
+					},
+					{
+						"html": "<div><img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/921a3fe9-df5c-4b30-8301-332aca4c1d39_ComparisonGuide_ENG.png?auto=compress,format&amp;rect=1,0,2248,1389&amp;w=1340&amp;h=828\" alt=\"\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--split--93623 gridTwoCol-module--noBorder--dd2c3\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><img src=\"//images.prismic.io/devoted-health-2020/aa26bdac-58b9-4ddf-a2af-4ebbd638f16b_shutterstock_568890457.jpg?auto=compress,format\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/aa26bdac-58b9-4ddf-a2af-4ebbd638f16b_shutterstock_568890457.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2>Complete benefits and real monthly savings</h2>"
+					},
+					{
+						"html": "<p>Ready to explore options near you? See how a Devoted Health Medicare Advantage plan could help you save.</p>"
+					},
+					{
+						"html": "<p><span class=\"primary-button\"><a href=\"https://www.devoted.com/find-a-plan\" target=\"undefined\" rel=\"noopener noreferrer\">Compare plans</a></span></p>"
+					},
+					{
+						"html": "<span class=\"primary-button\"><a href=\"https://www.devoted.com/find-a-plan\" target=\"undefined\" rel=\"noopener noreferrer\">Compare plans</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/find-a-plan\" target=\"undefined\" rel=\"noopener noreferrer\">Compare plans</a>"
+					},
+					{
+						"html": "<div class=\"backgroundHeroImage-module--wrapper--bf509\">"
+					},
+					{
+						"html": "<div class=\"backgroundHeroImage-module--content--6becb\" style=\"background-image:url(https://images.prismic.io/devoted-health-2020/7881a7e3-d692-4a17-a6a2-3fa5a95de56f_lionel-hero-bg-lr.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max)\">"
+					},
+					{
+						"html": "<div class=\"backgroundHeroImage-module--textContent--36042\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2>Save more. Live more.</h2>"
+					},
+					{
+						"html": "<p>Devoted is a complete package of benefits, savings, and support, so everyone can live the life they want. Learn why thousands are choosing Devoted. Call us to get a plan recommendation.</p>"
+					},
+					{
+						"html": "<p><span class=\"inverted-primary-button\"><a href=\"tel:18009900723\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-990-0723 (TTY 711)</a></span></p>"
+					},
+					{
+						"html": "<span class=\"inverted-primary-button\"><a href=\"tel:18009900723\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-990-0723 (TTY 711)</a></span>"
+					},
+					{
+						"html": "<a href=\"tel:18009900723\" target=\"undefined\" rel=\"noopener noreferrer\">1-800-990-0723 (TTY 711)</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<div class=\"iconList-module--section--dd499\">"
+					},
+					{
+						"html": "<h2 class=\"iconList-module--header--c3287\">Medicare Advantage plans with big benefits and savings</h2>"
+					},
+					{
+						"html": "<ul class=\"iconList-module--columnContainer--6d9cf\">"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\"><img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\"></figure>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/1f781ad5-312b-433a-96d4-9fefa3406fc9_homepage-icon-dental.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">Dental</p><div class=\"iconList-module--desc--c8310\"><p>Money for dentures, crowns, and root canals</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Dental</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Money for dentures, crowns, and root canals</p></div>"
+					},
+					{
+						"html": "<p>Money for dentures, crowns, and root canals</p>"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/14ee71ac-ad3e-4ccf-a3d5-f09f68b9fb0c_OTC-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">Over-the-counter</p><div class=\"iconList-module--desc--c8310\"><p>Money to spend on items like vitamins and toothpaste</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Over-the-counter</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Money to spend on items like vitamins and toothpaste</p></div>"
+					},
+					{
+						"html": "<p>Money to spend on items like vitamins and toothpaste</p>"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/9e0c2d39-b0fd-4d98-bc51-dff4c3023a82_Glasses.jpg?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C11%2C110%2C88&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">$0 vision exams</p><div class=\"iconList-module--desc--c8310\"><p>Plus money for eyeglasses or contacts</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">$0 vision exams</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Plus money for eyeglasses or contacts</p></div>"
+					},
+					{
+						"html": "<p>Plus money for eyeglasses or contacts</p>"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C20%2C400%2C320&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">Prescription drugs</p><div class=\"iconList-module--desc--c8310\"><p>Starting at $0</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Prescription drugs</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Starting at $0</p></div>"
+					},
+					{
+						"html": "<p>Starting at $0</p>"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\">"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/0d2b517e-f3a1-4afc-a5cf-368d503a8b8a_dumbbell.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max&amp;rect=0%2C60%2C600%2C480&amp;w=200&amp;h=160\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">Fitness</p><div class=\"iconList-module--desc--c8310\"><p>Money to spend on gym equipment and fitness trackers</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">Fitness</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Money to spend on gym equipment and fitness trackers</p></div>"
+					},
+					{
+						"html": "<p>Money to spend on gym equipment and fitness trackers</p>"
+					},
+					{
+						"html": "<li class=\"iconList-module--column--4ac4c\">"
+					},
+					{
+						"html": "<figure class=\"iconList-module--figure--cfbd0\"><img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\"></figure>"
+					},
+					{
+						"html": "<img class=\"iconList-module--art--bb6de\" src=\"https://images.prismic.io/devoted-health-2020/bddc54fa-fe9a-4a15-83e6-020031a93e23_homepage-icon-hearing.png?ixlib=gatsbyFP&amp;auto=compress%2Cformat&amp;fit=max\" alt=\"\" role=\"presentation\">"
+					},
+					{
+						"html": "<div><p class=\"iconList-module--subhead--9b75a\">$0 hearing exams</p><div class=\"iconList-module--desc--c8310\"><p>Plus low copays for hearing aids</p></div></div>"
+					},
+					{
+						"html": "<p class=\"iconList-module--subhead--9b75a\">$0 hearing exams</p>"
+					},
+					{
+						"html": "<div class=\"iconList-module--desc--c8310\"><p>Plus low copays for hearing aids</p></div>"
+					},
+					{
+						"html": "<p>Plus low copays for hearing aids</p>"
+					},
+					{
+						"html": "<div class=\"findAPlan-module--wrapper--0ba9f\">"
+					},
+					{
+						"html": "<h2 class=\"findAPlan-module--header--1e839\">Find a plan in your area</h2>"
+					},
+					{
+						"html": "<div class=\"countyForm-module--wrapper--41b23 null  countyForm-module--home--fa1da findAPlan-module--countyForm--2c5dc\">"
+					},
+					{
+						"html": "<form>"
+					},
+					{
+						"html": "<div class=\"countyForm-module--row--0e4e6\"><label for=\"zipcode\" class=\"countyForm-module--orange--2b7f4\">Please enter your ZIP Code.</label><input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\"></div>"
+					},
+					{
+						"html": "<label for=\"zipcode\" class=\"countyForm-module--orange--2b7f4\">Please enter your ZIP Code.</label>"
+					},
+					{
+						"html": "<input id=\"zipcode\" type=\"text\" pattern=\"[0-9]*\" title=\"Please enter your ZIP Code.\" data-testid=\"zipcode\">"
+					},
+					{
+						"html": "<div class=\"countyForm-module--row--0e4e6\"><button class=\"countyForm-module--button--ac444\" data-testid=\"find-plan\">Find a Plan</button></div>"
+					},
+					{
+						"html": "<button class=\"countyForm-module--button--ac444\" data-testid=\"find-plan\">Find a Plan</button>"
+					},
+					{
+						"html": "<div class=\"countyForm-module--row--0e4e6\"></div>"
+					},
+					{
+						"html": "<div id=\"member-testimonials\" class=\"videoCarousel-module--wrapper--4c55c\">"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--header--47e62\"><h2>See why members love Devoted Health – and you will too</h2></div>"
+					},
+					{
+						"html": "<h2>See why members love Devoted Health – and you will too</h2>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--videoList--309e2\">"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--video--dd9f4\">"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--youtubePlayerContainer--f2210\">"
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/Q17QerINSZY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--quote--b6c68\"><p><strong>Gloria has the recipe to happiness</strong></p></div>"
+					},
+					{
+						"html": "<p><strong>Gloria has the recipe to happiness</strong></p>"
+					},
+					{
+						"html": "<strong>Gloria has the recipe to happiness</strong>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--video--dd9f4\">"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--youtubePlayerContainer--f2210\">"
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/pSkgnMFOY_k?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--quote--b6c68\"><p><strong>This changed Opie's life</strong></p></div>"
+					},
+					{
+						"html": "<p><strong>This changed Opie's life</strong></p>"
+					},
+					{
+						"html": "<strong>This changed Opie's life</strong>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--video--dd9f4\">"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--youtubePlayerContainer--f2210\">"
+					},
+					{
+						"html": "<iframe class=\"videoCarousel-module--youtubePlayer--a7011\" src=\"https://www.youtube.com/embed/iXi1YudIIqY?feature=oembed\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--quote--b6c68\"><p><strong>How Judy got closer to meeting her goals</strong></p></div>"
+					},
+					{
+						"html": "<p><strong>How Judy got closer to meeting her goals</strong></p>"
+					},
+					{
+						"html": "<strong>How Judy got closer to meeting her goals</strong>"
+					},
+					{
+						"html": "<div class=\"videoCarousel-module--ctaWrapper--143fe\"><p></p></div>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridTwoCol-module--wrapper--ea3c9\">"
+					},
+					{
+						"html": "<div class=\"gridTwoCol-module--content--12f90 gridTwoCol-module--split--93623 gridTwoCol-module--noBorder--dd2c3\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"left\"><img src=\"//images.prismic.io/devoted-health-2020/5f59074f-3966-47f1-b81d-ce5dd688aa55_shutterstock_1923876362.jpg?auto=compress,format\" alt=\"\"></div>"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/5f59074f-3966-47f1-b81d-ce5dd688aa55_shutterstock_1923876362.jpg?auto=compress,format\" alt=\"\">"
+					},
+					{
+						"html": "<div class=\"right\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2>Need help? Ask a Guide.</h2>"
+					},
+					{
+						"html": "<p>Every Devoted membership comes with free access to a world-class service team based in the USA. Get support making the most of your benefits and savings.</p>"
+					},
+					{
+						"html": "<p><span class=\"primary-button\"><a href=\"https://www.devoted.com/member-guides/\" target=\"undefined\" rel=\"noopener noreferrer\">Ask a Devoted Guide</a></span></p>"
+					},
+					{
+						"html": "<span class=\"primary-button\"><a href=\"https://www.devoted.com/member-guides/\" target=\"undefined\" rel=\"noopener noreferrer\">Ask a Devoted Guide</a></span>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/member-guides/\" target=\"undefined\" rel=\"noopener noreferrer\">Ask a Devoted Guide</a>"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--beigeBackground--71b7c\">"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--section--02142\">"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--heading--0a0cc\"><h2>Medicare coverage you can count on</h2></div>"
+					},
+					{
+						"html": "<h2>Medicare coverage you can count on</h2>"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--itemWrapper--26d20\">"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--item--fa26b\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/abc8b4a6-0176-4936-9ee8-85c5b1b1c7a4_doctorbag-RC.png?auto=compress,format&amp;rect=0,0,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					},
+					{
+						"html": "<h3>Search for your doctors</h3>"
+					},
+					{
+						"html": "<p>Explore our provider directory to see if your doctors are in our network.</p>"
+					},
+					{
+						"html": "<p><a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Find a Provider</a></p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-providers\" target=\"undefined\" rel=\"noopener noreferrer\">Find a Provider</a>"
+					},
+					{
+						"html": "<div class=\"contentTiles-module--item--fa26b\">"
+					},
+					{
+						"html": "<img src=\"//images.prismic.io/devoted-health-2020/76f17846-5972-44b0-83bb-c4c2764f916a_Rx-icon.png?auto=compress,format&amp;rect=0,20,400,320&amp;w=200&amp;h=160\" alt=\"\">"
+					},
+					{
+						"html": "<h3>Look up your prescriptions</h3>"
+					},
+					{
+						"html": "<p>Check that your drugs are covered or download the complete list.</p>"
+					},
+					{
+						"html": "<p><a href=\"https://www.devoted.com/search-drugs\" target=\"undefined\" rel=\"noopener noreferrer\">Search Our Drug List</a></p>"
+					},
+					{
+						"html": "<a href=\"https://www.devoted.com/search-drugs\" target=\"undefined\" rel=\"noopener noreferrer\">Search Our Drug List</a>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 pageSection-module--noBottomPadding--06776\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--wrapper--92fc5\" id=\"request-call\">"
+					},
+					{
+						"html": "<hr class=\"leadGenForm-module--bar--af5da\">"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--content--f745b\">"
+					},
+					{
+						"html": "<h2 class=\"leadGenForm-module--heading--25364\">Get help finding the right plan for you.</h2>"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--row--72d9c\">"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--left--e46ac leadGenForm-module--text--5595c\"><p>Want to learn more about your options? Complete the form and we'll be in touch to schedule a 1-on-1.</p><p>Ready now? Call us at 1-800-990-0723 (TTY 711)</p></div>"
+					},
+					{
+						"html": "<p>Want to learn more about your options? Complete the form and we'll be in touch to schedule a 1-on-1.</p>"
+					},
+					{
+						"html": "<p>Ready now? Call us at 1-800-990-0723 (TTY 711)</p>"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--right--217ca\">"
+					},
+					{
+						"html": "<form action=\"https://graphql.prod.devoted.com/website_lead\" method=\"POST\">"
+					},
+					{
+						"html": "<div class=\"leadGenForm-module--formGroup--9a302\">"
+					},
+					{
+						"html": "<div class=\"textInput-module--inverse--52854 textInput-module--formColHalf--a5354\"><label for=\"firstName\">First Name<!-- --> </label><input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div>"
+					},
+					{
+						"html": "<label for=\"firstName\">First Name<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"firstName\" id=\"firstName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<div class=\"textInput-module--inverse--52854 textInput-module--formColHalf--a5354\"><label for=\"lastName\">Last Name<!-- --> </label><input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div>"
+					},
+					{
+						"html": "<label for=\"lastName\">Last Name<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"lastName\" id=\"lastName\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<div class=\"textInput-module--formGroup--d97db\"><div class=\"textInput-module--inverse--52854 textInput-module--inputColFull--3c2f7\"><label for=\"phone\">Phone Number<!-- --> </label><input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div></div>"
+					},
+					{
+						"html": "<div class=\"textInput-module--inverse--52854 textInput-module--inputColFull--3c2f7\"><label for=\"phone\">Phone Number<!-- --> </label><input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div>"
+					},
+					{
+						"html": "<label for=\"phone\">Phone Number<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"phone\" id=\"phone\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<div class=\"textInput-module--formGroup--d97db\"><div class=\"textInput-module--inverse--52854 textInput-module--inputColFull--3c2f7\"><label for=\"zipCode\">ZIP Code<!-- --> </label><input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div></div>"
+					},
+					{
+						"html": "<div class=\"textInput-module--inverse--52854 textInput-module--inputColFull--3c2f7\"><label for=\"zipCode\">ZIP Code<!-- --> </label><input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\"></div>"
+					},
+					{
+						"html": "<label for=\"zipCode\">ZIP Code<!-- --> </label>"
+					},
+					{
+						"html": "<input name=\"zipCode\" id=\"zipCode\" type=\"text\" class=\"textInput-module--input--666c7 undefined\" value=\"\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<div class=\"radioOptions-module--content--10aa6 radioOptions-module--inverse--4185e\">"
+					},
+					{
+						"html": "<fieldset>"
+					},
+					{
+						"html": "<legend>Your Preferred Language:<!-- --> </legend>"
+					},
+					{
+						"html": "<ul class=\"radioOptions-module--radioList--383e3\">"
+					},
+					{
+						"html": "<li class=\"radioOptions-module--inline--bc001\">"
+					},
+					{
+						"html": "<div><input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\"><label for=\"language0\" class=\"radioOptions-module--checkLabel--bc8f4\">English</label><div class=\"radioOptions-module--check--7e8da\"></div></div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language0\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"true\" checked=\"\" value=\"English\">"
+					},
+					{
+						"html": "<label for=\"language0\" class=\"radioOptions-module--checkLabel--bc8f4\">English</label>"
+					},
+					{
+						"html": "<div class=\"radioOptions-module--check--7e8da\"></div>"
+					},
+					{
+						"html": "<li class=\"radioOptions-module--inline--bc001\">"
+					},
+					{
+						"html": "<div><input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\"><label for=\"language1\" class=\"radioOptions-module--checkLabel--bc8f4\">Spanish</label><div class=\"radioOptions-module--check--7e8da\"></div></div>"
+					},
+					{
+						"html": "<input name=\"language\" id=\"language1\" type=\"radio\" class=\"radioOptions-module--radio--856fb\" aria-checked=\"false\" value=\"Spanish\">"
+					},
+					{
+						"html": "<label for=\"language1\" class=\"radioOptions-module--checkLabel--bc8f4\">Spanish</label>"
+					},
+					{
+						"html": "<div class=\"radioOptions-module--check--7e8da\"></div>"
+					},
+					{
+						"html": "<span class=\"leadGenForm-module--submit--74338\">"
+					},
+					{
+						"html": "<div class=\"button-module--buttonWrapper--662ad button-module--large--ca768\"><button class=\"button-module--button--9ad72 button-module--secondary--5068f\" type=\"submit\">Give Me A Call</button></div>"
+					},
+					{
+						"html": "<button class=\"button-module--button--9ad72 button-module--secondary--5068f\" type=\"submit\">Give Me A Call</button>"
+					},
+					{
+						"html": "<p class=\"leadGenForm-module--legal--1864f\">By submitting my information, I agree to be contacted by Devoted Health, a Medicare Advantage plan.</p>"
+					},
+					{
+						"html": "<section class=\"pageSection-module--wrapper--c1860 undefined\">"
+					},
+					{
+						"html": "<section class=\"gridOneCol-module--wrapper--4f0d8 gridOneCol-module--center--42b32 gridOneCol-module--small--46cce\"><div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\"><div><p>Lionel Richie is a paid spokesperson for Devoted Health.</p></div></div></section>"
+					},
+					{
+						"html": "<div class=\"gridOneCol-module--content--af948 gridOneCol-module--noBorder--34c85\"><div><p>Lionel Richie is a paid spokesperson for Devoted Health.</p></div></div>"
+					},
+					{
+						"html": "<div><p>Lionel Richie is a paid spokesperson for Devoted Health.</p></div>"
+					},
+					{
+						"html": "<p>Lionel Richie is a paid spokesperson for Devoted Health.</p>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--wrapper--ae3c8\"><div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div></div>"
+					},
+					{
+						"html": "<div class=\"buttonPrint-module--content--05203\"><button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button></div>"
+					},
+					{
+						"html": "<button class=\"buttonPrint-module--button--0f7f6\"><span class=\"buttonPrint-module--text--03641\">Print This Page</span></button>"
+					},
+					{
+						"html": "<span class=\"buttonPrint-module--text--03641\">Print This Page</span>"
+					},
+					{
+						"html": "<footer class=\"footer-module--footer--42660\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--content--0ea68\">"
+					},
+					{
+						"html": "<div class=\"footer-module--info--9faf0\"><div class=\"footer-module--logo--0afd9\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--logo--0afd9\"><a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a></div>"
+					},
+					{
+						"html": "<a aria-current=\"page\" class=\"footer-module--link--2bbb0\" href=\"/\"><span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span><div class=\"logo-module--logo--69176\"></div></a>"
+					},
+					{
+						"html": "<span class=\"footer-module--visuallyHidden--4631e\">Devoted Health</span>"
+					},
+					{
+						"html": "<div class=\"logo-module--logo--69176\"></div>"
+					},
+					{
+						"html": "<div class=\"footer-module--links--9bc6e\">"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Resources</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/prescription-drugs/\">Prescription Drugs</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/health-and-wellness/\">Health &amp; Wellness</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/sales-events/\">Sales Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-events/\">Member Events</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/resources/your-medicare-options/\">Your Medicare Options</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/providers/\">For Providers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/brokers/\">For Brokers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/developers/\">For Developers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">About Us</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-story/\">Our Story</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/our-technology/\">Our Technology</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/meet-our-team/\">Our Team</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/service-area/\">Our Service Area</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/newsroom/\">Newsroom</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://careers.devoted.com\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/contact-us/\">Contact Us</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--linkGroup--e7375\">"
+					},
+					{
+						"html": "<h3 class=\"footer-module--heading--27c81\">Policies</h3>"
+					},
+					{
+						"html": "<ul class=\"footer-module--list--8fbf9\">"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/terms-of-use/\">Terms of Use</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/privacy-policy/\">Privacy Policy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/nondiscrimination-notice/\">Non-Discrimination Notice</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/accessibility/\">Accessibility</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/quality-improvement-strategy/\">Quality Improvement Strategy</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/member-rights-and-responsibilities/\">Member Rights and Responsibilities</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"/compliance/\">Compliance</a>"
+					},
+					{
+						"html": "<li class=\"footer-module--listItem--a5788\"><a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a></li>"
+					},
+					{
+						"html": "<a class=\"footer-module--link--2bbb0\" href=\"https://assets.devoted.com/policies/DH%20Code%20of%20Conduct.pdf\" rel=\"noreferrer\" target=\"_blank\">Code of Conduct</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--utility--8b8bf\">"
+					},
+					{
+						"html": "<ul class=\"footer-module--utilityList--1eabd\">"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\"><span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span></li>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilityTitle--aa9df\">Devoted Health Guides are here 8am to 8pm, 7 days a week.</span>"
+					},
+					{
+						"html": "<li class=\"footer-module--utilityItem--5c634\">"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Text a Member Service Guide at<!-- --> <span class=\"footer-module--phoneNumber--4a162\">866–85</span></span>"
+					},
+					{
+						"html": "<span class=\"footer-module--phoneNumber--4a162\">866–85</span>"
+					},
+					{
+						"html": "<span class=\"footer-module--utilitySubTitle--3bd06\">Or call us at<!-- --> <a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a></span>"
+					},
+					{
+						"html": "<a class=\"footer-module--phoneNumber--4a162\" href=\"tel:1-800-338-6833\">1-800-DEVOTED <span>(338–6833) TTY 711</span></a>"
+					},
+					{
+						"html": "<span>(338–6833) TTY 711</span>"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosure--6b65b\">"
+					},
+					{
+						"html": "<div class=\"footer-module--wrapper--743a5\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureContent--c6bc4\">"
+					},
+					{
+						"html": "<div class=\"footer-module--disclosureCols--9110b\"><p><a href=\"/disclaimers/\">Disclaimers</a></p></div>"
+					},
+					{
+						"html": "<p><a href=\"/disclaimers/\">Disclaimers</a></p>"
+					},
+					{
+						"html": "<a href=\"/disclaimers/\">Disclaimers</a>"
+					},
+					{
+						"html": "<div class=\"footer-module--bottomContent--7e159\">"
+					},
+					{
+						"html": "<p class=\"footer-module--cmsNumber--698f2\">Y0142_24L402_M</p>"
+					},
+					{
+						"html": "<div class=\"footer-module--copyright--b1046\"><p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p><p class=\"footer-module--spacer--8bebc\">|</p><p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.15.2023</p></div>"
+					},
+					{
+						"html": "<p class=\"footer-module--copyrightText--29fa7\">© <!-- -->2024<!-- --> Devoted Health, Inc.</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--spacer--8bebc\">|</p>"
+					},
+					{
+						"html": "<p class=\"footer-module--lastUpdated--48652\">Last Updated:<!-- --> <!-- -->12.15.2023</p>"
+					},
+					{
+						"html": "<div id=\"gatsby-announcer\" style=\"position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0\" aria-live=\"assertive\" aria-atomic=\"true\"></div>"
+					}
+				]
+			},
+			"skip-link": {
+				"description": "The skip-link target should exist and be focusable",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/skip-link?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"skip-to-content\">Skip to content</a>"
+					}
+				]
+			},
+			"tabindex": {
+				"description": "Elements should not have tabindex greater than zero",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/tabindex?application=purple-a11y",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<div style=\"outline:none\" tabindex=\"-1\" id=\"gatsby-focus-wrapper\">"
+					},
+					{
+						"html": "<div class=\"theme-module--wrapper--06560 theme-module--white--77a6c\" id=\"content\" tabindex=\"-1\">"
+					}
+				]
+			}
+		}
+	}
+}
